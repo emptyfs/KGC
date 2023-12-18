@@ -4,8 +4,7 @@
 ## Аннотация
 
 ## Введение
-
-Содержание данного раздела является развитием “Подготовка ответов на ключевые вопросы”.
+Объем генерируемых человечеством данных с каждым годом увеличивается: только за последние два года (к 2023 году) было получено примерно 90% мировых данных, а на 2023 год генерация составила 120 зеттабайт [6]. Хранение и структурирование подобных данных в виде графов знаний используются во многих современных информационных технологиях, в частности, в системах автоматической обработки текстов (в том числе, в семантических системах) [7] или в рекомендательных системах, например, в рекомендательной системе для агрегирования междисциплинарных знаний относительно улучшения психического здоровья в графе эмоциональных знаний (EmoKG) [8] или фармакологической рекомендательной системе лекарственных средств [9]. С ростом количества получаемых данных возрастает и сложность автоматического обновления и расширения графов знаний с учетом корректного разрешения возможных конфликтов между новыми данными и между новыми и уже имеющимеся данными, из-за чего используемые методы обновления и расширения графов знаний могут нуждаться в обновлении.
 
 ## Обзор предметной области
 
@@ -76,4 +75,10 @@
 [5] Wang Q. et al. Knowledge graph embedding: A survey of approaches and applications //IEEE Transactions on Knowledge and Data Engineering. – 2017. – Т. 29. – №. 12. – С. 2724-2743.
 
 [6] Yang B. et al. Embedding entities and relations for learning and inference in knowledge bases //arXiv preprint arXiv:1412.6575. – 2014.
+
+[7] Schneider P. et al. A decade of knowledge graphs in natural language processing: A survey //arXiv preprint arXiv:2210.00105. – 2022.
+
+[8] Gyrard A., Boudaoud K. Interdisciplinary iot and emotion knowledge graph-based recommendation system to boost mental health //Applied Sciences. – 2022. – Т. 12. – №. 19. – С. 9712.
+
+[9] Sosa D. N. et al. A literature-based knowledge graph embedding method for identifying drug repurposing opportunities in rare diseases //Pacific Symposium on Biocomputing 2020. – 2019. – С. 463-474.
 
