@@ -2,7 +2,7 @@ import pandas as pd
 import re
 import spacy
 import neuralcoref
-from parsing_wiki_pages import wiki_data
+from KGC.prototype.web_parsing.parsing_wiki_pages import wiki_data
 
 nlp = spacy.load('en_core_web_lg') # python -m spacy download en_core_web_lg
 neuralcoref.add_to_pipe(nlp)
