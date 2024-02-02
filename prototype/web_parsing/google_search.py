@@ -39,10 +39,10 @@ def get_text_news(topic, time='2w'):
 
     return articles_text
 
-texts = get_text_news(topic='little cats', time = '1h')
-for i in texts:
-    print('---------------------------------------------------------------')
-    print(i + '. - ' + texts[i])
-    print('---------------------------------------------------------------')
+#texts = get_text_news(topic='little cats', time = '1h')
+#for i in texts:
+#   print('---------------------------------------------------------------')
+#    print(i + '. - ' + texts[i])
+#    print('---------------------------------------------------------------')
     
 
