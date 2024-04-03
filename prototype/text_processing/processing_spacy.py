@@ -1,17 +1,17 @@
-import spacy
-import pandas as pd
-import re
-import neuralcoref
+#import spacy
+#import pandas as pd
+#import re
+#import neuralcoref
 
 
 import sys
 sys.path.append("..")
 from web_parsing.google_search import get_text_news
 
-nlp = spacy.load('en_core_web_lg')
-neuralcoref.add_to_pipe(nlp)
+#nlp = spacy.load('en_core_web_lg')
+#neuralcoref.add_to_pipe(nlp)
 
-def remove_coref(text):
+"""def remove_coref(text):
     text = re.sub(r'\n+', '.', text)  # replace multiple newlines with period
     text = re.sub(r'\[\d+\]', ' ', text)  # remove reference numbers
     text = nlp(text)
@@ -19,11 +19,11 @@ def remove_coref(text):
     if text._.has_coref:
          text = nlp(text._.coref_resolved)
         
-    return text
+    return text"""
 
 text = get_text_news(topic='little cats', time = '4h')
 
 print(text.values())
 
-for i in text.values():
-    print(remove_coref(i))
+"""for i in text.values():
+    print(remove_coref(i))"""

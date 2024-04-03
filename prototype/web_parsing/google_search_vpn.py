@@ -1,5 +1,6 @@
 from pygooglenews import GoogleNews # поиск новостных статей через google
 from newspaper import Article # парсинг
+from write_to_file import write_to_file
  
 '''pygooglenews
 можно извлечь данные за определенный период
@@ -7,7 +8,7 @@ from newspaper import Article # парсинг
 можно излечь по одной из доступных тем
 '''
 
-def get_text_news(topic, time='2w'):
+def get_text_news(topic, time='1y'):
     """Принимет тему/ключевые слова + за какое время делать поиск (за последний/ие час/неделю/месяц/год)
     """
 
@@ -39,10 +40,7 @@ def get_text_news(topic, time='2w'):
 
     return articles_text
 
-#texts = get_text_news(topic='little cats', time = '1h')
-#for i in texts:
-#   print('---------------------------------------------------------------')
-#    print(i + '. - ' + texts[i])
-#    print('---------------------------------------------------------------')
-    
 
+texts = get_text_news(topic='google')
+write_to_file(texts, 'texts.txt')
+    
