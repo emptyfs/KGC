@@ -212,7 +212,6 @@ class Knowledge_Graph():
         for triplet in triplets:
             self.__add_triplet(triplet)
 
-    # extract relations for each span and put them together in a knowledge base
     def text_to_KG(self, text:str, interval_length:int=128, is_print:bool=False):
         """
         Перевод текста в граф знаний на основе модели REBEL
