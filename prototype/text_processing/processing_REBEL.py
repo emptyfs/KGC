@@ -1,10 +1,33 @@
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+import spacy
+import neuralcoref
 import math
 import torch
+import re
 import wikipedia
 
 tokenizer = AutoTokenizer.from_pretrained("Babelscape/rebel-large") # автоматическое извлечение архитектуры по названию
 model = AutoModelForSeq2SeqLM.from_pretrained("Babelscape/rebel-large")
+
+nlp = spacy.load('en_core_web_lg') # (предварительно нужно загрузить) python -m spacy download en_core_web_lg
+neuralcoref.add_to_pipe(nlp)
+
+
+def remove_coref(text:str):
+    """
+    Приведение референциональных тождеств к единообразицию 
+    Например: "Солнце встало, оно ярко светит" -> "Солнце встало, солнце ярко светит"
+
+    Параметры: text - входной текст
+    """
+    text = re.sub(r'\n+', '.', text)  
+    text = re.sub(r'\[\d+\]', ' ', text) 
+    text = nlp(text)
+
+    if text._.has_coref:
+         text = nlp(text._.coref_resolved)
+        
+    return str(text)
 
 # класс графа знаний
 class Knowledge_Graph():
@@ -295,6 +318,5 @@ The International Mother Language Day was established by the UNESCO General Conf
 """
 
 KG = Knowledge_Graph()
-KG.text_to_KG(text, is_print=True)
-KG.print_entities()
+KG.text_to_KG(remove_coref(text), is_print=True)
 KG.print_triplets()
