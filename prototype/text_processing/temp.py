@@ -6,7 +6,7 @@ import neuralcoref
 
 import sys
 sys.path.append("..")
-from web_parsing.google_search import get_text_news
+from prototype.web_parsing.google_search_vpn import get_text_news
 
 nlp = spacy.load('en_core_web_lg')
 neuralcoref.add_to_pipe(nlp)
