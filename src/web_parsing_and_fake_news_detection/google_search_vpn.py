@@ -1,70 +1,52 @@
-from pygooglenews import GoogleNews # поиск новостных статей через google
-from newspaper import Article # парсинг
-from write_to_file import write_to_file # запись в txt
-from fake_news_detection import predict_fake # провка новостей на правдивость
- 
-'''pygooglenews
-можно извлечь данные за определенный период
-можно извлечь по словам в заголовке новостной статьи
-можно излечь по одной из доступных тем
-'''
+from pygooglenews import GoogleNews
+from newspaper import Article
+from write_to_file import write_to_file
+from fake_news_detection import predict_fake
+import concurrent.futures
 
-def get_text_news(topic:str, time:str='1y'):
-    """
-    Возвращает словарь, ключ - url веб-страницы статьи, значенение - тексты со страницы
-    Принимет тему/ключевые слова + за какое время делать поиск (за последний/ие час/неделю/месяц/год)
+def process_article(entry):
+    url = entry['link']
+    title = entry['title']
+    article = Article(url=url)
+    try:
+        article.download()
+        article.parse()
+        text = article.text
+        fake_probability = predict_fake(title, text)["Fake"]
+        return {
+            "url": url,
+            "title": title,
+            "text": text,
+            "fake_probability": fake_probability
+        }
+    except Exception:
+        return None
 
-    Параметры:
-    topic - тема новостей (на английском языке)
-    time - период публикации
-        
-    """
-
+def get_text_news_parallel(topic:str, time:str='1y'):
     gn = GoogleNews()
-    news = gn.search(topic, when=time) # поиск по слову
-    #news = gn.topic_headlines('TECHNOLOGY') # поиск по теме
-    #news = gn.search('TECHNOLOGY')
+    news = gn.search(topic, when=time)
 
-    articles_text = {}  # словарь: ключ - url новостной статьи, значение - ее содержание
-    entries = news['entries']
-    #count = 0
-    for entry in entries:
-        #count += 1
-        #print(count)
-        url = entry['link']
-        title = entry['title']
-        article = Article(url=url)
-        try:
-            article.download() # подгрузить содержимое страницы
-            article.parse() # парсинг содержимого
-            text = article.text
-
-
-            articles_text[url] = {
-                "title": title, 
-                "text": text, 
-                "fake_probability": predict_fake(title, text)["Fake"]
+    articles_text = {}
+    with concurrent.futures.ThreadPoolExecutor() as executor: # создание пула потоков
+        futures = [executor.submit(process_article, entry) for entry in news['entries']] # создание задачи
+        for future in concurrent.futures.as_completed(futures): # цикл по завершенным задачам 
+            result = future.result()
+            if result is not None:
+                articles_text[result["url"]] = {
+                    "title": result["title"],
+                    "text": result["text"],
+                    "fake_probability": result["fake_probability"]
                 }
-            
-        except Exception:
-            continue
-
-        #(article.authors)
-        #(article.publish_date)
-        #(article.text)
-        #(article.top_image)
-        #(article.movies)
-
+    
     return articles_text
 
+texts = get_text_news_parallel(topic='Larian Studios')
 
-texts = get_text_news(topic='Larian Studios')
-write_to_file(texts, 'texts.txt')
+write_to_file(texts, 'texts_1.txt')
 
 validate_texts = {}
 for url in texts:
-    if texts[url]["fake_probability"] < 0.9:
+    if texts[url]["fake_probability"] <= 0.1:
         validate_texts[url] = texts[url]
 
-write_to_file(validate_texts, 'validated_texts.txt')
-    
+write_to_file(validate_texts, 'validated_texts_1.txt')

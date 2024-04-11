@@ -21,7 +21,7 @@ class Neo4jConnection:
     def export(self, file_name = 'test'):
         end_path = file_name + '.graphml'
 
-        temp_string = "CALL apoc.export.graphml.query('MATCH (n)-[m:LEADS_TO]->(r) RETURN n, r, m','" + end_path + "', {})"
+        temp_string = "CALL apoc.export.graphml.query('MATCH (n)-[m]->(r) RETURN n, r, m','" + end_path + "', {})"
         self.query(temp_string)
         return end_path
     
@@ -60,7 +60,7 @@ class Neo4jConnection:
     
                     if not query_one_entity("MATCH", wikidata_id, "RETURN n"):
                         self.query('CREATE (n ' + '{id: ' + f'"{wikidata_id}", wikidata_aliases: {wikidata_aliases}, entity_name: "{entity_name}", wikidata_params: ["{wikidata_url}", "{wikidata_summary}"]' +'})')
-                    if query_one_entity("MATCH", wikidata_id, "RETURN n"):
+                    else:
                         self.query('MATCH (n ' + '{id: ' + f'"{wikidata_id}"' +'}' + f') SET n.wikidata_aliases = {wikidata_aliases} SET n.wikidata_params = ["{wikidata_url}", "{wikidata_summary}"]')
 
                     if "wikipedia" in entity:
