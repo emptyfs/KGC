@@ -1,7 +1,7 @@
 from pygooglenews import GoogleNews
 from newspaper import Article
-from write_to_file import write_to_file
-from fake_news_detection import predict_fake
+from web_parsing_and_fake_news_detection.write_to_file import write_to_file
+from web_parsing_and_fake_news_detection.fake_news_detection import predict_fake
 import concurrent.futures
 
 def process_article(entry):
@@ -40,13 +40,15 @@ def get_text_news_parallel(topic:str, time:str='1y'):
     
     return articles_text
 
-texts = get_text_news_parallel(topic='Larian Studios')
+def searh_start(topic:str):
+    texts = get_text_news_parallel(topic)
+    #write_to_file(texts, 'texts_1.txt')
 
-write_to_file(texts, 'texts_1.txt')
+    """validate_texts = {}
+    for url in texts:
+        if texts[url]["fake_probability"] <= 0.1:
+            validate_texts[url] = texts[url]"""
 
-validate_texts = {}
-for url in texts:
-    if texts[url]["fake_probability"] <= 0.1:
-        validate_texts[url] = texts[url]
+    #write_to_file(validate_texts, 'validated_texts_1.txt')
 
-write_to_file(validate_texts, 'validated_texts_1.txt')
+    return texts

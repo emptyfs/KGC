@@ -13,17 +13,17 @@
     <div class="container">
         <h1>Building a knowledge graph based on news articles</h1>
         <div id="user-input">
-            <input type="text" id="headline" placeholder="Введите заголовок новости">
+            <input type="text" id="headline" placeholder="Enter the title of the news in English (for example, 'Microsoft Corporation')">
             <button id="search-btn">Search news</button>
+            <p id="waiting-time"></p>
         </div>
         <div id="news-list-container" style="display: none;">
-            <h2>Список новостей</h2>
-            <ul id="news-list" class="news-list"></ul>
+            <h2>Found news list</h2>
             <div class="pagination">
-                <button onclick="prevPage()">next page</button>
-                <button onclick="nextPage()">previous page</button>
+                <button id="left_button">&larr;</button>
+                <button id="right_button">&rarr;</button>
             </div>
-            <button id="remove-news-btn">Delete the selected news item</button>
+            <ul id="news-list" class="news-list"></ul>
             <button id="remove-fake-news-btn">Remove unreliable news using the news model</button>
             <button id="generate-graph-btn">Build a graph</button>
         </div>

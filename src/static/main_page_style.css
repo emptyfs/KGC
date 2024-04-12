@@ -1,17 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #f2f2f2;
 }
 .container {
-    max-width: 800px;
-    margin: 20px auto;
+    max-width: 45vw;;
+    margin: auto;
     padding: 20px;
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 30px;
 }
-h1, h2, h3 {
+h1, h2 {
     text-align: center;
 }
 input[type="text"], button {
@@ -19,33 +17,44 @@ input[type="text"], button {
     margin: 10px 0;
     width: 100%;
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 20px;
 }
+
 button {
     background-color: #007bff;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
-    font-size: 16px;
 }
+
 button:hover {
     background-color: #0056b3;
 }
+
 .news-list {
     list-style-type: none;
     padding: 0;
 }
-.news-item {
-    margin-bottom: 10px;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border-radius: 5px;
+
+#news-list li {
+    font-size: 20px;
+    cursor: pointer; 
+    border-radius: 10px;
+    padding: 10px; 
 }
-.news-item a {
-    text-decoration: none;
-    color: #333;
+
+#news-list li:hover {
+    background-color: #f0f0f0; 
 }
-.graph-container {
-    text-align: center;
+
+.pagination {
+    display: flex; 
 }
+
+.pagination  button {
+    margin-top: 0px;
+    margin-right: 10px; 
+    padding: 8px; 
+  }
+
