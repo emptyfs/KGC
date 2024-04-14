@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+#container {
+    max-width: 85vw;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+#page-top {
+    height: 100px;
+    background-color: #393535;
+    border-radius: 10px 10px 0 0;
+}
+
+.base-btn {
+    padding: 7px 10px;
+    font-size: 1rem;
+    transition: all 300ms ease;
+    border: 1px solid #777676;
+    border-radius: 15px;
+    background-color: #1414ab;
+    color: #fff;
+}
+
+.base-btn:hover {
+    background-color: #2490a3;
+    color: white;
+    cursor: pointer;
+}
+
+.base-btn:active {
+    color: white;
+    transform: scale(0.9);
+    background-color: #ff7b7b;
+}
+
+.tab {
+    background-color: #393535;
+    transition: all 300ms ease;
+    overflow: hidden;
+    border-bottom: 1px solid #777676;
+}
+
+.tab button {
+    float: left;
+    border: 1px solid #777676;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+    padding: 10px 10px;
+    width: 100%;
+    transition: 0.3s;
+    font-size: 1rem;
+}
+
+.tab button:hover {
+    background-color: #007bff; 
+    border-radius: 30px;
+    color: #fff;
+}
+
+.tab button:active {
+    transform: scale(0.9);
+    background-color: #ff7b7b;
+}
+
+#btn-All-graph {
+    background-color: #1414ab;
+    color: #fff;
+}
+
+#btn-All-graph:hover {
+    background-color: #2490a3;
+}
+
+#Graph {
+    position: relative;
+}

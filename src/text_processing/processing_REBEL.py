@@ -335,10 +335,13 @@ class Knowledge_Graph():
             print(f"Input has {number_intervals} intervals")
             print(f"Interbals boundaries are {intervals_boundaries}")
 
+        device = 'cuda' if torch.cuda.is_available() else 'cpu'  # определение устройства (GPU или CPU)
+        model.to(device)  # перемещение модели на указанное устройство
+
         # токены на вход, поделенные на интервалы
         model_inputs = {
-            "input_ids": torch.stack([model_inputs["input_ids"][0][boundary[0]:boundary[1]] for boundary in intervals_boundaries]),
-            "attention_mask": torch.stack([model_inputs["attention_mask"][0][boundary[0]:boundary[1]] for boundary in intervals_boundaries])
+            "input_ids": torch.stack([model_inputs["input_ids"][0][boundary[0]:boundary[1]] for boundary in intervals_boundaries]).to(device),
+            "attention_mask": torch.stack([model_inputs["attention_mask"][0][boundary[0]:boundary[1]] for boundary in intervals_boundaries]).to(device)
         }
 
         # параметры модели

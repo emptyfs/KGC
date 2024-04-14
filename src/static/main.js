@@ -1,10 +1,18 @@
-let is_hide_search_news = false;
 let texts = "";
 let table_number = 0;
 let table_len = 0;
 let table_remains = 0;
 let table;
 let rows = 5;
+
+function init_server_news_data(full_text)
+{
+    texts = full_text;
+    table_len = Object.keys(texts).length;
+    table_remains = table_len % rows;
+    show_news_table();
+    $('#news-list-container').show();
+}
 
 function get_news_table(start, finish, texts)
 {
@@ -50,6 +58,7 @@ function show_news_table()
             "all": "initial",
             "color": "red",
             "margin-left": "auto",
+            "cursor": "pointer",
         });
         list_button.hover(function(){$(this).css({"background-color": "#0056b3", "border-radius": "50%"})}, function(){$(this).css("background-color", "")});
         list_button.click(() =>
@@ -68,6 +77,29 @@ function show_news_table()
 
 $(document).ready(() => 
 {
+    $('#last-text').click(() =>
+    {
+        $.ajax({
+            url: '/last_text',
+            type: 'GET',
+        }).then(res=>
+            {
+                if (res.full_text !== "none")
+                {
+                    init_server_news_data(res.full_text);
+                }
+                else
+                {
+                    alert("there are no texts on the server yet, first perform a search");
+                }
+            });;
+    });
+
+    $('#last-graph').click(() =>
+    {
+        window.location = '/knowledge_graph';
+    });
+
     $('#search-btn').click(() => 
     {
         let title = $('#headline').val();
@@ -78,19 +110,19 @@ $(document).ready(() =>
             data: {"title": title},
             beforeSend: ()=> 
             {
+                $('#news-list-container').hide();
                 $('#waiting-time').text('Waiting for response...');
+                $('#search-btn').prop('disabled', true);
+
             },
             success: ()=>
             {
                 $('#waiting-time').text('');
+                $('#search-btn').prop('disabled', false);
             },
         }).then(res=>
             {
-                texts = res.full_text;
-                table_len = Object.keys(texts).length;
-                table_remains = table_len % rows;
-                show_news_table();
-                $('#news-list-container').show();
+                init_server_news_data(res.full_text);
             });
     });
 
@@ -112,20 +144,52 @@ $(document).ready(() =>
         }
     });
 
-    $('#remove-news-btn').click(() =>
+    $('#remove-fake-news-btn').click(() => 
     {
-        // Здесь должен быть JavaScript-код для удаления выбранной новости из списка
-    });
+        $.ajax({
+            url: '/delete_fakes',
+            type: 'POST',
+            data: JSON.stringify(texts),
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            beforeSend: ()=> 
+            {
+                $('#waiting-time').text('Waiting for response...');
+                $('#remove-fake-news-btn').prop('disabled', true);
+            },
+            success: ()=>
+            {
+                $('#waiting-time').text('');
+                $('#remove-fake-news-btn').prop('disabled', false);
+            },
+        }).then(res=>
+            {
+                table_number = 0;
+                table_len = 0;
+                table_remains = 0;
 
-    $('#remove-fake-news-btn').click(() =>
-    {
-        // Здесь должен быть JavaScript-код для удаления фейковых новостей
+                init_server_news_data(res.validate_text);
+            });
     });
 
     $('#generate-graph-btn').click(() =>
     {
-        // Здесь должен быть JavaScript-код для генерации графа на основе полученных новостей
-        // После генерации графа, показываем контейнер с графом
-        $('#graph-container').show();
+        alert("when the entire graph is loaded, you will receive a notification.");
+        $.ajax({
+            url: '/knowledge_graph',
+            type: 'POST',
+            data: JSON.stringify(texts),
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            beforeSend: () => {
+                $('#waiting-time').text('Waiting for response...');
+                $('#remove-fake-news-btn').prop('disabled', true);
+            }
+        }).then(res => {
+            $('#waiting-time').text('');
+            $('#remove-fake-news-btn').prop('disabled', false);
+            alert("The entire graph is loaded");
+            window.open('/knowledge_graph', '_blank');
+        });
     });
 });

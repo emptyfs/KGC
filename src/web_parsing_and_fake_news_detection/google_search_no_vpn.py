@@ -41,7 +41,7 @@ def get_texts(links):
 
 news_links = get_news_links("LETI", max_links=50)
 articles_texts = get_texts(news_links)
-write_to_file(articles_texts, 'texts.txt')
+print(articles_texts)
 
 
 
