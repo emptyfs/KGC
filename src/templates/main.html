@@ -4,34 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Building a knowledge graph based on news articles</title>
-    <link rel = "stylesheet" href="../static/main_page_style.css" />
+    <link rel = "stylesheet" href="../static/styles/main_page_style.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="../static/main.js"></script>
 
 </head>
 <body>
-    <div class="container">
+    <div id="container">
         <h1>Building a knowledge graph based on news articles</h1>
-        <div id="user-input">
-            <input type="text" id="headline" placeholder="Enter the title of the news in English (for example, 'Microsoft Corporation')">
-            <button id="search-btn">Search news</button>
-            <p id="waiting-time"></p>
+        <input type="text" id="headline" placeholder="Enter the title of the news in English (for example, 'Microsoft Corporation')">
+        <button id="search-btn">Search news</button>
+        <div id="start-choise">
+            <button id="last-text">Load last server texts</button>
+            <button id="last-graph">See the last graph</button>
         </div>
         <div id="news-list-container" style="display: none;">
+            <button id="remove-fake-news-btn">Remove unreliable news using the fake-detection model</button>
+            <button id="generate-graph-btn">Build a graph</button>
             <h2>Found news list</h2>
-            <div class="pagination">
+            <div id="pagination">
                 <button id="left_button">&larr;</button>
                 <button id="right_button">&rarr;</button>
             </div>
-            <ul id="news-list" class="news-list"></ul>
-            <button id="remove-fake-news-btn">Remove unreliable news using the news model</button>
-            <button id="generate-graph-btn">Build a graph</button>
+            <ul id="news-list"></ul>
         </div>
-        <div id="graph-container" class="graph-container" style="display: none;">
-            <h2>Knowledge Graph</h2>
-            <!-- Контейнер для отображения графа знаний -->
-            <div id="graph"></div>
-        </div>
+        <p id="waiting-time"></p>
     </div>
 </body>
 </html>
