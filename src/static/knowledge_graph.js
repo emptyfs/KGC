@@ -1,4 +1,4 @@
-let height_DOM_graph = 700;
+const height_DOM_graph = 700;
 let graph;
 
 class Graph
@@ -73,6 +73,121 @@ class Graph
         });
     }
 
+    link_click(link, selected_nodes, selected_edges)
+    {
+        Graph.in_action_settings_1(link, selected_nodes, selected_edges);
+        if (selected_edges.size === 1)
+        {
+            let source = link.source;
+            let target = link.target;
+            let id = link.index;
+
+            this.in_action_settings_2(source.x, target.y);
+            Graph.in_action_settings_3();
+
+            let button = $('<button id="Delete-Edge" class="base-btn">Delete edge</button>').css({
+                'position': 'absolute',
+                'bottom': '10px', 
+                'right': '10px', 
+            });
+
+            button.click(() => {
+                this.graph.graphData().links = this.graph.graphData().links.filter(link => {
+                    if (link.index !== undefined)
+                    {
+                        return link.index !== id;
+                    }
+                });
+                $('#Info').empty();
+            });
+
+
+            $('#Info').append(button);
+
+        }
+        else
+        {
+            $('#Info').empty();
+            $('#Info').removeAttr('style');
+            this.graph.width($('#container').width());
+        }
+    }
+
+    click_node(node, selected_edges, selected_nodes)
+    {
+        Graph.in_action_settings_1(node, selected_edges, selected_nodes);
+        if (this.selected_nodes.size === 1)
+        {
+            this.in_action_settings_2(node.x, node.y);
+            
+            Graph.in_action_settings_3();
+        
+            let table = $('<table></table>').css({
+                'border-collapse': 'collapse',
+                'font-size': '20px'
+            });
+        
+            let id = node.id;
+            let entity = this.nodes[id];
+        
+            for (let key in entity) 
+            {
+                let row = $('<tr></tr>');
+                let cell = $('<td></td>').text(key + ':').css('padding', '10px');
+                row.append(cell);
+        
+                let contentWrapper = $('<div></div>').css({
+                    'max-height': '100px',
+                    'overflow-y': 'auto', 
+                    'box-sizing': 'border-box',
+                });
+        
+                if (key === "wikipedia_url" || key === "wikidata_url") 
+                {
+                    let linkCell = $('<a></a>').attr('href', entity[key]).text(entity[key]);
+                    contentWrapper.append(linkCell);
+                } 
+                else 
+                {
+                    contentWrapper.text(entity[key]);
+                }
+        
+                cell = $('<td></td>').append(contentWrapper); 
+                row.append(cell);
+                table.append(row);
+            }
+            
+            $('#Info').append(table);
+
+            let button = $('<button id="Delete-Node" class="base-btn">Delete node</button>').css({
+                'position': 'absolute',
+                'bottom': '10px', 
+                'right': '10px', 
+            });
+
+            button.click(() => {
+                delete this.nodes[id];
+                let node_to_remove = node;
+                this.graph.graphData().links = this.graph.graphData().links.filter(link => {
+                    if (link.source !== undefined && link.target !== undefined)
+                    {
+                        return link.source.id !== node_to_remove.id && link.target.id !== node_to_remove.id;
+                    }
+                });
+                this.graph.graphData().nodes = this.graph.graphData().nodes.filter(node => node.id !== node_to_remove.id);
+                $('#Info').empty();
+            });
+
+            $('#Info').append(button);
+        }
+        else
+        {
+            $('#Info').empty();
+            $('#Info').removeAttr('style');
+            this.graph.width($('#container').width());
+        }
+    }
+
     draw_graph(DOM_elem, news_nodes, news_links, width)
     {   
         this.selected_nodes.clear();
@@ -96,120 +211,32 @@ class Graph
         .nodeLabel('name')
         .linkLabel('label')
         .onLinkClick((link, event) => {
-            Graph.in_action_settings_1(link, selected_nodes, selected_edges);
-            if (this.selected_edges.size === 1)
-            {
-                let source = this.selected_edges.entries().next().value[0]['source'];
-                let target = this.selected_edges.entries().next().value[0]['target'];
-                let id = this.selected_edges.entries().next().value[0].index;
-
-                this.in_action_settings_2(source.x, target.y);
-
-                Graph.in_action_settings_3();
-
-                let button = $('<button id="Delete-Edge" class="base-btn">Delete edge</button>').css({
-                    'position': 'absolute',
-                    'bottom': '10px', 
-                    'right': '10px', 
-                });
-
-                button.click(() => {
-                    this.graph.graphData().links = this.graph.graphData().links.filter(link => {
-                        if (link.index !== undefined)
-                        {
-                            return link.index !== id;
-                        }
-                    });
-                    $('#Info').empty();
-                });
-
-
-                $('#Info').append(button);
-
-            }
-            else
-            {
-                $('#Info').empty();
-                $('#Info').removeAttr('style');
-                this.graph.width($('#container').width());
-            }
+            this.link_click(link, selected_nodes, selected_edges);
         })
         .onNodeClick((node, event) => {
-            Graph.in_action_settings_1(node, selected_edges, selected_nodes);
-            if (this.selected_nodes.size === 1)
-            {
-                this.in_action_settings_2(this.selected_nodes.entries().next().value[0]['x'], 
-                this.selected_nodes.entries().next().value[0]['y']);
-                
-                Graph.in_action_settings_3();
-            
-                let table = $('<table></table>').css({
-                    'border-collapse': 'collapse',
-                    'font-size': '20px'
-                });
-            
-                let id = this.selected_nodes.entries().next().value[0]['id'];
-                let entity = this.nodes[id];
-            
-                for (let key in entity) 
-                {
-                    let row = $('<tr></tr>');
-                    let cell = $('<td></td>').text(key + ':').css('padding', '10px');
-                    row.append(cell);
-            
-                    let contentWrapper = $('<div></div>').css({
-                        'max-height': '100px',
-                        'overflow-y': 'auto', 
-                        'box-sizing': 'border-box',
-                    });
-            
-                    if (key === "wikipedia_url" || key === "wikidata_url") 
-                    {
-                        let linkCell = $('<a></a>').attr('href', entity[key]).text(entity[key]);
-                        contentWrapper.append(linkCell);
-                    } 
-                    else 
-                    {
-                        contentWrapper.text(entity[key]);
-                    }
-            
-                    cell = $('<td></td>').append(contentWrapper); 
-                    row.append(cell);
-                    table.append(row);
-                }
-                
-                $('#Info').append(table);
-
-                let button = $('<button id="Delete-Node" class="base-btn">Delete node</button>').css({
-                    'position': 'absolute',
-                    'bottom': '10px', 
-                    'right': '10px', 
-                });
-
-                button.click(() => {
-                    delete this.nodes[id];
-                    let node_to_remove = this.graph.graphData().nodes.find(node => node.id === id);
-                    this.graph.graphData().links = this.graph.graphData().links.filter(link => {
-                        if (link.source !== undefined && link.target !== undefined)
-                        {
-                            return link.source.id !== node_to_remove.id && link.target.id !== node_to_remove.id;
-                        }
-                    });
-                    this.graph.graphData().nodes = this.graph.graphData().nodes.filter(node => node.id !== node_to_remove.id);
-                    $('#Info').empty();
-                });
-
-                $('#Info').append(button);
-            }
-            else
-            {
-                $('#Info').empty();
-                $('#Info').removeAttr('style');
-                this.graph.width($('#container').width());
-            }
+            this.click_node(node, selected_edges, selected_nodes);
         });
         this.graph($('#' + String(DOM_elem))[0]);
     }
+}
+
+function get_all_graph()
+{
+    $('#btn-save').show();
+    $('#btn-delete-all').show();
+    $('#Info').empty();
+    $('#Info').removeAttr('style');
+    $('#View').empty();
+    $.ajax(
+        {
+            url: '/get_all_graph',
+            type: 'GET',
+        }
+    ).then(res=>
+    {
+        graph = new Graph(res);
+        graph.draw_graph('View', Graph.init_data_nodes(graph.nodes), graph.edges, $('#container').width());
+    });
 }
 
 function import_graph() 
@@ -222,7 +249,6 @@ function import_graph()
         {
             let file = input[0].files[0];
             __upload_file(file);
-
             input.val('');
         }
     });
@@ -248,25 +274,6 @@ function __upload_file(file)
             alert("Import is completed successfully");
             get_all_graph();
         });
-}
-
-function get_all_graph()
-{
-    $('#btn-save').show();
-    $('#btn-delete-all').show();
-    $('#Info').empty();
-    $('#Info').removeAttr('style');
-    $('#View').empty();
-    $.ajax(
-        {
-            url: '/get_all_graph',
-            type: 'GET',
-        }
-    ).then(res=>
-    {
-        graph = new Graph(res);
-        graph.draw_graph('View', Graph.init_data_nodes(graph.nodes), graph.edges, $('#container').width());
-    });
 }
 
 $(document).ready(() =>
@@ -318,12 +325,12 @@ $(document).ready(() =>
                     data: JSON.stringify({"nodes": graph.Nodes, "edges": graph.Edges}),
                     contentType: "application/json; charset=utf-8",
                     dataType: "json",
-                    success: ()=>
-                    {
-                        alert("the graph has been successfully saved to the database");
-                    },
                 }
-            );
+            ).then(res=>
+            {
+                alert("the graph has been successfully saved to the database");
+                get_all_graph();
+            });
         }
     });
 });

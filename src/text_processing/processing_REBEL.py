@@ -8,8 +8,11 @@ import wikipedia
 import wikidata.client
 import requests
 
+device = 'cuda' if torch.cuda.is_available() else 'cpu'  # определение устройства (GPU или CPU)
+
 tokenizer = AutoTokenizer.from_pretrained("Babelscape/rebel-large") # автоматическое извлечение архитектуры по названию
-model = AutoModelForSeq2SeqLM.from_pretrained("Babelscape/rebel-large")
+#model = AutoModelForSeq2SeqLM.from_pretrained("Babelscape/rebel-large", force_download=True, resume_download=False).to(device)
+model = AutoModelForSeq2SeqLM.from_pretrained("Babelscape/rebel-large").to(device)
 
 nlp = spacy.load('en_core_web_lg') # (предварительно нужно загрузить) python -m spacy download en_core_web_lg
 neuralcoref.add_to_pipe(nlp)
@@ -335,13 +338,10 @@ class Knowledge_Graph():
             print(f"Input has {number_intervals} intervals")
             print(f"Interbals boundaries are {intervals_boundaries}")
 
-        device = 'cuda' if torch.cuda.is_available() else 'cpu'  # определение устройства (GPU или CPU)
-        model.to(device)  # перемещение модели на указанное устройство
-
         # токены на вход, поделенные на интервалы
         model_inputs = {
-            "input_ids": torch.stack([model_inputs["input_ids"][0][boundary[0]:boundary[1]] for boundary in intervals_boundaries]).to(device),
-            "attention_mask": torch.stack([model_inputs["attention_mask"][0][boundary[0]:boundary[1]] for boundary in intervals_boundaries]).to(device)
+            "input_ids": torch.stack([model_inputs["input_ids"][0][boundary[0]:boundary[1]] for boundary in intervals_boundaries]),
+            "attention_mask": torch.stack([model_inputs["attention_mask"][0][boundary[0]:boundary[1]] for boundary in intervals_boundaries])
         }
 
         # параметры модели

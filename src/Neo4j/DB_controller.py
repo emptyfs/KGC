@@ -90,9 +90,57 @@ class Neo4jConnection:
                 nodes[i['id']].update({"wikipedia_url": i["wikipedia_url"], "wikipedia_summary": i["wikipedia_summary"]})
         
         return nodes
+    
+    def __create_helper(self, KG):
+        entities = KG.get_entities()
+        triplets = KG.get_triplets()
+        KG.clear_data()
+
+        query_one_entity = lambda request, id, end='': self.query(f'{request} (n ' + '{id: "' + f'{id}' +'"}' + f') {end}')
+
+        for entity_name in entities:
+            entity = entities[entity_name]
+                
+            wikidata_id = entity["wikidata"]["id"].replace('"', '\'')
+            wikidata_url = entity["wikidata"]["url"]
+            wikidata_summary = entity["wikidata"]["summary"].replace('"', '\'')
+            wikidata_aliases = entity["wikidata"]["aliases"]
+    
+            if not query_one_entity("MATCH", wikidata_id, "RETURN n"):
+                self.query('CREATE (n ' + '{id: ' + f'"{wikidata_id}", wikidata_aliases: {wikidata_aliases}, entity_name: "{entity_name}", wikidata_url: "{wikidata_url}", wikidata_summary: "{wikidata_summary}"' +'})')
+            else:
+                self.query('MATCH (n ' + '{id: ' + f'"{wikidata_id}"' +'}' + f') SET n.wikidata_aliases = {wikidata_aliases} SET n.wikidata_url = "{wikidata_url}" SET n.wikidata_summary = "{wikidata_summary}"')
+
+            if "wikipedia" in entity:
+                wikipedia_url = entity["wikipedia"]["url"]
+                wikipedia_summary = entity["wikipedia"]["summary"].replace('"', '\'')
+
+                #wikipedia_match = lambda: self.query('MATCH (n ' + '{id: "' + f'{wikidata_id}' +'"}' + ' RETURN n.wikipedia)')
+                self.query('MATCH (n ' + '{id: ' + f'"{wikidata_id}"' +'}' + f') SET n.wikipedia_url = "{wikipedia_url}" SET n.wikipedia_summary = "{wikipedia_summary}"')
+
+
+        for triplet in triplets:
+            print(triplet)
+            subject = triplet["subject"][1]
+            relation = triplet["relation"].replace(" ", "_")
+            object = triplet["object"][1]
+
+            #if not query_one_entity('MATCH', subject, 'RETURN n'):
+            #    query_one_entity('CREATE', subject)
+
+            #if not query_one_entity('MATCH', object, 'RETURN n'):
+            #    query_one_entity('CREATE', object)
+
+            self.query('MATCH (n ' + '{id: "' + f'{subject}' + '"}) MATCH (s ' + '{id: "' + f'{object}' + '"}' + f') MERGE (n)-[m:{relation}]->(s)')
 
     
-    def create_graph(self, KG, texts, remove_coref):
+    def create_graph(self, KG, texts, remove_coref, mode=0):
+
+        if mode == 1:
+            texts = remove_coref(texts)
+            KG.text_to_KG(texts)
+            self.__create_helper(KG)
+            return
 
         for url in texts:
             texts[url]["text"] = remove_coref(texts[url]["text"])
@@ -107,44 +155,4 @@ class Neo4jConnection:
             with concurrent.futures.ThreadPoolExecutor() as executor:
                 futures = [executor.submit(KG.text_to_KG, chunk[url]["text"], is_print=False) for url in chunk]
                 for futures in concurrent.futures.as_completed(futures):
-                    entities = KG.get_entities()
-                    triplets = KG.get_triplets()
-                    KG.clear_data()
-
-                    query_one_entity = lambda request, id, end='': self.query(f'{request} (n ' + '{id: "' + f'{id}' +'"}' + f') {end}')
-
-                    for entity_name in entities:
-                        entity = entities[entity_name]
-                
-                        wikidata_id = entity["wikidata"]["id"].replace('"', '\'')
-                        wikidata_url = entity["wikidata"]["url"]
-                        wikidata_summary = entity["wikidata"]["summary"].replace('"', '\'')
-                        wikidata_aliases = entity["wikidata"]["aliases"]
-    
-                        if not query_one_entity("MATCH", wikidata_id, "RETURN n"):
-                            self.query('CREATE (n ' + '{id: ' + f'"{wikidata_id}", wikidata_aliases: {wikidata_aliases}, entity_name: "{entity_name}", wikidata_url: "{wikidata_url}", wikidata_summary: "{wikidata_summary}"' +'})')
-                        else:
-                            self.query('MATCH (n ' + '{id: ' + f'"{wikidata_id}"' +'}' + f') SET n.wikidata_aliases = {wikidata_aliases} SET n.wikidata_url = "{wikidata_url}" SET n.wikidata_summary = "{wikidata_summary}"')
-
-                        if "wikipedia" in entity:
-                            wikipedia_url = entity["wikipedia"]["url"]
-                            wikipedia_summary = entity["wikipedia"]["summary"].replace('"', '\'')
-
-                            #wikipedia_match = lambda: self.query('MATCH (n ' + '{id: "' + f'{wikidata_id}' +'"}' + ' RETURN n.wikipedia)')
-                            self.query('MATCH (n ' + '{id: ' + f'"{wikidata_id}"' +'}' + f') SET n.wikipedia_url = "{wikipedia_url}" SET n.wikipedia_summary = "{wikipedia_summary}"')
-
-
-                    for triplet in triplets:
-                        print(triplet)
-                        subject = triplet["subject"][1]
-                        relation = triplet["relation"].replace(" ", "_")
-                        object = triplet["object"][1]
-
-                        #if not query_one_entity('MATCH', subject, 'RETURN n'):
-                        #    query_one_entity('CREATE', subject)
-
-                        #if not query_one_entity('MATCH', object, 'RETURN n'):
-                        #    query_one_entity('CREATE', object)
-
-                        self.query('MATCH (n ' + '{id: "' + f'{subject}' + '"}) MATCH (s ' + '{id: "' + f'{object}' + '"}' + f') MERGE (n)-[m:{relation}]->(s)')
-
+                    self.__create_helper(KG)

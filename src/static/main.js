@@ -75,8 +75,73 @@ function show_news_table()
     }
 }
 
+function load_file(url, message) 
+{
+    let input = $('<input>').attr('type', 'file');
+
+    input.on('change', () => 
+    {
+        if (input[0].files.length > 0) 
+        {
+            let file = input[0].files[0];
+            __upload_file(file, url, message);
+            input.val('');
+        }
+    });
+
+    input.click();
+}
+
+function __bef_send()
+{
+    $('#waiting-time').text('Waiting for response...');
+    $('#another-text-build').prop('disabled', true);
+    $('#remove-fake-news-btn').prop('disabled', true);
+    $('#search-btn').prop('disabled', true);
+    $('#remove-fake-news-btn').prop('disabled', true);
+
+}
+
+function __after_send()
+{
+    $('#waiting-time').text('');
+    $('#another-text-build').prop('disabled', false);
+    $('#remove-fake-news-btn').prop('disabled', false);
+    $('#search-btn').prop('disabled', false);
+    $('#remove-fake-news-btn').prop('disabled', false);
+}
+
+function __upload_file(file, url, message) 
+{
+    let formData = new FormData();
+    formData.append('file', file);
+
+    $.ajax(
+        {
+            url: url,
+            data: formData,
+            type: 'POST',
+            contentType: false,
+            processData: false,
+            beforeSend: () => {
+                __bef_send();
+            }
+        }
+    ).then(res=>
+        {
+            alert(message);
+            __after_send();
+            window.location = '/knowledge_graph';
+        });
+}
+
 $(document).ready(() => 
 {
+    $('#another-text-build').click(() =>
+    {
+        load_file('/load_text', "the graph has been successfully built");
+    });
+
     $('#last-text').click(() =>
     {
         $.ajax({
@@ -111,17 +176,12 @@ $(document).ready(() =>
             beforeSend: ()=> 
             {
                 $('#news-list-container').hide();
-                $('#waiting-time').text('Waiting for response...');
-                $('#search-btn').prop('disabled', true);
+                __bef_send();
 
-            },
-            success: ()=>
-            {
-                $('#waiting-time').text('');
-                $('#search-btn').prop('disabled', false);
-            },
+            }
         }).then(res=>
             {
+                __after_send();
                 init_server_news_data(res.full_text);
             });
     });
@@ -154,16 +214,11 @@ $(document).ready(() =>
             dataType: "json",
             beforeSend: ()=> 
             {
-                $('#waiting-time').text('Waiting for response...');
-                $('#remove-fake-news-btn').prop('disabled', true);
-            },
-            success: ()=>
-            {
-                $('#waiting-time').text('');
-                $('#remove-fake-news-btn').prop('disabled', false);
-            },
+                __bef_send();
+            }
         }).then(res=>
             {
+                __after_send();
                 table_number = 0;
                 table_len = 0;
                 table_remains = 0;
@@ -182,14 +237,13 @@ $(document).ready(() =>
             contentType: "application/json; charset=utf-8",
             dataType: "json",
             beforeSend: () => {
-                $('#waiting-time').text('Waiting for response...');
-                $('#remove-fake-news-btn').prop('disabled', true);
+                __bef_send();
             }
         }).then(res => {
-            $('#waiting-time').text('');
-            $('#remove-fake-news-btn').prop('disabled', false);
             alert("The entire graph is loaded");
-            window.open('/knowledge_graph', '_blank');
+            __after_send();
+            //window.open('/knowledge_graph', '_blank');
+            window.location = '/knowledge_graph';
         });
     });
 });

@@ -9,7 +9,10 @@ import os
 
 app = Flask(__name__)
 
-db = Neo4jConnection(url="bolt://localhost:7687", user="neo4j", password="123456789")
+# вне докера
+#db = Neo4jConnection(url="bolt://localhost:7687", user="neo4j", password="123456789")
+# в докере
+db = Neo4jConnection(url="bolt://neo4j:7687", user="neo4j", password="123456789")
 KG = Knowledge_Graph()
 UPLOAD_FOLDER = db.get_path()
 
@@ -91,6 +94,14 @@ def get_last_text():
         return jsonify({"full_text": full_text})
     else:
         return jsonify({"full_text": "none"})
+    
+@app.route('/load_text', methods=['POST'])
+def load_text_and_get_graph():
+    uploaded_file = request.files['file']
+    text = uploaded_file.read().decode("utf-8")
+
+    db.create_graph(KG=KG, texts=text, remove_coref=remove_coref, mode=1)
+    return jsonify({"message": "ok"})
     
 
 app.run(host="0.0.0.0", port=3000)
