@@ -1,11 +1,6 @@
-# Идея
-Создание и автоматическое наполнение графа знаний из разнородных новостных источников. 
+The developed system is designed to build a knowledge graph based on news articles from Google News. Articles are searched by keywords, each article is checked for authenticity with the possibility of deleting "unreliable" articles. Before constructing the graph, the text is processed in order to reduce all referential identities to a single designation. The knowledge graph is built using the REBEL model, all found entities are checked using queries in wikipedia and wikidata. The data is stored in the Neo4j database with the possibility of visualization on the web.
 
+The demo and detailed description will be posted later in the README and WIKI section of this repository.
 
-# Предполагаемые задачи
-1. Парсинг новостных веб-страниц с извлечением текста (написано 2 решения, одно из них ищет новостные статьи через агрегатор Google News (pygooglenews - работает только под VPN), другой - через поисковую строку Google (GoogleNews))
-2. Работа с референциональными тождествами - приведение их к одному обозначению. Пример: "Солнце встало, оно ярко светит" -> "Солнце встало, солнце ярко светит" (сделано через neuralcoref)
-3. Извлечение триплетов (сделано через REBEL)
-4. Валидация сущностостей через запросы в открытые общие графы знаний - DBpedia и тд (Сделано через Wikidata, еще добавить надо 2 графа)
-5. Визулизация в браузере
-6. Генерация новых данных на основе полученного графа
+The installation can currently be done through the git clone repository + the installation algorithm described in the Dockerfile (python version must be 3.7).
+there is also an assembly for docker. For it, you need to make a git clone + docker-compose up. I warn you that building for Docker requires a lot of RAM (more than 8), otherwise the program's running time increases greatly. Detailed installation instructions will be posted later.
