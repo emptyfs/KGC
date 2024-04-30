@@ -14,7 +14,7 @@ tokenizer = AutoTokenizer.from_pretrained("Babelscape/rebel-large") # автом
 #model = AutoModelForSeq2SeqLM.from_pretrained("Babelscape/rebel-large", force_download=True, resume_download=False).to(device)
 model = AutoModelForSeq2SeqLM.from_pretrained("Babelscape/rebel-large").to(device)
 
-nlp = spacy.load('en_core_web_lg') # (предварительно нужно загрузить) python -m spacy download en_core_web_lg
+nlp = spacy.load('en_core_web_sm') # (предварительно нужно загрузить) python -m spacy download en_core_web_sm
 neuralcoref.add_to_pipe(nlp)
 
 client = wikidata.client.Client()
@@ -26,12 +26,10 @@ def remove_coref(text:str):
 
     Параметры: text - входной текст
     """
-    text = re.sub(r'\n+', '.', text)  
-    text = re.sub(r'\[\d+\]', ' ', text) 
+    text = re.sub(r'\n+', '', text)  
     text = nlp(text)
 
-    if text._.has_coref:
-         text = nlp(text._.coref_resolved)
+    text = text._.coref_resolved
         
     return str(text)
 
@@ -210,13 +208,15 @@ class Knowledge_Graph():
         if is_any_entites(wikidata_entites):
             is_wikidata_None = True
 
-        if is_wikidata_None:
+        if is_wikidata_None or wikidata_entites[0]["title"] == wikidata_entites[1]["title"]:
             return
 
         # добавление подтвержденный сущностей
         if not is_wikipedia_None:
             triplet["subject"] = [triplet["subject"], wikidata_entites[0]["id"]]
             triplet["object"] = [triplet["object"], wikidata_entites[1]["id"]]
+            if wikipedia_entities[0]["title"] == wikipedia_entities[1]["title"]:
+                return
             for entity in wikipedia_entities:
                 self.__add_entity(entity, "wikipedia")
 
@@ -224,9 +224,9 @@ class Knowledge_Graph():
             triplet["subject"] = [wikidata_entites[0]["title"], wikidata_entites[0]["id"]]
             triplet["object"] = [wikidata_entites[1]["title"], wikidata_entites[1]["id"]]
             
+        wikidata_entites[0]["title"] = triplet["subject"][0]
+        wikidata_entites[1]["title"] = triplet["object"][0]
         for entity in wikidata_entites:
-            wikidata_entites[0]["title"] = triplet["subject"][0]
-            wikidata_entites[1]["title"] = triplet["object"][0]
             self.__add_entity(entity, "wikidata")
 
         # добавление триплетов

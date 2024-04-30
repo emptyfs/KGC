@@ -10,9 +10,9 @@ import os
 app = Flask(__name__)
 
 # вне докера
-#db = Neo4jConnection(url="bolt://localhost:7687", user="neo4j", password="123456789")
+db = Neo4jConnection(url="bolt://localhost:7687", user="neo4j", password="123456789")
 # в докере
-db = Neo4jConnection(url="bolt://neo4j:7687", user="neo4j", password="123456789")
+#db = Neo4jConnection(url="bolt://neo4j:7687", user="neo4j", password="123456789")
 KG = Knowledge_Graph()
 UPLOAD_FOLDER = db.get_path()
 

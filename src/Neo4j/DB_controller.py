@@ -123,6 +123,7 @@ class Neo4jConnection:
             print(triplet)
             subject = triplet["subject"][1]
             relation = triplet["relation"].replace(" ", "_")
+            relation = relation.replace(",", "_or")
             object = triplet["object"][1]
 
             #if not query_one_entity('MATCH', subject, 'RETURN n'):
@@ -151,7 +152,13 @@ class Neo4jConnection:
         # система, на которой умеренно запускается при 5 текстах: intel i5, 1650 gtx, 8 ОЗУ
         texts = [{k: texts[k] for k in list(texts.keys())[i:i+5]} for i in range(0, len(texts), 5)]
 
+        chunk_count = 0
+
         for chunk in texts:
+            print("------------------------------------------------")
+            print(f"processing {chunk_count}-{chunk_count+len(chunk)-1} articles")
+            chunk_count += 5
+
             with concurrent.futures.ThreadPoolExecutor() as executor:
                 futures = [executor.submit(KG.text_to_KG, chunk[url]["text"], is_print=False) for url in chunk]
                 for futures in concurrent.futures.as_completed(futures):

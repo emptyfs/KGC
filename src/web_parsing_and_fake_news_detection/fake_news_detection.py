@@ -14,7 +14,7 @@ def predict_fake(title:str, text:str):
     * title - название статьи
     * text - текст статьи
     """
-    input_str = "<title>" + title + "<content>" +  text + "<end>"
+    input_str = "<title>" + str(title) + "<content>" +  str(text) + "<end>"
 
     input_ids = tokenizer.encode_plus(input_str, max_length=512, padding="max_length", 
                                       truncation=True, return_tensors="pt")
