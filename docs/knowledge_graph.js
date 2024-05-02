@@ -14529,7 +14529,7 @@ function get_all_graph()
     $('#Info').removeAttr('style');
     $('#View').empty();
     graph = new Graph();
-    graph.draw_graph('View', Graph.init_data_nodes(graph.nodes), graph.edges, $('#container').width());
+    graph.draw_graph('View', graph.nodes, graph.edges, $('#container').width());
 }
 
 function import_graph() 
@@ -14571,11 +14571,5 @@ function __upload_file(file)
 
 $(document).ready(() =>
 {
-    let save_button = $('#btn-save');
-    let delete_button = $('#btn-delete-all');
-
-    $('#btn-All-graph').click(() =>
-    {
-        get_all_graph();
-    });
+    get_all_graph();
 });
