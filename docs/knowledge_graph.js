@@ -3066,11216 +3066,2160 @@ class Graph
         this.edges = [
             {
                 "label": "instance_of",
-                "source": {
-                    "id": "Q573880",
-                    "name": "Nature Communications",
-                    "__indexColor": "#f00134",
-                    "index": 307,
-                    "x": -422.9634091065472,
-                    "y": 862.8488569741974,
-                    "vx": -1.779497007423846e-18,
-                    "vy": 4.015537562054903e-18
-                },
-                "target": {
-                    "id": "Q5633421",
-                    "name": "Scientific journal",
-                    "__indexColor": "#400130",
-                    "index": 303,
-                    "x": -389.95064867422525,
-                    "y": 864.7919678429142,
-                    "vx": -1.7769659210385924e-18,
-                    "vy": 4.0110420694804295e-18
-                },
-                "__indexColor": "#14017f",
-                "__controlPoints": null,
-                "nodePairId": "Q5633421_Q573880",
-                "index": 0
+                "source": "Q573880",
+                "target": "Q5633421"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q4167836",
-                    "name": "Cat",
-                    "__indexColor": "#f000f4",
-                    "index": 243,
-                    "x": 312.0985965657434,
-                    "y": -522.0634480286678,
-                    "vx": 1.2480489964290684e-18,
-                    "vy": -2.2132120772051583e-18
-                },
-                "target": {
-                    "id": "Q208376",
-                    "name": "Pet",
-                    "__indexColor": "#000080",
-                    "index": 127,
-                    "x": 272.9931283465106,
-                    "y": -537.5222811743239,
-                    "vx": 1.412487514104299e-18,
-                    "vy": -2.435655260654165e-18
-                },
-                "__indexColor": "#000180",
-                "__controlPoints": null,
-                "nodePairId": "Q208376_Q4167836",
-                "index": 1
+                "source": "Q4167836",
+                "target": "Q208376"
             },
             {
                 "label": "shares_border_with",
-                "source": {
-                    "id": "Q1570892",
-                    "name": "Middle Village",
-                    "__indexColor": "#980052",
-                    "index": 81,
-                    "x": 814.0185851736585,
-                    "y": -578.33746011412,
-                    "vx": 3.1987832457618694e-18,
-                    "vy": -2.3879436074044058e-18
-                },
-                "target": {
-                    "id": "Q1842497",
-                    "name": "Woodhaven",
-                    "__indexColor": "#90006c",
-                    "index": 107,
-                    "x": 814.0067177005633,
-                    "y": -610.342114709141,
-                    "vx": 3.2201338065696546e-18,
-                    "vy": -2.3782411001596806e-18
-                },
-                "__indexColor": "#ec0181",
-                "__controlPoints": null,
-                "nodePairId": "Q1570892_Q1842497",
-                "index": 2
+                "source": "Q1570892",
+                "target": "Q1842497"
             },
             {
                 "label": "shares_border_with",
-                "source": {
-                    "id": "Q1842497",
-                    "name": "Woodhaven",
-                    "__indexColor": "#90006c",
-                    "index": 107,
-                    "x": 814.0067177005633,
-                    "y": -610.342114709141,
-                    "vx": 3.2201338065696546e-18,
-                    "vy": -2.3782411001596806e-18
-                },
-                "target": {
-                    "id": "Q1570892",
-                    "name": "Middle Village",
-                    "__indexColor": "#980052",
-                    "index": 81,
-                    "x": 814.0185851736585,
-                    "y": -578.33746011412,
-                    "vx": 3.1987832457618694e-18,
-                    "vy": -2.3879436074044058e-18
-                },
-                "__indexColor": "#d80182",
-                "__controlPoints": null,
-                "nodePairId": "Q1570892_Q1842497",
-                "index": 3
+                "source": "Q1842497",
+                "target": "Q1570892"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q4167836",
-                    "name": "Cat",
-                    "__indexColor": "#f000f4",
-                    "index": 243,
-                    "x": 312.0985965657434,
-                    "y": -522.0634480286678,
-                    "vx": 1.2480489964290684e-18,
-                    "vy": -2.2132120772051583e-18
-                },
-                "target": {
-                    "id": "Q4167836",
-                    "name": "Cat",
-                    "__indexColor": "#f000f4",
-                    "index": 243,
-                    "x": 312.0985965657434,
-                    "y": -522.0634480286678,
-                    "vx": 1.2480489964290684e-18,
-                    "vy": -2.2132120772051583e-18
-                },
-                "__indexColor": "#c40183",
-                "__controlPoints": null,
-                "nodePairId": "Q4167836_Q4167836",
-                "index": 4
+                "source": "Q4167836",
+                "target": "Q4167836"
             },
             {
                 "label": "different_from",
-                "source": {
-                    "id": "Q4167836",
-                    "name": "Cat",
-                    "__indexColor": "#f000f4",
-                    "index": 243,
-                    "x": 312.0985965657434,
-                    "y": -522.0634480286678,
-                    "vx": 1.2480489964290684e-18,
-                    "vy": -2.2132120772051583e-18
-                },
-                "target": {
-                    "id": "Q4167836",
-                    "name": "Cat",
-                    "__indexColor": "#f000f4",
-                    "index": 243,
-                    "x": 312.0985965657434,
-                    "y": -522.0634480286678,
-                    "vx": 1.2480489964290684e-18,
-                    "vy": -2.2132120772051583e-18
-                },
-                "__indexColor": "#b00184",
-                "__controlPoints": null,
-                "index": 5
+                "source": "Q4167836",
+                "target": "Q4167836"
             },
             {
                 "label": "employer",
-                "source": {
-                    "id": "Q56166733",
-                    "name": "Peter P. Marra",
-                    "__indexColor": "#68012e",
-                    "index": 301,
-                    "x": 1195.207112777316,
-                    "y": -370.45204444433676,
-                    "vx": 4.607246900799429e-18,
-                    "vy": -1.493035822547904e-18
-                },
-                "target": {
-                    "id": "Q333886",
-                    "name": "Georgetown University",
-                    "__indexColor": "#fc00cd",
-                    "index": 204,
-                    "x": 1185.0800308926498,
-                    "y": -400.78067864852676,
-                    "vx": 4.6052649624980215e-18,
-                    "vy": -1.4825524240034438e-18
-                },
-                "__indexColor": "#9c0185",
-                "__controlPoints": null,
-                "index": 6
+                "source": "Q56166733",
+                "target": "Q333886"
             },
             {
                 "label": "located_in_the_administrative_territorial_entity",
-                "source": {
-                    "id": "Q1570892",
-                    "name": "Middle Village",
-                    "__indexColor": "#980052",
-                    "index": 81,
-                    "x": 814.0185851736585,
-                    "y": -578.33746011412,
-                    "vx": 3.1987832457618694e-18,
-                    "vy": -2.3879436074044058e-18
-                },
-                "target": {
-                    "id": "Q1842497",
-                    "name": "Woodhaven",
-                    "__indexColor": "#90006c",
-                    "index": 107,
-                    "x": 814.0067177005633,
-                    "y": -610.342114709141,
-                    "vx": 3.2201338065696546e-18,
-                    "vy": -2.3782411001596806e-18
-                },
-                "__indexColor": "#880186",
-                "__controlPoints": null,
-                "index": 7
+                "source": "Q1570892",
+                "target": "Q1842497"
             },
             {
                 "label": "educated_at",
-                "source": {
-                    "id": "Q56166733",
-                    "name": "Peter P. Marra",
-                    "__indexColor": "#68012e",
-                    "index": 301,
-                    "x": 1195.207112777316,
-                    "y": -370.45204444433676,
-                    "vx": 4.607246900799429e-18,
-                    "vy": -1.493035822547904e-18
-                },
-                "target": {
-                    "id": "Q333886",
-                    "name": "Georgetown University",
-                    "__indexColor": "#fc00cd",
-                    "index": 204,
-                    "x": 1185.0800308926498,
-                    "y": -400.78067864852676,
-                    "vx": 4.6052649624980215e-18,
-                    "vy": -1.4825524240034438e-18
-                },
-                "__indexColor": "#740187",
-                "__controlPoints": null,
-                "index": 8
+                "source": "Q56166733",
+                "target": "Q333886"
             },
             {
                 "label": "field_of_work",
-                "source": {
-                    "id": "Q91377533",
-                    "name": "Gregory Barshtein",
-                    "__indexColor": "#dc0175",
-                    "index": 372,
-                    "x": 426.024733145557,
-                    "y": 305.7818929663559,
-                    "vx": 2.271791366488169e-18,
-                    "vy": 1.5127358182243686e-18
-                },
-                "target": {
-                    "id": "Q7162",
-                    "name": "genetics",
-                    "__indexColor": "#740147",
-                    "index": 326,
-                    "x": 395.58377022744696,
-                    "y": 287.58560805644186,
-                    "vx": 2.2586572511068133e-18,
-                    "vy": 1.5148309844232216e-18
-                },
-                "__indexColor": "#600188",
-                "__controlPoints": null,
-                "index": 9
+                "source": "Q91377533",
+                "target": "Q7162"
             },
             {
                 "label": "product_or_material_produced",
-                "source": {
-                    "id": "Q11395",
-                    "name": "Domestication",
-                    "__indexColor": "#a8001e",
-                    "index": 29,
-                    "x": 342.82510201505926,
-                    "y": -538.1933496026162,
-                    "vx": 1.4203506827008792e-18,
-                    "vy": -2.1568397405106888e-18
-                },
-                "target": {
-                    "id": "Q4167836",
-                    "name": "Cat",
-                    "__indexColor": "#f000f4",
-                    "index": 243,
-                    "x": 312.0985965657434,
-                    "y": -522.0634480286678,
-                    "vx": 1.2480489964290684e-18,
-                    "vy": -2.2132120772051583e-18
-                },
-                "__indexColor": "#4c0189",
-                "__controlPoints": null,
-                "index": 10
+                "source": "Q11395",
+                "target": "Q4167836"
             },
             {
                 "label": "field_of_work",
-                "source": {
-                    "id": "Q104129950",
-                    "name": "Christopher B Kaelin",
-                    "__indexColor": "#b00004",
-                    "index": 3,
-                    "x": 363.90299867423596,
-                    "y": 296.09721648554074,
-                    "vx": 2.2405900278322354e-18,
-                    "vy": 1.5360039056769028e-18
-                },
-                "target": {
-                    "id": "Q7162",
-                    "name": "genetics",
-                    "__indexColor": "#740147",
-                    "index": 326,
-                    "x": 395.58377022744696,
-                    "y": 287.58560805644186,
-                    "vx": 2.2586572511068133e-18,
-                    "vy": 1.5148309844232216e-18
-                },
-                "__indexColor": "#38018a",
-                "__controlPoints": null,
-                "index": 11
+                "source": "Q104129950",
+                "target": "Q7162"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q11395",
-                    "name": "Domestication",
-                    "__indexColor": "#a8001e",
-                    "index": 29,
-                    "x": 342.82510201505926,
-                    "y": -538.1933496026162,
-                    "vx": 1.4203506827008792e-18,
-                    "vy": -2.1568397405106888e-18
-                },
-                "target": {
-                    "id": "Q4167836",
-                    "name": "Cat",
-                    "__indexColor": "#f000f4",
-                    "index": 243,
-                    "x": 312.0985965657434,
-                    "y": -522.0634480286678,
-                    "vx": 1.2480489964290684e-18,
-                    "vy": -2.2132120772051583e-18
-                },
-                "__indexColor": "#24018b",
-                "__controlPoints": null,
-                "index": 12
+                "source": "Q11395",
+                "target": "Q4167836"
             },
             {
                 "label": "occupation",
-                "source": {
-                    "id": "Q91377533",
-                    "name": "Gregory Barshtein",
-                    "__indexColor": "#dc0175",
-                    "index": 372,
-                    "x": 426.024733145557,
-                    "y": 305.7818929663559,
-                    "vx": 2.271791366488169e-18,
-                    "vy": 1.5127358182243686e-18
-                },
-                "target": {
-                    "id": "Q217",
-                    "name": "Moldova",
-                    "__indexColor": "#10008c",
-                    "index": 139,
-                    "x": 455.04993768607085,
-                    "y": 321.09940813722267,
-                    "vx": 2.2898088545464253e-18,
-                    "vy": 1.5283445060831108e-18
-                },
-                "__indexColor": "#10018c",
-                "__controlPoints": null,
-                "index": 13
+                "source": "Q91377533",
+                "target": "Q217"
             },
             {
                 "label": "has_part",
-                "source": {
-                    "id": "Q11395",
-                    "name": "Domestication",
-                    "__indexColor": "#a8001e",
-                    "index": 29,
-                    "x": 342.82510201505926,
-                    "y": -538.1933496026162,
-                    "vx": 1.4203506827008792e-18,
-                    "vy": -2.1568397405106888e-18
-                },
-                "target": {
-                    "id": "Q4167836",
-                    "name": "Cat",
-                    "__indexColor": "#f000f4",
-                    "index": 243,
-                    "x": 312.0985965657434,
-                    "y": -522.0634480286678,
-                    "vx": 1.2480489964290684e-18,
-                    "vy": -2.2132120772051583e-18
-                },
-                "__indexColor": "#fc018d",
-                "__controlPoints": null,
-                "index": 14
+                "source": "Q11395",
+                "target": "Q4167836"
             },
             {
                 "label": "parent_taxon",
-                "source": {
-                    "id": "Q1474329",
-                    "name": "Tabby cat",
-                    "__indexColor": "#10004c",
-                    "index": 75,
-                    "x": 317.34429001649494,
-                    "y": -572.960951182967,
-                    "vx": 1.759402621308287e-18,
-                    "vy": -2.2087656609767224e-18
-                },
-                "target": {
-                    "id": "Q42627",
-                    "name": "Bengal cat",
-                    "__indexColor": "#8c00f9",
-                    "index": 248,
-                    "x": 320.37298857746305,
-                    "y": -612.8841652451129,
-                    "vx": 2.0760192436755563e-18,
-                    "vy": -2.209745593431138e-18
-                },
-                "__indexColor": "#e8018e",
-                "__controlPoints": null,
-                "index": 15
+                "source": "Q1474329",
+                "target": "Q42627"
             },
             {
                 "label": "uses",
-                "source": {
-                    "id": "Q41298",
-                    "name": "magazine",
-                    "__indexColor": "#0400f3",
-                    "index": 242,
-                    "x": -458.798600671365,
-                    "y": 860.1202689327786,
-                    "vx": -1.7852518542448437e-18,
-                    "vy": 4.06010391568946e-18
-                },
-                "target": {
-                    "id": "Q737498",
-                    "name": "academic journal",
-                    "__indexColor": "#e8014e",
-                    "index": 333,
-                    "x": -487.51581294673684,
-                    "y": 876.2426521125773,
-                    "vx": -1.7218142900534313e-18,
-                    "vy": 4.153331292966773e-18
-                },
-                "__indexColor": "#d4018f",
-                "__controlPoints": null,
-                "index": 16
+                "source": "Q41298",
+                "target": "Q737498"
             },
             {
                 "label": "studied_by",
-                "source": {
-                    "id": "Q7187",
-                    "name": "Gene",
-                    "__indexColor": "#600148",
-                    "index": 327,
-                    "x": 389.14349661078046,
-                    "y": 255.38818030860858,
-                    "vx": 2.2636549976777057e-18,
-                    "vy": 1.4965516903552212e-18
-                },
-                "target": {
-                    "id": "Q7162",
-                    "name": "genetics",
-                    "__indexColor": "#740147",
-                    "index": 326,
-                    "x": 395.58377022744696,
-                    "y": 287.58560805644186,
-                    "vx": 2.2586572511068133e-18,
-                    "vy": 1.5148309844232216e-18
-                },
-                "__indexColor": "#c00190",
-                "__controlPoints": null,
-                "index": 17
+                "source": "Q7187",
+                "target": "Q7162"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q1474329",
-                    "name": "Tabby cat",
-                    "__indexColor": "#10004c",
-                    "index": 75,
-                    "x": 317.34429001649494,
-                    "y": -572.960951182967,
-                    "vx": 1.759402621308287e-18,
-                    "vy": -2.2087656609767224e-18
-                },
-                "target": {
-                    "id": "Q4167836",
-                    "name": "Cat",
-                    "__indexColor": "#f000f4",
-                    "index": 243,
-                    "x": 312.0985965657434,
-                    "y": -522.0634480286678,
-                    "vx": 1.2480489964290684e-18,
-                    "vy": -2.2132120772051583e-18
-                },
-                "__indexColor": "#ac0191",
-                "__controlPoints": null,
-                "index": 18
+                "source": "Q1474329",
+                "target": "Q4167836"
             },
             {
                 "label": "uses",
-                "source": {
-                    "id": "Q41298",
-                    "name": "magazine",
-                    "__indexColor": "#0400f3",
-                    "index": 242,
-                    "x": -458.798600671365,
-                    "y": 860.1202689327786,
-                    "vx": -1.7852518542448437e-18,
-                    "vy": 4.06010391568946e-18
-                },
-                "target": {
-                    "id": "Q215028",
-                    "name": "peer review",
-                    "__indexColor": "#880086",
-                    "index": 133,
-                    "x": -484.4763536427143,
-                    "y": 839.4317282298337,
-                    "vx": -1.7043157635764126e-18,
-                    "vy": 3.9960859694360054e-18
-                },
-                "__indexColor": "#980192",
-                "__controlPoints": null,
-                "index": 19
+                "source": "Q41298",
+                "target": "Q215028"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q208376",
-                    "name": "Pet",
-                    "__indexColor": "#000080",
-                    "index": 127,
-                    "x": 272.9931283465106,
-                    "y": -537.5222811743239,
-                    "vx": 1.412487514104299e-18,
-                    "vy": -2.435655260654165e-18
-                },
-                "target": {
-                    "id": "Q729",
-                    "name": "Animal",
-                    "__indexColor": "#10014c",
-                    "index": 331,
-                    "x": 258.8364345090439,
-                    "y": -505.91974850405455,
-                    "vx": 1.2497189578409178e-18,
-                    "vy": -2.465539662733399e-18
-                },
-                "__indexColor": "#840193",
-                "__controlPoints": null,
-                "index": 20
+                "source": "Q208376",
+                "target": "Q729"
             },
             {
                 "label": "located_in_the_administrative_territorial_entity",
-                "source": {
-                    "id": "Q30862",
-                    "name": "311",
-                    "__indexColor": "#b000c4",
-                    "index": 195,
-                    "x": -1202.0130343629853,
-                    "y": -230.550225713165,
-                    "vx": -4.977260464971189e-18,
-                    "vy": -1.1619662056327076e-18
-                },
-                "target": {
-                    "id": "Q515",
-                    "name": "city",
-                    "__indexColor": "#200118",
-                    "index": 279,
-                    "x": -1192.2561656005967,
-                    "y": -261.0761138225596,
-                    "vx": -4.957761262747503e-18,
-                    "vy": -1.1489707647894528e-18
-                },
-                "__indexColor": "#700194",
-                "__controlPoints": null,
-                "index": 21
+                "source": "Q30862",
+                "target": "Q515"
             },
             {
                 "label": "used_by",
-                "source": {
-                    "id": "Q1736906",
-                    "name": "Cat food",
-                    "__indexColor": "#580062",
-                    "index": 97,
-                    "x": 368.67601257901407,
-                    "y": -550.288246197966,
-                    "vx": 1.3989220444036289e-18,
-                    "vy": -2.2081283161607213e-18
-                },
-                "target": {
-                    "id": "Q4167836",
-                    "name": "Cat",
-                    "__indexColor": "#f000f4",
-                    "index": 243,
-                    "x": 312.0985965657434,
-                    "y": -522.0634480286678,
-                    "vx": 1.2480489964290684e-18,
-                    "vy": -2.2132120772051583e-18
-                },
-                "__indexColor": "#5c0195",
-                "__controlPoints": null,
-                "index": 22
+                "source": "Q1736906",
+                "target": "Q4167836"
             },
             {
                 "label": "applies_to_jurisdiction",
-                "source": {
-                    "id": "Q30862",
-                    "name": "311",
-                    "__indexColor": "#b000c4",
-                    "index": 195,
-                    "x": -1202.0130343629853,
-                    "y": -230.550225713165,
-                    "vx": -4.977260464971189e-18,
-                    "vy": -1.1619662056327076e-18
-                },
-                "target": {
-                    "id": "Q515",
-                    "name": "city",
-                    "__indexColor": "#200118",
-                    "index": 279,
-                    "x": -1192.2561656005967,
-                    "y": -261.0761138225596,
-                    "vx": -4.957761262747503e-18,
-                    "vy": -1.1489707647894528e-18
-                },
-                "__indexColor": "#480196",
-                "__controlPoints": null,
-                "index": 23
+                "source": "Q30862",
+                "target": "Q515"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q1736906",
-                    "name": "Cat food",
-                    "__indexColor": "#580062",
-                    "index": 97,
-                    "x": 368.67601257901407,
-                    "y": -550.288246197966,
-                    "vx": 1.3989220444036289e-18,
-                    "vy": -2.2081283161607213e-18
-                },
-                "target": {
-                    "id": "Q2095",
-                    "name": "Food",
-                    "__indexColor": "#ec0081",
-                    "index": 128,
-                    "x": 426.994515365897,
-                    "y": -573.0191141609454,
-                    "vx": 1.428531674878206e-18,
-                    "vy": -2.353345414724917e-18
-                },
-                "__indexColor": "#340197",
-                "__controlPoints": null,
-                "index": 24
+                "source": "Q1736906",
+                "target": "Q2095"
             },
             {
                 "label": "operator",
-                "source": {
-                    "id": "Q30862",
-                    "name": "311",
-                    "__indexColor": "#b000c4",
-                    "index": 195,
-                    "x": -1202.0130343629853,
-                    "y": -230.550225713165,
-                    "vx": -4.977260464971189e-18,
-                    "vy": -1.1619662056327076e-18
-                },
-                "target": {
-                    "id": "Q515",
-                    "name": "city",
-                    "__indexColor": "#200118",
-                    "index": 279,
-                    "x": -1192.2561656005967,
-                    "y": -261.0761138225596,
-                    "vx": -4.957761262747503e-18,
-                    "vy": -1.1489707647894528e-18
-                },
-                "__indexColor": "#200198",
-                "__controlPoints": null,
-                "index": 25
+                "source": "Q30862",
+                "target": "Q515"
             },
             {
                 "label": "subsidiary",
-                "source": {
-                    "id": "Q864407",
-                    "name": "The Home Depot",
-                    "__indexColor": "#b8016a",
-                    "index": 361,
-                    "x": 723.767057808894,
-                    "y": -951.133435745494,
-                    "vx": 3.2429841950429758e-18,
-                    "vy": -3.8066617633245815e-18
-                },
-                "target": {
-                    "id": "Q1373493",
-                    "name": "Lowe's",
-                    "__indexColor": "#14003f",
-                    "index": 62,
-                    "x": 711.0116129017107,
-                    "y": -980.563993491065,
-                    "vx": 3.2813108524161244e-18,
-                    "vy": -3.8200089243533436e-18
-                },
-                "__indexColor": "#0c0199",
-                "__controlPoints": null,
-                "index": 26
+                "source": "Q864407",
+                "target": "Q1373493"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q192995",
-                    "name": "Vaccination",
-                    "__indexColor": "#040073",
-                    "index": 114,
-                    "x": -882.5880810150343,
-                    "y": -459.27534463913935,
-                    "vx": -3.8134475777940304e-18,
-                    "vy": -2.343108453431064e-18
-                },
-                "target": {
-                    "id": "Q11190",
-                    "name": "Medicine",
-                    "__indexColor": "#f8001a",
-                    "index": 25,
-                    "x": -889.7009222497552,
-                    "y": -427.6877692069026,
-                    "vx": -3.874567946665365e-18,
-                    "vy": -2.3611203726694383e-18
-                },
-                "__indexColor": "#f8019a",
-                "__controlPoints": null,
-                "index": 27
+                "source": "Q192995",
+                "target": "Q11190"
             },
             {
                 "label": "parent_organization",
-                "source": {
-                    "id": "Q1373493",
-                    "name": "Lowe's",
-                    "__indexColor": "#14003f",
-                    "index": 62,
-                    "x": 711.0116129017107,
-                    "y": -980.563993491065,
-                    "vx": 3.2813108524161244e-18,
-                    "vy": -3.8200089243533436e-18
-                },
-                "target": {
-                    "id": "Q864407",
-                    "name": "The Home Depot",
-                    "__indexColor": "#b8016a",
-                    "index": 361,
-                    "x": 723.767057808894,
-                    "y": -951.133435745494,
-                    "vx": 3.2429841950429758e-18,
-                    "vy": -3.8066617633245815e-18
-                },
-                "__indexColor": "#e4019b",
-                "__controlPoints": null,
-                "index": 28
+                "source": "Q1373493",
+                "target": "Q864407"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q134808",
-                    "name": "Vaccine",
-                    "__indexColor": "#50003c",
-                    "index": 59,
-                    "x": -901.6897232080973,
-                    "y": -397.5805482480631,
-                    "vx": -3.89000185112203e-18,
-                    "vy": -2.3650579706329625e-18
-                },
-                "target": {
-                    "id": "Q11190",
-                    "name": "Medicine",
-                    "__indexColor": "#f8001a",
-                    "index": 25,
-                    "x": -889.7009222497552,
-                    "y": -427.6877692069026,
-                    "vx": -3.874567946665365e-18,
-                    "vy": -2.3611203726694383e-18
-                },
-                "__indexColor": "#d0019c",
-                "__controlPoints": null,
-                "index": 29
+                "source": "Q134808",
+                "target": "Q11190"
             },
             {
                 "label": "parent_organization",
-                "source": {
-                    "id": "Q864407",
-                    "name": "The Home Depot",
-                    "__indexColor": "#b8016a",
-                    "index": 361,
-                    "x": 723.767057808894,
-                    "y": -951.133435745494,
-                    "vx": 3.2429841950429758e-18,
-                    "vy": -3.8066617633245815e-18
-                },
-                "target": {
-                    "id": "Q1373493",
-                    "name": "Lowe's",
-                    "__indexColor": "#14003f",
-                    "index": 62,
-                    "x": 711.0116129017107,
-                    "y": -980.563993491065,
-                    "vx": 3.2813108524161244e-18,
-                    "vy": -3.8200089243533436e-18
-                },
-                "__indexColor": "#bc019d",
-                "__controlPoints": null,
-                "index": 30
+                "source": "Q864407",
+                "target": "Q1373493"
             },
             {
                 "label": "subsidiary",
-                "source": {
-                    "id": "Q1373493",
-                    "name": "Lowe's",
-                    "__indexColor": "#14003f",
-                    "index": 62,
-                    "x": 711.0116129017107,
-                    "y": -980.563993491065,
-                    "vx": 3.2813108524161244e-18,
-                    "vy": -3.8200089243533436e-18
-                },
-                "target": {
-                    "id": "Q864407",
-                    "name": "The Home Depot",
-                    "__indexColor": "#b8016a",
-                    "index": 361,
-                    "x": 723.767057808894,
-                    "y": -951.133435745494,
-                    "vx": 3.2429841950429758e-18,
-                    "vy": -3.8066617633245815e-18
-                },
-                "__indexColor": "#a8019e",
-                "__controlPoints": null,
-                "index": 31
+                "source": "Q1373493",
+                "target": "Q864407"
             },
             {
                 "label": "instance_of",
-                "source": {
-                    "id": "Q1190058",
-                    "name": "Physical intimacy",
-                    "__indexColor": "#1c0025",
-                    "index": 36,
-                    "x": 942.3118815763365,
-                    "y": -337.86942796297893,
-                    "vx": 3.7104358163330954e-18,
-                    "vy": -1.4675378384850655e-18
-                },
-                "target": {
-                    "id": "Q35127",
-                    "name": "Website",
-                    "__indexColor": "#5c00d5",
-                    "index": 212,
-                    "x": 950.3318197417769,
-                    "y": -306.79398756304465,
-                    "vx": 3.68181024767554e-18,
-                    "vy": -1.4475292935235486e-18
-                },
-                "__indexColor": "#94019f",
-                "__controlPoints": null,
-                "index": 32
+                "source": "Q1190058",
+                "target": "Q35127"
             },
             {
                 "label": "product_or_material_produced",
-                "source": {
-                    "id": "Q630866",
-                    "name": "Arby's",
-                    "__indexColor": "#50013c",
-                    "index": 315,
-                    "x": 408.52981271289326,
-                    "y": 763.0617540902196,
-                    "vx": 1.8639475853362126e-18,
-                    "vy": 3.437224356214269e-18
-                },
-                "target": {
-                    "id": "Q496",
-                    "name": "feces",
-                    "__indexColor": "#10010c",
-                    "index": 267,
-                    "x": 434.6192258562873,
-                    "y": 782.5949992185687,
-                    "vx": 1.89777903745955e-18,
-                    "vy": 3.38553715331913e-18
-                },
-                "__indexColor": "#8001a0",
-                "__controlPoints": null,
-                "index": 33
+                "source": "Q630866",
+                "target": "Q496"
             },
             {
                 "label": "distributed_by",
-                "source": {
-                    "id": "Q630866",
-                    "name": "Arby's",
-                    "__indexColor": "#50013c",
-                    "index": 315,
-                    "x": 408.52981271289326,
-                    "y": 763.0617540902196,
-                    "vx": 1.8639475853362126e-18,
-                    "vy": 3.437224356214269e-18
-                },
-                "target": {
-                    "id": "Q7021239",
-                    "name": "Nextdoor",
-                    "__indexColor": "#9c0145",
-                    "index": 324,
-                    "x": 416.0630488830019,
-                    "y": 731.3579524792119,
-                    "vx": 1.8231055205066306e-18,
-                    "vy": 3.4218383798729526e-18
-                },
-                "__indexColor": "#6c01a1",
-                "__controlPoints": null,
-                "index": 34
+                "source": "Q630866",
+                "target": "Q7021239"
             },
             {
                 "label": "location",
-                "source": {
-                    "id": "Q1161297",
-                    "name": "University of Sussex",
-                    "__indexColor": "#440023",
-                    "index": 34,
-                    "x": 788.2115530492391,
-                    "y": 457.42262295860513,
-                    "vx": 3.0747368456202112e-18,
-                    "vy": 2.1468650350920173e-18
-                },
-                "target": {
-                    "id": "Q131491",
-                    "name": "Brighton",
-                    "__indexColor": "#040033",
-                    "index": 50,
-                    "x": 756.6429650295464,
-                    "y": 451.1751719754456,
-                    "vx": 3.0887287565587273e-18,
-                    "vy": 2.0942563509340178e-18
-                },
-                "__indexColor": "#5801a2",
-                "__controlPoints": null,
-                "index": 35
+                "source": "Q1161297",
+                "target": "Q131491"
             },
             {
                 "label": "manufacturer",
-                "source": {
-                    "id": "Q860465",
-                    "name": "Roast beef",
-                    "__indexColor": "#e00168",
-                    "index": 359,
-                    "x": 390.2817582628632,
-                    "y": 790.1477022453013,
-                    "vx": 1.7963143538180396e-18,
-                    "vy": 3.4010973705572327e-18
-                },
-                "target": {
-                    "id": "Q630866",
-                    "name": "Arby's",
-                    "__indexColor": "#50013c",
-                    "index": 315,
-                    "x": 408.52981271289326,
-                    "y": 763.0617540902196,
-                    "vx": 1.8639475853362126e-18,
-                    "vy": 3.437224356214269e-18
-                },
-                "__indexColor": "#4401a3",
-                "__controlPoints": null,
-                "index": 36
+                "source": "Q860465",
+                "target": "Q630866"
             },
             {
                 "label": "headquarters_location",
-                "source": {
-                    "id": "Q2503794",
-                    "name": "Northumbria University",
-                    "__indexColor": "#4400a3",
-                    "index": 162,
-                    "x": 322.371132493055,
-                    "y": -930.9963502377985,
-                    "vx": 9.570155077530501e-19,
-                    "vy": -4.103286809430138e-18
-                },
-                "target": {
-                    "id": "Q1425428",
-                    "name": "Newcastle upon Tyne",
-                    "__indexColor": "#b00044",
-                    "index": 67,
-                    "x": 290.3889965776881,
-                    "y": -933.7048743942436,
-                    "vx": 9.69840374603929e-19,
-                    "vy": -4.134759973986173e-18
-                },
-                "__indexColor": "#3001a4",
-                "__controlPoints": null,
-                "index": 37
+                "source": "Q2503794",
+                "target": "Q1425428"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q146",
-                    "name": "house cat",
-                    "__indexColor": "#38004a",
-                    "index": 73,
-                    "x": 422.0492864422461,
-                    "y": -448.26401241931586,
-                    "vx": 1.2902081699400447e-18,
-                    "vy": -2.1519808102014627e-18
-                },
-                "target": {
-                    "id": "Q512003",
-                    "name": "Creatures",
-                    "__indexColor": "#480116",
-                    "index": 277,
-                    "x": 455.0729039507424,
-                    "y": -426.6654634006363,
-                    "vx": 1.29722846406441e-18,
-                    "vy": -2.1499621328631147e-18
-                },
-                "__indexColor": "#1c01a5",
-                "__controlPoints": null,
-                "index": 38
+                "source": "Q146",
+                "target": "Q512003"
             },
             {
                 "label": "location",
-                "source": {
-                    "id": "Q2503794",
-                    "name": "Northumbria University",
-                    "__indexColor": "#4400a3",
-                    "index": 162,
-                    "x": 322.371132493055,
-                    "y": -930.9963502377985,
-                    "vx": 9.570155077530501e-19,
-                    "vy": -4.103286809430138e-18
-                },
-                "target": {
-                    "id": "Q1425428",
-                    "name": "Newcastle upon Tyne",
-                    "__indexColor": "#b00044",
-                    "index": 67,
-                    "x": 290.3889965776881,
-                    "y": -933.7048743942436,
-                    "vx": 9.69840374603929e-19,
-                    "vy": -4.134759973986173e-18
-                },
-                "__indexColor": "#0801a6",
-                "__controlPoints": null,
-                "index": 39
+                "source": "Q2503794",
+                "target": "Q1425428"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q83360",
-                    "name": "Thumb",
-                    "__indexColor": "#800160",
-                    "index": 351,
-                    "x": 342.09852890661267,
-                    "y": -475.3980116406252,
-                    "vx": 1.3215388282447189e-18,
-                    "vy": -2.1755420437377077e-18
-                },
-                "target": {
-                    "id": "Q83360",
-                    "name": "Thumb",
-                    "__indexColor": "#800160",
-                    "index": 351,
-                    "x": 342.09852890661267,
-                    "y": -475.3980116406252,
-                    "vx": 1.3215388282447189e-18,
-                    "vy": -2.1755420437377077e-18
-                },
-                "__indexColor": "#f401a7",
-                "__controlPoints": null,
-                "index": 40
+                "source": "Q83360",
+                "target": "Q83360"
             },
             {
                 "label": "located_in_the_administrative_territorial_entity",
-                "source": {
-                    "id": "Q2503794",
-                    "name": "Northumbria University",
-                    "__indexColor": "#4400a3",
-                    "index": 162,
-                    "x": 322.371132493055,
-                    "y": -930.9963502377985,
-                    "vx": 9.570155077530501e-19,
-                    "vy": -4.103286809430138e-18
-                },
-                "target": {
-                    "id": "Q1425428",
-                    "name": "Newcastle upon Tyne",
-                    "__indexColor": "#b00044",
-                    "index": 67,
-                    "x": 290.3889965776881,
-                    "y": -933.7048743942436,
-                    "vx": 9.69840374603929e-19,
-                    "vy": -4.134759973986173e-18
-                },
-                "__indexColor": "#e001a8",
-                "__controlPoints": null,
-                "index": 41
+                "source": "Q2503794",
+                "target": "Q1425428"
             },
             {
                 "label": "used_by",
-                "source": {
-                    "id": "Q83360",
-                    "name": "Thumb",
-                    "__indexColor": "#800160",
-                    "index": 351,
-                    "x": 342.09852890661267,
-                    "y": -475.3980116406252,
-                    "vx": 1.3215388282447189e-18,
-                    "vy": -2.1755420437377077e-18
-                },
-                "target": {
-                    "id": "Q4167836",
-                    "name": "Cat",
-                    "__indexColor": "#f000f4",
-                    "index": 243,
-                    "x": 312.0985965657434,
-                    "y": -522.0634480286678,
-                    "vx": 1.2480489964290684e-18,
-                    "vy": -2.2132120772051583e-18
-                },
-                "__indexColor": "#cc01a9",
-                "__controlPoints": null,
-                "index": 42
+                "source": "Q83360",
+                "target": "Q4167836"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q9217",
-                    "name": "Thai",
-                    "__indexColor": "#b40177",
-                    "index": 374,
-                    "x": 562.2954554525754,
-                    "y": -859.8605800582864,
-                    "vx": 2.595155124884096e-18,
-                    "vy": -3.7440610554937845e-18
-                },
-                "target": {
-                    "id": "Q1320143",
-                    "name": "purebred",
-                    "__indexColor": "#f00034",
-                    "index": 51,
-                    "x": 530.5346734511746,
-                    "y": -855.5146105280504,
-                    "vx": 2.5712251399599094e-18,
-                    "vy": -3.939879884389111e-18
-                },
-                "__indexColor": "#b801aa",
-                "__controlPoints": null,
-                "index": 43
+                "source": "Q9217",
+                "target": "Q1320143"
             },
             {
                 "label": "country",
-                "source": {
-                    "id": "Q27261089",
-                    "name": "Semaglutide",
-                    "__indexColor": "#b400b7",
-                    "index": 182,
-                    "x": -1099.9837100997925,
-                    "y": 320.5013465021615,
-                    "vx": -4.695413910788907e-18,
-                    "vy": 1.4354042418789953e-18
-                },
-                "target": {
-                    "id": "Q17",
-                    "name": "Japan",
-                    "__indexColor": "#e4005b",
-                    "index": 90,
-                    "x": -1099.167753966347,
-                    "y": 352.948014252128,
-                    "vx": -4.635567373500825e-18,
-                    "vy": 1.4269790011522521e-18
-                },
-                "__indexColor": "#a401ab",
-                "__controlPoints": null,
-                "index": 44
+                "source": "Q27261089",
+                "target": "Q17"
             },
             {
                 "label": "instance_of",
-                "source": {
-                    "id": "Q9217",
-                    "name": "Thai",
-                    "__indexColor": "#b40177",
-                    "index": 374,
-                    "x": 562.2954554525754,
-                    "y": -859.8605800582864,
-                    "vx": 2.595155124884096e-18,
-                    "vy": -3.7440610554937845e-18
-                },
-                "target": {
-                    "id": "Q1320143",
-                    "name": "purebred",
-                    "__indexColor": "#f00034",
-                    "index": 51,
-                    "x": 530.5346734511746,
-                    "y": -855.5146105280504,
-                    "vx": 2.5712251399599094e-18,
-                    "vy": -3.939879884389111e-18
-                },
-                "__indexColor": "#9001ac",
-                "__controlPoints": null,
-                "index": 45
+                "source": "Q9217",
+                "target": "Q1320143"
             },
             {
                 "label": "owned_by",
-                "source": {
-                    "id": "Q97002749",
-                    "name": "Eric Isselee",
-                    "__indexColor": "#3c017d",
-                    "index": 380,
-                    "x": 1061.9324188445835,
-                    "y": 173.11762051936265,
-                    "vx": 4.224108963136908e-18,
-                    "vy": 6.393023852961351e-19
-                },
-                "target": {
-                    "id": "Q3482689",
-                    "name": "Shutterstock",
-                    "__indexColor": "#9800d2",
-                    "index": 209,
-                    "x": 1077.0261766656597,
-                    "y": 144.9088344818908,
-                    "vx": 4.27152199447842e-18,
-                    "vy": 6.531247893611566e-19
-                },
-                "__indexColor": "#7c01ad",
-                "__controlPoints": null,
-                "index": 46
+                "source": "Q97002749",
+                "target": "Q3482689"
             },
             {
                 "label": "has_effect",
-                "source": {
-                    "id": "Q144",
-                    "name": "Dog",
-                    "__indexColor": "#740047",
-                    "index": 70,
-                    "x": 215.05946821901483,
-                    "y": -568.7278951812743,
-                    "vx": 1.4349130608068153e-18,
-                    "vy": -2.891146983324236e-18
-                },
-                "target": {
-                    "id": "Q83030",
-                    "name": "Dementia",
-                    "__indexColor": "#94015f",
-                    "index": 350,
-                    "x": 226.4730204021095,
-                    "y": -621.7501596674181,
-                    "vx": 1.735722211040912e-18,
-                    "vy": -2.7323535129098776e-18
-                },
-                "__indexColor": "#6801ae",
-                "__controlPoints": null,
-                "index": 47
+                "source": "Q144",
+                "target": "Q83030"
             },
             {
                 "label": "facet_of",
-                "source": {
-                    "id": "Q205835",
-                    "name": "Snoring",
-                    "__indexColor": "#50007c",
-                    "index": 123,
-                    "x": 535.1870678299543,
-                    "y": -757.8431593622477,
-                    "vx": 2.7184530239221785e-18,
-                    "vy": -3.540989164942864e-18
-                },
-                "target": {
-                    "id": "Q35831",
-                    "name": "Sleep",
-                    "__indexColor": "#d000dc",
-                    "index": 219,
-                    "x": 506.55982467475263,
-                    "y": -743.1161329474794,
-                    "vx": 2.7324508486425927e-18,
-                    "vy": -3.535593459816819e-18
-                },
-                "__indexColor": "#5401af",
-                "__controlPoints": null,
-                "index": 48
+                "source": "Q205835",
+                "target": "Q35831"
             },
             {
                 "label": "parent_organization",
-                "source": {
-                    "id": "Q1446181",
-                    "name": "Hunter College",
-                    "__indexColor": "#4c0049",
-                    "index": 72,
-                    "x": -1193.4412420636645,
-                    "y": 48.62425010611581,
-                    "vx": -4.998299322064145e-18,
-                    "vy": 3.298280296555178e-19
-                },
-                "target": {
-                    "id": "Q762266",
-                    "name": "City University of New York",
-                    "__indexColor": "#700154",
-                    "index": 339,
-                    "x": -1196.805204702838,
-                    "y": 80.41276660110893,
-                    "vx": -4.9575300316964635e-18,
-                    "vy": 3.3385744183383887e-19
-                },
-                "__indexColor": "#4001b0",
-                "__controlPoints": null,
-                "index": 49
+                "source": "Q1446181",
+                "target": "Q762266"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q205835",
-                    "name": "Snoring",
-                    "__indexColor": "#50007c",
-                    "index": 123,
-                    "x": 535.1870678299543,
-                    "y": -757.8431593622477,
-                    "vx": 2.7184530239221785e-18,
-                    "vy": -3.540989164942864e-18
-                },
-                "target": {
-                    "id": "Q35831",
-                    "name": "Sleep",
-                    "__indexColor": "#d000dc",
-                    "index": 219,
-                    "x": 506.55982467475263,
-                    "y": -743.1161329474794,
-                    "vx": 2.7324508486425927e-18,
-                    "vy": -3.535593459816819e-18
-                },
-                "__indexColor": "#2c01b1",
-                "__controlPoints": null,
-                "index": 50
+                "source": "Q205835",
+                "target": "Q35831"
             },
             {
                 "label": "country_of_origin",
-                "source": {
-                    "id": "Q27261089",
-                    "name": "Semaglutide",
-                    "__indexColor": "#b400b7",
-                    "index": 182,
-                    "x": -1099.9837100997925,
-                    "y": 320.5013465021615,
-                    "vx": -4.695413910788907e-18,
-                    "vy": 1.4354042418789953e-18
-                },
-                "target": {
-                    "id": "Q17",
-                    "name": "Japan",
-                    "__indexColor": "#e4005b",
-                    "index": 90,
-                    "x": -1099.167753966347,
-                    "y": 352.948014252128,
-                    "vx": -4.635567373500825e-18,
-                    "vy": 1.4269790011522521e-18
-                },
-                "__indexColor": "#1801b2",
-                "__controlPoints": null,
-                "index": 51
+                "source": "Q27261089",
+                "target": "Q17"
             },
             {
                 "label": "located_in_the_administrative_territorial_entity",
-                "source": {
-                    "id": "Q1161297",
-                    "name": "University of Sussex",
-                    "__indexColor": "#440023",
-                    "index": 34,
-                    "x": 788.2115530492391,
-                    "y": 457.42262295860513,
-                    "vx": 3.0747368456202112e-18,
-                    "vy": 2.1468650350920173e-18
-                },
-                "target": {
-                    "id": "Q131491",
-                    "name": "Brighton",
-                    "__indexColor": "#040033",
-                    "index": 50,
-                    "x": 756.6429650295464,
-                    "y": 451.1751719754456,
-                    "vx": 3.0887287565587273e-18,
-                    "vy": 2.0942563509340178e-18
-                },
-                "__indexColor": "#0401b3",
-                "__controlPoints": null,
-                "index": 52
+                "source": "Q1161297",
+                "target": "Q131491"
             },
             {
                 "label": "part_of",
-                "source": {
-                    "id": "Q205835",
-                    "name": "Snoring",
-                    "__indexColor": "#50007c",
-                    "index": 123,
-                    "x": 535.1870678299543,
-                    "y": -757.8431593622477,
-                    "vx": 2.7184530239221785e-18,
-                    "vy": -3.540989164942864e-18
-                },
-                "target": {
-                    "id": "Q35831",
-                    "name": "Sleep",
-                    "__indexColor": "#d000dc",
-                    "index": 219,
-                    "x": 506.55982467475263,
-                    "y": -743.1161329474794,
-                    "vx": 2.7324508486425927e-18,
-                    "vy": -3.535593459816819e-18
-                },
-                "__indexColor": "#f001b4",
-                "__controlPoints": null,
-                "index": 53
+                "source": "Q205835",
+                "target": "Q35831"
             },
             {
                 "label": "facet_of",
-                "source": {
-                    "id": "Q122367466",
-                    "name": "dog caresses sick sheep: shepherd knows that it hopes for sheep's death",
-                    "__indexColor": "#7c002d",
-                    "index": 44,
-                    "x": 203.9741320054283,
-                    "y": -653.5933411217185,
-                    "vx": 1.903014219890384e-18,
-                    "vy": -2.833331948798686e-18
-                },
-                "target": {
-                    "id": "Q83030",
-                    "name": "Dementia",
-                    "__indexColor": "#94015f",
-                    "index": 350,
-                    "x": 226.4730204021095,
-                    "y": -621.7501596674181,
-                    "vx": 1.735722211040912e-18,
-                    "vy": -2.7323535129098776e-18
-                },
-                "__indexColor": "#dc01b5",
-                "__controlPoints": null,
-                "index": 54
+                "source": "Q122367466",
+                "target": "Q83030"
             },
             {
                 "label": "has_effect",
-                "source": {
-                    "id": "Q122367466",
-                    "name": "dog caresses sick sheep: shepherd knows that it hopes for sheep's death",
-                    "__indexColor": "#7c002d",
-                    "index": 44,
-                    "x": 203.9741320054283,
-                    "y": -653.5933411217185,
-                    "vx": 1.903014219890384e-18,
-                    "vy": -2.833331948798686e-18
-                },
-                "target": {
-                    "id": "Q83030",
-                    "name": "Dementia",
-                    "__indexColor": "#94015f",
-                    "index": 350,
-                    "x": 226.4730204021095,
-                    "y": -621.7501596674181,
-                    "vx": 1.735722211040912e-18,
-                    "vy": -2.7323535129098776e-18
-                },
-                "__indexColor": "#c801b6",
-                "__controlPoints": null,
-                "index": 55
+                "source": "Q122367466",
+                "target": "Q83030"
             },
             {
                 "label": "subsidiary",
-                "source": {
-                    "id": "Q762266",
-                    "name": "City University of New York",
-                    "__indexColor": "#700154",
-                    "index": 339,
-                    "x": -1196.805204702838,
-                    "y": 80.41276660110893,
-                    "vx": -4.9575300316964635e-18,
-                    "vy": 3.3385744183383887e-19
-                },
-                "target": {
-                    "id": "Q1446181",
-                    "name": "Hunter College",
-                    "__indexColor": "#4c0049",
-                    "index": 72,
-                    "x": -1193.4412420636645,
-                    "y": 48.62425010611581,
-                    "vx": -4.998299322064145e-18,
-                    "vy": 3.298280296555178e-19
-                },
-                "__indexColor": "#b401b7",
-                "__controlPoints": null,
-                "index": 56
+                "source": "Q762266",
+                "target": "Q1446181"
             },
             {
                 "label": "part_of",
-                "source": {
-                    "id": "Q2558748",
-                    "name": "Rapid Eye Movement",
-                    "__indexColor": "#6800ae",
-                    "index": 173,
-                    "x": 525.4031975128108,
-                    "y": -716.4101651855834,
-                    "vx": 2.6551607050807835e-18,
-                    "vy": -3.5018053957678e-18
-                },
-                "target": {
-                    "id": "Q35831",
-                    "name": "Sleep",
-                    "__indexColor": "#d000dc",
-                    "index": 219,
-                    "x": 506.55982467475263,
-                    "y": -743.1161329474794,
-                    "vx": 2.7324508486425927e-18,
-                    "vy": -3.535593459816819e-18
-                },
-                "__indexColor": "#a001b8",
-                "__controlPoints": null,
-                "index": 57
+                "source": "Q2558748",
+                "target": "Q35831"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q190087",
-                    "name": "data type",
-                    "__indexColor": "#400070",
-                    "index": 111,
-                    "x": -976.8054197537667,
-                    "y": 44.26492028849462,
-                    "vx": -4.7875063399240386e-18,
-                    "vy": 3.002951008044322e-19
-                },
-                "target": {
-                    "id": "Q133500",
-                    "name": "learning",
-                    "__indexColor": "#b40037",
-                    "index": 54,
-                    "x": -982.3083572191408,
-                    "y": 12.699993490778501,
-                    "vx": -4.835581561004267e-18,
-                    "vy": 3.146384413617402e-19
-                },
-                "__indexColor": "#8c01b9",
-                "__controlPoints": null,
-                "index": 58
+                "source": "Q190087",
+                "target": "Q133500"
             },
             {
                 "label": "use",
-                "source": {
-                    "id": "Q144",
-                    "name": "Dog",
-                    "__indexColor": "#740047",
-                    "index": 70,
-                    "x": 215.05946821901483,
-                    "y": -568.7278951812743,
-                    "vx": 1.4349130608068153e-18,
-                    "vy": -2.891146983324236e-18
-                },
-                "target": {
-                    "id": "Q167676",
-                    "name": "Sensor",
-                    "__indexColor": "#f8005a",
-                    "index": 89,
-                    "x": 179.68641600666916,
-                    "y": -578.934022567503,
-                    "vx": 1.395560738890211e-18,
-                    "vy": -2.95919140311515e-18
-                },
-                "__indexColor": "#7801ba",
-                "__controlPoints": null,
-                "index": 59
+                "source": "Q144",
+                "target": "Q167676"
             },
             {
                 "label": "located_in_the_administrative_territorial_entity",
-                "source": {
-                    "id": "Q54557330",
-                    "name": "Tri-County Humane Society",
-                    "__indexColor": "#cc0129",
-                    "index": 296,
-                    "x": 951.7624550922854,
-                    "y": 379.31858032573047,
-                    "vx": 3.753341790619664e-18,
-                    "vy": 1.5699589090690769e-18
-                },
-                "target": {
-                    "id": "Q189153",
-                    "name": "Saint-Cloud",
-                    "__indexColor": "#54006f",
-                    "index": 110,
-                    "x": 953.9690471188645,
-                    "y": 345.1848679388888,
-                    "vx": 3.714349010402033e-18,
-                    "vy": 1.5776783565014944e-18
-                },
-                "__indexColor": "#6401bb",
-                "__controlPoints": null,
-                "index": 60
+                "source": "Q54557330",
+                "target": "Q189153"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q2558748",
-                    "name": "Rapid Eye Movement",
-                    "__indexColor": "#6800ae",
-                    "index": 173,
-                    "x": 525.4031975128108,
-                    "y": -716.4101651855834,
-                    "vx": 2.6551607050807835e-18,
-                    "vy": -3.5018053957678e-18
-                },
-                "target": {
-                    "id": "Q35831",
-                    "name": "Sleep",
-                    "__indexColor": "#d000dc",
-                    "index": 219,
-                    "x": 506.55982467475263,
-                    "y": -743.1161329474794,
-                    "vx": 2.7324508486425927e-18,
-                    "vy": -3.535593459816819e-18
-                },
-                "__indexColor": "#5001bc",
-                "__controlPoints": null,
-                "index": 61
+                "source": "Q2558748",
+                "target": "Q35831"
             },
             {
                 "label": "facet_of",
-                "source": {
-                    "id": "Q485537",
-                    "name": "odor",
-                    "__indexColor": "#4c0109",
-                    "index": 264,
-                    "x": 262.4352509251852,
-                    "y": 576.3011549884149,
-                    "vx": 1.3835435184433277e-18,
-                    "vy": 2.6877393982358057e-18
-                },
-                "target": {
-                    "id": "Q12078",
-                    "name": "cancer",
-                    "__indexColor": "#cc0029",
-                    "index": 40,
-                    "x": 235.4245414550133,
-                    "y": 594.3396985996519,
-                    "vx": 1.4211682269356218e-18,
-                    "vy": 2.737634251932667e-18
-                },
-                "__indexColor": "#3c01bd",
-                "__controlPoints": null,
-                "index": 62
+                "source": "Q485537",
+                "target": "Q12078"
             },
             {
                 "label": "facet_of",
-                "source": {
-                    "id": "Q190087",
-                    "name": "data type",
-                    "__indexColor": "#400070",
-                    "index": 111,
-                    "x": -976.8054197537667,
-                    "y": 44.26492028849462,
-                    "vx": -4.7875063399240386e-18,
-                    "vy": 3.002951008044322e-19
-                },
-                "target": {
-                    "id": "Q133500",
-                    "name": "learning",
-                    "__indexColor": "#b40037",
-                    "index": 54,
-                    "x": -982.3083572191408,
-                    "y": 12.699993490778501,
-                    "vx": -4.835581561004267e-18,
-                    "vy": 3.146384413617402e-19
-                },
-                "__indexColor": "#2801be",
-                "__controlPoints": null,
-                "index": 63
+                "source": "Q190087",
+                "target": "Q133500"
             },
             {
                 "label": "located_in_the_administrative_territorial_entity",
-                "source": {
-                    "id": "Q54557330",
-                    "name": "Tri-County Humane Society",
-                    "__indexColor": "#cc0129",
-                    "index": 296,
-                    "x": 951.7624550922854,
-                    "y": 379.31858032573047,
-                    "vx": 3.753341790619664e-18,
-                    "vy": 1.5699589090690769e-18
-                },
-                "target": {
-                    "id": "Q119216306",
-                    "name": "St Cloud",
-                    "__indexColor": "#080026",
-                    "index": 37,
-                    "x": 954.3969975277732,
-                    "y": 412.40572190476394,
-                    "vx": 3.812800855590388e-18,
-                    "vy": 1.5662623266630341e-18
-                },
-                "__indexColor": "#1401bf",
-                "__controlPoints": null,
-                "index": 64
+                "source": "Q54557330",
+                "target": "Q119216306"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q36348",
-                    "name": "dream",
-                    "__indexColor": "#9400df",
-                    "index": 222,
-                    "x": 553.4932575111361,
-                    "y": -107.96667123688496,
-                    "vx": 2.431322655356137e-18,
-                    "vy": -1.9538794057688118e-19
-                },
-                "target": {
-                    "id": "Q192581",
-                    "name": "job activity",
-                    "__indexColor": "#180072",
-                    "index": 113,
-                    "x": 574.7931535272735,
-                    "y": -132.54620903551663,
-                    "vx": 2.413765306964311e-18,
-                    "vy": -1.7590285275317916e-19
-                },
-                "__indexColor": "#0001c0",
-                "__controlPoints": null,
-                "index": 65
+                "source": "Q36348",
+                "target": "Q192581"
             },
             {
                 "label": "studied_by",
-                "source": {
-                    "id": "Q12078",
-                    "name": "cancer",
-                    "__indexColor": "#cc0029",
-                    "index": 40,
-                    "x": 235.4245414550133,
-                    "y": 594.3396985996519,
-                    "vx": 1.4211682269356218e-18,
-                    "vy": 2.737634251932667e-18
-                },
-                "target": {
-                    "id": "Q19760770",
-                    "name": "early detection of disease",
-                    "__indexColor": "#dc0075",
-                    "index": 116,
-                    "x": 209.85054581087124,
-                    "y": 615.784546403654,
-                    "vx": 1.390938957869361e-18,
-                    "vy": 2.831355397017833e-18
-                },
-                "__indexColor": "#ec01c1",
-                "__controlPoints": null,
-                "index": 66
+                "source": "Q12078",
+                "target": "Q19760770"
             },
             {
                 "label": "headquarters_location",
-                "source": {
-                    "id": "Q54557330",
-                    "name": "Tri-County Humane Society",
-                    "__indexColor": "#cc0129",
-                    "index": 296,
-                    "x": 951.7624550922854,
-                    "y": 379.31858032573047,
-                    "vx": 3.753341790619664e-18,
-                    "vy": 1.5699589090690769e-18
-                },
-                "target": {
-                    "id": "Q189153",
-                    "name": "Saint-Cloud",
-                    "__indexColor": "#54006f",
-                    "index": 110,
-                    "x": 953.9690471188645,
-                    "y": 345.1848679388888,
-                    "vx": 3.714349010402033e-18,
-                    "vy": 1.5776783565014944e-18
-                },
-                "__indexColor": "#d801c2",
-                "__controlPoints": null,
-                "index": 67
+                "source": "Q54557330",
+                "target": "Q189153"
             },
             {
                 "label": "instance_of",
-                "source": {
-                    "id": "Q24776795",
-                    "name": "Fido domain",
-                    "__indexColor": "#94009f",
-                    "index": 158,
-                    "x": 241.4050189089679,
-                    "y": -530.2841032423739,
-                    "vx": 1.4457170920800316e-18,
-                    "vy": -2.9019045945722214e-18
-                },
-                "target": {
-                    "id": "Q4167836",
-                    "name": "Cat",
-                    "__indexColor": "#f000f4",
-                    "index": 243,
-                    "x": 312.0985965657434,
-                    "y": -522.0634480286678,
-                    "vx": 1.2480489964290684e-18,
-                    "vy": -2.2132120772051583e-18
-                },
-                "__indexColor": "#c401c3",
-                "__controlPoints": null,
-                "index": 68
+                "source": "Q24776795",
+                "target": "Q4167836"
             },
             {
                 "label": "studies",
-                "source": {
-                    "id": "Q19760770",
-                    "name": "early detection of disease",
-                    "__indexColor": "#dc0075",
-                    "index": 116,
-                    "x": 209.85054581087124,
-                    "y": 615.784546403654,
-                    "vx": 1.390938957869361e-18,
-                    "vy": 2.831355397017833e-18
-                },
-                "target": {
-                    "id": "Q12078",
-                    "name": "cancer",
-                    "__indexColor": "#cc0029",
-                    "index": 40,
-                    "x": 235.4245414550133,
-                    "y": 594.3396985996519,
-                    "vx": 1.4211682269356218e-18,
-                    "vy": 2.737634251932667e-18
-                },
-                "__indexColor": "#b001c4",
-                "__controlPoints": null,
-                "index": 69
+                "source": "Q19760770",
+                "target": "Q12078"
             },
             {
                 "label": "different_from",
-                "source": {
-                    "id": "Q36348",
-                    "name": "dream",
-                    "__indexColor": "#9400df",
-                    "index": 222,
-                    "x": 553.4932575111361,
-                    "y": -107.96667123688496,
-                    "vx": 2.431322655356137e-18,
-                    "vy": -1.9538794057688118e-19
-                },
-                "target": {
-                    "id": "Q211402",
-                    "name": "Rapid eye movement sleep",
-                    "__indexColor": "#9c0085",
-                    "index": 132,
-                    "x": 521.5619047849109,
-                    "y": -103.21701231542714,
-                    "vx": 2.410902813201869e-18,
-                    "vy": -1.3429988921050885e-19
-                },
-                "__indexColor": "#9c01c5",
-                "__controlPoints": null,
-                "index": 70
+                "source": "Q36348",
+                "target": "Q211402"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q121032563",
-                    "name": "Detect cancer before it starts by finding cell changes",
-                    "__indexColor": "#b8002a",
-                    "index": 41,
-                    "x": 184.53490085287845,
-                    "y": 636.2807849538549,
-                    "vx": 1.4542183724396381e-18,
-                    "vy": 2.8994406199459112e-18
-                },
-                "target": {
-                    "id": "Q19760770",
-                    "name": "early detection of disease",
-                    "__indexColor": "#dc0075",
-                    "index": 116,
-                    "x": 209.85054581087124,
-                    "y": 615.784546403654,
-                    "vx": 1.390938957869361e-18,
-                    "vy": 2.831355397017833e-18
-                },
-                "__indexColor": "#8801c6",
-                "__controlPoints": null,
-                "index": 71
+                "source": "Q121032563",
+                "target": "Q19760770"
             },
             {
                 "label": "instance_of",
-                "source": {
-                    "id": "Q24776795",
-                    "name": "Fido domain",
-                    "__indexColor": "#94009f",
-                    "index": 158,
-                    "x": 241.4050189089679,
-                    "y": -530.2841032423739,
-                    "vx": 1.4457170920800316e-18,
-                    "vy": -2.9019045945722214e-18
-                },
-                "target": {
-                    "id": "Q5",
-                    "name": "human",
-                    "__indexColor": "#ac0111",
-                    "index": 272,
-                    "x": 210.8063387797364,
-                    "y": -509.18123197545094,
-                    "vx": 1.1765634083402088e-18,
-                    "vy": -3.1966344267965396e-18
-                },
-                "__indexColor": "#7401c7",
-                "__controlPoints": null,
-                "index": 72
+                "source": "Q24776795",
+                "target": "Q5"
             },
             {
                 "label": "different_from",
-                "source": {
-                    "id": "Q211402",
-                    "name": "Rapid eye movement sleep",
-                    "__indexColor": "#9c0085",
-                    "index": 132,
-                    "x": 521.5619047849109,
-                    "y": -103.21701231542714,
-                    "vx": 2.410902813201869e-18,
-                    "vy": -1.3429988921050885e-19
-                },
-                "target": {
-                    "id": "Q36348",
-                    "name": "dream",
-                    "__indexColor": "#9400df",
-                    "index": 222,
-                    "x": 553.4932575111361,
-                    "y": -107.96667123688496,
-                    "vx": 2.431322655356137e-18,
-                    "vy": -1.9538794057688118e-19
-                },
-                "__indexColor": "#6001c8",
-                "__controlPoints": null,
-                "index": 73
+                "source": "Q211402",
+                "target": "Q36348"
             },
             {
                 "label": "employer",
-                "source": {
-                    "id": "Q42702746",
-                    "name": "David Leavens",
-                    "__indexColor": "#7800fa",
-                    "index": 249,
-                    "x": 811.6742237964537,
-                    "y": 479.5408603446533,
-                    "vx": 3.0753014979278455e-18,
-                    "vy": 2.1460054481872556e-18
-                },
-                "target": {
-                    "id": "Q1161297",
-                    "name": "University of Sussex",
-                    "__indexColor": "#440023",
-                    "index": 34,
-                    "x": 788.2115530492391,
-                    "y": 457.42262295860513,
-                    "vx": 3.0747368456202112e-18,
-                    "vy": 2.1468650350920173e-18
-                },
-                "__indexColor": "#4c01c9",
-                "__controlPoints": null,
-                "index": 74
+                "source": "Q42702746",
+                "target": "Q1161297"
             },
             {
                 "label": "located_in_the_administrative_territorial_entity",
-                "source": {
-                    "id": "Q106001462",
-                    "name": "MPR News",
-                    "__indexColor": "#e8000e",
-                    "index": 13,
-                    "x": 948.6983909573942,
-                    "y": 312.6838220410114,
-                    "vx": 3.7069363056048295e-18,
-                    "vy": 1.568226161995462e-18
-                },
-                "target": {
-                    "id": "Q189153",
-                    "name": "Saint-Cloud",
-                    "__indexColor": "#54006f",
-                    "index": 110,
-                    "x": 953.9690471188645,
-                    "y": 345.1848679388888,
-                    "vx": 3.714349010402033e-18,
-                    "vy": 1.5776783565014944e-18
-                },
-                "__indexColor": "#3801ca",
-                "__controlPoints": null,
-                "index": 75
+                "source": "Q106001462",
+                "target": "Q189153"
             },
             {
                 "label": "notable_work",
-                "source": {
-                    "id": "Q27881473",
-                    "name": "Vivek Ramaswamy",
-                    "__indexColor": "#5000bc",
-                    "index": 187,
-                    "x": 264.86851342901963,
-                    "y": -584.2254370336736,
-                    "vx": 1.6422502054619469e-18,
-                    "vy": -2.497530789818023e-18
-                },
-                "target": {
-                    "id": "Q4167836",
-                    "name": "Cat",
-                    "__indexColor": "#f000f4",
-                    "index": 243,
-                    "x": 312.0985965657434,
-                    "y": -522.0634480286678,
-                    "vx": 1.2480489964290684e-18,
-                    "vy": -2.2132120772051583e-18
-                },
-                "__indexColor": "#2401cb",
-                "__controlPoints": null,
-                "index": 76
+                "source": "Q27881473",
+                "target": "Q4167836"
             },
             {
                 "label": "sport",
-                "source": {
-                    "id": "Q24776795",
-                    "name": "Fido domain",
-                    "__indexColor": "#94009f",
-                    "index": 158,
-                    "x": 241.4050189089679,
-                    "y": -530.2841032423739,
-                    "vx": 1.4457170920800316e-18,
-                    "vy": -2.9019045945722214e-18
-                },
-                "target": {
-                    "id": "Q3744290",
-                    "name": "instruction fetch",
-                    "__indexColor": "#5800e2",
-                    "index": 225,
-                    "x": 226.60375084284323,
-                    "y": -495.65193623624293,
-                    "vx": 1.0691353281653814e-18,
-                    "vy": -3.0502454031280837e-18
-                },
-                "__indexColor": "#1001cc",
-                "__controlPoints": null,
-                "index": 77
+                "source": "Q24776795",
+                "target": "Q3744290"
             },
             {
                 "label": "educated_at",
-                "source": {
-                    "id": "Q42702746",
-                    "name": "David Leavens",
-                    "__indexColor": "#7800fa",
-                    "index": 249,
-                    "x": 811.6742237964537,
-                    "y": 479.5408603446533,
-                    "vx": 3.0753014979278455e-18,
-                    "vy": 2.1460054481872556e-18
-                },
-                "target": {
-                    "id": "Q1161297",
-                    "name": "University of Sussex",
-                    "__indexColor": "#440023",
-                    "index": 34,
-                    "x": 788.2115530492391,
-                    "y": 457.42262295860513,
-                    "vx": 3.0747368456202112e-18,
-                    "vy": 2.1468650350920173e-18
-                },
-                "__indexColor": "#fc01cd",
-                "__controlPoints": null,
-                "index": 78
+                "source": "Q42702746",
+                "target": "Q1161297"
             },
             {
                 "label": "instance_of",
-                "source": {
-                    "id": "Q12478418",
-                    "name": "Catster",
-                    "__indexColor": "#400030",
-                    "index": 47,
-                    "x": 933.3015536031039,
-                    "y": -279.39569827456137,
-                    "vx": 3.702936867092449e-18,
-                    "vy": -1.4466094761061988e-18
-                },
-                "target": {
-                    "id": "Q35127",
-                    "name": "Website",
-                    "__indexColor": "#5c00d5",
-                    "index": 212,
-                    "x": 950.3318197417769,
-                    "y": -306.79398756304465,
-                    "vx": 3.68181024767554e-18,
-                    "vy": -1.4475292935235486e-18
-                },
-                "__indexColor": "#e801ce",
-                "__controlPoints": null,
-                "index": 79
+                "source": "Q12478418",
+                "target": "Q35127"
             },
             {
                 "label": "significant_event",
-                "source": {
-                    "id": "Q27881473",
-                    "name": "Vivek Ramaswamy",
-                    "__indexColor": "#5000bc",
-                    "index": 187,
-                    "x": 264.86851342901963,
-                    "y": -584.2254370336736,
-                    "vx": 1.6422502054619469e-18,
-                    "vy": -2.497530789818023e-18
-                },
-                "target": {
-                    "id": "Q83030",
-                    "name": "Dementia",
-                    "__indexColor": "#94015f",
-                    "index": 350,
-                    "x": 226.4730204021095,
-                    "y": -621.7501596674181,
-                    "vx": 1.735722211040912e-18,
-                    "vy": -2.7323535129098776e-18
-                },
-                "__indexColor": "#d401cf",
-                "__controlPoints": null,
-                "index": 80
+                "source": "Q27881473",
+                "target": "Q83030"
             },
             {
                 "label": "field_of_work",
-                "source": {
-                    "id": "Q25475054",
-                    "name": "Ádám Miklósi",
-                    "__indexColor": "#9000ac",
-                    "index": 171,
-                    "x": -1047.6160926593373,
-                    "y": 585.3020986505189,
-                    "vx": -4.437205709914166e-18,
-                    "vy": 2.2924377659066948e-18
-                },
-                "target": {
-                    "id": "Q499210",
-                    "name": "Animal cognition",
-                    "__indexColor": "#c00110",
-                    "index": 271,
-                    "x": -1058.5788784128947,
-                    "y": 555.2909416385487,
-                    "vx": -4.4331939685412735e-18,
-                    "vy": 2.2896076502683253e-18
-                },
-                "__indexColor": "#c001d0",
-                "__controlPoints": null,
-                "index": 81
+                "source": "Q25475054",
+                "target": "Q499210"
             },
             {
                 "label": "field_of_work",
-                "source": {
-                    "id": "Q27881473",
-                    "name": "Vivek Ramaswamy",
-                    "__indexColor": "#5000bc",
-                    "index": 187,
-                    "x": 264.86851342901963,
-                    "y": -584.2254370336736,
-                    "vx": 1.6422502054619469e-18,
-                    "vy": -2.497530789818023e-18
-                },
-                "target": {
-                    "id": "Q83030",
-                    "name": "Dementia",
-                    "__indexColor": "#94015f",
-                    "index": 350,
-                    "x": 226.4730204021095,
-                    "y": -621.7501596674181,
-                    "vx": 1.735722211040912e-18,
-                    "vy": -2.7323535129098776e-18
-                },
-                "__indexColor": "#ac01d1",
-                "__controlPoints": null,
-                "index": 82
+                "source": "Q27881473",
+                "target": "Q83030"
             },
             {
                 "label": "instance_of",
-                "source": {
-                    "id": "Q106708832",
-                    "name": "If I fits I sits: A citizen science investigation into illusory contour susceptibility in domestic cats (Felis silvestris catus)",
-                    "__indexColor": "#ac0011",
-                    "index": 16,
-                    "x": 699.356570723228,
-                    "y": -244.78422376205134,
-                    "vx": 2.802446256852442e-18,
-                    "vy": -1.1686000109489442e-18
-                },
-                "target": {
-                    "id": "Q174923",
-                    "name": "optical illusion",
-                    "__indexColor": "#300064",
-                    "index": 99,
-                    "x": 705.1560875232472,
-                    "y": -276.3783056140277,
-                    "vx": 2.837148161452235e-18,
-                    "vy": -1.1686927776141749e-18
-                },
-                "__indexColor": "#9801d2",
-                "__controlPoints": null,
-                "index": 83
+                "source": "Q106708832",
+                "target": "Q174923"
             },
             {
                 "label": "narrative_location",
-                "source": {
-                    "id": "Q113961028",
-                    "name": "Rise of the Rōnin",
-                    "__indexColor": "#800020",
-                    "index": 31,
-                    "x": -48.13942650034455,
-                    "y": -533.3249915789729,
-                    "vx": 4.931347491281732e-20,
-                    "vy": -3.3272255977203004e-18
-                },
-                "target": {
-                    "id": "Q38283",
-                    "name": "Yokohama",
-                    "__indexColor": "#0800e6",
-                    "index": 229,
-                    "x": -81.18621504162375,
-                    "y": -535.0493554955888,
-                    "vx": 3.5162551075095944e-20,
-                    "vy": -3.2929897565871736e-18
-                },
-                "__indexColor": "#8401d3",
-                "__controlPoints": null,
-                "index": 84
+                "source": "Q113961028",
+                "target": "Q38283"
             },
             {
                 "label": "country",
-                "source": {
-                    "id": "Q72",
-                    "name": "Zürich",
-                    "__indexColor": "#38014a",
-                    "index": 329,
-                    "x": -1042.5653705113498,
-                    "y": -363.36628691324415,
-                    "vx": -4.5190561928414926e-18,
-                    "vy": -1.640890701661579e-18
-                },
-                "target": {
-                    "id": "Q39",
-                    "name": "Switzerland",
-                    "__indexColor": "#a400eb",
-                    "index": 234,
-                    "x": -1058.8441715801794,
-                    "y": -335.94697123350943,
-                    "vx": -4.4851345410238434e-18,
-                    "vy": -1.6178421243609792e-18
-                },
-                "__indexColor": "#7001d4",
-                "__controlPoints": null,
-                "index": 85
+                "source": "Q72",
+                "target": "Q39"
             },
             {
                 "label": "facet_of",
-                "source": {
-                    "id": "Q36348",
-                    "name": "dream",
-                    "__indexColor": "#9400df",
-                    "index": 222,
-                    "x": 553.4932575111361,
-                    "y": -107.96667123688496,
-                    "vx": 2.431322655356137e-18,
-                    "vy": -1.9538794057688118e-19
-                },
-                "target": {
-                    "id": "Q7961148",
-                    "name": "Waking",
-                    "__indexColor": "#e4015b",
-                    "index": 346,
-                    "x": 572.8474896526972,
-                    "y": -81.72122896747948,
-                    "vx": 2.459427330135553e-18,
-                    "vy": -2.1046341295956151e-19
-                },
-                "__indexColor": "#5c01d5",
-                "__controlPoints": null,
-                "index": 86
+                "source": "Q36348",
+                "target": "Q7961148"
             },
             {
                 "label": "developer",
-                "source": {
-                    "id": "Q113961028",
-                    "name": "Rise of the Rōnin",
-                    "__indexColor": "#800020",
-                    "index": 31,
-                    "x": -48.13942650034455,
-                    "y": -533.3249915789729,
-                    "vx": 4.931347491281732e-20,
-                    "vy": -3.3272255977203004e-18
-                },
-                "target": {
-                    "id": "Q2740414",
-                    "name": "Team Ninja",
-                    "__indexColor": "#7800ba",
-                    "index": 185,
-                    "x": -69.26136330036097,
-                    "y": -561.5543465701152,
-                    "vx": 8.003785867631209e-21,
-                    "vy": -3.267411822926403e-18
-                },
-                "__indexColor": "#4801d6",
-                "__controlPoints": null,
-                "index": 87
+                "source": "Q113961028",
+                "target": "Q2740414"
             },
             {
                 "label": "country",
-                "source": {
-                    "id": "Q26575",
-                    "name": "Thái Nguyên",
-                    "__indexColor": "#f000b4",
-                    "index": 179,
-                    "x": -103.38272874048621,
-                    "y": 705.4505561821425,
-                    "vx": -6.136953218062125e-19,
-                    "vy": 2.825398318025506e-18
-                },
-                "target": {
-                    "id": "Q881",
-                    "name": "Vietnam",
-                    "__indexColor": "#400170",
-                    "index": 367,
-                    "x": -105.57025389787378,
-                    "y": 669.9678654997168,
-                    "vx": -4.388497801149042e-19,
-                    "vy": 2.808313073841943e-18
-                },
-                "__indexColor": "#3401d7",
-                "__controlPoints": null,
-                "index": 88
+                "source": "Q26575",
+                "target": "Q881"
             },
             {
                 "label": "use",
-                "source": {
-                    "id": "Q2095",
-                    "name": "Food",
-                    "__indexColor": "#ec0081",
-                    "index": 128,
-                    "x": 426.994515365897,
-                    "y": -573.0191141609454,
-                    "vx": 1.428531674878206e-18,
-                    "vy": -2.353345414724917e-18
-                },
-                "target": {
-                    "id": "Q25379",
-                    "name": "play",
-                    "__indexColor": "#b800aa",
-                    "index": 169,
-                    "x": 464.0275183365342,
-                    "y": -583.4210355717632,
-                    "vx": 1.4847285906838191e-18,
-                    "vy": -2.428388281616197e-18
-                },
-                "__indexColor": "#2001d8",
-                "__controlPoints": null,
-                "index": 89
+                "source": "Q2095",
+                "target": "Q25379"
             },
             {
                 "label": "publisher",
-                "source": {
-                    "id": "Q113961028",
-                    "name": "Rise of the Rōnin",
-                    "__indexColor": "#800020",
-                    "index": 31,
-                    "x": -48.13942650034455,
-                    "y": -533.3249915789729,
-                    "vx": 4.931347491281732e-20,
-                    "vy": -3.3272255977203004e-18
-                },
-                "target": {
-                    "id": "Q2740414",
-                    "name": "Team Ninja",
-                    "__indexColor": "#7800ba",
-                    "index": 185,
-                    "x": -69.26136330036097,
-                    "y": -561.5543465701152,
-                    "vx": 8.003785867631209e-21,
-                    "vy": -3.267411822926403e-18
-                },
-                "__indexColor": "#0c01d9",
-                "__controlPoints": null,
-                "index": 90
+                "source": "Q113961028",
+                "target": "Q2740414"
             },
             {
                 "label": "field_of_work",
-                "source": {
-                    "id": "Q85951363",
-                    "name": "Elizabeth Renner",
-                    "__indexColor": "#080166",
-                    "index": 357,
-                    "x": -455.4060919254936,
-                    "y": 1095.0911968787955,
-                    "vx": -1.6382566506183386e-18,
-                    "vy": 4.782175408281303e-18
-                },
-                "target": {
-                    "id": "Q10861331",
-                    "name": "zoopsychology",
-                    "__indexColor": "#700014",
-                    "index": 19,
-                    "x": -428.27327517348186,
-                    "y": 1112.1755431776528,
-                    "vx": -1.637288252604331e-18,
-                    "vy": 4.78046580084056e-18
-                },
-                "__indexColor": "#f801da",
-                "__controlPoints": null,
-                "index": 91
+                "source": "Q85951363",
+                "target": "Q10861331"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q388162",
-                    "name": "Flea",
-                    "__indexColor": "#cc00e9",
-                    "index": 232,
-                    "x": -265.8122038119365,
-                    "y": -810.4466723375135,
-                    "vx": -1.3003394388028048e-18,
-                    "vy": -4.344366659734056e-18
-                },
-                "target": {
-                    "id": "Q12140",
-                    "name": "Medication",
-                    "__indexColor": "#a4002b",
-                    "index": 42,
-                    "x": -263.26589381448076,
-                    "y": -778.7251440827137,
-                    "vx": -1.336309023408159e-18,
-                    "vy": -4.340657306403681e-18
-                },
-                "__indexColor": "#e401db",
-                "__controlPoints": null,
-                "index": 92
+                "source": "Q388162",
+                "target": "Q12140"
             },
             {
                 "label": "instance_of",
-                "source": {
-                    "id": "Q173626",
-                    "name": "Pac-Man",
-                    "__indexColor": "#6c0061",
-                    "index": 96,
-                    "x": 453.5359758194337,
-                    "y": -1153.9498472399753,
-                    "vx": 1.923062329783196e-18,
-                    "vy": -4.922750066869081e-18
-                },
-                "target": {
-                    "id": "Q35687320",
-                    "name": "Visual Puzzles, Figure Weights, and Cancellation: Some Preliminary Hypotheses on the Functional and Neural Substrates of These Three New WAIS-IV Subtests",
-                    "__indexColor": "#f800da",
-                    "index": 217,
-                    "x": 483.4504970792763,
-                    "y": -1142.1083052969436,
-                    "vx": 1.9044244995769557e-18,
-                    "vy": -4.891055128585991e-18
-                },
-                "__indexColor": "#d001dc",
-                "__controlPoints": null,
-                "index": 93
+                "source": "Q173626",
+                "target": "Q35687320"
             },
             {
                 "label": "located_in_the_administrative_territorial_entity",
-                "source": {
-                    "id": "Q54557330",
-                    "name": "Tri-County Humane Society",
-                    "__indexColor": "#cc0129",
-                    "index": 296,
-                    "x": 951.7624550922854,
-                    "y": 379.31858032573047,
-                    "vx": 3.753341790619664e-18,
-                    "vy": 1.5699589090690769e-18
-                },
-                "target": {
-                    "id": "Q20996030",
-                    "name": "Crosby",
-                    "__indexColor": "#c40083",
-                    "index": 130,
-                    "x": 919.552656119736,
-                    "y": 385.2180809958492,
-                    "vx": 3.779449528287226e-18,
-                    "vy": 1.7449632281672134e-18
-                },
-                "__indexColor": "#bc01dd",
-                "__controlPoints": null,
-                "index": 94
+                "source": "Q54557330",
+                "target": "Q20996030"
             },
             {
                 "label": "has_effect",
-                "source": {
-                    "id": "Q100431127",
-                    "name": "SARS-CoV-2 coronavirus in water and wastewater: A critical review about presence and concern",
-                    "__indexColor": "#d80002",
-                    "index": 1,
-                    "x": -175.19787372259643,
-                    "y": -1042.4638103114412,
-                    "vx": -1.023594718567568e-18,
-                    "vy": -4.483642943823222e-18
-                },
-                "target": {
-                    "id": "Q88058672",
-                    "name": "COVID-19 disease in pregnancy",
-                    "__indexColor": "#54016f",
-                    "index": 366,
-                    "x": -143.31105462175162,
-                    "y": -1044.8862833135329,
-                    "vx": -1.0237963232049425e-18,
-                    "vy": -4.464554595513433e-18
-                },
-                "__indexColor": "#a801de",
-                "__controlPoints": null,
-                "index": 95
+                "source": "Q100431127",
+                "target": "Q88058672"
             },
             {
                 "label": "employer",
-                "source": {
-                    "id": "Q1657681",
-                    "name": "Michel Jouvet",
-                    "__indexColor": "#200058",
-                    "index": 87,
-                    "x": 803.2270962902338,
-                    "y": -171.42750591726946,
-                    "vx": 3.234549889586704e-18,
-                    "vy": -5.357801409896402e-19
-                },
-                "target": {
-                    "id": "Q4032",
-                    "name": "Claude Bernard University Lyon 1",
-                    "__indexColor": "#5400ef",
-                    "index": 238,
-                    "x": 807.1101355467185,
-                    "y": -203.3852267470187,
-                    "vx": 3.241432824974291e-18,
-                    "vy": -5.235458461432843e-19
-                },
-                "__indexColor": "#9401df",
-                "__controlPoints": null,
-                "index": 96
+                "source": "Q1657681",
+                "target": "Q4032"
             },
             {
                 "label": "genre",
-                "source": {
-                    "id": "Q113961028",
-                    "name": "Rise of the Rōnin",
-                    "__indexColor": "#800020",
-                    "index": 31,
-                    "x": -48.13942650034455,
-                    "y": -533.3249915789729,
-                    "vx": 4.931347491281732e-20,
-                    "vy": -3.3272255977203004e-18
-                },
-                "target": {
-                    "id": "Q343568",
-                    "name": "Action-adventure game",
-                    "__indexColor": "#d400cf",
-                    "index": 206,
-                    "x": -46.05335848818867,
-                    "y": -567.6479039926267,
-                    "vx": 4.638271692608044e-20,
-                    "vy": -3.3085862304274123e-18
-                },
-                "__indexColor": "#8001e0",
-                "__controlPoints": null,
-                "index": 97
+                "source": "Q113961028",
+                "target": "Q343568"
             },
             {
                 "label": "has_part",
-                "source": {
-                    "id": "Q622664",
-                    "name": "University of California",
-                    "__indexColor": "#64013b",
-                    "index": 314,
-                    "x": 445.86565766328494,
-                    "y": -1010.9900037765946,
-                    "vx": 1.7448576831960523e-18,
-                    "vy": -4.369915793896635e-18
-                },
-                "target": {
-                    "id": "Q129421",
-                    "name": "University of California, Davis",
-                    "__indexColor": "#180032",
-                    "index": 49,
-                    "x": 418.8886589032742,
-                    "y": -1029.4956486036012,
-                    "vx": 1.7166204430265443e-18,
-                    "vy": -4.348917683218349e-18
-                },
-                "__indexColor": "#6c01e1",
-                "__controlPoints": null,
-                "index": 98
+                "source": "Q622664",
+                "target": "Q129421"
             },
             {
                 "label": "has_cause",
-                "source": {
-                    "id": "Q88058672",
-                    "name": "COVID-19 disease in pregnancy",
-                    "__indexColor": "#54016f",
-                    "index": 366,
-                    "x": -143.31105462175162,
-                    "y": -1044.8862833135329,
-                    "vx": -1.0237963232049425e-18,
-                    "vy": -4.464554595513433e-18
-                },
-                "target": {
-                    "id": "Q100431127",
-                    "name": "SARS-CoV-2 coronavirus in water and wastewater: A critical review about presence and concern",
-                    "__indexColor": "#d80002",
-                    "index": 1,
-                    "x": -175.19787372259643,
-                    "y": -1042.4638103114412,
-                    "vx": -1.023594718567568e-18,
-                    "vy": -4.483642943823222e-18
-                },
-                "__indexColor": "#5801e2",
-                "__controlPoints": null,
-                "index": 99
+                "source": "Q88058672",
+                "target": "Q100431127"
             },
             {
                 "label": "drug_used_for_treatment",
-                "source": {
-                    "id": "Q388162",
-                    "name": "Flea",
-                    "__indexColor": "#cc00e9",
-                    "index": 232,
-                    "x": -265.8122038119365,
-                    "y": -810.4466723375135,
-                    "vx": -1.3003394388028048e-18,
-                    "vy": -4.344366659734056e-18
-                },
-                "target": {
-                    "id": "Q12140",
-                    "name": "Medication",
-                    "__indexColor": "#a4002b",
-                    "index": 42,
-                    "x": -263.26589381448076,
-                    "y": -778.7251440827137,
-                    "vx": -1.336309023408159e-18,
-                    "vy": -4.340657306403681e-18
-                },
-                "__indexColor": "#4401e3",
-                "__controlPoints": null,
-                "index": 100
+                "source": "Q388162",
+                "target": "Q12140"
             },
             {
                 "label": "educated_at",
-                "source": {
-                    "id": "Q1657681",
-                    "name": "Michel Jouvet",
-                    "__indexColor": "#200058",
-                    "index": 87,
-                    "x": 803.2270962902338,
-                    "y": -171.42750591726946,
-                    "vx": 3.234549889586704e-18,
-                    "vy": -5.357801409896402e-19
-                },
-                "target": {
-                    "id": "Q4032",
-                    "name": "Claude Bernard University Lyon 1",
-                    "__indexColor": "#5400ef",
-                    "index": 238,
-                    "x": 807.1101355467185,
-                    "y": -203.3852267470187,
-                    "vx": 3.241432824974291e-18,
-                    "vy": -5.235458461432843e-19
-                },
-                "__indexColor": "#3001e4",
-                "__controlPoints": null,
-                "index": 101
+                "source": "Q1657681",
+                "target": "Q4032"
             },
             {
                 "label": "part_of",
-                "source": {
-                    "id": "Q129421",
-                    "name": "University of California, Davis",
-                    "__indexColor": "#180032",
-                    "index": 49,
-                    "x": 418.8886589032742,
-                    "y": -1029.4956486036012,
-                    "vx": 1.7166204430265443e-18,
-                    "vy": -4.348917683218349e-18
-                },
-                "target": {
-                    "id": "Q622664",
-                    "name": "University of California",
-                    "__indexColor": "#64013b",
-                    "index": 314,
-                    "x": 445.86565766328494,
-                    "y": -1010.9900037765946,
-                    "vx": 1.7448576831960523e-18,
-                    "vy": -4.369915793896635e-18
-                },
-                "__indexColor": "#1c01e5",
-                "__controlPoints": null,
-                "index": 102
+                "source": "Q129421",
+                "target": "Q622664"
             },
             {
                 "label": "located_in_the_administrative_territorial_entity",
-                "source": {
-                    "id": "Q5085831",
-                    "name": "Charlotte Area Transit System",
-                    "__indexColor": "#700114",
-                    "index": 275,
-                    "x": 918.2987621985056,
-                    "y": 47.8888307003083,
-                    "vx": 3.4540267047153965e-18,
-                    "vy": 1.4846855579362264e-19
-                },
-                "target": {
-                    "id": "Q16565",
-                    "name": "Charlotte, North Carolina",
-                    "__indexColor": "#480056",
-                    "index": 85,
-                    "x": 909.8355276402859,
-                    "y": 79.7140780564557,
-                    "vx": 3.509561323877975e-18,
-                    "vy": 1.5436448266010634e-19
-                },
-                "__indexColor": "#0801e6",
-                "__controlPoints": null,
-                "index": 103
+                "source": "Q5085831",
+                "target": "Q16565"
             },
             {
                 "label": "has_cause",
-                "source": {
-                    "id": "Q84263196",
-                    "name": "COVID-19",
-                    "__indexColor": "#300164",
-                    "index": 355,
-                    "x": -207.32719381275933,
-                    "y": -1040.206212426451,
-                    "vx": -1.0333168268882753e-18,
-                    "vy": -4.50421007712248e-18
-                },
-                "target": {
-                    "id": "Q100431127",
-                    "name": "SARS-CoV-2 coronavirus in water and wastewater: A critical review about presence and concern",
-                    "__indexColor": "#d80002",
-                    "index": 1,
-                    "x": -175.19787372259643,
-                    "y": -1042.4638103114412,
-                    "vx": -1.023594718567568e-18,
-                    "vy": -4.483642943823222e-18
-                },
-                "__indexColor": "#f401e7",
-                "__controlPoints": null,
-                "index": 104
+                "source": "Q84263196",
+                "target": "Q100431127"
             },
             {
                 "label": "country",
-                "source": {
-                    "id": "Q4032",
-                    "name": "Claude Bernard University Lyon 1",
-                    "__indexColor": "#5400ef",
-                    "index": 238,
-                    "x": 807.1101355467185,
-                    "y": -203.3852267470187,
-                    "vx": 3.241432824974291e-18,
-                    "vy": -5.235458461432843e-19
-                },
-                "target": {
-                    "id": "Q142",
-                    "name": "France",
-                    "__indexColor": "#d80042",
-                    "index": 65,
-                    "x": 809.0783723893554,
-                    "y": -235.82662344215632,
-                    "vx": 3.2395397292943278e-18,
-                    "vy": -5.20338933353502e-19
-                },
-                "__indexColor": "#e001e8",
-                "__controlPoints": null,
-                "index": 105
+                "source": "Q4032",
+                "target": "Q142"
             },
             {
                 "label": "part_of",
-                "source": {
-                    "id": "Q484645",
-                    "name": "Anal gland",
-                    "__indexColor": "#600108",
-                    "index": 263,
-                    "x": 304.80586930994315,
-                    "y": -554.7359249661815,
-                    "vx": 1.1698217564718512e-18,
-                    "vy": -2.196890712702953e-18
-                },
-                "target": {
-                    "id": "Q4167836",
-                    "name": "Cat",
-                    "__indexColor": "#f000f4",
-                    "index": 243,
-                    "x": 312.0985965657434,
-                    "y": -522.0634480286678,
-                    "vx": 1.2480489964290684e-18,
-                    "vy": -2.2132120772051583e-18
-                },
-                "__indexColor": "#cc01e9",
-                "__controlPoints": null,
-                "index": 106
+                "source": "Q484645",
+                "target": "Q4167836"
             },
             {
                 "label": "facet_of",
-                "source": {
-                    "id": "Q271716",
-                    "name": "Personality psychology",
-                    "__indexColor": "#c800b6",
-                    "index": 181,
-                    "x": 364.20556887081574,
-                    "y": -520.4303711815347,
-                    "vx": 1.3559796994467327e-18,
-                    "vy": -2.1609320808538216e-18
-                },
-                "target": {
-                    "id": "Q4167836",
-                    "name": "Cat",
-                    "__indexColor": "#f000f4",
-                    "index": 243,
-                    "x": 312.0985965657434,
-                    "y": -522.0634480286678,
-                    "vx": 1.2480489964290684e-18,
-                    "vy": -2.2132120772051583e-18
-                },
-                "__indexColor": "#b801ea",
-                "__controlPoints": null,
-                "index": 107
+                "source": "Q271716",
+                "target": "Q4167836"
             },
             {
                 "label": "headquarters_location",
-                "source": {
-                    "id": "Q5085831",
-                    "name": "Charlotte Area Transit System",
-                    "__indexColor": "#700114",
-                    "index": 275,
-                    "x": 918.2987621985056,
-                    "y": 47.8888307003083,
-                    "vx": 3.4540267047153965e-18,
-                    "vy": 1.4846855579362264e-19
-                },
-                "target": {
-                    "id": "Q16565",
-                    "name": "Charlotte, North Carolina",
-                    "__indexColor": "#480056",
-                    "index": 85,
-                    "x": 909.8355276402859,
-                    "y": 79.7140780564557,
-                    "vx": 3.509561323877975e-18,
-                    "vy": 1.5436448266010634e-19
-                },
-                "__indexColor": "#a401eb",
-                "__controlPoints": null,
-                "index": 108
+                "source": "Q5085831",
+                "target": "Q16565"
             },
             {
                 "label": "followed_by",
-                "source": {
-                    "id": "Q804558",
-                    "name": "Bakumatsu",
-                    "__indexColor": "#d0015c",
-                    "index": 347,
-                    "x": -1118.7271104366512,
-                    "y": -539.0234946994112,
-                    "vx": -4.466814560305306e-18,
-                    "vy": -2.4873352741530554e-18
-                },
-                "target": {
-                    "id": "Q205662",
-                    "name": "Tokugawa shogunate",
-                    "__indexColor": "#64007b",
-                    "index": 122,
-                    "x": -1104.001872728231,
-                    "y": -567.6432102640606,
-                    "vx": -4.484977977197932e-18,
-                    "vy": -2.4855370624647013e-18
-                },
-                "__indexColor": "#9001ec",
-                "__controlPoints": null,
-                "index": 109
+                "source": "Q804558",
+                "target": "Q205662"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q24776795",
-                    "name": "Fido domain",
-                    "__indexColor": "#94009f",
-                    "index": 158,
-                    "x": 241.4050189089679,
-                    "y": -530.2841032423739,
-                    "vx": 1.4457170920800316e-18,
-                    "vy": -2.9019045945722214e-18
-                },
-                "target": {
-                    "id": "Q144",
-                    "name": "Dog",
-                    "__indexColor": "#740047",
-                    "index": 70,
-                    "x": 215.05946821901483,
-                    "y": -568.7278951812743,
-                    "vx": 1.4349130608068153e-18,
-                    "vy": -2.891146983324236e-18
-                },
-                "__indexColor": "#7c01ed",
-                "__controlPoints": null,
-                "index": 110
+                "source": "Q24776795",
+                "target": "Q144"
             },
             {
                 "label": "instance_of",
-                "source": {
-                    "id": "Q101497",
-                    "name": "Aldehyde",
-                    "__indexColor": "#c40003",
-                    "index": 2,
-                    "x": -515.767027308935,
-                    "y": -818.5027253687439,
-                    "vx": -2.4785230194650653e-18,
-                    "vy": -3.850722440157378e-18
-                },
-                "target": {
-                    "id": "Q174211",
-                    "name": "Organic compound",
-                    "__indexColor": "#440063",
-                    "index": 98,
-                    "x": -495.1464723629831,
-                    "y": -786.5037786225464,
-                    "vx": -2.389951975448127e-18,
-                    "vy": -3.827606683003902e-18
-                },
-                "__indexColor": "#6801ee",
-                "__controlPoints": null,
-                "index": 111
+                "source": "Q101497",
+                "target": "Q174211"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q2459901",
-                    "name": "compound feed",
-                    "__indexColor": "#e4009b",
-                    "index": 154,
-                    "x": 214.9360619368958,
-                    "y": -1082.3532628603261,
-                    "vx": 6.768684060523093e-19,
-                    "vy": -4.630707941027e-18
-                },
-                "target": {
-                    "id": "Q115959335",
-                    "name": "cat litter",
-                    "__indexColor": "#580022",
-                    "index": 33,
-                    "x": 196.35162975513302,
-                    "y": -1056.1962461366356,
-                    "vx": 7.415908767840855e-19,
-                    "vy": -4.582225269328021e-18
-                },
-                "__indexColor": "#5401ef",
-                "__controlPoints": null,
-                "index": 112
+                "source": "Q2459901",
+                "target": "Q115959335"
             },
             {
                 "label": "operating_area",
-                "source": {
-                    "id": "Q5085831",
-                    "name": "Charlotte Area Transit System",
-                    "__indexColor": "#700114",
-                    "index": 275,
-                    "x": 918.2987621985056,
-                    "y": 47.8888307003083,
-                    "vx": 3.4540267047153965e-18,
-                    "vy": 1.4846855579362264e-19
-                },
-                "target": {
-                    "id": "Q16565",
-                    "name": "Charlotte, North Carolina",
-                    "__indexColor": "#480056",
-                    "index": 85,
-                    "x": 909.8355276402859,
-                    "y": 79.7140780564557,
-                    "vx": 3.509561323877975e-18,
-                    "vy": 1.5436448266010634e-19
-                },
-                "__indexColor": "#4001f0",
-                "__controlPoints": null,
-                "index": 113
+                "source": "Q5085831",
+                "target": "Q16565"
             },
             {
                 "label": "country",
-                "source": {
-                    "id": "Q8684",
-                    "name": "Seoul",
-                    "__indexColor": "#68016e",
-                    "index": 365,
-                    "x": -201.99633897152722,
-                    "y": 655.9928046058351,
-                    "vx": -3.4717697436528203e-19,
-                    "vy": 3.3668538953006646e-18
-                },
-                "target": {
-                    "id": "Q884",
-                    "name": "South Korea",
-                    "__indexColor": "#2c0171",
-                    "index": 368,
-                    "x": -166.07682428996984,
-                    "y": 659.2152320424264,
-                    "vx": -3.705082173828148e-19,
-                    "vy": 3.184648563483821e-18
-                },
-                "__indexColor": "#2c01f1",
-                "__controlPoints": null,
-                "index": 114
+                "source": "Q8684",
+                "target": "Q884"
             },
             {
                 "label": "follows",
-                "source": {
-                    "id": "Q205662",
-                    "name": "Tokugawa shogunate",
-                    "__indexColor": "#64007b",
-                    "index": 122,
-                    "x": -1104.001872728231,
-                    "y": -567.6432102640606,
-                    "vx": -4.484977977197932e-18,
-                    "vy": -2.4855370624647013e-18
-                },
-                "target": {
-                    "id": "Q804558",
-                    "name": "Bakumatsu",
-                    "__indexColor": "#d0015c",
-                    "index": 347,
-                    "x": -1118.7271104366512,
-                    "y": -539.0234946994112,
-                    "vx": -4.466814560305306e-18,
-                    "vy": -2.4873352741530554e-18
-                },
-                "__indexColor": "#1801f2",
-                "__controlPoints": null,
-                "index": 115
+                "source": "Q205662",
+                "target": "Q804558"
             },
             {
                 "label": "instance_of",
-                "source": {
-                    "id": "Q24776795",
-                    "name": "Fido domain",
-                    "__indexColor": "#94009f",
-                    "index": 158,
-                    "x": 241.4050189089679,
-                    "y": -530.2841032423739,
-                    "vx": 1.4457170920800316e-18,
-                    "vy": -2.9019045945722214e-18
-                },
-                "target": {
-                    "id": "Q144",
-                    "name": "Dog",
-                    "__indexColor": "#740047",
-                    "index": 70,
-                    "x": 215.05946821901483,
-                    "y": -568.7278951812743,
-                    "vx": 1.4349130608068153e-18,
-                    "vy": -2.891146983324236e-18
-                },
-                "__indexColor": "#0401f3",
-                "__controlPoints": null,
-                "index": 116
+                "source": "Q24776795",
+                "target": "Q144"
             },
             {
                 "label": "country_of_origin",
-                "source": {
-                    "id": "Q18226",
-                    "name": "cat meat",
-                    "__indexColor": "#cc0069",
-                    "index": 104,
-                    "x": -75.45595893600019,
-                    "y": 689.854839318673,
-                    "vx": -4.840976382445841e-19,
-                    "vy": 2.7738944766437444e-18
-                },
-                "target": {
-                    "id": "Q881",
-                    "name": "Vietnam",
-                    "__indexColor": "#400170",
-                    "index": 367,
-                    "x": -105.57025389787378,
-                    "y": 669.9678654997168,
-                    "vx": -4.388497801149042e-19,
-                    "vy": 2.808313073841943e-18
-                },
-                "__indexColor": "#f001f4",
-                "__controlPoints": null,
-                "index": 117
+                "source": "Q18226",
+                "target": "Q881"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q153",
-                    "name": "ethanol",
-                    "__indexColor": "#c00050",
-                    "index": 79,
-                    "x": -470.7025121688372,
-                    "y": -804.6746337584615,
-                    "vx": -2.3625385625083787e-18,
-                    "vy": -3.843305342294217e-18
-                },
-                "target": {
-                    "id": "Q174211",
-                    "name": "Organic compound",
-                    "__indexColor": "#440063",
-                    "index": 98,
-                    "x": -495.1464723629831,
-                    "y": -786.5037786225464,
-                    "vx": -2.389951975448127e-18,
-                    "vy": -3.827606683003902e-18
-                },
-                "__indexColor": "#dc01f5",
-                "__controlPoints": null,
-                "index": 118
+                "source": "Q153",
+                "target": "Q174211"
             },
             {
                 "label": "contains_administrative_territorial_entity",
-                "source": {
-                    "id": "Q884",
-                    "name": "South Korea",
-                    "__indexColor": "#2c0171",
-                    "index": 368,
-                    "x": -166.07682428996984,
-                    "y": 659.2152320424264,
-                    "vx": -3.705082173828148e-19,
-                    "vy": 3.184648563483821e-18
-                },
-                "target": {
-                    "id": "Q8684",
-                    "name": "Seoul",
-                    "__indexColor": "#68016e",
-                    "index": 365,
-                    "x": -201.99633897152722,
-                    "y": 655.9928046058351,
-                    "vx": -3.4717697436528203e-19,
-                    "vy": 3.3668538953006646e-18
-                },
-                "__indexColor": "#c801f6",
-                "__controlPoints": null,
-                "index": 119
+                "source": "Q884",
+                "target": "Q8684"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q271716",
-                    "name": "Personality psychology",
-                    "__indexColor": "#c800b6",
-                    "index": 181,
-                    "x": 364.20556887081574,
-                    "y": -520.4303711815347,
-                    "vx": 1.3559796994467327e-18,
-                    "vy": -2.1609320808538216e-18
-                },
-                "target": {
-                    "id": "Q795052",
-                    "name": "Individual",
-                    "__indexColor": "#f8015a",
-                    "index": 345,
-                    "x": 404.69415217032764,
-                    "y": -517.4142993265906,
-                    "vx": 1.4082898805347787e-18,
-                    "vy": -2.17403644684567e-18
-                },
-                "__indexColor": "#b401f7",
-                "__controlPoints": null,
-                "index": 120
+                "source": "Q271716",
+                "target": "Q795052"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q3071471",
-                    "name": "Fido Solutions",
-                    "__indexColor": "#c400c3",
-                    "index": 194,
-                    "x": 191.1774695770512,
-                    "y": -595.9858455268452,
-                    "vx": 1.348304522822673e-18,
-                    "vy": -2.957315322189588e-18
-                },
-                "target": {
-                    "id": "Q144",
-                    "name": "Dog",
-                    "__indexColor": "#740047",
-                    "index": 70,
-                    "x": 215.05946821901483,
-                    "y": -568.7278951812743,
-                    "vx": 1.4349130608068153e-18,
-                    "vy": -2.891146983324236e-18
-                },
-                "__indexColor": "#a001f8",
-                "__controlPoints": null,
-                "index": 121
+                "source": "Q3071471",
+                "target": "Q144"
             },
             {
                 "label": "located_in_the_administrative_territorial_entity",
-                "source": {
-                    "id": "Q7567568",
-                    "name": "South Jersey",
-                    "__indexColor": "#980152",
-                    "index": 337,
-                    "x": -189.92510744617266,
-                    "y": -1220.2706270546855,
-                    "vx": -1.070411535996457e-18,
-                    "vy": -4.780415423235518e-18
-                },
-                "target": {
-                    "id": "Q7567568",
-                    "name": "South Jersey",
-                    "__indexColor": "#980152",
-                    "index": 337,
-                    "x": -189.92510744617266,
-                    "y": -1220.2706270546855,
-                    "vx": -1.070411535996457e-18,
-                    "vy": -4.780415423235518e-18
-                },
-                "__indexColor": "#8c01f9",
-                "__controlPoints": null,
-                "index": 122
+                "source": "Q7567568",
+                "target": "Q7567568"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q732413",
-                    "name": "Ester",
-                    "__indexColor": "#fc014d",
-                    "index": 332,
-                    "x": -466.60101161683383,
-                    "y": -816.9191436057604,
-                    "vx": -2.409007548807069e-18,
-                    "vy": -3.8530289459356705e-18
-                },
-                "target": {
-                    "id": "Q174211",
-                    "name": "Organic compound",
-                    "__indexColor": "#440063",
-                    "index": 98,
-                    "x": -495.1464723629831,
-                    "y": -786.5037786225464,
-                    "vx": -2.389951975448127e-18,
-                    "vy": -3.827606683003902e-18
-                },
-                "__indexColor": "#7801fa",
-                "__controlPoints": null,
-                "index": 123
+                "source": "Q732413",
+                "target": "Q174211"
             },
             {
                 "label": "replaced_by",
-                "source": {
-                    "id": "Q804558",
-                    "name": "Bakumatsu",
-                    "__indexColor": "#d0015c",
-                    "index": 347,
-                    "x": -1118.7271104366512,
-                    "y": -539.0234946994112,
-                    "vx": -4.466814560305306e-18,
-                    "vy": -2.4873352741530554e-18
-                },
-                "target": {
-                    "id": "Q205662",
-                    "name": "Tokugawa shogunate",
-                    "__indexColor": "#64007b",
-                    "index": 122,
-                    "x": -1104.001872728231,
-                    "y": -567.6432102640606,
-                    "vx": -4.484977977197932e-18,
-                    "vy": -2.4855370624647013e-18
-                },
-                "__indexColor": "#6401fb",
-                "__controlPoints": null,
-                "index": 124
+                "source": "Q804558",
+                "target": "Q205662"
             },
             {
                 "label": "contains_administrative_territorial_entity",
-                "source": {
-                    "id": "Q7567568",
-                    "name": "South Jersey",
-                    "__indexColor": "#980152",
-                    "index": 337,
-                    "x": -189.92510744617266,
-                    "y": -1220.2706270546855,
-                    "vx": -1.070411535996457e-18,
-                    "vy": -4.780415423235518e-18
-                },
-                "target": {
-                    "id": "Q7567568",
-                    "name": "South Jersey",
-                    "__indexColor": "#980152",
-                    "index": 337,
-                    "x": -189.92510744617266,
-                    "y": -1220.2706270546855,
-                    "vx": -1.070411535996457e-18,
-                    "vy": -4.780415423235518e-18
-                },
-                "__indexColor": "#5001fc",
-                "__controlPoints": null,
-                "index": 125
+                "source": "Q7567568",
+                "target": "Q7567568"
             },
             {
                 "label": "inception",
-                "source": {
-                    "id": "Q884",
-                    "name": "South Korea",
-                    "__indexColor": "#2c0171",
-                    "index": 368,
-                    "x": -166.07682428996984,
-                    "y": 659.2152320424264,
-                    "vx": -3.705082173828148e-19,
-                    "vy": 3.184648563483821e-18
-                },
-                "target": {
-                    "id": "Q2002",
-                    "name": "2015",
-                    "__indexColor": "#8c0079",
-                    "index": 120,
-                    "x": -191.2473288121932,
-                    "y": 635.6093418270611,
-                    "vx": -3.5836427531701783e-19,
-                    "vy": 3.1782989995034637e-18
-                },
-                "__indexColor": "#3c01fd",
-                "__controlPoints": null,
-                "index": 126
+                "source": "Q884",
+                "target": "Q2002"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q170744",
-                    "name": "Ketone",
-                    "__indexColor": "#a8005e",
-                    "index": 93,
-                    "x": -521.0230229885756,
-                    "y": -806.772060368353,
-                    "vx": -2.3909223401875746e-18,
-                    "vy": -3.743439727415525e-18
-                },
-                "target": {
-                    "id": "Q174211",
-                    "name": "Organic compound",
-                    "__indexColor": "#440063",
-                    "index": 98,
-                    "x": -495.1464723629831,
-                    "y": -786.5037786225464,
-                    "vx": -2.389951975448127e-18,
-                    "vy": -3.827606683003902e-18
-                },
-                "__indexColor": "#2801fe",
-                "__controlPoints": null,
-                "index": 127
+                "source": "Q170744",
+                "target": "Q174211"
             },
             {
                 "label": "replaces",
-                "source": {
-                    "id": "Q205662",
-                    "name": "Tokugawa shogunate",
-                    "__indexColor": "#64007b",
-                    "index": 122,
-                    "x": -1104.001872728231,
-                    "y": -567.6432102640606,
-                    "vx": -4.484977977197932e-18,
-                    "vy": -2.4855370624647013e-18
-                },
-                "target": {
-                    "id": "Q804558",
-                    "name": "Bakumatsu",
-                    "__indexColor": "#d0015c",
-                    "index": 347,
-                    "x": -1118.7271104366512,
-                    "y": -539.0234946994112,
-                    "vx": -4.466814560305306e-18,
-                    "vy": -2.4873352741530554e-18
-                },
-                "__indexColor": "#1401ff",
-                "__controlPoints": null,
-                "index": 128
+                "source": "Q205662",
+                "target": "Q804558"
             },
             {
                 "label": "located_in_the_administrative_territorial_entity",
-                "source": {
-                    "id": "Q3564777",
-                    "name": "WPVI-TV",
-                    "__indexColor": "#2000d8",
-                    "index": 215,
-                    "x": 922.3391503418626,
-                    "y": 697.4411483717794,
-                    "vx": 3.7700329424361295e-18,
-                    "vy": 2.840487740874616e-18
-                },
-                "target": {
-                    "id": "Q1408",
-                    "name": "New Jersey",
-                    "__indexColor": "#000040",
-                    "index": 63,
-                    "x": 920.4047341891969,
-                    "y": 665.5289250236725,
-                    "vx": 3.7672963542801e-18,
-                    "vy": 2.8532087686767495e-18
-                },
-                "__indexColor": "#000200",
-                "__controlPoints": null,
-                "index": 129
+                "source": "Q3564777",
+                "target": "Q1408"
             },
             {
                 "label": "capital",
-                "source": {
-                    "id": "Q884",
-                    "name": "South Korea",
-                    "__indexColor": "#2c0171",
-                    "index": 368,
-                    "x": -166.07682428996984,
-                    "y": 659.2152320424264,
-                    "vx": -3.705082173828148e-19,
-                    "vy": 3.184648563483821e-18
-                },
-                "target": {
-                    "id": "Q8684",
-                    "name": "Seoul",
-                    "__indexColor": "#68016e",
-                    "index": 365,
-                    "x": -201.99633897152722,
-                    "y": 655.9928046058351,
-                    "vx": -3.4717697436528203e-19,
-                    "vy": 3.3668538953006646e-18
-                },
-                "__indexColor": "#ec0201",
-                "__controlPoints": null,
-                "index": 130
+                "source": "Q884",
+                "target": "Q8684"
             },
             {
                 "label": "instance_of",
-                "source": {
-                    "id": "Q101497",
-                    "name": "Aldehyde",
-                    "__indexColor": "#c40003",
-                    "index": 2,
-                    "x": -515.767027308935,
-                    "y": -818.5027253687439,
-                    "vx": -2.4785230194650653e-18,
-                    "vy": -3.850722440157378e-18
-                },
-                "target": {
-                    "id": "Q910267",
-                    "name": "Volatile organic compound",
-                    "__indexColor": "#f00174",
-                    "index": 371,
-                    "x": -491.8772338301496,
-                    "y": -837.023563727579,
-                    "vx": -2.3442062023012483e-18,
-                    "vy": -3.905006072886789e-18
-                },
-                "__indexColor": "#d80202",
-                "__controlPoints": null,
-                "index": 131
+                "source": "Q101497",
+                "target": "Q910267"
             },
             {
                 "label": "diplomatic_relation",
-                "source": {
-                    "id": "Q884",
-                    "name": "South Korea",
-                    "__indexColor": "#2c0171",
-                    "index": 368,
-                    "x": -166.07682428996984,
-                    "y": 659.2152320424264,
-                    "vx": -3.705082173828148e-19,
-                    "vy": 3.184648563483821e-18
-                },
-                "target": {
-                    "id": "Q881",
-                    "name": "Vietnam",
-                    "__indexColor": "#400170",
-                    "index": 367,
-                    "x": -105.57025389787378,
-                    "y": 669.9678654997168,
-                    "vx": -4.388497801149042e-19,
-                    "vy": 2.808313073841943e-18
-                },
-                "__indexColor": "#c40203",
-                "__controlPoints": null,
-                "index": 132
+                "source": "Q884",
+                "target": "Q881"
             },
             {
                 "label": "cast_member",
-                "source": {
-                    "id": "Q113961028",
-                    "name": "Rise of the Rōnin",
-                    "__indexColor": "#800020",
-                    "index": 31,
-                    "x": -48.13942650034455,
-                    "y": -533.3249915789729,
-                    "vx": 4.931347491281732e-20,
-                    "vy": -3.3272255977203004e-18
-                },
-                "target": {
-                    "id": "Q2503497",
-                    "name": "Kazuma Kiryu",
-                    "__indexColor": "#5800a2",
-                    "index": 161,
-                    "x": -26.558576526070738,
-                    "y": -493.7924794667282,
-                    "vx": -1.6385235137068705e-20,
-                    "vy": -3.2631257491459326e-18
-                },
-                "__indexColor": "#b00204",
-                "__controlPoints": null,
-                "index": 133
+                "source": "Q113961028",
+                "target": "Q2503497"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q153",
-                    "name": "ethanol",
-                    "__indexColor": "#c00050",
-                    "index": 79,
-                    "x": -470.7025121688372,
-                    "y": -804.6746337584615,
-                    "vx": -2.3625385625083787e-18,
-                    "vy": -3.843305342294217e-18
-                },
-                "target": {
-                    "id": "Q910267",
-                    "name": "Volatile organic compound",
-                    "__indexColor": "#f00174",
-                    "index": 371,
-                    "x": -491.8772338301496,
-                    "y": -837.023563727579,
-                    "vx": -2.3442062023012483e-18,
-                    "vy": -3.905006072886789e-18
-                },
-                "__indexColor": "#9c0205",
-                "__controlPoints": null,
-                "index": 134
+                "source": "Q153",
+                "target": "Q910267"
             },
             {
                 "label": "cast_member",
-                "source": {
-                    "id": "Q113961026",
-                    "name": "Like a Dragon: Ishin!",
-                    "__indexColor": "#94001f",
-                    "index": 30,
-                    "x": -22.627646970772485,
-                    "y": -459.20448292214155,
-                    "vx": -9.734451675869096e-20,
-                    "vy": -3.244736801848857e-18
-                },
-                "target": {
-                    "id": "Q2503497",
-                    "name": "Kazuma Kiryu",
-                    "__indexColor": "#5800a2",
-                    "index": 161,
-                    "x": -26.558576526070738,
-                    "y": -493.7924794667282,
-                    "vx": -1.6385235137068705e-20,
-                    "vy": -3.2631257491459326e-18
-                },
-                "__indexColor": "#880206",
-                "__controlPoints": null,
-                "index": 135
+                "source": "Q113961026",
+                "target": "Q2503497"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q732413",
-                    "name": "Ester",
-                    "__indexColor": "#fc014d",
-                    "index": 332,
-                    "x": -466.60101161683383,
-                    "y": -816.9191436057604,
-                    "vx": -2.409007548807069e-18,
-                    "vy": -3.8530289459356705e-18
-                },
-                "target": {
-                    "id": "Q910267",
-                    "name": "Volatile organic compound",
-                    "__indexColor": "#f00174",
-                    "index": 371,
-                    "x": -491.8772338301496,
-                    "y": -837.023563727579,
-                    "vx": -2.3442062023012483e-18,
-                    "vy": -3.905006072886789e-18
-                },
-                "__indexColor": "#740207",
-                "__controlPoints": null,
-                "index": 136
+                "source": "Q732413",
+                "target": "Q910267"
             },
             {
                 "label": "performer",
-                "source": {
-                    "id": "Q378450",
-                    "name": "Sakamoto Ryōma",
-                    "__indexColor": "#1c00e5",
-                    "index": 228,
-                    "x": 0.5611117934402532,
-                    "y": -471.9854541331103,
-                    "vx": -4.424625123738737e-21,
-                    "vy": -3.2841993013660344e-18
-                },
-                "target": {
-                    "id": "Q2503497",
-                    "name": "Kazuma Kiryu",
-                    "__indexColor": "#5800a2",
-                    "index": 161,
-                    "x": -26.558576526070738,
-                    "y": -493.7924794667282,
-                    "vx": -1.6385235137068705e-20,
-                    "vy": -3.2631257491459326e-18
-                },
-                "__indexColor": "#600208",
-                "__controlPoints": null,
-                "index": 137
+                "source": "Q378450",
+                "target": "Q2503497"
             },
             {
                 "label": "operator",
-                "source": {
-                    "id": "Q2564783",
-                    "name": "Paratransit",
-                    "__indexColor": "#4000b0",
-                    "index": 175,
-                    "x": 931.1089976096175,
-                    "y": 17.745652024121757,
-                    "vx": 3.456190808544765e-18,
-                    "vy": 1.5608083884740663e-19
-                },
-                "target": {
-                    "id": "Q5085831",
-                    "name": "Charlotte Area Transit System",
-                    "__indexColor": "#700114",
-                    "index": 275,
-                    "x": 918.2987621985056,
-                    "y": 47.8888307003083,
-                    "vx": 3.4540267047153965e-18,
-                    "vy": 1.4846855579362264e-19
-                },
-                "__indexColor": "#4c0209",
-                "__controlPoints": null,
-                "index": 138
+                "source": "Q2564783",
+                "target": "Q5085831"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q170744",
-                    "name": "Ketone",
-                    "__indexColor": "#a8005e",
-                    "index": 93,
-                    "x": -521.0230229885756,
-                    "y": -806.772060368353,
-                    "vx": -2.3909223401875746e-18,
-                    "vy": -3.743439727415525e-18
-                },
-                "target": {
-                    "id": "Q910267",
-                    "name": "Volatile organic compound",
-                    "__indexColor": "#f00174",
-                    "index": 371,
-                    "x": -491.8772338301496,
-                    "y": -837.023563727579,
-                    "vx": -2.3442062023012483e-18,
-                    "vy": -3.905006072886789e-18
-                },
-                "__indexColor": "#38020a",
-                "__controlPoints": null,
-                "index": 139
+                "source": "Q170744",
+                "target": "Q910267"
             },
             {
                 "label": "parent_organization",
-                "source": {
-                    "id": "Q2564783",
-                    "name": "Paratransit",
-                    "__indexColor": "#4000b0",
-                    "index": 175,
-                    "x": 931.1089976096175,
-                    "y": 17.745652024121757,
-                    "vx": 3.456190808544765e-18,
-                    "vy": 1.5608083884740663e-19
-                },
-                "target": {
-                    "id": "Q5085831",
-                    "name": "Charlotte Area Transit System",
-                    "__indexColor": "#700114",
-                    "index": 275,
-                    "x": 918.2987621985056,
-                    "y": 47.8888307003083,
-                    "vx": 3.4540267047153965e-18,
-                    "vy": 1.4846855579362264e-19
-                },
-                "__indexColor": "#24020b",
-                "__controlPoints": null,
-                "index": 140
+                "source": "Q2564783",
+                "target": "Q5085831"
             },
             {
                 "label": "has_part",
-                "source": {
-                    "id": "Q89695113",
-                    "name": "DualSense",
-                    "__indexColor": "#180172",
-                    "index": 369,
-                    "x": 996.0724604533613,
-                    "y": -490.292373931361,
-                    "vx": 4.156451310555802e-18,
-                    "vy": -1.9450979351857135e-18
-                },
-                "target": {
-                    "id": "Q21102959",
-                    "name": "Deinococcus radiodurans R1",
-                    "__indexColor": "#b00084",
-                    "index": 131,
-                    "x": 1021.9632779508612,
-                    "y": -471.08768292882496,
-                    "vx": 4.129379302566543e-18,
-                    "vy": -1.907542217219162e-18
-                },
-                "__indexColor": "#10020c",
-                "__controlPoints": null,
-                "index": 141
+                "source": "Q89695113",
+                "target": "Q21102959"
             },
             {
                 "label": "country",
-                "source": {
-                    "id": "Q60186259",
-                    "name": "Dog and Cat Meat Trade Prohibition Act of 2018",
-                    "__indexColor": "#b40137",
-                    "index": 310,
-                    "x": -122.5022286058427,
-                    "y": 699.75788002072,
-                    "vx": -6.479420083397357e-19,
-                    "vy": 2.7006857731916546e-18
-                },
-                "target": {
-                    "id": "Q881",
-                    "name": "Vietnam",
-                    "__indexColor": "#400170",
-                    "index": 367,
-                    "x": -105.57025389787378,
-                    "y": 669.9678654997168,
-                    "vx": -4.388497801149042e-19,
-                    "vy": 2.808313073841943e-18
-                },
-                "__indexColor": "#fc020d",
-                "__controlPoints": null,
-                "index": 142
+                "source": "Q60186259",
+                "target": "Q881"
             },
             {
                 "label": "has_part",
-                "source": {
-                    "id": "Q5085831",
-                    "name": "Charlotte Area Transit System",
-                    "__indexColor": "#700114",
-                    "index": 275,
-                    "x": 918.2987621985056,
-                    "y": 47.8888307003083,
-                    "vx": 3.4540267047153965e-18,
-                    "vy": 1.4846855579362264e-19
-                },
-                "target": {
-                    "id": "Q2564783",
-                    "name": "Paratransit",
-                    "__indexColor": "#4000b0",
-                    "index": 175,
-                    "x": 931.1089976096175,
-                    "y": 17.745652024121757,
-                    "vx": 3.456190808544765e-18,
-                    "vy": 1.5608083884740663e-19
-                },
-                "__indexColor": "#e8020e",
-                "__controlPoints": null,
-                "index": 143
+                "source": "Q5085831",
+                "target": "Q2564783"
             },
             {
                 "label": "facet_of",
-                "source": {
-                    "id": "Q5772961",
-                    "name": "Hissing",
-                    "__indexColor": "#dc0135",
-                    "index": 308,
-                    "x": 329.8248323379595,
-                    "y": -552.0255296985976,
-                    "vx": 1.3913620856119714e-18,
-                    "vy": -2.204159183284921e-18
-                },
-                "target": {
-                    "id": "Q4167836",
-                    "name": "Cat",
-                    "__indexColor": "#f000f4",
-                    "index": 243,
-                    "x": 312.0985965657434,
-                    "y": -522.0634480286678,
-                    "vx": 1.2480489964290684e-18,
-                    "vy": -2.2132120772051583e-18
-                },
-                "__indexColor": "#d4020f",
-                "__controlPoints": null,
-                "index": 144
+                "source": "Q5772961",
+                "target": "Q4167836"
             },
             {
                 "label": "instance_of",
-                "source": {
-                    "id": "Q160122",
-                    "name": "Influenza A virus subtype H5N1",
-                    "__indexColor": "#700054",
-                    "index": 83,
-                    "x": -747.4003418808504,
-                    "y": 841.0700248425525,
-                    "vx": -2.780415040366356e-18,
-                    "vy": 3.777985758862942e-18
-                },
-                "target": {
-                    "id": "Q43987",
-                    "name": "Avian influenza",
-                    "__indexColor": "#000100",
-                    "index": 255,
-                    "x": -723.5904830402052,
-                    "y": 862.1738065525407,
-                    "vx": -2.7827425289975237e-18,
-                    "vy": 3.769340453447744e-18
-                },
-                "__indexColor": "#c00210",
-                "__controlPoints": null,
-                "index": 145
+                "source": "Q160122",
+                "target": "Q43987"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q144",
-                    "name": "Dog",
-                    "__indexColor": "#740047",
-                    "index": 70,
-                    "x": 215.05946821901483,
-                    "y": -568.7278951812743,
-                    "vx": 1.4349130608068153e-18,
-                    "vy": -2.891146983324236e-18
-                },
-                "target": {
-                    "id": "Q10990",
-                    "name": "Meat",
-                    "__indexColor": "#340017",
-                    "index": 22,
-                    "x": 180.47951958588433,
-                    "y": -557.4850589632258,
-                    "vx": 1.3687192696862553e-18,
-                    "vy": -3.0234769577937905e-18
-                },
-                "__indexColor": "#ac0211",
-                "__controlPoints": null,
-                "index": 146
+                "source": "Q144",
+                "target": "Q10990"
             },
             {
                 "label": "part_of",
-                "source": {
-                    "id": "Q2564783",
-                    "name": "Paratransit",
-                    "__indexColor": "#4000b0",
-                    "index": 175,
-                    "x": 931.1089976096175,
-                    "y": 17.745652024121757,
-                    "vx": 3.456190808544765e-18,
-                    "vy": 1.5608083884740663e-19
-                },
-                "target": {
-                    "id": "Q5085831",
-                    "name": "Charlotte Area Transit System",
-                    "__indexColor": "#700114",
-                    "index": 275,
-                    "x": 918.2987621985056,
-                    "y": 47.8888307003083,
-                    "vx": 3.4540267047153965e-18,
-                    "vy": 1.4846855579362264e-19
-                },
-                "__indexColor": "#980212",
-                "__controlPoints": null,
-                "index": 147
+                "source": "Q2564783",
+                "target": "Q5085831"
             },
             {
                 "label": "has_part",
-                "source": {
-                    "id": "Q21102959",
-                    "name": "Deinococcus radiodurans R1",
-                    "__indexColor": "#b00084",
-                    "index": 131,
-                    "x": 1021.9632779508612,
-                    "y": -471.08768292882496,
-                    "vx": 4.129379302566543e-18,
-                    "vy": -1.907542217219162e-18
-                },
-                "target": {
-                    "id": "Q89695113",
-                    "name": "DualSense",
-                    "__indexColor": "#180172",
-                    "index": 369,
-                    "x": 996.0724604533613,
-                    "y": -490.292373931361,
-                    "vx": 4.156451310555802e-18,
-                    "vy": -1.9450979351857135e-18
-                },
-                "__indexColor": "#840213",
-                "__controlPoints": null,
-                "index": 148
+                "source": "Q21102959",
+                "target": "Q89695113"
             },
             {
                 "label": "country",
-                "source": {
-                    "id": "Q18042814",
-                    "name": "AKR1B10",
-                    "__indexColor": "#f40067",
-                    "index": 102,
-                    "x": -72.60026154199895,
-                    "y": 656.6673641925546,
-                    "vx": -6.071324196117677e-19,
-                    "vy": 2.5767839031468668e-18
-                },
-                "target": {
-                    "id": "Q881",
-                    "name": "Vietnam",
-                    "__indexColor": "#400170",
-                    "index": 367,
-                    "x": -105.57025389787378,
-                    "y": 669.9678654997168,
-                    "vx": -4.388497801149042e-19,
-                    "vy": 2.808313073841943e-18
-                },
-                "__indexColor": "#700214",
-                "__controlPoints": null,
-                "index": 149
+                "source": "Q18042814",
+                "target": "Q881"
             },
             {
                 "label": "part_of",
-                "source": {
-                    "id": "Q89695113",
-                    "name": "DualSense",
-                    "__indexColor": "#180172",
-                    "index": 369,
-                    "x": 996.0724604533613,
-                    "y": -490.292373931361,
-                    "vx": 4.156451310555802e-18,
-                    "vy": -1.9450979351857135e-18
-                },
-                "target": {
-                    "id": "Q21102959",
-                    "name": "Deinococcus radiodurans R1",
-                    "__indexColor": "#b00084",
-                    "index": 131,
-                    "x": 1021.9632779508612,
-                    "y": -471.08768292882496,
-                    "vx": 4.129379302566543e-18,
-                    "vy": -1.907542217219162e-18
-                },
-                "__indexColor": "#5c0215",
-                "__controlPoints": null,
-                "index": 150
+                "source": "Q89695113",
+                "target": "Q21102959"
             },
             {
                 "label": "country",
-                "source": {
-                    "id": "Q60462126",
-                    "name": "Last Year",
-                    "__indexColor": "#a00138",
-                    "index": 311,
-                    "x": -168.95073412063283,
-                    "y": 625.3116607743867,
-                    "vx": -2.5005071822716944e-19,
-                    "vy": 3.1853799110501803e-18
-                },
-                "target": {
-                    "id": "Q884",
-                    "name": "South Korea",
-                    "__indexColor": "#2c0171",
-                    "index": 368,
-                    "x": -166.07682428996984,
-                    "y": 659.2152320424264,
-                    "vx": -3.705082173828148e-19,
-                    "vy": 3.184648563483821e-18
-                },
-                "__indexColor": "#480216",
-                "__controlPoints": null,
-                "index": 151
+                "source": "Q60462126",
+                "target": "Q884"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q89695113",
-                    "name": "DualSense",
-                    "__indexColor": "#180172",
-                    "index": 369,
-                    "x": 996.0724604533613,
-                    "y": -490.292373931361,
-                    "vx": 4.156451310555802e-18,
-                    "vy": -1.9450979351857135e-18
-                },
-                "target": {
-                    "id": "Q865422",
-                    "name": "game controller",
-                    "__indexColor": "#90016c",
-                    "index": 363,
-                    "x": 990.5464112621113,
-                    "y": -522.4305020584513,
-                    "vx": 4.1127955315967944e-18,
-                    "vy": -1.9358023097820906e-18
-                },
-                "__indexColor": "#340217",
-                "__controlPoints": null,
-                "index": 152
+                "source": "Q89695113",
+                "target": "Q865422"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q96247255",
-                    "name": "Stray",
-                    "__indexColor": "#64017b",
-                    "index": 378,
-                    "x": 367.26408696689424,
-                    "y": -485.26391580065837,
-                    "vx": 1.4749158735236203e-18,
-                    "vy": -2.2298424210620965e-18
-                },
-                "target": {
-                    "id": "Q146",
-                    "name": "house cat",
-                    "__indexColor": "#38004a",
-                    "index": 73,
-                    "x": 422.0492864422461,
-                    "y": -448.26401241931586,
-                    "vx": 1.2902081699400447e-18,
-                    "vy": -2.1519808102014627e-18
-                },
-                "__indexColor": "#200218",
-                "__controlPoints": null,
-                "index": 153
+                "source": "Q96247255",
+                "target": "Q146"
             },
             {
                 "label": "country",
-                "source": {
-                    "id": "Q42080",
-                    "name": "Gimpo",
-                    "__indexColor": "#a000f8",
-                    "index": 247,
-                    "x": -193.76739139121406,
-                    "y": 679.3677055531891,
-                    "vx": -1.599149182837054e-19,
-                    "vy": 3.450637006877183e-18
-                },
-                "target": {
-                    "id": "Q884",
-                    "name": "South Korea",
-                    "__indexColor": "#2c0171",
-                    "index": 368,
-                    "x": -166.07682428996984,
-                    "y": 659.2152320424264,
-                    "vx": -3.705082173828148e-19,
-                    "vy": 3.184648563483821e-18
-                },
-                "__indexColor": "#0c0219",
-                "__controlPoints": null,
-                "index": 154
+                "source": "Q42080",
+                "target": "Q884"
             },
             {
                 "label": "instance_of",
-                "source": {
-                    "id": "Q89695113",
-                    "name": "DualSense",
-                    "__indexColor": "#180172",
-                    "index": 369,
-                    "x": 996.0724604533613,
-                    "y": -490.292373931361,
-                    "vx": 4.156451310555802e-18,
-                    "vy": -1.9450979351857135e-18
-                },
-                "target": {
-                    "id": "Q865422",
-                    "name": "game controller",
-                    "__indexColor": "#90016c",
-                    "index": 363,
-                    "x": 990.5464112621113,
-                    "y": -522.4305020584513,
-                    "vx": 4.1127955315967944e-18,
-                    "vy": -1.9358023097820906e-18
-                },
-                "__indexColor": "#f8021a",
-                "__controlPoints": null,
-                "index": 155
+                "source": "Q89695113",
+                "target": "Q865422"
             },
             {
                 "label": "different_from",
-                "source": {
-                    "id": "Q385557",
-                    "name": "Slaughterhouse",
-                    "__indexColor": "#e000e8",
-                    "index": 231,
-                    "x": 200.24570031024598,
-                    "y": 1202.6466221679866,
-                    "vx": 8.943693762919895e-19,
-                    "vy": 4.866192632104124e-18
-                },
-                "target": {
-                    "id": "Q385557",
-                    "name": "Slaughterhouse",
-                    "__indexColor": "#e000e8",
-                    "index": 231,
-                    "x": 200.24570031024598,
-                    "y": 1202.6466221679866,
-                    "vx": 8.943693762919895e-19,
-                    "vy": 4.866192632104124e-18
-                },
-                "__indexColor": "#e4021b",
-                "__controlPoints": null,
-                "index": 156
+                "source": "Q385557",
+                "target": "Q385557"
             },
             {
                 "label": "has_part",
-                "source": {
-                    "id": "Q4167836",
-                    "name": "Cat",
-                    "__indexColor": "#f000f4",
-                    "index": 243,
-                    "x": 312.0985965657434,
-                    "y": -522.0634480286678,
-                    "vx": 1.2480489964290684e-18,
-                    "vy": -2.2132120772051583e-18
-                },
-                "target": {
-                    "id": "Q484645",
-                    "name": "Anal gland",
-                    "__indexColor": "#600108",
-                    "index": 263,
-                    "x": 304.80586930994315,
-                    "y": -554.7359249661815,
-                    "vx": 1.1698217564718512e-18,
-                    "vy": -2.196890712702953e-18
-                },
-                "__indexColor": "#d0021c",
-                "__controlPoints": null,
-                "index": 157
+                "source": "Q4167836",
+                "target": "Q484645"
             },
             {
                 "label": "operator",
-                "source": {
-                    "id": "Q5085831",
-                    "name": "Charlotte Area Transit System",
-                    "__indexColor": "#700114",
-                    "index": 275,
-                    "x": 918.2987621985056,
-                    "y": 47.8888307003083,
-                    "vx": 3.4540267047153965e-18,
-                    "vy": 1.4846855579362264e-19
-                },
-                "target": {
-                    "id": "Q6825283",
-                    "name": "Metropolitan Transit Commission",
-                    "__indexColor": "#c40143",
-                    "index": 322,
-                    "x": 949.1205276973105,
-                    "y": 58.69553484536467,
-                    "vx": 3.4329273401337235e-18,
-                    "vy": 2.084545722870732e-19
-                },
-                "__indexColor": "#bc021d",
-                "__controlPoints": null,
-                "index": 158
+                "source": "Q5085831",
+                "target": "Q6825283"
             },
             {
                 "label": "has_part",
-                "source": {
-                    "id": "Q1139344",
-                    "name": "grade",
-                    "__indexColor": "#bc001d",
-                    "index": 28,
-                    "x": 963.343864301725,
-                    "y": -489.1927670862034,
-                    "vx": 4.152716843764101e-18,
-                    "vy": -1.8367336957895904e-18
-                },
-                "target": {
-                    "id": "Q89695113",
-                    "name": "DualSense",
-                    "__indexColor": "#180172",
-                    "index": 369,
-                    "x": 996.0724604533613,
-                    "y": -490.292373931361,
-                    "vx": 4.156451310555802e-18,
-                    "vy": -1.9450979351857135e-18
-                },
-                "__indexColor": "#a8021e",
-                "__controlPoints": null,
-                "index": 159
+                "source": "Q1139344",
+                "target": "Q89695113"
             },
             {
                 "label": "country",
-                "source": {
-                    "id": "Q216151",
-                    "name": "Vietnamese people",
-                    "__indexColor": "#24008b",
-                    "index": 138,
-                    "x": -87.0294658873097,
-                    "y": 700.9174668694614,
-                    "vx": -5.624021371571056e-19,
-                    "vy": 2.8430906872717335e-18
-                },
-                "target": {
-                    "id": "Q881",
-                    "name": "Vietnam",
-                    "__indexColor": "#400170",
-                    "index": 367,
-                    "x": -105.57025389787378,
-                    "y": 669.9678654997168,
-                    "vx": -4.388497801149042e-19,
-                    "vy": 2.808313073841943e-18
-                },
-                "__indexColor": "#94021f",
-                "__controlPoints": null,
-                "index": 160
+                "source": "Q216151",
+                "target": "Q881"
             },
             {
                 "label": "instance_of",
-                "source": {
-                    "id": "Q133976",
-                    "name": "Corynebacterium",
-                    "__indexColor": "#64003b",
-                    "index": 58,
-                    "x": 253.44711623383057,
-                    "y": 42.55143099800984,
-                    "vx": 1.9353703093113234e-18,
-                    "vy": 6.825329468561838e-19
-                },
-                "target": {
-                    "id": "Q10876",
-                    "name": "Bacteria",
-                    "__indexColor": "#5c0015",
-                    "index": 20,
-                    "x": 225.1889357222131,
-                    "y": 60.26645773635175,
-                    "vx": 1.964878526396945e-18,
-                    "vy": 6.860249294132478e-19
-                },
-                "__indexColor": "#800220",
-                "__controlPoints": null,
-                "index": 161
+                "source": "Q133976",
+                "target": "Q10876"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q96247255",
-                    "name": "Stray",
-                    "__indexColor": "#64017b",
-                    "index": 378,
-                    "x": 367.26408696689424,
-                    "y": -485.26391580065837,
-                    "vx": 1.4749158735236203e-18,
-                    "vy": -2.2298424210620965e-18
-                },
-                "target": {
-                    "id": "Q4167836",
-                    "name": "Cat",
-                    "__indexColor": "#f000f4",
-                    "index": 243,
-                    "x": 312.0985965657434,
-                    "y": -522.0634480286678,
-                    "vx": 1.2480489964290684e-18,
-                    "vy": -2.2132120772051583e-18
-                },
-                "__indexColor": "#6c0221",
-                "__controlPoints": null,
-                "index": 162
+                "source": "Q96247255",
+                "target": "Q4167836"
             },
             {
                 "label": "instance_of",
-                "source": {
-                    "id": "Q1999796",
-                    "name": "incantation",
-                    "__indexColor": "#a00078",
-                    "index": 119,
-                    "x": -1022.2577354402575,
-                    "y": -517.4809310358826,
-                    "vx": -3.919077130725434e-18,
-                    "vy": -2.5762149786001644e-18
-                },
-                "target": {
-                    "id": "Q937228",
-                    "name": "property",
-                    "__indexColor": "#8c0179",
-                    "index": 376,
-                    "x": -1006.2508732673919,
-                    "y": -545.3842443428631,
-                    "vx": -3.9363381191531175e-18,
-                    "vy": -2.571446314052326e-18
-                },
-                "__indexColor": "#580222",
-                "__controlPoints": null,
-                "index": 163
+                "source": "Q1999796",
+                "target": "Q937228"
             },
             {
                 "label": "diplomatic_relation",
-                "source": {
-                    "id": "Q881",
-                    "name": "Vietnam",
-                    "__indexColor": "#400170",
-                    "index": 367,
-                    "x": -105.57025389787378,
-                    "y": 669.9678654997168,
-                    "vx": -4.388497801149042e-19,
-                    "vy": 2.808313073841943e-18
-                },
-                "target": {
-                    "id": "Q881",
-                    "name": "Vietnam",
-                    "__indexColor": "#400170",
-                    "index": 367,
-                    "x": -105.57025389787378,
-                    "y": 669.9678654997168,
-                    "vx": -4.388497801149042e-19,
-                    "vy": 2.808313073841943e-18
-                },
-                "__indexColor": "#440223",
-                "__controlPoints": null,
-                "index": 164
+                "source": "Q881",
+                "target": "Q881"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q1999796",
-                    "name": "incantation",
-                    "__indexColor": "#a00078",
-                    "index": 119,
-                    "x": -1022.2577354402575,
-                    "y": -517.4809310358826,
-                    "vx": -3.919077130725434e-18,
-                    "vy": -2.5762149786001644e-18
-                },
-                "target": {
-                    "id": "Q937228",
-                    "name": "property",
-                    "__indexColor": "#8c0179",
-                    "index": 376,
-                    "x": -1006.2508732673919,
-                    "y": -545.3842443428631,
-                    "vx": -3.9363381191531175e-18,
-                    "vy": -2.571446314052326e-18
-                },
-                "__indexColor": "#300224",
-                "__controlPoints": null,
-                "index": 165
+                "source": "Q1999796",
+                "target": "Q937228"
             },
             {
                 "label": "instance_of",
-                "source": {
-                    "id": "Q133186",
-                    "name": "Bacteroides",
-                    "__indexColor": "#c80036",
-                    "index": 53,
-                    "x": 250.6389101119244,
-                    "y": 81.593670060001,
-                    "vx": 1.9659354524370493e-18,
-                    "vy": 6.824882352916977e-19
-                },
-                "target": {
-                    "id": "Q10876",
-                    "name": "Bacteria",
-                    "__indexColor": "#5c0015",
-                    "index": 20,
-                    "x": 225.1889357222131,
-                    "y": 60.26645773635175,
-                    "vx": 1.964878526396945e-18,
-                    "vy": 6.860249294132478e-19
-                },
-                "__indexColor": "#1c0225",
-                "__controlPoints": null,
-                "index": 166
+                "source": "Q133186",
+                "target": "Q10876"
             },
             {
                 "label": "genre",
-                "source": {
-                    "id": "Q460679",
-                    "name": "Maneki-neko",
-                    "__indexColor": "#d80102",
-                    "index": 257,
-                    "x": 607.4468570064593,
-                    "y": 1038.3461438564693,
-                    "vx": 2.6779151853418476e-18,
-                    "vy": 4.162522506566312e-18
-                },
-                "target": {
-                    "id": "Q14339857",
-                    "name": "Japanese folklore",
-                    "__indexColor": "#880046",
-                    "index": 69,
-                    "x": 575.5774873234496,
-                    "y": 1035.4659314516352,
-                    "vx": 2.676342559410968e-18,
-                    "vy": 4.177700521419596e-18
-                },
-                "__indexColor": "#080226",
-                "__controlPoints": null,
-                "index": 167
+                "source": "Q460679",
+                "target": "Q14339857"
             },
             {
                 "label": "instance_of",
-                "source": {
-                    "id": "Q15856",
-                    "name": "Proteus",
-                    "__indexColor": "#840053",
-                    "index": 82,
-                    "x": 192.05233520410223,
-                    "y": 62.34659083129199,
-                    "vx": 1.9428206186102663e-18,
-                    "vy": 6.389653915369366e-19
-                },
-                "target": {
-                    "id": "Q10876",
-                    "name": "Bacteria",
-                    "__indexColor": "#5c0015",
-                    "index": 20,
-                    "x": 225.1889357222131,
-                    "y": 60.26645773635175,
-                    "vx": 1.964878526396945e-18,
-                    "vy": 6.860249294132478e-19
-                },
-                "__indexColor": "#f40227",
-                "__controlPoints": null,
-                "index": 168
+                "source": "Q15856",
+                "target": "Q10876"
             },
             {
                 "label": "shares_border_with",
-                "source": {
-                    "id": "Q881",
-                    "name": "Vietnam",
-                    "__indexColor": "#400170",
-                    "index": 367,
-                    "x": -105.57025389787378,
-                    "y": 669.9678654997168,
-                    "vx": -4.388497801149042e-19,
-                    "vy": 2.808313073841943e-18
-                },
-                "target": {
-                    "id": "Q881",
-                    "name": "Vietnam",
-                    "__indexColor": "#400170",
-                    "index": 367,
-                    "x": -105.57025389787378,
-                    "y": 669.9678654997168,
-                    "vx": -4.388497801149042e-19,
-                    "vy": 2.808313073841943e-18
-                },
-                "__indexColor": "#e00228",
-                "__controlPoints": null,
-                "index": 169
+                "source": "Q881",
+                "target": "Q881"
             },
             {
                 "label": "present_in_work",
-                "source": {
-                    "id": "Q460679",
-                    "name": "Maneki-neko",
-                    "__indexColor": "#d80102",
-                    "index": 257,
-                    "x": 607.4468570064593,
-                    "y": 1038.3461438564693,
-                    "vx": 2.6779151853418476e-18,
-                    "vy": 4.162522506566312e-18
-                },
-                "target": {
-                    "id": "Q460679",
-                    "name": "Maneki-neko",
-                    "__indexColor": "#d80102",
-                    "index": 257,
-                    "x": 607.4468570064593,
-                    "y": 1038.3461438564693,
-                    "vx": 2.6779151853418476e-18,
-                    "vy": 4.162522506566312e-18
-                },
-                "__indexColor": "#cc0229",
-                "__controlPoints": null,
-                "index": 170
+                "source": "Q460679",
+                "target": "Q460679"
             },
             {
                 "label": "instance_of",
-                "source": {
-                    "id": "Q1061596",
-                    "name": "Lactobacillus",
-                    "__indexColor": "#d4000f",
-                    "index": 14,
-                    "x": 214.564289673922,
-                    "y": 91.93655332715994,
-                    "vx": 1.9252077753323113e-18,
-                    "vy": 6.649221111243108e-19
-                },
-                "target": {
-                    "id": "Q10876",
-                    "name": "Bacteria",
-                    "__indexColor": "#5c0015",
-                    "index": 20,
-                    "x": 225.1889357222131,
-                    "y": 60.26645773635175,
-                    "vx": 1.964878526396945e-18,
-                    "vy": 6.860249294132478e-19
-                },
-                "__indexColor": "#b8022a",
-                "__controlPoints": null,
-                "index": 171
+                "source": "Q1061596",
+                "target": "Q10876"
             },
             {
                 "label": "facet_of",
-                "source": {
-                    "id": "Q3482590",
-                    "name": "Neutering",
-                    "__indexColor": "#ac00d1",
-                    "index": 208,
-                    "x": 293.9575305202146,
-                    "y": -475.2274280057187,
-                    "vx": 1.1321089850218248e-18,
-                    "vy": -2.339833232182738e-18
-                },
-                "target": {
-                    "id": "Q4167836",
-                    "name": "Cat",
-                    "__indexColor": "#f000f4",
-                    "index": 243,
-                    "x": 312.0985965657434,
-                    "y": -522.0634480286678,
-                    "vx": 1.2480489964290684e-18,
-                    "vy": -2.2132120772051583e-18
-                },
-                "__indexColor": "#a4022b",
-                "__controlPoints": null,
-                "index": 172
+                "source": "Q3482590",
+                "target": "Q4167836"
             },
             {
                 "label": "inception",
-                "source": {
-                    "id": "Q3487014",
-                    "name": "Smithsonian (magazine)",
-                    "__indexColor": "#8400d3",
-                    "index": 210,
-                    "x": 433.0987781227299,
-                    "y": 1115.878889232914,
-                    "vx": 1.7084549811655e-18,
-                    "vy": 4.352350511218989e-18
-                },
-                "target": {
-                    "id": "Q25337",
-                    "name": "2020",
-                    "__indexColor": "#cc00a9",
-                    "index": 168,
-                    "x": 464.14542902199094,
-                    "y": 1108.6048206615515,
-                    "vx": 1.7080449804080407e-18,
-                    "vy": 4.351649562142123e-18
-                },
-                "__indexColor": "#90022c",
-                "__controlPoints": null,
-                "index": 173
+                "source": "Q3487014",
+                "target": "Q25337"
             },
             {
                 "label": "instance_of",
-                "source": {
-                    "id": "Q190161",
-                    "name": "Streptococcus",
-                    "__indexColor": "#2c0071",
-                    "index": 112,
-                    "x": 218.56522187896013,
-                    "y": 27.596981003371475,
-                    "vx": 1.9048329984596298e-18,
-                    "vy": 6.673847225264093e-19
-                },
-                "target": {
-                    "id": "Q10876",
-                    "name": "Bacteria",
-                    "__indexColor": "#5c0015",
-                    "index": 20,
-                    "x": 225.1889357222131,
-                    "y": 60.26645773635175,
-                    "vx": 1.964878526396945e-18,
-                    "vy": 6.860249294132478e-19
-                },
-                "__indexColor": "#7c022d",
-                "__controlPoints": null,
-                "index": 174
+                "source": "Q190161",
+                "target": "Q10876"
             },
             {
                 "label": "facet_of",
-                "source": {
-                    "id": "Q474191",
-                    "name": "diet",
-                    "__indexColor": "#9c0105",
-                    "index": 260,
-                    "x": 315.4921158079999,
-                    "y": -478.3609363961292,
-                    "vx": 1.1933121725859698e-18,
-                    "vy": -2.2634564008288605e-18
-                },
-                "target": {
-                    "id": "Q32566",
-                    "name": "computed tomography",
-                    "__indexColor": "#3800ca",
-                    "index": 201,
-                    "x": 325.47959246000056,
-                    "y": -439.1109606402521,
-                    "vx": 1.0712782868259796e-18,
-                    "vy": -2.336587827919682e-18
-                },
-                "__indexColor": "#68022e",
-                "__controlPoints": null,
-                "index": 175
+                "source": "Q474191",
+                "target": "Q32566"
             },
             {
                 "label": "different_from",
-                "source": {
-                    "id": "Q3482590",
-                    "name": "Neutering",
-                    "__indexColor": "#ac00d1",
-                    "index": 208,
-                    "x": 293.9575305202146,
-                    "y": -475.2274280057187,
-                    "vx": 1.1321089850218248e-18,
-                    "vy": -2.339833232182738e-18
-                },
-                "target": {
-                    "id": "Q3482590",
-                    "name": "Neutering",
-                    "__indexColor": "#ac00d1",
-                    "index": 208,
-                    "x": 293.9575305202146,
-                    "y": -475.2274280057187,
-                    "vx": 1.1321089850218248e-18,
-                    "vy": -2.339833232182738e-18
-                },
-                "__indexColor": "#54022f",
-                "__controlPoints": null,
-                "index": 176
+                "source": "Q3482590",
+                "target": "Q3482590"
             },
             {
                 "label": "shares_border_with",
-                "source": {
-                    "id": "Q881",
-                    "name": "Vietnam",
-                    "__indexColor": "#400170",
-                    "index": 367,
-                    "x": -105.57025389787378,
-                    "y": 669.9678654997168,
-                    "vx": -4.388497801149042e-19,
-                    "vy": 2.808313073841943e-18
-                },
-                "target": {
-                    "id": "Q148",
-                    "name": "China",
-                    "__indexColor": "#fc004d",
-                    "index": 76,
-                    "x": -69.5273301355437,
-                    "y": 674.6207857242672,
-                    "vx": -4.829590634523562e-19,
-                    "vy": 2.6787982767407407e-18
-                },
-                "__indexColor": "#400230",
-                "__controlPoints": null,
-                "index": 177
+                "source": "Q881",
+                "target": "Q148"
             },
             {
                 "label": "facet_of",
-                "source": {
-                    "id": "Q474191",
-                    "name": "diet",
-                    "__indexColor": "#9c0105",
-                    "index": 260,
-                    "x": 315.4921158079999,
-                    "y": -478.3609363961292,
-                    "vx": 1.1933121725859698e-18,
-                    "vy": -2.2634564008288605e-18
-                },
-                "target": {
-                    "id": "Q4167836",
-                    "name": "Cat",
-                    "__indexColor": "#f000f4",
-                    "index": 243,
-                    "x": 312.0985965657434,
-                    "y": -522.0634480286678,
-                    "vx": 1.2480489964290684e-18,
-                    "vy": -2.2132120772051583e-18
-                },
-                "__indexColor": "#2c0231",
-                "__controlPoints": null,
-                "index": 178
+                "source": "Q474191",
+                "target": "Q4167836"
             },
             {
                 "label": "distributed_by",
-                "source": {
-                    "id": "Q113961028",
-                    "name": "Rise of the Rōnin",
-                    "__indexColor": "#800020",
-                    "index": 31,
-                    "x": -48.13942650034455,
-                    "y": -533.3249915789729,
-                    "vx": 4.931347491281732e-20,
-                    "vy": -3.3272255977203004e-18
-                },
-                "target": {
-                    "id": "Q3884",
-                    "name": "Amazon",
-                    "__indexColor": "#b800ea",
-                    "index": 233,
-                    "x": -21.705017047113245,
-                    "y": -553.2627474739389,
-                    "vx": 6.592467406054332e-20,
-                    "vy": -3.230265800905249e-18
-                },
-                "__indexColor": "#180232",
-                "__controlPoints": null,
-                "index": 179
+                "source": "Q113961028",
+                "target": "Q3884"
             },
             {
                 "label": "part_of",
-                "source": {
-                    "id": "Q474191",
-                    "name": "diet",
-                    "__indexColor": "#9c0105",
-                    "index": 260,
-                    "x": 315.4921158079999,
-                    "y": -478.3609363961292,
-                    "vx": 1.1933121725859698e-18,
-                    "vy": -2.2634564008288605e-18
-                },
-                "target": {
-                    "id": "Q4167836",
-                    "name": "Cat",
-                    "__indexColor": "#f000f4",
-                    "index": 243,
-                    "x": 312.0985965657434,
-                    "y": -522.0634480286678,
-                    "vx": 1.2480489964290684e-18,
-                    "vy": -2.2132120772051583e-18
-                },
-                "__indexColor": "#040233",
-                "__controlPoints": null,
-                "index": 180
+                "source": "Q474191",
+                "target": "Q4167836"
             },
             {
                 "label": "shares_border_with",
-                "source": {
-                    "id": "Q148",
-                    "name": "China",
-                    "__indexColor": "#fc004d",
-                    "index": 76,
-                    "x": -69.5273301355437,
-                    "y": 674.6207857242672,
-                    "vx": -4.829590634523562e-19,
-                    "vy": 2.6787982767407407e-18
-                },
-                "target": {
-                    "id": "Q881",
-                    "name": "Vietnam",
-                    "__indexColor": "#400170",
-                    "index": 367,
-                    "x": -105.57025389787378,
-                    "y": 669.9678654997168,
-                    "vx": -4.388497801149042e-19,
-                    "vy": 2.808313073841943e-18
-                },
-                "__indexColor": "#f00234",
-                "__controlPoints": null,
-                "index": 181
+                "source": "Q148",
+                "target": "Q881"
             },
             {
                 "label": "employer",
-                "source": {
-                    "id": "Q37792381",
-                    "name": "David A. Coil",
-                    "__indexColor": "#3000e4",
-                    "index": 227,
-                    "x": 389.9248688796942,
-                    "y": -1051.1256455209607,
-                    "vx": 1.6911048550789051e-18,
-                    "vy": -4.3560455685964615e-18
-                },
-                "target": {
-                    "id": "Q105669174",
-                    "name": "University of California, Davis, Genome Center",
-                    "__indexColor": "#24000b",
-                    "index": 10,
-                    "x": 364.3476888812709,
-                    "y": -1072.4658784071676,
-                    "vx": 1.6606203477062483e-18,
-                    "vy": -4.329901273534585e-18
-                },
-                "__indexColor": "#dc0235",
-                "__controlPoints": null,
-                "index": 182
+                "source": "Q37792381",
+                "target": "Q105669174"
             },
             {
                 "label": "employer",
-                "source": {
-                    "id": "Q37792381",
-                    "name": "David A. Coil",
-                    "__indexColor": "#3000e4",
-                    "index": 227,
-                    "x": 389.9248688796942,
-                    "y": -1051.1256455209607,
-                    "vx": 1.6911048550789051e-18,
-                    "vy": -4.3560455685964615e-18
-                },
-                "target": {
-                    "id": "Q129421",
-                    "name": "University of California, Davis",
-                    "__indexColor": "#180032",
-                    "index": 49,
-                    "x": 418.8886589032742,
-                    "y": -1029.4956486036012,
-                    "vx": 1.7166204430265443e-18,
-                    "vy": -4.348917683218349e-18
-                },
-                "__indexColor": "#c80236",
-                "__controlPoints": null,
-                "index": 183
+                "source": "Q37792381",
+                "target": "Q129421"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q3529328",
-                    "name": "Labored breathing",
-                    "__indexColor": "#4800d6",
-                    "index": 213,
-                    "x": -380.6568275096502,
-                    "y": 1015.9262288839674,
-                    "vx": -1.1368026982816312e-18,
-                    "vy": 4.478141604066687e-18
-                },
-                "target": {
-                    "id": "Q112965645",
-                    "name": "Signs and symptoms",
-                    "__indexColor": "#d0001c",
-                    "index": 27,
-                    "x": -349.84011882884806,
-                    "y": 1024.7065895699077,
-                    "vx": -1.1545982097634954e-18,
-                    "vy": 4.480763460079923e-18
-                },
-                "__indexColor": "#b40237",
-                "__controlPoints": null,
-                "index": 184
+                "source": "Q3529328",
+                "target": "Q112965645"
             },
             {
                 "label": "has_part",
-                "source": {
-                    "id": "Q208376",
-                    "name": "Pet",
-                    "__indexColor": "#000080",
-                    "index": 127,
-                    "x": 272.9931283465106,
-                    "y": -537.5222811743239,
-                    "vx": 1.412487514104299e-18,
-                    "vy": -2.435655260654165e-18
-                },
-                "target": {
-                    "id": "Q4167836",
-                    "name": "Cat",
-                    "__indexColor": "#f000f4",
-                    "index": 243,
-                    "x": 312.0985965657434,
-                    "y": -522.0634480286678,
-                    "vx": 1.2480489964290684e-18,
-                    "vy": -2.2132120772051583e-18
-                },
-                "__indexColor": "#a00238",
-                "__controlPoints": null,
-                "index": 185
+                "source": "Q208376",
+                "target": "Q4167836"
             },
             {
                 "label": "used_by",
-                "source": {
-                    "id": "Q208376",
-                    "name": "Pet",
-                    "__indexColor": "#000080",
-                    "index": 127,
-                    "x": 272.9931283465106,
-                    "y": -537.5222811743239,
-                    "vx": 1.412487514104299e-18,
-                    "vy": -2.435655260654165e-18
-                },
-                "target": {
-                    "id": "Q4167836",
-                    "name": "Cat",
-                    "__indexColor": "#f000f4",
-                    "index": 243,
-                    "x": 312.0985965657434,
-                    "y": -522.0634480286678,
-                    "vx": 1.2480489964290684e-18,
-                    "vy": -2.2132120772051583e-18
-                },
-                "__indexColor": "#8c0239",
-                "__controlPoints": null,
-                "index": 186
+                "source": "Q208376",
+                "target": "Q4167836"
             },
             {
                 "label": "country",
-                "source": {
-                    "id": "Q10829106",
-                    "name": "Thai Nguyen University of Agriculture and Forestry",
-                    "__indexColor": "#840013",
-                    "index": 18,
-                    "x": -88.11580628514207,
-                    "y": 640.7662952093337,
-                    "vx": -7.597132306501668e-19,
-                    "vy": 2.6063983397463617e-18
-                },
-                "target": {
-                    "id": "Q881",
-                    "name": "Vietnam",
-                    "__indexColor": "#400170",
-                    "index": 367,
-                    "x": -105.57025389787378,
-                    "y": 669.9678654997168,
-                    "vx": -4.388497801149042e-19,
-                    "vy": 2.808313073841943e-18
-                },
-                "__indexColor": "#78023a",
-                "__controlPoints": null,
-                "index": 187
+                "source": "Q10829106",
+                "target": "Q881"
             },
             {
                 "label": "has_effect",
-                "source": {
-                    "id": "Q43987",
-                    "name": "Avian influenza",
-                    "__indexColor": "#000100",
-                    "index": 255,
-                    "x": -723.5904830402052,
-                    "y": 862.1738065525407,
-                    "vx": -2.7827425289975237e-18,
-                    "vy": 3.769340453447744e-18
-                },
-                "target": {
-                    "id": "Q43987",
-                    "name": "Avian influenza",
-                    "__indexColor": "#000100",
-                    "index": 255,
-                    "x": -723.5904830402052,
-                    "y": 862.1738065525407,
-                    "vx": -2.7827425289975237e-18,
-                    "vy": 3.769340453447744e-18
-                },
-                "__indexColor": "#64023b",
-                "__controlPoints": null,
-                "index": 188
+                "source": "Q43987",
+                "target": "Q43987"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q144",
-                    "name": "Dog",
-                    "__indexColor": "#740047",
-                    "index": 70,
-                    "x": 215.05946821901483,
-                    "y": -568.7278951812743,
-                    "vx": 1.4349130608068153e-18,
-                    "vy": -2.891146983324236e-18
-                },
-                "target": {
-                    "id": "Q208376",
-                    "name": "Pet",
-                    "__indexColor": "#000080",
-                    "index": 127,
-                    "x": 272.9931283465106,
-                    "y": -537.5222811743239,
-                    "vx": 1.412487514104299e-18,
-                    "vy": -2.435655260654165e-18
-                },
-                "__indexColor": "#50023c",
-                "__controlPoints": null,
-                "index": 189
+                "source": "Q144",
+                "target": "Q208376"
             },
             {
                 "label": "has_cause",
-                "source": {
-                    "id": "Q43987",
-                    "name": "Avian influenza",
-                    "__indexColor": "#000100",
-                    "index": 255,
-                    "x": -723.5904830402052,
-                    "y": 862.1738065525407,
-                    "vx": -2.7827425289975237e-18,
-                    "vy": 3.769340453447744e-18
-                },
-                "target": {
-                    "id": "Q43987",
-                    "name": "Avian influenza",
-                    "__indexColor": "#000100",
-                    "index": 255,
-                    "x": -723.5904830402052,
-                    "y": 862.1738065525407,
-                    "vx": -2.7827425289975237e-18,
-                    "vy": 3.769340453447744e-18
-                },
-                "__indexColor": "#3c023d",
-                "__controlPoints": null,
-                "index": 190
+                "source": "Q43987",
+                "target": "Q43987"
             },
             {
                 "label": "member_of",
-                "source": {
-                    "id": "Q881",
-                    "name": "Vietnam",
-                    "__indexColor": "#400170",
-                    "index": 367,
-                    "x": -105.57025389787378,
-                    "y": 669.9678654997168,
-                    "vx": -4.388497801149042e-19,
-                    "vy": 2.808313073841943e-18
-                },
-                "target": {
-                    "id": "Q18042814",
-                    "name": "AKR1B10",
-                    "__indexColor": "#f40067",
-                    "index": 102,
-                    "x": -72.60026154199895,
-                    "y": 656.6673641925546,
-                    "vx": -6.071324196117677e-19,
-                    "vy": 2.5767839031468668e-18
-                },
-                "__indexColor": "#28023e",
-                "__controlPoints": null,
-                "index": 191
+                "source": "Q881",
+                "target": "Q18042814"
             },
             {
                 "label": "facet_of",
-                "source": {
-                    "id": "Q80962",
-                    "name": "Animal husbandry",
-                    "__indexColor": "#a8015e",
-                    "index": 349,
-                    "x": -191.85662294870951,
-                    "y": 834.536099846629,
-                    "vx": -7.624498242729836e-19,
-                    "vy": 4.362083747831545e-18
-                },
-                "target": {
-                    "id": "Q170201",
-                    "name": "Veterinary medicine",
-                    "__indexColor": "#d0005c",
-                    "index": 91,
-                    "x": -213.12482466924814,
-                    "y": 810.4836649072524,
-                    "vx": -8.757511152832695e-19,
-                    "vy": 4.46084923735432e-18
-                },
-                "__indexColor": "#14023f",
-                "__controlPoints": null,
-                "index": 192
+                "source": "Q80962",
+                "target": "Q170201"
             },
             {
                 "label": "instance_of",
-                "source": {
-                    "id": "Q43987",
-                    "name": "Avian influenza",
-                    "__indexColor": "#000100",
-                    "index": 255,
-                    "x": -723.5904830402052,
-                    "y": 862.1738065525407,
-                    "vx": -2.7827425289975237e-18,
-                    "vy": 3.769340453447744e-18
-                },
-                "target": {
-                    "id": "Q182672",
-                    "name": "Zoonosis",
-                    "__indexColor": "#b8006a",
-                    "index": 105,
-                    "x": -702.225473453956,
-                    "y": 885.4692913431297,
-                    "vx": -2.7963528124954298e-18,
-                    "vy": 3.8237917273722824e-18
-                },
-                "__indexColor": "#000240",
-                "__controlPoints": null,
-                "index": 193
+                "source": "Q43987",
+                "target": "Q182672"
             },
             {
                 "label": "instance_of",
-                "source": {
-                    "id": "Q1858",
-                    "name": "Hanoi",
-                    "__indexColor": "#7c006d",
-                    "index": 108,
-                    "x": -773.8849648362888,
-                    "y": 676.020037561495,
-                    "vx": -3.324708338849893e-18,
-                    "vy": 2.7476968308536426e-18
-                },
-                "target": {
-                    "id": "Q5119",
-                    "name": "capital city",
-                    "__indexColor": "#5c0115",
-                    "index": 276,
-                    "x": -747.9535657258016,
-                    "y": 695.2151650226343,
-                    "vx": -3.3141352631248286e-18,
-                    "vy": 2.7197681657650235e-18
-                },
-                "__indexColor": "#ec0241",
-                "__controlPoints": null,
-                "index": 194
+                "source": "Q1858",
+                "target": "Q5119"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q43987",
-                    "name": "Avian influenza",
-                    "__indexColor": "#000100",
-                    "index": 255,
-                    "x": -723.5904830402052,
-                    "y": 862.1738065525407,
-                    "vx": -2.7827425289975237e-18,
-                    "vy": 3.769340453447744e-18
-                },
-                "target": {
-                    "id": "Q182672",
-                    "name": "Zoonosis",
-                    "__indexColor": "#b8006a",
-                    "index": 105,
-                    "x": -702.225473453956,
-                    "y": 885.4692913431297,
-                    "vx": -2.7963528124954298e-18,
-                    "vy": 3.8237917273722824e-18
-                },
-                "__indexColor": "#d80242",
-                "__controlPoints": null,
-                "index": 195
+                "source": "Q43987",
+                "target": "Q182672"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q375560",
-                    "name": "fur farming",
-                    "__indexColor": "#4400e3",
-                    "index": 226,
-                    "x": -992.0665033333563,
-                    "y": 303.42901075397657,
-                    "vx": -4.4411973692422316e-18,
-                    "vy": 1.1870625250130535e-18
-                },
-                "target": {
-                    "id": "Q2523206",
-                    "name": "Livestock farming",
-                    "__indexColor": "#1c00a5",
-                    "index": 164,
-                    "x": -1002.7102493161497,
-                    "y": 273.05186154802885,
-                    "vx": -4.4526278431099795e-18,
-                    "vy": 1.1932777612584654e-18
-                },
-                "__indexColor": "#c40243",
-                "__controlPoints": null,
-                "index": 196
+                "source": "Q375560",
+                "target": "Q2523206"
             },
             {
                 "label": "shares_border_with",
-                "source": {
-                    "id": "Q1858",
-                    "name": "Hanoi",
-                    "__indexColor": "#7c006d",
-                    "index": 108,
-                    "x": -773.8849648362888,
-                    "y": 676.020037561495,
-                    "vx": -3.324708338849893e-18,
-                    "vy": 2.7476968308536426e-18
-                },
-                "target": {
-                    "id": "Q33271",
-                    "name": "Đồng Nai",
-                    "__indexColor": "#1000cc",
-                    "index": 203,
-                    "x": -802.17204466011,
-                    "y": 661.0094674108423,
-                    "vx": -3.329364143511502e-18,
-                    "vy": 2.7601431541032235e-18
-                },
-                "__indexColor": "#b00244",
-                "__controlPoints": null,
-                "index": 197
+                "source": "Q1858",
+                "target": "Q33271"
             },
             {
                 "label": "shares_border_with",
-                "source": {
-                    "id": "Q33271",
-                    "name": "Đồng Nai",
-                    "__indexColor": "#1000cc",
-                    "index": 203,
-                    "x": -802.17204466011,
-                    "y": 661.0094674108423,
-                    "vx": -3.329364143511502e-18,
-                    "vy": 2.7601431541032235e-18
-                },
-                "target": {
-                    "id": "Q1858",
-                    "name": "Hanoi",
-                    "__indexColor": "#7c006d",
-                    "index": 108,
-                    "x": -773.8849648362888,
-                    "y": 676.020037561495,
-                    "vx": -3.324708338849893e-18,
-                    "vy": 2.7476968308536426e-18
-                },
-                "__indexColor": "#9c0245",
-                "__controlPoints": null,
-                "index": 198
+                "source": "Q33271",
+                "target": "Q1858"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q36574036",
-                    "name": "Influenza A(H5N1) virus surveillance at live poultry markets, Cambodia, 2011.",
-                    "__indexColor": "#8000e0",
-                    "index": 223,
-                    "x": -174.6853936271386,
-                    "y": 1175.8080227238822,
-                    "vx": -5.749353979365315e-19,
-                    "vy": 4.896064014719083e-18
-                },
-                "target": {
-                    "id": "Q7935305",
-                    "name": "Viruses",
-                    "__indexColor": "#0c0159",
-                    "index": 344,
-                    "x": -205.08788052147628,
-                    "y": 1165.8448024026216,
-                    "vx": -5.518018578553885e-19,
-                    "vy": 4.8826489270567836e-18
-                },
-                "__indexColor": "#880246",
-                "__controlPoints": null,
-                "index": 199
+                "source": "Q36574036",
+                "target": "Q7935305"
             },
             {
                 "label": "instance_of",
-                "source": {
-                    "id": "Q36574036",
-                    "name": "Influenza A(H5N1) virus surveillance at live poultry markets, Cambodia, 2011.",
-                    "__indexColor": "#8000e0",
-                    "index": 223,
-                    "x": -174.6853936271386,
-                    "y": 1175.8080227238822,
-                    "vx": -5.749353979365315e-19,
-                    "vy": 4.896064014719083e-18
-                },
-                "target": {
-                    "id": "Q7935305",
-                    "name": "Viruses",
-                    "__indexColor": "#0c0159",
-                    "index": 344,
-                    "x": -205.08788052147628,
-                    "y": 1165.8448024026216,
-                    "vx": -5.518018578553885e-19,
-                    "vy": 4.8826489270567836e-18
-                },
-                "__indexColor": "#740247",
-                "__controlPoints": null,
-                "index": 200
+                "source": "Q36574036",
+                "target": "Q7935305"
             },
             {
                 "label": "present_in_work",
-                "source": {
-                    "id": "Q207063",
-                    "name": "Squad",
-                    "__indexColor": "#3c007d",
-                    "index": 124,
-                    "x": -360.00536359821524,
-                    "y": 64.11396860449712,
-                    "vx": -2.131135837747766e-18,
-                    "vy": 2.536642243904029e-21
-                },
-                "target": {
-                    "id": "Q462",
-                    "name": "Star Wars",
-                    "__indexColor": "#c40103",
-                    "index": 258,
-                    "x": -389.548299230225,
-                    "y": 41.24127662272012,
-                    "vx": -2.2303275162774696e-18,
-                    "vy": 1.759954535559518e-19
-                },
-                "__indexColor": "#600248",
-                "__controlPoints": null,
-                "index": 201
+                "source": "Q207063",
+                "target": "Q462"
             },
             {
                 "label": "main_subject",
-                "source": {
-                    "id": "Q420421",
-                    "name": "acolyte",
-                    "__indexColor": "#b400f7",
-                    "index": 246,
-                    "x": -346.5696315429974,
-                    "y": -223.99391598216963,
-                    "vx": -1.2806606017486052e-18,
-                    "vy": 7.300221226779961e-19
-                },
-                "target": {
-                    "id": "Q780384",
-                    "name": "Crime Spree",
-                    "__indexColor": "#480156",
-                    "index": 341,
-                    "x": -300.5120908571964,
-                    "y": -232.6155620813029,
-                    "vx": -1.3552201337193508e-18,
-                    "vy": -4.676381927305853e-20
-                },
-                "__indexColor": "#4c0249",
-                "__controlPoints": null,
-                "index": 202
+                "source": "Q420421",
+                "target": "Q780384"
             },
             {
                 "label": "facet_of",
-                "source": {
-                    "id": "Q438964",
-                    "name": "Age verification system",
-                    "__indexColor": "#1400ff",
-                    "index": 254,
-                    "x": 1093.350592633196,
-                    "y": 364.0717019151406,
-                    "vx": 4.451343269501969e-18,
-                    "vy": 1.5659455199924596e-18
-                },
-                "target": {
-                    "id": "Q4112660",
-                    "name": "Wish list",
-                    "__indexColor": "#1800f2",
-                    "index": 241,
-                    "x": 1108.252290633383,
-                    "y": 392.90515302665483,
-                    "vx": 4.412195941760389e-18,
-                    "vy": 1.578475738771221e-18
-                },
-                "__indexColor": "#38024a",
-                "__controlPoints": null,
-                "index": 203
+                "source": "Q438964",
+                "target": "Q4112660"
             },
             {
                 "label": "instance_of",
-                "source": {
-                    "id": "Q462",
-                    "name": "Star Wars",
-                    "__indexColor": "#c40103",
-                    "index": 258,
-                    "x": -389.548299230225,
-                    "y": 41.24127662272012,
-                    "vx": -2.2303275162774696e-18,
-                    "vy": 1.759954535559518e-19
-                },
-                "target": {
-                    "id": "Q318",
-                    "name": "Galaxy",
-                    "__indexColor": "#6000c8",
-                    "index": 199,
-                    "x": -357.5052139123937,
-                    "y": 25.582676825793094,
-                    "vx": -2.2150430758938398e-18,
-                    "vy": 2.1019449674360526e-19
-                },
-                "__indexColor": "#24024b",
-                "__controlPoints": null,
-                "index": 204
+                "source": "Q462",
+                "target": "Q318"
             },
             {
                 "label": "instance_of",
-                "source": {
-                    "id": "Q420421",
-                    "name": "acolyte",
-                    "__indexColor": "#b400f7",
-                    "index": 246,
-                    "x": -346.5696315429974,
-                    "y": -223.99391598216963,
-                    "vx": -1.2806606017486052e-18,
-                    "vy": 7.300221226779961e-19
-                },
-                "target": {
-                    "id": "Q51724",
-                    "name": "Jedi",
-                    "__indexColor": "#0c0119",
-                    "index": 280,
-                    "x": -390.85216893635317,
-                    "y": -192.32482309285322,
-                    "vx": -1.6821770275627616e-18,
-                    "vy": 2.689298555724664e-19
-                },
-                "__indexColor": "#10024c",
-                "__controlPoints": null,
-                "index": 205
+                "source": "Q420421",
+                "target": "Q51724"
             },
             {
                 "label": "part_of",
-                "source": {
-                    "id": "Q438964",
-                    "name": "Age verification system",
-                    "__indexColor": "#1400ff",
-                    "index": 254,
-                    "x": 1093.350592633196,
-                    "y": 364.0717019151406,
-                    "vx": 4.451343269501969e-18,
-                    "vy": 1.5659455199924596e-18
-                },
-                "target": {
-                    "id": "Q4112660",
-                    "name": "Wish list",
-                    "__indexColor": "#1800f2",
-                    "index": 241,
-                    "x": 1108.252290633383,
-                    "y": 392.90515302665483,
-                    "vx": 4.412195941760389e-18,
-                    "vy": 1.578475738771221e-18
-                },
-                "__indexColor": "#fc024d",
-                "__controlPoints": null,
-                "index": 206
+                "source": "Q438964",
+                "target": "Q4112660"
             },
             {
                 "label": "present_in_work",
-                "source": {
-                    "id": "Q1093766",
-                    "name": "The Force",
-                    "__indexColor": "#480016",
-                    "index": 21,
-                    "x": -433.85453846653866,
-                    "y": -28.228211252431624,
-                    "vx": -1.9445049284918083e-18,
-                    "vy": -2.5630616736448337e-20
-                },
-                "target": {
-                    "id": "Q462",
-                    "name": "Star Wars",
-                    "__indexColor": "#c40103",
-                    "index": 258,
-                    "x": -389.548299230225,
-                    "y": 41.24127662272012,
-                    "vx": -2.2303275162774696e-18,
-                    "vy": 1.759954535559518e-19
-                },
-                "__indexColor": "#e8024e",
-                "__controlPoints": null,
-                "index": 207
+                "source": "Q1093766",
+                "target": "Q462"
             },
             {
                 "label": "main_subject",
-                "source": {
-                    "id": "Q104161310",
-                    "name": "The Acolyte",
-                    "__indexColor": "#9c0005",
-                    "index": 4,
-                    "x": -281.9569073229922,
-                    "y": -199.33569504740524,
-                    "vx": -1.4247647977505346e-18,
-                    "vy": -4.8797767107984575e-19
-                },
-                "target": {
-                    "id": "Q780384",
-                    "name": "Crime Spree",
-                    "__indexColor": "#480156",
-                    "index": 341,
-                    "x": -300.5120908571964,
-                    "y": -232.6155620813029,
-                    "vx": -1.3552201337193508e-18,
-                    "vy": -4.676381927305853e-20
-                },
-                "__indexColor": "#d4024f",
-                "__controlPoints": null,
-                "index": 208
+                "source": "Q104161310",
+                "target": "Q780384"
             },
             {
                 "label": "facet_of",
-                "source": {
-                    "id": "Q438964",
-                    "name": "Age verification system",
-                    "__indexColor": "#1400ff",
-                    "index": 254,
-                    "x": 1093.350592633196,
-                    "y": 364.0717019151406,
-                    "vx": 4.451343269501969e-18,
-                    "vy": 1.5659455199924596e-18
-                },
-                "target": {
-                    "id": "Q12488383",
-                    "name": "content",
-                    "__indexColor": "#2c0031",
-                    "index": 48,
-                    "x": 1068.2747505206562,
-                    "y": 384.52603877857797,
-                    "vx": 4.340688842142566e-18,
-                    "vy": 1.4306497324365825e-18
-                },
-                "__indexColor": "#c00250",
-                "__controlPoints": null,
-                "index": 209
+                "source": "Q438964",
+                "target": "Q12488383"
             },
             {
                 "label": "original_broadcaster",
-                "source": {
-                    "id": "Q51755",
-                    "name": "Ahsoka Tano",
-                    "__indexColor": "#800120",
-                    "index": 287,
-                    "x": -400.5223623856839,
-                    "y": -223.3162803922654,
-                    "vx": -1.9206705200248796e-18,
-                    "vy": 2.9413348211412435e-19
-                },
-                "target": {
-                    "id": "Q54958752",
-                    "name": "Disney+",
-                    "__indexColor": "#b8012a",
-                    "index": 297,
-                    "x": -368.5605029469679,
-                    "y": -224.14234916055673,
-                    "vx": -1.430872223065401e-18,
-                    "vy": -1.1743271469764706e-18
-                },
-                "__indexColor": "#ac0251",
-                "__controlPoints": null,
-                "index": 210
+                "source": "Q51755",
+                "target": "Q54958752"
             },
             {
                 "label": "production_company",
-                "source": {
-                    "id": "Q21527419",
-                    "name": "List of Star Wars films",
-                    "__indexColor": "#600088",
-                    "index": 135,
-                    "x": -474.779892374835,
-                    "y": 173.40076829372586,
-                    "vx": -2.315467862632688e-18,
-                    "vy": -1.0300809083947022e-19
-                },
-                "target": {
-                    "id": "Q242446",
-                    "name": "Lucasfilm",
-                    "__indexColor": "#340097",
-                    "index": 150,
-                    "x": -448.18562170015144,
-                    "y": 142.96016226223725,
-                    "vx": -2.1908131226885974e-18,
-                    "vy": 4.3935271220782024e-20
-                },
-                "__indexColor": "#980252",
-                "__controlPoints": null,
-                "index": 211
+                "source": "Q21527419",
+                "target": "Q242446"
             },
             {
                 "label": "occupation",
-                "source": {
-                    "id": "Q51730",
-                    "name": "Yoda",
-                    "__indexColor": "#e4011b",
-                    "index": 282,
-                    "x": -334.67152682242244,
-                    "y": 130.81797311585504,
-                    "vx": -2.0622647645687684e-18,
-                    "vy": 2.375663209321264e-19
-                },
-                "target": {
-                    "id": "Q1360577",
-                    "name": "Masters",
-                    "__indexColor": "#28003e",
-                    "index": 61,
-                    "x": -299.21596382070425,
-                    "y": 190.13806305257694,
-                    "vx": -2.0528522370765096e-18,
-                    "vy": 1.7611908172058397e-19
-                },
-                "__indexColor": "#840253",
-                "__controlPoints": null,
-                "index": 212
+                "source": "Q51730",
+                "target": "Q1360577"
             },
             {
                 "label": "cast_member",
-                "source": {
-                    "id": "Q1542815",
-                    "name": "Hero's journey",
-                    "__indexColor": "#ac0051",
-                    "index": 80,
-                    "x": -886.382436182071,
-                    "y": -107.12008479953998,
-                    "vx": -4.585046350753465e-18,
-                    "vy": -5.972042597889616e-19
-                },
-                "target": {
-                    "id": "Q228692",
-                    "name": "Rosario Dawson",
-                    "__indexColor": "#c00090",
-                    "index": 143,
-                    "x": -881.4319683618668,
-                    "y": -75.04858770658085,
-                    "vx": -4.627387766869645e-18,
-                    "vy": -5.949267978428587e-19
-                },
-                "__indexColor": "#700254",
-                "__controlPoints": null,
-                "index": 213
+                "source": "Q1542815",
+                "target": "Q228692"
             },
             {
                 "label": "owner_of",
-                "source": {
-                    "id": "Q242446",
-                    "name": "Lucasfilm",
-                    "__indexColor": "#340097",
-                    "index": 150,
-                    "x": -448.18562170015144,
-                    "y": 142.96016226223725,
-                    "vx": -2.1908131226885974e-18,
-                    "vy": 4.3935271220782024e-20
-                },
-                "target": {
-                    "id": "Q21527419",
-                    "name": "List of Star Wars films",
-                    "__indexColor": "#600088",
-                    "index": 135,
-                    "x": -474.779892374835,
-                    "y": 173.40076829372586,
-                    "vx": -2.315467862632688e-18,
-                    "vy": -1.0300809083947022e-19
-                },
-                "__indexColor": "#5c0255",
-                "__controlPoints": null,
-                "index": 214
+                "source": "Q242446",
+                "target": "Q21527419"
             },
             {
                 "label": "member_of",
-                "source": {
-                    "id": "Q51755",
-                    "name": "Ahsoka Tano",
-                    "__indexColor": "#800120",
-                    "index": 287,
-                    "x": -400.5223623856839,
-                    "y": -223.3162803922654,
-                    "vx": -1.9206705200248796e-18,
-                    "vy": 2.9413348211412435e-19
-                },
-                "target": {
-                    "id": "Q51724",
-                    "name": "Jedi",
-                    "__indexColor": "#0c0119",
-                    "index": 280,
-                    "x": -390.85216893635317,
-                    "y": -192.32482309285322,
-                    "vx": -1.6821770275627616e-18,
-                    "vy": 2.689298555724664e-19
-                },
-                "__indexColor": "#480256",
-                "__controlPoints": null,
-                "index": 215
+                "source": "Q51755",
+                "target": "Q51724"
             },
             {
                 "label": "owned_by",
-                "source": {
-                    "id": "Q21527419",
-                    "name": "List of Star Wars films",
-                    "__indexColor": "#600088",
-                    "index": 135,
-                    "x": -474.779892374835,
-                    "y": 173.40076829372586,
-                    "vx": -2.315467862632688e-18,
-                    "vy": -1.0300809083947022e-19
-                },
-                "target": {
-                    "id": "Q242446",
-                    "name": "Lucasfilm",
-                    "__indexColor": "#340097",
-                    "index": 150,
-                    "x": -448.18562170015144,
-                    "y": 142.96016226223725,
-                    "vx": -2.1908131226885974e-18,
-                    "vy": 4.3935271220782024e-20
-                },
-                "__indexColor": "#340257",
-                "__controlPoints": null,
-                "index": 216
+                "source": "Q21527419",
+                "target": "Q242446"
             },
             {
                 "label": "cast_member",
-                "source": {
-                    "id": "Q66707670",
-                    "name": "Master & Apprentice",
-                    "__indexColor": "#ec0141",
-                    "index": 320,
-                    "x": -877.7933986382519,
-                    "y": -42.80136131382758,
-                    "vx": -4.604881362231042e-18,
-                    "vy": -6.059638061444281e-19
-                },
-                "target": {
-                    "id": "Q228692",
-                    "name": "Rosario Dawson",
-                    "__indexColor": "#c00090",
-                    "index": 143,
-                    "x": -881.4319683618668,
-                    "y": -75.04858770658085,
-                    "vx": -4.627387766869645e-18,
-                    "vy": -5.949267978428587e-19
-                },
-                "__indexColor": "#200258",
-                "__controlPoints": null,
-                "index": 217
+                "source": "Q66707670",
+                "target": "Q228692"
             },
             {
                 "label": "occupation",
-                "source": {
-                    "id": "Q3570980",
-                    "name": "Xie",
-                    "__indexColor": "#e400db",
-                    "index": 218,
-                    "x": -278.4929520250832,
-                    "y": 226.47672008602788,
-                    "vx": -1.9402612527029025e-18,
-                    "vy": 2.314758493601561e-19
-                },
-                "target": {
-                    "id": "Q1360577",
-                    "name": "Masters",
-                    "__indexColor": "#28003e",
-                    "index": 61,
-                    "x": -299.21596382070425,
-                    "y": 190.13806305257694,
-                    "vx": -2.0528522370765096e-18,
-                    "vy": 1.7611908172058397e-19
-                },
-                "__indexColor": "#0c0259",
-                "__controlPoints": null,
-                "index": 218
+                "source": "Q3570980",
+                "target": "Q1360577"
             },
             {
                 "label": "publisher",
-                "source": {
-                    "id": "Q119361001",
-                    "name": "Star Wars Outlaws",
-                    "__indexColor": "#f40027",
-                    "index": 38,
-                    "x": -577.2118584056639,
-                    "y": 307.10237605626486,
-                    "vx": -1.8244838075317445e-18,
-                    "vy": 3.4964176144082923e-19
-                },
-                "target": {
-                    "id": "Q1466613",
-                    "name": "Massive Entertainment",
-                    "__indexColor": "#24004b",
-                    "index": 74,
-                    "x": -581.8980138095133,
-                    "y": 346.84989282408594,
-                    "vx": -1.4601051019012389e-18,
-                    "vy": 4.1245155549238774e-19
-                },
-                "__indexColor": "#f8025a",
-                "__controlPoints": null,
-                "index": 219
+                "source": "Q119361001",
+                "target": "Q1466613"
             },
             {
                 "label": "date_of_death",
-                "source": {
-                    "id": "Q5614101",
-                    "name": "Michael Culver",
-                    "__indexColor": "#7c012d",
-                    "index": 300,
-                    "x": -532.2602419085006,
-                    "y": 20.453445571193726,
-                    "vx": -2.3547684559395943e-18,
-                    "vy": 1.4708481951281557e-18
-                },
-                "target": {
-                    "id": "Q427730",
-                    "name": "85",
-                    "__indexColor": "#6400fb",
-                    "index": 250,
-                    "x": -572.6145359302081,
-                    "y": 8.306316042660741,
-                    "vx": -2.3580532178814434e-18,
-                    "vy": 1.5598579769044272e-18
-                },
-                "__indexColor": "#e4025b",
-                "__controlPoints": null,
-                "index": 220
+                "source": "Q5614101",
+                "target": "Q427730"
             },
             {
                 "label": "present_in_work",
-                "source": {
-                    "id": "Q96381012",
-                    "name": "High Republic",
-                    "__indexColor": "#50017c",
-                    "index": 379,
-                    "x": -190.14753821573368,
-                    "y": -121.36536155736958,
-                    "vx": -1.3747818836554987e-18,
-                    "vy": -3.288623615810342e-19
-                },
-                "target": {
-                    "id": "Q165713",
-                    "name": "Star Wars: Episode I – The Phantom Menace",
-                    "__indexColor": "#340057",
-                    "index": 86,
-                    "x": -151.85863054753636,
-                    "y": -129.25772324818425,
-                    "vx": -1.382531353078013e-18,
-                    "vy": -9.307124465090716e-20
-                },
-                "__indexColor": "#d0025c",
-                "__controlPoints": null,
-                "index": 221
+                "source": "Q96381012",
+                "target": "Q165713"
             },
             {
                 "label": "position_held",
-                "source": {
-                    "id": "Q51730",
-                    "name": "Yoda",
-                    "__indexColor": "#e4011b",
-                    "index": 282,
-                    "x": -334.67152682242244,
-                    "y": 130.81797311585504,
-                    "vx": -2.0622647645687684e-18,
-                    "vy": 2.375663209321264e-19
-                },
-                "target": {
-                    "id": "Q1360577",
-                    "name": "Masters",
-                    "__indexColor": "#28003e",
-                    "index": 61,
-                    "x": -299.21596382070425,
-                    "y": 190.13806305257694,
-                    "vx": -2.0528522370765096e-18,
-                    "vy": 1.7611908172058397e-19
-                },
-                "__indexColor": "#bc025d",
-                "__controlPoints": null,
-                "index": 222
+                "source": "Q51730",
+                "target": "Q1360577"
             },
             {
                 "label": "genre",
-                "source": {
-                    "id": "Q119361001",
-                    "name": "Star Wars Outlaws",
-                    "__indexColor": "#f40027",
-                    "index": 38,
-                    "x": -577.2118584056639,
-                    "y": 307.10237605626486,
-                    "vx": -1.8244838075317445e-18,
-                    "vy": 3.4964176144082923e-19
-                },
-                "target": {
-                    "id": "Q867123",
-                    "name": "Open world",
-                    "__indexColor": "#7c016d",
-                    "index": 364,
-                    "x": -611.5565034872626,
-                    "y": 297.66080392638736,
-                    "vx": -1.8828339484778635e-18,
-                    "vy": 6.929157920697128e-19
-                },
-                "__indexColor": "#a8025e",
-                "__controlPoints": null,
-                "index": 223
+                "source": "Q119361001",
+                "target": "Q867123"
             },
             {
                 "label": "country_of_citizenship",
-                "source": {
-                    "id": "Q5614101",
-                    "name": "Michael Culver",
-                    "__indexColor": "#7c012d",
-                    "index": 300,
-                    "x": -532.2602419085006,
-                    "y": 20.453445571193726,
-                    "vx": -2.3547684559395943e-18,
-                    "vy": 1.4708481951281557e-18
-                },
-                "target": {
-                    "id": "Q842438",
-                    "name": "British",
-                    "__indexColor": "#580162",
-                    "index": 353,
-                    "x": -458.0698682185208,
-                    "y": 34.20981592140812,
-                    "vx": -2.5588104423203823e-18,
-                    "vy": 9.641090922242092e-19
-                },
-                "__indexColor": "#94025f",
-                "__controlPoints": null,
-                "index": 224
+                "source": "Q5614101",
+                "target": "Q842438"
             },
             {
                 "label": "distributed_by",
-                "source": {
-                    "id": "Q104161310",
-                    "name": "The Acolyte",
-                    "__indexColor": "#9c0005",
-                    "index": 4,
-                    "x": -281.9569073229922,
-                    "y": -199.33569504740524,
-                    "vx": -1.4247647977505346e-18,
-                    "vy": -4.8797767107984575e-19
-                },
-                "target": {
-                    "id": "Q54958752",
-                    "name": "Disney+",
-                    "__indexColor": "#b8012a",
-                    "index": 297,
-                    "x": -368.5605029469679,
-                    "y": -224.14234916055673,
-                    "vx": -1.430872223065401e-18,
-                    "vy": -1.1743271469764706e-18
-                },
-                "__indexColor": "#800260",
-                "__controlPoints": null,
-                "index": 225
+                "source": "Q104161310",
+                "target": "Q54958752"
             },
             {
                 "label": "publisher",
-                "source": {
-                    "id": "Q119361001",
-                    "name": "Star Wars Outlaws",
-                    "__indexColor": "#f40027",
-                    "index": 38,
-                    "x": -577.2118584056639,
-                    "y": 307.10237605626486,
-                    "vx": -1.8244838075317445e-18,
-                    "vy": 3.4964176144082923e-19
-                },
-                "target": {
-                    "id": "Q188273",
-                    "name": "Ubisoft",
-                    "__indexColor": "#68006e",
-                    "index": 109,
-                    "x": -615.3185265159773,
-                    "y": 313.30727273179144,
-                    "vx": -1.737039279413703e-18,
-                    "vy": 6.891248530877717e-19
-                },
-                "__indexColor": "#6c0261",
-                "__controlPoints": null,
-                "index": 226
+                "source": "Q119361001",
+                "target": "Q188273"
             },
             {
                 "label": "position_held",
-                "source": {
-                    "id": "Q3570980",
-                    "name": "Xie",
-                    "__indexColor": "#e400db",
-                    "index": 218,
-                    "x": -278.4929520250832,
-                    "y": 226.47672008602788,
-                    "vx": -1.9402612527029025e-18,
-                    "vy": 2.314758493601561e-19
-                },
-                "target": {
-                    "id": "Q1360577",
-                    "name": "Masters",
-                    "__indexColor": "#28003e",
-                    "index": 61,
-                    "x": -299.21596382070425,
-                    "y": 190.13806305257694,
-                    "vx": -2.0528522370765096e-18,
-                    "vy": 1.7611908172058397e-19
-                },
-                "__indexColor": "#580262",
-                "__controlPoints": null,
-                "index": 227
+                "source": "Q3570980",
+                "target": "Q1360577"
             },
             {
                 "label": "developer",
-                "source": {
-                    "id": "Q119361001",
-                    "name": "Star Wars Outlaws",
-                    "__indexColor": "#f40027",
-                    "index": 38,
-                    "x": -577.2118584056639,
-                    "y": 307.10237605626486,
-                    "vx": -1.8244838075317445e-18,
-                    "vy": 3.4964176144082923e-19
-                },
-                "target": {
-                    "id": "Q1466613",
-                    "name": "Massive Entertainment",
-                    "__indexColor": "#24004b",
-                    "index": 74,
-                    "x": -581.8980138095133,
-                    "y": 346.84989282408594,
-                    "vx": -1.4601051019012389e-18,
-                    "vy": 4.1245155549238774e-19
-                },
-                "__indexColor": "#440263",
-                "__controlPoints": null,
-                "index": 228
+                "source": "Q119361001",
+                "target": "Q1466613"
             },
             {
                 "label": "original_broadcaster",
-                "source": {
-                    "id": "Q104161310",
-                    "name": "The Acolyte",
-                    "__indexColor": "#9c0005",
-                    "index": 4,
-                    "x": -281.9569073229922,
-                    "y": -199.33569504740524,
-                    "vx": -1.4247647977505346e-18,
-                    "vy": -4.8797767107984575e-19
-                },
-                "target": {
-                    "id": "Q54958752",
-                    "name": "Disney+",
-                    "__indexColor": "#b8012a",
-                    "index": 297,
-                    "x": -368.5605029469679,
-                    "y": -224.14234916055673,
-                    "vx": -1.430872223065401e-18,
-                    "vy": -1.1743271469764706e-18
-                },
-                "__indexColor": "#300264",
-                "__controlPoints": null,
-                "index": 229
+                "source": "Q104161310",
+                "target": "Q54958752"
             },
             {
                 "label": "developer",
-                "source": {
-                    "id": "Q119361001",
-                    "name": "Star Wars Outlaws",
-                    "__indexColor": "#f40027",
-                    "index": 38,
-                    "x": -577.2118584056639,
-                    "y": 307.10237605626486,
-                    "vx": -1.8244838075317445e-18,
-                    "vy": 3.4964176144082923e-19
-                },
-                "target": {
-                    "id": "Q188273",
-                    "name": "Ubisoft",
-                    "__indexColor": "#68006e",
-                    "index": 109,
-                    "x": -615.3185265159773,
-                    "y": 313.30727273179144,
-                    "vx": -1.737039279413703e-18,
-                    "vy": 6.891248530877717e-19
-                },
-                "__indexColor": "#1c0265",
-                "__controlPoints": null,
-                "index": 230
+                "source": "Q119361001",
+                "target": "Q188273"
             },
             {
                 "label": "country_of_origin",
-                "source": {
-                    "id": "Q462",
-                    "name": "Star Wars",
-                    "__indexColor": "#c40103",
-                    "index": 258,
-                    "x": -389.548299230225,
-                    "y": 41.24127662272012,
-                    "vx": -2.2303275162774696e-18,
-                    "vy": 1.759954535559518e-19
-                },
-                "target": {
-                    "id": "Q842438",
-                    "name": "British",
-                    "__indexColor": "#580162",
-                    "index": 353,
-                    "x": -458.0698682185208,
-                    "y": 34.20981592140812,
-                    "vx": -2.5588104423203823e-18,
-                    "vy": 9.641090922242092e-19
-                },
-                "__indexColor": "#080266",
-                "__controlPoints": null,
-                "index": 231
+                "source": "Q462",
+                "target": "Q842438"
             },
             {
                 "label": "member_of",
-                "source": {
-                    "id": "Q12206942",
-                    "name": "Darth Vader",
-                    "__indexColor": "#90002c",
-                    "index": 43,
-                    "x": -416.85956525267983,
-                    "y": -93.01492546482316,
-                    "vx": -1.7218461140213561e-18,
-                    "vy": -1.726169767625492e-19
-                },
-                "target": {
-                    "id": "Q51771",
-                    "name": "Sith",
-                    "__indexColor": "#580122",
-                    "index": 289,
-                    "x": -435.97501415509385,
-                    "y": 29.61473796302526,
-                    "vx": -2.061681877254107e-18,
-                    "vy": -3.990939646870264e-19
-                },
-                "__indexColor": "#f40267",
-                "__controlPoints": null,
-                "index": 232
+                "source": "Q12206942",
+                "target": "Q51771"
             },
             {
                 "label": "publication_date",
-                "source": {
-                    "id": "Q1323132",
-                    "name": "A Passage to India",
-                    "__indexColor": "#dc0035",
-                    "index": 52,
-                    "x": 795.8658854075771,
-                    "y": 13.50890272500139,
-                    "vx": 2.9361115055333796e-18,
-                    "vy": 1.789161969717084e-19
-                },
-                "target": {
-                    "id": "Q2432",
-                    "name": "1984",
-                    "__indexColor": "#0c0099",
-                    "index": 152,
-                    "x": 797.4548792674409,
-                    "y": 45.43827112557596,
-                    "vx": 2.9623284558121636e-18,
-                    "vy": 1.401825634755486e-19
-                },
-                "__indexColor": "#e00268",
-                "__controlPoints": null,
-                "index": 233
+                "source": "Q1323132",
+                "target": "Q2432"
             },
             {
                 "label": "owned_by",
-                "source": {
-                    "id": "Q106834240",
-                    "name": "Star Wars Kids",
-                    "__indexColor": "#980012",
-                    "index": 17,
-                    "x": -461.16451831791613,
-                    "y": 178.43917102143186,
-                    "vx": -2.3323602019428376e-18,
-                    "vy": -1.3594561004054785e-20
-                },
-                "target": {
-                    "id": "Q242446",
-                    "name": "Lucasfilm",
-                    "__indexColor": "#340097",
-                    "index": 150,
-                    "x": -448.18562170015144,
-                    "y": 142.96016226223725,
-                    "vx": -2.1908131226885974e-18,
-                    "vy": 4.3935271220782024e-20
-                },
-                "__indexColor": "#cc0269",
-                "__controlPoints": null,
-                "index": 234
+                "source": "Q106834240",
+                "target": "Q242446"
             },
             {
                 "label": "publication_date",
-                "source": {
-                    "id": "Q116763978",
-                    "name": "Star Wars: Young Jedi Adventures",
-                    "__indexColor": "#300024",
-                    "index": 35,
-                    "x": -172.84139272305455,
-                    "y": -198.48287155889582,
-                    "vx": -1.556571232838112e-18,
-                    "vy": -2.061836648606306e-19
-                },
-                "target": {
-                    "id": "Q49619",
-                    "name": "2024",
-                    "__indexColor": "#fc010d",
-                    "index": 268,
-                    "x": -188.9581000554581,
-                    "y": -294.60551872337413,
-                    "vx": -1.7381805897330932e-18,
-                    "vy": -2.1393336805589673e-20
-                },
-                "__indexColor": "#b8026a",
-                "__controlPoints": null,
-                "index": 235
+                "source": "Q116763978",
+                "target": "Q49619"
             },
             {
                 "label": "developer",
-                "source": {
-                    "id": "Q119361001",
-                    "name": "Star Wars Outlaws",
-                    "__indexColor": "#f40027",
-                    "index": 38,
-                    "x": -577.2118584056639,
-                    "y": 307.10237605626486,
-                    "vx": -1.8244838075317445e-18,
-                    "vy": 3.4964176144082923e-19
-                },
-                "target": {
-                    "id": "Q568723",
-                    "name": "MASSIVE",
-                    "__indexColor": "#180132",
-                    "index": 305,
-                    "x": -611.630346847472,
-                    "y": 326.445450736815,
-                    "vx": -1.541971256682203e-18,
-                    "vy": 5.722430634181419e-19
-                },
-                "__indexColor": "#a4026b",
-                "__controlPoints": null,
-                "index": 236
+                "source": "Q119361001",
+                "target": "Q568723"
             },
             {
                 "label": "part_of_the_series",
-                "source": {
-                    "id": "Q181795",
-                    "name": "The Empire Strikes Back",
-                    "__indexColor": "#e00068",
-                    "index": 103,
-                    "x": -415.2165034942531,
-                    "y": 75.28725978075552,
-                    "vx": -2.133567872510054e-18,
-                    "vy": 2.5304100700870235e-19
-                },
-                "target": {
-                    "id": "Q462",
-                    "name": "Star Wars",
-                    "__indexColor": "#c40103",
-                    "index": 258,
-                    "x": -389.548299230225,
-                    "y": 41.24127662272012,
-                    "vx": -2.2303275162774696e-18,
-                    "vy": 1.759954535559518e-19
-                },
-                "__indexColor": "#90026c",
-                "__controlPoints": null,
-                "index": 237
+                "source": "Q181795",
+                "target": "Q462"
             },
             {
                 "label": "present_in_work",
-                "source": {
-                    "id": "Q51802",
-                    "name": "Han Solo",
-                    "__indexColor": "#1c0125",
-                    "index": 292,
-                    "x": -440.53112633177415,
-                    "y": 103.11903640489395,
-                    "vx": -1.8258064333547815e-18,
-                    "vy": 4.852542877753778e-19
-                },
-                "target": {
-                    "id": "Q181795",
-                    "name": "The Empire Strikes Back",
-                    "__indexColor": "#e00068",
-                    "index": 103,
-                    "x": -415.2165034942531,
-                    "y": 75.28725978075552,
-                    "vx": -2.133567872510054e-18,
-                    "vy": 2.5304100700870235e-19
-                },
-                "__indexColor": "#7c026d",
-                "__controlPoints": null,
-                "index": 238
+                "source": "Q51802",
+                "target": "Q181795"
             },
             {
                 "label": "publisher",
-                "source": {
-                    "id": "Q119361001",
-                    "name": "Star Wars Outlaws",
-                    "__indexColor": "#f40027",
-                    "index": 38,
-                    "x": -577.2118584056639,
-                    "y": 307.10237605626486,
-                    "vx": -1.8244838075317445e-18,
-                    "vy": 3.4964176144082923e-19
-                },
-                "target": {
-                    "id": "Q568723",
-                    "name": "MASSIVE",
-                    "__indexColor": "#180132",
-                    "index": 305,
-                    "x": -611.630346847472,
-                    "y": 326.445450736815,
-                    "vx": -1.541971256682203e-18,
-                    "vy": 5.722430634181419e-19
-                },
-                "__indexColor": "#68026e",
-                "__controlPoints": null,
-                "index": 239
+                "source": "Q119361001",
+                "target": "Q568723"
             },
             {
                 "label": "has_part",
-                "source": {
-                    "id": "Q462",
-                    "name": "Star Wars",
-                    "__indexColor": "#c40103",
-                    "index": 258,
-                    "x": -389.548299230225,
-                    "y": 41.24127662272012,
-                    "vx": -2.2303275162774696e-18,
-                    "vy": 1.759954535559518e-19
-                },
-                "target": {
-                    "id": "Q181795",
-                    "name": "The Empire Strikes Back",
-                    "__indexColor": "#e00068",
-                    "index": 103,
-                    "x": -415.2165034942531,
-                    "y": 75.28725978075552,
-                    "vx": -2.133567872510054e-18,
-                    "vy": 2.5304100700870235e-19
-                },
-                "__indexColor": "#54026f",
-                "__controlPoints": null,
-                "index": 240
+                "source": "Q462",
+                "target": "Q181795"
             },
             {
                 "label": "part_of_the_series",
-                "source": {
-                    "id": "Q119361001",
-                    "name": "Star Wars Outlaws",
-                    "__indexColor": "#f40027",
-                    "index": 38,
-                    "x": -577.2118584056639,
-                    "y": 307.10237605626486,
-                    "vx": -1.8244838075317445e-18,
-                    "vy": 3.4964176144082923e-19
-                },
-                "target": {
-                    "id": "Q244700",
-                    "name": "ultimate",
-                    "__indexColor": "#f8009a",
-                    "index": 153,
-                    "x": -605.8725568971442,
-                    "y": 338.2337199251601,
-                    "vx": -1.353233361358688e-18,
-                    "vy": 5.51820365168321e-19
-                },
-                "__indexColor": "#400270",
-                "__controlPoints": null,
-                "index": 241
+                "source": "Q119361001",
+                "target": "Q244700"
             },
             {
                 "label": "narrative_location",
-                "source": {
-                    "id": "Q116763978",
-                    "name": "Star Wars: Young Jedi Adventures",
-                    "__indexColor": "#300024",
-                    "index": 35,
-                    "x": -172.84139272305455,
-                    "y": -198.48287155889582,
-                    "vx": -1.556571232838112e-18,
-                    "vy": -2.061836648606306e-19
-                },
-                "target": {
-                    "id": "Q96381012",
-                    "name": "High Republic",
-                    "__indexColor": "#50017c",
-                    "index": 379,
-                    "x": -190.14753821573368,
-                    "y": -121.36536155736958,
-                    "vx": -1.3747818836554987e-18,
-                    "vy": -3.288623615810342e-19
-                },
-                "__indexColor": "#2c0271",
-                "__controlPoints": null,
-                "index": 242
+                "source": "Q116763978",
+                "target": "Q96381012"
             },
             {
                 "label": "followed_by",
-                "source": {
-                    "id": "Q119361001",
-                    "name": "Star Wars Outlaws",
-                    "__indexColor": "#f40027",
-                    "index": 38,
-                    "x": -577.2118584056639,
-                    "y": 307.10237605626486,
-                    "vx": -1.8244838075317445e-18,
-                    "vy": 3.4964176144082923e-19
-                },
-                "target": {
-                    "id": "Q244700",
-                    "name": "ultimate",
-                    "__indexColor": "#f8009a",
-                    "index": 153,
-                    "x": -605.8725568971442,
-                    "y": 338.2337199251601,
-                    "vx": -1.353233361358688e-18,
-                    "vy": 5.51820365168321e-19
-                },
-                "__indexColor": "#180272",
-                "__controlPoints": null,
-                "index": 243
+                "source": "Q119361001",
+                "target": "Q244700"
             },
             {
                 "label": "production_company",
-                "source": {
-                    "id": "Q462",
-                    "name": "Star Wars",
-                    "__indexColor": "#c40103",
-                    "index": 258,
-                    "x": -389.548299230225,
-                    "y": 41.24127662272012,
-                    "vx": -2.2303275162774696e-18,
-                    "vy": 1.759954535559518e-19
-                },
-                "target": {
-                    "id": "Q242446",
-                    "name": "Lucasfilm",
-                    "__indexColor": "#340097",
-                    "index": 150,
-                    "x": -448.18562170015144,
-                    "y": 142.96016226223725,
-                    "vx": -2.1908131226885974e-18,
-                    "vy": 4.3935271220782024e-20
-                },
-                "__indexColor": "#040273",
-                "__controlPoints": null,
-                "index": 244
+                "source": "Q462",
+                "target": "Q242446"
             },
             {
                 "label": "publisher",
-                "source": {
-                    "id": "Q119361001",
-                    "name": "Star Wars Outlaws",
-                    "__indexColor": "#f40027",
-                    "index": 38,
-                    "x": -577.2118584056639,
-                    "y": 307.10237605626486,
-                    "vx": -1.8244838075317445e-18,
-                    "vy": 3.4964176144082923e-19
-                },
-                "target": {
-                    "id": "Q242446",
-                    "name": "Lucasfilm",
-                    "__indexColor": "#340097",
-                    "index": 150,
-                    "x": -448.18562170015144,
-                    "y": 142.96016226223725,
-                    "vx": -2.1908131226885974e-18,
-                    "vy": 4.3935271220782024e-20
-                },
-                "__indexColor": "#f00274",
-                "__controlPoints": null,
-                "index": 245
+                "source": "Q119361001",
+                "target": "Q242446"
             },
             {
                 "label": "follows",
-                "source": {
-                    "id": "Q244700",
-                    "name": "ultimate",
-                    "__indexColor": "#f8009a",
-                    "index": 153,
-                    "x": -605.8725568971442,
-                    "y": 338.2337199251601,
-                    "vx": -1.353233361358688e-18,
-                    "vy": 5.51820365168321e-19
-                },
-                "target": {
-                    "id": "Q119361001",
-                    "name": "Star Wars Outlaws",
-                    "__indexColor": "#f40027",
-                    "index": 38,
-                    "x": -577.2118584056639,
-                    "y": 307.10237605626486,
-                    "vx": -1.8244838075317445e-18,
-                    "vy": 3.4964176144082923e-19
-                },
-                "__indexColor": "#dc0275",
-                "__controlPoints": null,
-                "index": 246
+                "source": "Q244700",
+                "target": "Q119361001"
             },
             {
                 "label": "has_part",
-                "source": {
-                    "id": "Q462",
-                    "name": "Star Wars",
-                    "__indexColor": "#c40103",
-                    "index": 258,
-                    "x": -389.548299230225,
-                    "y": 41.24127662272012,
-                    "vx": -2.2303275162774696e-18,
-                    "vy": 1.759954535559518e-19
-                },
-                "target": {
-                    "id": "Q25540924",
-                    "name": "Star Wars prequel trilogy",
-                    "__indexColor": "#7c00ad",
-                    "index": 172,
-                    "x": -397.14406536534614,
-                    "y": 76.24754630285413,
-                    "vx": -2.118789147595849e-18,
-                    "vy": 2.2817339130333485e-19
-                },
-                "__indexColor": "#c80276",
-                "__controlPoints": null,
-                "index": 247
+                "source": "Q462",
+                "target": "Q25540924"
             },
             {
                 "label": "publication_date",
-                "source": {
-                    "id": "Q56876444",
-                    "name": "The Mandalorian",
-                    "__indexColor": "#040133",
-                    "index": 306,
-                    "x": -230.50558878191197,
-                    "y": -352.21658501677,
-                    "vx": -1.9294342406358672e-18,
-                    "vy": 2.0624642999609032e-19
-                },
-                "target": {
-                    "id": "Q49619",
-                    "name": "2024",
-                    "__indexColor": "#fc010d",
-                    "index": 268,
-                    "x": -188.9581000554581,
-                    "y": -294.60551872337413,
-                    "vx": -1.7381805897330932e-18,
-                    "vy": -2.1393336805589673e-20
-                },
-                "__indexColor": "#b40277",
-                "__controlPoints": null,
-                "index": 248
+                "source": "Q56876444",
+                "target": "Q49619"
             },
             {
                 "label": "part_of_the_series",
-                "source": {
-                    "id": "Q25540924",
-                    "name": "Star Wars prequel trilogy",
-                    "__indexColor": "#7c00ad",
-                    "index": 172,
-                    "x": -397.14406536534614,
-                    "y": 76.24754630285413,
-                    "vx": -2.118789147595849e-18,
-                    "vy": 2.2817339130333485e-19
-                },
-                "target": {
-                    "id": "Q462",
-                    "name": "Star Wars",
-                    "__indexColor": "#c40103",
-                    "index": 258,
-                    "x": -389.548299230225,
-                    "y": 41.24127662272012,
-                    "vx": -2.2303275162774696e-18,
-                    "vy": 1.759954535559518e-19
-                },
-                "__indexColor": "#a00278",
-                "__controlPoints": null,
-                "index": 249
+                "source": "Q25540924",
+                "target": "Q462"
             },
             {
                 "label": "genre",
-                "source": {
-                    "id": "Q119361001",
-                    "name": "Star Wars Outlaws",
-                    "__indexColor": "#f40027",
-                    "index": 38,
-                    "x": -577.2118584056639,
-                    "y": 307.10237605626486,
-                    "vx": -1.8244838075317445e-18,
-                    "vy": 3.4964176144082923e-19
-                },
-                "target": {
-                    "id": "Q21590660",
-                    "name": "Western (genre)",
-                    "__indexColor": "#38008a",
-                    "index": 137,
-                    "x": -593.4517273294776,
-                    "y": 341.0590888719566,
-                    "vx": -1.5949715181252355e-18,
-                    "vy": 5.518768921602881e-19
-                },
-                "__indexColor": "#8c0279",
-                "__controlPoints": null,
-                "index": 250
+                "source": "Q119361001",
+                "target": "Q21590660"
             },
             {
                 "label": "part_of_the_series",
-                "source": {
-                    "id": "Q177860",
-                    "name": "Valhalla",
-                    "__indexColor": "#080066",
-                    "index": 101,
-                    "x": -899.3974475208106,
-                    "y": -703.851776721051,
-                    "vx": -3.487427371977492e-18,
-                    "vy": -3.282069067555907e-18
-                },
-                "target": {
-                    "id": "Q420292",
-                    "name": "Assassin's Creed",
-                    "__indexColor": "#c800f6",
-                    "index": 245,
-                    "x": -928.7041001213287,
-                    "y": -716.346568919851,
-                    "vx": -3.493741066033672e-18,
-                    "vy": -3.25965722891684e-18
-                },
-                "__indexColor": "#78027a",
-                "__controlPoints": null,
-                "index": 251
+                "source": "Q177860",
+                "target": "Q420292"
             },
             {
                 "label": "owner_of",
-                "source": {
-                    "id": "Q242446",
-                    "name": "Lucasfilm",
-                    "__indexColor": "#340097",
-                    "index": 150,
-                    "x": -448.18562170015144,
-                    "y": 142.96016226223725,
-                    "vx": -2.1908131226885974e-18,
-                    "vy": 4.3935271220782024e-20
-                },
-                "target": {
-                    "id": "Q1063455",
-                    "name": "The Lego Group",
-                    "__indexColor": "#c00010",
-                    "index": 15,
-                    "x": -449.21020932871517,
-                    "y": 193.31586878282226,
-                    "vx": -2.4329882417039998e-18,
-                    "vy": -2.7083616855540024e-20
-                },
-                "__indexColor": "#64027b",
-                "__controlPoints": null,
-                "index": 252
+                "source": "Q242446",
+                "target": "Q1063455"
             },
             {
                 "label": "location",
-                "source": {
-                    "id": "Q959755",
-                    "name": "South by Southwest",
-                    "__indexColor": "#78017a",
-                    "index": 377,
-                    "x": 1199.0189406111544,
-                    "y": 204.22653369598407,
-                    "vx": 4.7792515230320154e-18,
-                    "vy": 8.262095362971584e-19
-                },
-                "target": {
-                    "id": "Q16559",
-                    "name": "Austin",
-                    "__indexColor": "#5c0055",
-                    "index": 84,
-                    "x": 1192.7934211727506,
-                    "y": 235.56809052732893,
-                    "vx": 4.769682097538928e-18,
-                    "vy": 8.211458757432273e-19
-                },
-                "__indexColor": "#50027c",
-                "__controlPoints": null,
-                "index": 253
+                "source": "Q959755",
+                "target": "Q16559"
             },
             {
                 "label": "present_in_work",
-                "source": {
-                    "id": "Q177860",
-                    "name": "Valhalla",
-                    "__indexColor": "#080066",
-                    "index": 101,
-                    "x": -899.3974475208106,
-                    "y": -703.851776721051,
-                    "vx": -3.487427371977492e-18,
-                    "vy": -3.282069067555907e-18
-                },
-                "target": {
-                    "id": "Q420292",
-                    "name": "Assassin's Creed",
-                    "__indexColor": "#c800f6",
-                    "index": 245,
-                    "x": -928.7041001213287,
-                    "y": -716.346568919851,
-                    "vx": -3.493741066033672e-18,
-                    "vy": -3.25965722891684e-18
-                },
-                "__indexColor": "#3c027d",
-                "__controlPoints": null,
-                "index": 254
+                "source": "Q177860",
+                "target": "Q420292"
             },
             {
                 "label": "owned_by",
-                "source": {
-                    "id": "Q1063455",
-                    "name": "The Lego Group",
-                    "__indexColor": "#c00010",
-                    "index": 15,
-                    "x": -449.21020932871517,
-                    "y": 193.31586878282226,
-                    "vx": -2.4329882417039998e-18,
-                    "vy": -2.7083616855540024e-20
-                },
-                "target": {
-                    "id": "Q242446",
-                    "name": "Lucasfilm",
-                    "__indexColor": "#340097",
-                    "index": 150,
-                    "x": -448.18562170015144,
-                    "y": 142.96016226223725,
-                    "vx": -2.1908131226885974e-18,
-                    "vy": 4.3935271220782024e-20
-                },
-                "__indexColor": "#28027e",
-                "__controlPoints": null,
-                "index": 255
+                "source": "Q1063455",
+                "target": "Q242446"
             },
             {
                 "label": "publication_date",
-                "source": {
-                    "id": "Q20977110",
-                    "name": "Star Wars: The Rise of Skywalker",
-                    "__indexColor": "#d80082",
-                    "index": 129,
-                    "x": -416.96648604636164,
-                    "y": -41.64584458862325,
-                    "vx": -2.512277409942551e-18,
-                    "vy": 6.397829761345476e-19
-                },
-                "target": {
-                    "id": "Q25274",
-                    "name": "2019",
-                    "__indexColor": "#0800a6",
-                    "index": 165,
-                    "x": -390.93929548363036,
-                    "y": -67.8741804078184,
-                    "vx": -2.6576337752749286e-18,
-                    "vy": 4.98176038156988e-19
-                },
-                "__indexColor": "#14027f",
-                "__controlPoints": null,
-                "index": 256
+                "source": "Q20977110",
+                "target": "Q25274"
             },
             {
                 "label": "characters",
-                "source": {
-                    "id": "Q51755",
-                    "name": "Ahsoka Tano",
-                    "__indexColor": "#800120",
-                    "index": 287,
-                    "x": -400.5223623856839,
-                    "y": -223.3162803922654,
-                    "vx": -1.9206705200248796e-18,
-                    "vy": 2.9413348211412435e-19
-                },
-                "target": {
-                    "id": "Q12206942",
-                    "name": "Darth Vader",
-                    "__indexColor": "#90002c",
-                    "index": 43,
-                    "x": -416.85956525267983,
-                    "y": -93.01492546482316,
-                    "vx": -1.7218461140213561e-18,
-                    "vy": -1.726169767625492e-19
-                },
-                "__indexColor": "#000280",
-                "__controlPoints": null,
-                "index": 257
+                "source": "Q51755",
+                "target": "Q12206942"
             },
             {
                 "label": "director",
-                "source": {
-                    "id": "Q56876444",
-                    "name": "The Mandalorian",
-                    "__indexColor": "#040133",
-                    "index": 306,
-                    "x": -230.50558878191197,
-                    "y": -352.21658501677,
-                    "vx": -1.9294342406358672e-18,
-                    "vy": 2.0624642999609032e-19
-                },
-                "target": {
-                    "id": "Q295964",
-                    "name": "Jon Favreau",
-                    "__indexColor": "#ec00c1",
-                    "index": 192,
-                    "x": -199.10871497340494,
-                    "y": -399.6454273844849,
-                    "vx": -2.023728668013186e-18,
-                    "vy": -1.8734602432904322e-19
-                },
-                "__indexColor": "#ec0281",
-                "__controlPoints": null,
-                "index": 258
+                "source": "Q56876444",
+                "target": "Q295964"
             },
             {
                 "label": "cast_member",
-                "source": {
-                    "id": "Q20977110",
-                    "name": "Star Wars: The Rise of Skywalker",
-                    "__indexColor": "#d80082",
-                    "index": 129,
-                    "x": -416.96648604636164,
-                    "y": -41.64584458862325,
-                    "vx": -2.512277409942551e-18,
-                    "vy": 6.397829761345476e-19
-                },
-                "target": {
-                    "id": "Q16738674",
-                    "name": "Daisy Ridley",
-                    "__indexColor": "#0c0059",
-                    "index": 88,
-                    "x": -463.8056622383151,
-                    "y": -127.243403830087,
-                    "vx": -2.9378248756870927e-18,
-                    "vy": 1.3399665128950732e-18
-                },
-                "__indexColor": "#d80282",
-                "__controlPoints": null,
-                "index": 259
+                "source": "Q20977110",
+                "target": "Q16738674"
             },
             {
                 "label": "performer",
-                "source": {
-                    "id": "Q20021710",
-                    "name": "Pi",
-                    "__indexColor": "#78007a",
-                    "index": 121,
-                    "x": 548.2689785414713,
-                    "y": 158.45210496641312,
-                    "vx": 2.590455112602305e-18,
-                    "vy": 7.959606686979652e-19
-                },
-                "target": {
-                    "id": "Q237194",
-                    "name": "Wanda Sykes",
-                    "__indexColor": "#840093",
-                    "index": 146,
-                    "x": 543.1417781676907,
-                    "y": 126.87194455534923,
-                    "vx": 2.5893540677957543e-18,
-                    "vy": 8.140352453153098e-19
-                },
-                "__indexColor": "#c40283",
-                "__controlPoints": null,
-                "index": 260
+                "source": "Q20021710",
+                "target": "Q237194"
             },
             {
                 "label": "present_in_work",
-                "source": {
-                    "id": "Q51755",
-                    "name": "Ahsoka Tano",
-                    "__indexColor": "#800120",
-                    "index": 287,
-                    "x": -400.5223623856839,
-                    "y": -223.3162803922654,
-                    "vx": -1.9206705200248796e-18,
-                    "vy": 2.9413348211412435e-19
-                },
-                "target": {
-                    "id": "Q51755",
-                    "name": "Ahsoka Tano",
-                    "__indexColor": "#800120",
-                    "index": 287,
-                    "x": -400.5223623856839,
-                    "y": -223.3162803922654,
-                    "vx": -1.9206705200248796e-18,
-                    "vy": 2.9413348211412435e-19
-                },
-                "__indexColor": "#b00284",
-                "__controlPoints": null,
-                "index": 261
+                "source": "Q51755",
+                "target": "Q51755"
             },
             {
                 "label": "producer",
-                "source": {
-                    "id": "Q124246549",
-                    "name": "The Mandalorian & Grogu",
-                    "__indexColor": "#54002f",
-                    "index": 46,
-                    "x": 398.18354055381866,
-                    "y": 481.26518486975885,
-                    "vx": 2.1415000833728403e-18,
-                    "vy": 2.24737940564831e-18
-                },
-                "target": {
-                    "id": "Q237207",
-                    "name": "Kathleen Kennedy",
-                    "__indexColor": "#700094",
-                    "index": 147,
-                    "x": 413.58255555420584,
-                    "y": 509.17275078550557,
-                    "vx": 2.1798802940039292e-18,
-                    "vy": 2.2397919099754615e-18
-                },
-                "__indexColor": "#9c0285",
-                "__controlPoints": null,
-                "index": 262
+                "source": "Q124246549",
+                "target": "Q237207"
             },
             {
                 "label": "occupation",
-                "source": {
-                    "id": "Q12206942",
-                    "name": "Darth Vader",
-                    "__indexColor": "#90002c",
-                    "index": 43,
-                    "x": -416.85956525267983,
-                    "y": -93.01492546482316,
-                    "vx": -1.7218461140213561e-18,
-                    "vy": -1.726169767625492e-19
-                },
-                "target": {
-                    "id": "Q183816",
-                    "name": "master's degree",
-                    "__indexColor": "#a4006b",
-                    "index": 106,
-                    "x": -473.2715845599199,
-                    "y": -45.79262931652979,
-                    "vx": -1.8149902224113576e-18,
-                    "vy": -4.776290463981354e-19
-                },
-                "__indexColor": "#880286",
-                "__controlPoints": null,
-                "index": 263
+                "source": "Q12206942",
+                "target": "Q183816"
             },
             {
                 "label": "notable_work",
-                "source": {
-                    "id": "Q237194",
-                    "name": "Wanda Sykes",
-                    "__indexColor": "#840093",
-                    "index": 146,
-                    "x": 543.1417781676907,
-                    "y": 126.87194455534923,
-                    "vx": 2.5893540677957543e-18,
-                    "vy": 8.140352453153098e-19
-                },
-                "target": {
-                    "id": "Q20021710",
-                    "name": "Pi",
-                    "__indexColor": "#78007a",
-                    "index": 121,
-                    "x": 548.2689785414713,
-                    "y": 158.45210496641312,
-                    "vx": 2.590455112602305e-18,
-                    "vy": 7.959606686979652e-19
-                },
-                "__indexColor": "#740287",
-                "__controlPoints": null,
-                "index": 264
+                "source": "Q237194",
+                "target": "Q20021710"
             },
             {
                 "label": "producer",
-                "source": {
-                    "id": "Q56876444",
-                    "name": "The Mandalorian",
-                    "__indexColor": "#040133",
-                    "index": 306,
-                    "x": -230.50558878191197,
-                    "y": -352.21658501677,
-                    "vx": -1.9294342406358672e-18,
-                    "vy": 2.0624642999609032e-19
-                },
-                "target": {
-                    "id": "Q2559261",
-                    "name": "Dave Filoni",
-                    "__indexColor": "#5400af",
-                    "index": 174,
-                    "x": -306.08571582897525,
-                    "y": -255.27768444185173,
-                    "vx": -2.0074634590846283e-18,
-                    "vy": 7.880629314652083e-20
-                },
-                "__indexColor": "#600288",
-                "__controlPoints": null,
-                "index": 265
+                "source": "Q56876444",
+                "target": "Q2559261"
             },
             {
                 "label": "student",
-                "source": {
-                    "id": "Q51740",
-                    "name": "Obi-Wan Kenobi",
-                    "__indexColor": "#bc011d",
-                    "index": 284,
-                    "x": -471.10397188718514,
-                    "y": 7.082558053850892,
-                    "vx": -1.8517333449994453e-18,
-                    "vy": -4.555152451460619e-19
-                },
-                "target": {
-                    "id": "Q51752",
-                    "name": "Anakin Skywalker",
-                    "__indexColor": "#94011f",
-                    "index": 286,
-                    "x": -447.86289837323307,
-                    "y": 44.38192079126628,
-                    "vx": -1.792533122363198e-18,
-                    "vy": -4.2275212710765973e-19
-                },
-                "__indexColor": "#4c0289",
-                "__controlPoints": null,
-                "index": 266
+                "source": "Q51740",
+                "target": "Q51752"
             },
             {
                 "label": "publisher",
-                "source": {
-                    "id": "Q55216",
-                    "name": "Lego Star Wars",
-                    "__indexColor": "#a4012b",
-                    "index": 298,
-                    "x": -445.5379485629686,
-                    "y": 234.08284399809875,
-                    "vx": -2.6035701194257397e-18,
-                    "vy": -8.129910737133278e-22
-                },
-                "target": {
-                    "id": "Q1063455",
-                    "name": "The Lego Group",
-                    "__indexColor": "#c00010",
-                    "index": 15,
-                    "x": -449.21020932871517,
-                    "y": 193.31586878282226,
-                    "vx": -2.4329882417039998e-18,
-                    "vy": -2.7083616855540024e-20
-                },
-                "__indexColor": "#38028a",
-                "__controlPoints": null,
-                "index": 267
+                "source": "Q55216",
+                "target": "Q1063455"
             },
             {
                 "label": "student_of",
-                "source": {
-                    "id": "Q51752",
-                    "name": "Anakin Skywalker",
-                    "__indexColor": "#94011f",
-                    "index": 286,
-                    "x": -447.86289837323307,
-                    "y": 44.38192079126628,
-                    "vx": -1.792533122363198e-18,
-                    "vy": -4.2275212710765973e-19
-                },
-                "target": {
-                    "id": "Q51740",
-                    "name": "Obi-Wan Kenobi",
-                    "__indexColor": "#bc011d",
-                    "index": 284,
-                    "x": -471.10397188718514,
-                    "y": 7.082558053850892,
-                    "vx": -1.8517333449994453e-18,
-                    "vy": -4.555152451460619e-19
-                },
-                "__indexColor": "#24028b",
-                "__controlPoints": null,
-                "index": 268
+                "source": "Q51752",
+                "target": "Q51740"
             },
             {
                 "label": "subsidiary",
-                "source": {
-                    "id": "Q242446",
-                    "name": "Lucasfilm",
-                    "__indexColor": "#340097",
-                    "index": 150,
-                    "x": -448.18562170015144,
-                    "y": 142.96016226223725,
-                    "vx": -2.1908131226885974e-18,
-                    "vy": 4.3935271220782024e-20
-                },
-                "target": {
-                    "id": "Q1063455",
-                    "name": "The Lego Group",
-                    "__indexColor": "#c00010",
-                    "index": 15,
-                    "x": -449.21020932871517,
-                    "y": 193.31586878282226,
-                    "vx": -2.4329882417039998e-18,
-                    "vy": -2.7083616855540024e-20
-                },
-                "__indexColor": "#10028c",
-                "__controlPoints": null,
-                "index": 269
+                "source": "Q242446",
+                "target": "Q1063455"
             },
             {
                 "label": "country",
-                "source": {
-                    "id": "Q65",
-                    "name": "Los Angeles",
-                    "__indexColor": "#28013e",
-                    "index": 317,
-                    "x": 79.08994601081505,
-                    "y": -1073.2148895232656,
-                    "vx": -1.181751054282784e-19,
-                    "vy": -4.753051641758118e-18
-                },
-                "target": {
-                    "id": "Q30",
-                    "name": "United States",
-                    "__indexColor": "#d800c2",
-                    "index": 193,
-                    "x": 58.045461011607344,
-                    "y": -1098.9938878228072,
-                    "vx": -1.5858070013988078e-19,
-                    "vy": -4.715749708219216e-18
-                },
-                "__indexColor": "#fc028d",
-                "__controlPoints": null,
-                "index": 270
+                "source": "Q65",
+                "target": "Q30"
             },
             {
                 "label": "parent_organization",
-                "source": {
-                    "id": "Q1063455",
-                    "name": "The Lego Group",
-                    "__indexColor": "#c00010",
-                    "index": 15,
-                    "x": -449.21020932871517,
-                    "y": 193.31586878282226,
-                    "vx": -2.4329882417039998e-18,
-                    "vy": -2.7083616855540024e-20
-                },
-                "target": {
-                    "id": "Q242446",
-                    "name": "Lucasfilm",
-                    "__indexColor": "#340097",
-                    "index": 150,
-                    "x": -448.18562170015144,
-                    "y": 142.96016226223725,
-                    "vx": -2.1908131226885974e-18,
-                    "vy": 4.3935271220782024e-20
-                },
-                "__indexColor": "#e8028e",
-                "__controlPoints": null,
-                "index": 271
+                "source": "Q1063455",
+                "target": "Q242446"
             },
             {
                 "label": "publication_date",
-                "source": {
-                    "id": "Q119361001",
-                    "name": "Star Wars Outlaws",
-                    "__indexColor": "#f40027",
-                    "index": 38,
-                    "x": -577.2118584056639,
-                    "y": 307.10237605626486,
-                    "vx": -1.8244838075317445e-18,
-                    "vy": 3.4964176144082923e-19
-                },
-                "target": {
-                    "id": "Q2818",
-                    "name": "August 30",
-                    "__indexColor": "#2800be",
-                    "index": 189,
-                    "x": -566.7858367717683,
-                    "y": 342.5919250062361,
-                    "vx": -1.591033278690298e-18,
-                    "vy": 4.517017004648327e-19
-                },
-                "__indexColor": "#d4028f",
-                "__controlPoints": null,
-                "index": 272
+                "source": "Q119361001",
+                "target": "Q2818"
             },
             {
                 "label": "present_in_work",
-                "source": {
-                    "id": "Q51730",
-                    "name": "Yoda",
-                    "__indexColor": "#e4011b",
-                    "index": 282,
-                    "x": -334.67152682242244,
-                    "y": 130.81797311585504,
-                    "vx": -2.0622647645687684e-18,
-                    "vy": 2.375663209321264e-19
-                },
-                "target": {
-                    "id": "Q462",
-                    "name": "Star Wars",
-                    "__indexColor": "#c40103",
-                    "index": 258,
-                    "x": -389.548299230225,
-                    "y": 41.24127662272012,
-                    "vx": -2.2303275162774696e-18,
-                    "vy": 1.759954535559518e-19
-                },
-                "__indexColor": "#c00290",
-                "__controlPoints": null,
-                "index": 273
+                "source": "Q51730",
+                "target": "Q462"
             },
             {
                 "label": "creator",
-                "source": {
-                    "id": "Q14417",
-                    "name": "Asajj Ventress",
-                    "__indexColor": "#600048",
-                    "index": 71,
-                    "x": -556.1838908663567,
-                    "y": -235.55063749336412,
-                    "vx": -2.9005981376572788e-18,
-                    "vy": -2.58241037588882e-18
-                },
-                "target": {
-                    "id": "Q207627",
-                    "name": "Happy Tree Friends",
-                    "__indexColor": "#14007f",
-                    "index": 126,
-                    "x": -577.2172416133667,
-                    "y": -204.52895797589946,
-                    "vx": -4.805328288808732e-18,
-                    "vy": -3.5725662856682384e-18
-                },
-                "__indexColor": "#ac0291",
-                "__controlPoints": null,
-                "index": 274
+                "source": "Q14417",
+                "target": "Q207627"
             },
             {
                 "label": "student_of",
-                "source": {
-                    "id": "Q25455117",
-                    "name": "Sabine Wren",
-                    "__indexColor": "#a400ab",
-                    "index": 170,
-                    "x": -392.4930798974843,
-                    "y": -253.47676354050427,
-                    "vx": -1.6821208948761148e-18,
-                    "vy": 2.344436024277941e-19
-                },
-                "target": {
-                    "id": "Q51755",
-                    "name": "Ahsoka Tano",
-                    "__indexColor": "#800120",
-                    "index": 287,
-                    "x": -400.5223623856839,
-                    "y": -223.3162803922654,
-                    "vx": -1.9206705200248796e-18,
-                    "vy": 2.9413348211412435e-19
-                },
-                "__indexColor": "#980292",
-                "__controlPoints": null,
-                "index": 275
+                "source": "Q25455117",
+                "target": "Q51755"
             },
             {
                 "label": "country",
-                "source": {
-                    "id": "Q60",
-                    "name": "New York City",
-                    "__indexColor": "#c80136",
-                    "index": 309,
-                    "x": 86.41439208910442,
-                    "y": -1116.2811536450474,
-                    "vx": -1.6108620415558736e-19,
-                    "vy": -4.73091689079513e-18
-                },
-                "target": {
-                    "id": "Q30",
-                    "name": "United States",
-                    "__indexColor": "#d800c2",
-                    "index": 193,
-                    "x": 58.045461011607344,
-                    "y": -1098.9938878228072,
-                    "vx": -1.5858070013988078e-19,
-                    "vy": -4.715749708219216e-18
-                },
-                "__indexColor": "#840293",
-                "__controlPoints": null,
-                "index": 276
+                "source": "Q60",
+                "target": "Q30"
             },
             {
                 "label": "student",
-                "source": {
-                    "id": "Q51755",
-                    "name": "Ahsoka Tano",
-                    "__indexColor": "#800120",
-                    "index": 287,
-                    "x": -400.5223623856839,
-                    "y": -223.3162803922654,
-                    "vx": -1.9206705200248796e-18,
-                    "vy": 2.9413348211412435e-19
-                },
-                "target": {
-                    "id": "Q25455117",
-                    "name": "Sabine Wren",
-                    "__indexColor": "#a400ab",
-                    "index": 170,
-                    "x": -392.4930798974843,
-                    "y": -253.47676354050427,
-                    "vx": -1.6821208948761148e-18,
-                    "vy": 2.344436024277941e-19
-                },
-                "__indexColor": "#700294",
-                "__controlPoints": null,
-                "index": 277
+                "source": "Q51755",
+                "target": "Q25455117"
             },
             {
                 "label": "present_in_work",
-                "source": {
-                    "id": "Q51740",
-                    "name": "Obi-Wan Kenobi",
-                    "__indexColor": "#bc011d",
-                    "index": 284,
-                    "x": -471.10397188718514,
-                    "y": 7.082558053850892,
-                    "vx": -1.8517333449994453e-18,
-                    "vy": -4.555152451460619e-19
-                },
-                "target": {
-                    "id": "Q462",
-                    "name": "Star Wars",
-                    "__indexColor": "#c40103",
-                    "index": 258,
-                    "x": -389.548299230225,
-                    "y": 41.24127662272012,
-                    "vx": -2.2303275162774696e-18,
-                    "vy": 1.759954535559518e-19
-                },
-                "__indexColor": "#5c0295",
-                "__controlPoints": null,
-                "index": 278
+                "source": "Q51740",
+                "target": "Q462"
             },
             {
                 "label": "owner_of",
-                "source": {
-                    "id": "Q242446",
-                    "name": "Lucasfilm",
-                    "__indexColor": "#340097",
-                    "index": 150,
-                    "x": -448.18562170015144,
-                    "y": 142.96016226223725,
-                    "vx": -2.1908131226885974e-18,
-                    "vy": 4.3935271220782024e-20
-                },
-                "target": {
-                    "id": "Q462",
-                    "name": "Star Wars",
-                    "__indexColor": "#c40103",
-                    "index": 258,
-                    "x": -389.548299230225,
-                    "y": 41.24127662272012,
-                    "vx": -2.2303275162774696e-18,
-                    "vy": 1.759954535559518e-19
-                },
-                "__indexColor": "#480296",
-                "__controlPoints": null,
-                "index": 279
+                "source": "Q242446",
+                "target": "Q462"
             },
             {
                 "label": "country",
-                "source": {
-                    "id": "Q5083",
-                    "name": "Seattle",
-                    "__indexColor": "#840113",
-                    "index": 274,
-                    "x": 47.821724208183056,
-                    "y": -1130.5975544897424,
-                    "vx": -9.568824471292569e-20,
-                    "vy": -4.74098190339299e-18
-                },
-                "target": {
-                    "id": "Q30",
-                    "name": "United States",
-                    "__indexColor": "#d800c2",
-                    "index": 193,
-                    "x": 58.045461011607344,
-                    "y": -1098.9938878228072,
-                    "vx": -1.5858070013988078e-19,
-                    "vy": -4.715749708219216e-18
-                },
-                "__indexColor": "#340297",
-                "__controlPoints": null,
-                "index": 280
+                "source": "Q5083",
+                "target": "Q30"
             },
             {
                 "label": "present_in_work",
-                "source": {
-                    "id": "Q51752",
-                    "name": "Anakin Skywalker",
-                    "__indexColor": "#94011f",
-                    "index": 286,
-                    "x": -447.86289837323307,
-                    "y": 44.38192079126628,
-                    "vx": -1.792533122363198e-18,
-                    "vy": -4.2275212710765973e-19
-                },
-                "target": {
-                    "id": "Q462",
-                    "name": "Star Wars",
-                    "__indexColor": "#c40103",
-                    "index": 258,
-                    "x": -389.548299230225,
-                    "y": 41.24127662272012,
-                    "vx": -2.2303275162774696e-18,
-                    "vy": 1.759954535559518e-19
-                },
-                "__indexColor": "#200298",
-                "__controlPoints": null,
-                "index": 281
+                "source": "Q51752",
+                "target": "Q462"
             },
             {
                 "label": "original_broadcaster",
-                "source": {
-                    "id": "Q97365172",
-                    "name": "Star Wars: The Bad Batch",
-                    "__indexColor": "#28017e",
-                    "index": 381,
-                    "x": -513.2023346258911,
-                    "y": -261.9637830202415,
-                    "vx": -1.739993206308918e-18,
-                    "vy": -1.938512455589376e-18
-                },
-                "target": {
-                    "id": "Q54958752",
-                    "name": "Disney+",
-                    "__indexColor": "#b8012a",
-                    "index": 297,
-                    "x": -368.5605029469679,
-                    "y": -224.14234916055673,
-                    "vx": -1.430872223065401e-18,
-                    "vy": -1.1743271469764706e-18
-                },
-                "__indexColor": "#0c0299",
-                "__controlPoints": null,
-                "index": 282
+                "source": "Q97365172",
+                "target": "Q54958752"
             },
             {
                 "label": "performer",
-                "source": {
-                    "id": "Q636188",
-                    "name": "Ray",
-                    "__indexColor": "#3c013d",
-                    "index": 316,
-                    "x": -495.93429932382355,
-                    "y": -149.34800364844384,
-                    "vx": -3.0596982336872683e-18,
-                    "vy": 1.5772906522656893e-18
-                },
-                "target": {
-                    "id": "Q16738674",
-                    "name": "Daisy Ridley",
-                    "__indexColor": "#0c0059",
-                    "index": 88,
-                    "x": -463.8056622383151,
-                    "y": -127.243403830087,
-                    "vx": -2.9378248756870927e-18,
-                    "vy": 1.3399665128950732e-18
-                },
-                "__indexColor": "#f8029a",
-                "__controlPoints": null,
-                "index": 283
+                "source": "Q636188",
+                "target": "Q16738674"
             },
             {
                 "label": "owned_by",
-                "source": {
-                    "id": "Q462",
-                    "name": "Star Wars",
-                    "__indexColor": "#c40103",
-                    "index": 258,
-                    "x": -389.548299230225,
-                    "y": 41.24127662272012,
-                    "vx": -2.2303275162774696e-18,
-                    "vy": 1.759954535559518e-19
-                },
-                "target": {
-                    "id": "Q242446",
-                    "name": "Lucasfilm",
-                    "__indexColor": "#340097",
-                    "index": 150,
-                    "x": -448.18562170015144,
-                    "y": 142.96016226223725,
-                    "vx": -2.1908131226885974e-18,
-                    "vy": 4.3935271220782024e-20
-                },
-                "__indexColor": "#e4029b",
-                "__controlPoints": null,
-                "index": 284
+                "source": "Q462",
+                "target": "Q242446"
             },
             {
                 "label": "country",
-                "source": {
-                    "id": "Q100",
-                    "name": "Boston",
-                    "__indexColor": "#ec0001",
-                    "index": 0,
-                    "x": 43.96221825367951,
-                    "y": -1068.6372951620885,
-                    "vx": -1.475505063226465e-19,
-                    "vy": -4.6903116364564184e-18
-                },
-                "target": {
-                    "id": "Q30",
-                    "name": "United States",
-                    "__indexColor": "#d800c2",
-                    "index": 193,
-                    "x": 58.045461011607344,
-                    "y": -1098.9938878228072,
-                    "vx": -1.5858070013988078e-19,
-                    "vy": -4.715749708219216e-18
-                },
-                "__indexColor": "#d0029c",
-                "__controlPoints": null,
-                "index": 285
+                "source": "Q100",
+                "target": "Q30"
             },
             {
                 "label": "present_in_work",
-                "source": {
-                    "id": "Q14417",
-                    "name": "Asajj Ventress",
-                    "__indexColor": "#600048",
-                    "index": 71,
-                    "x": -556.1838908663567,
-                    "y": -235.55063749336412,
-                    "vx": -2.9005981376572788e-18,
-                    "vy": -2.58241037588882e-18
-                },
-                "target": {
-                    "id": "Q97365172",
-                    "name": "Star Wars: The Bad Batch",
-                    "__indexColor": "#28017e",
-                    "index": 381,
-                    "x": -513.2023346258911,
-                    "y": -261.9637830202415,
-                    "vx": -1.739993206308918e-18,
-                    "vy": -1.938512455589376e-18
-                },
-                "__indexColor": "#bc029d",
-                "__controlPoints": null,
-                "index": 286
+                "source": "Q14417",
+                "target": "Q97365172"
             },
             {
                 "label": "characters",
-                "source": {
-                    "id": "Q124149424",
-                    "name": "Part Eight",
-                    "__indexColor": "#68002e",
-                    "index": 45,
-                    "x": -424.4995927506828,
-                    "y": -254.0586582512488,
-                    "vx": -2.0285436800118956e-18,
-                    "vy": 1.5813099186341987e-19
-                },
-                "target": {
-                    "id": "Q51755",
-                    "name": "Ahsoka Tano",
-                    "__indexColor": "#800120",
-                    "index": 287,
-                    "x": -400.5223623856839,
-                    "y": -223.3162803922654,
-                    "vx": -1.9206705200248796e-18,
-                    "vy": 2.9413348211412435e-19
-                },
-                "__indexColor": "#a8029e",
-                "__controlPoints": null,
-                "index": 287
+                "source": "Q124149424",
+                "target": "Q51755"
             },
             {
                 "label": "creator",
-                "source": {
-                    "id": "Q21541731",
-                    "name": "BB-8",
-                    "__indexColor": "#4c0089",
-                    "index": 136,
-                    "x": -482.2667553533404,
-                    "y": 159.440964316301,
-                    "vx": -2.2555767920693866e-18,
-                    "vy": -8.38050441859047e-20
-                },
-                "target": {
-                    "id": "Q242446",
-                    "name": "Lucasfilm",
-                    "__indexColor": "#340097",
-                    "index": 150,
-                    "x": -448.18562170015144,
-                    "y": 142.96016226223725,
-                    "vx": -2.1908131226885974e-18,
-                    "vy": 4.3935271220782024e-20
-                },
-                "__indexColor": "#94029f",
-                "__controlPoints": null,
-                "index": 288
+                "source": "Q21541731",
+                "target": "Q242446"
             },
             {
                 "label": "part_of_the_series",
-                "source": {
-                    "id": "Q56865900",
-                    "name": "The Face Vietnam, season 3",
-                    "__indexColor": "#2c0131",
-                    "index": 304,
-                    "x": -552.5318318939322,
-                    "y": -257.37507678458894,
-                    "vx": -1.7590928747550016e-18,
-                    "vy": -2.427807704629757e-18
-                },
-                "target": {
-                    "id": "Q97365172",
-                    "name": "Star Wars: The Bad Batch",
-                    "__indexColor": "#28017e",
-                    "index": 381,
-                    "x": -513.2023346258911,
-                    "y": -261.9637830202415,
-                    "vx": -1.739993206308918e-18,
-                    "vy": -1.938512455589376e-18
-                },
-                "__indexColor": "#8002a0",
-                "__controlPoints": null,
-                "index": 289
+                "source": "Q56865900",
+                "target": "Q97365172"
             },
             {
                 "label": "notable_work",
-                "source": {
-                    "id": "Q51740",
-                    "name": "Obi-Wan Kenobi",
-                    "__indexColor": "#bc011d",
-                    "index": 284,
-                    "x": -471.10397188718514,
-                    "y": 7.082558053850892,
-                    "vx": -1.8517333449994453e-18,
-                    "vy": -4.555152451460619e-19
-                },
-                "target": {
-                    "id": "Q1093766",
-                    "name": "The Force",
-                    "__indexColor": "#480016",
-                    "index": 21,
-                    "x": -433.85453846653866,
-                    "y": -28.228211252431624,
-                    "vx": -1.9445049284918083e-18,
-                    "vy": -2.5630616736448337e-20
-                },
-                "__indexColor": "#6c02a1",
-                "__controlPoints": null,
-                "index": 290
+                "source": "Q51740",
+                "target": "Q1093766"
             },
             {
                 "label": "country",
-                "source": {
-                    "id": "Q49233",
-                    "name": "Orlando, Florida",
-                    "__indexColor": "#24010b",
-                    "index": 266,
-                    "x": 24.780975274366217,
-                    "y": -1098.9983822339063,
-                    "vx": -1.7026535759120463e-19,
-                    "vy": -4.7805176689295185e-18
-                },
-                "target": {
-                    "id": "Q30",
-                    "name": "United States",
-                    "__indexColor": "#d800c2",
-                    "index": 193,
-                    "x": 58.045461011607344,
-                    "y": -1098.9938878228072,
-                    "vx": -1.5858070013988078e-19,
-                    "vy": -4.715749708219216e-18
-                },
-                "__indexColor": "#5802a2",
-                "__controlPoints": null,
-                "index": 291
+                "source": "Q49233",
+                "target": "Q30"
             },
             {
                 "label": "mother",
-                "source": {
-                    "id": "Q86010165",
-                    "name": "List of The Mandalorian characters",
-                    "__indexColor": "#f40167",
-                    "index": 358,
-                    "x": -363.0833906992715,
-                    "y": -271.64859125992604,
-                    "vx": -2.495833079594332e-18,
-                    "vy": -5.605147002415284e-19
-                },
-                "target": {
-                    "id": "Q33133727",
-                    "name": "Hera Syndulla",
-                    "__indexColor": "#2400cb",
-                    "index": 202,
-                    "x": -297.1549420979196,
-                    "y": -326.5131253093799,
-                    "vx": -3.557685515046045e-18,
-                    "vy": -1.8346042394734764e-18
-                },
-                "__indexColor": "#4402a3",
-                "__controlPoints": null,
-                "index": 292
+                "source": "Q86010165",
+                "target": "Q33133727"
             },
             {
                 "label": "publication_date",
-                "source": {
-                    "id": "Q16738674",
-                    "name": "Daisy Ridley",
-                    "__indexColor": "#0c0059",
-                    "index": 88,
-                    "x": -463.8056622383151,
-                    "y": -127.243403830087,
-                    "vx": -2.9378248756870927e-18,
-                    "vy": 1.3399665128950732e-18
-                },
-                "target": {
-                    "id": "Q49622",
-                    "name": "2023",
-                    "__indexColor": "#e8010e",
-                    "index": 269,
-                    "x": -483.75930553184196,
-                    "y": -161.21002498215083,
-                    "vx": -3.0458783743635904e-18,
-                    "vy": 1.484647259872298e-18
-                },
-                "__indexColor": "#3002a4",
-                "__controlPoints": null,
-                "index": 293
+                "source": "Q16738674",
+                "target": "Q49622"
             },
             {
                 "label": "product_or_material_produced",
-                "source": {
-                    "id": "Q242446",
-                    "name": "Lucasfilm",
-                    "__indexColor": "#340097",
-                    "index": 150,
-                    "x": -448.18562170015144,
-                    "y": 142.96016226223725,
-                    "vx": -2.1908131226885974e-18,
-                    "vy": 4.3935271220782024e-20
-                },
-                "target": {
-                    "id": "Q462",
-                    "name": "Star Wars",
-                    "__indexColor": "#c40103",
-                    "index": 258,
-                    "x": -389.548299230225,
-                    "y": 41.24127662272012,
-                    "vx": -2.2303275162774696e-18,
-                    "vy": 1.759954535559518e-19
-                },
-                "__indexColor": "#1c02a5",
-                "__controlPoints": null,
-                "index": 294
+                "source": "Q242446",
+                "target": "Q462"
             },
             {
                 "label": "has_part",
-                "source": {
-                    "id": "Q97365172",
-                    "name": "Star Wars: The Bad Batch",
-                    "__indexColor": "#28017e",
-                    "index": 381,
-                    "x": -513.2023346258911,
-                    "y": -261.9637830202415,
-                    "vx": -1.739993206308918e-18,
-                    "vy": -1.938512455589376e-18
-                },
-                "target": {
-                    "id": "Q56865900",
-                    "name": "The Face Vietnam, season 3",
-                    "__indexColor": "#2c0131",
-                    "index": 304,
-                    "x": -552.5318318939322,
-                    "y": -257.37507678458894,
-                    "vx": -1.7590928747550016e-18,
-                    "vy": -2.427807704629757e-18
-                },
-                "__indexColor": "#0802a6",
-                "__controlPoints": null,
-                "index": 295
+                "source": "Q97365172",
+                "target": "Q56865900"
             },
             {
                 "label": "significant_event",
-                "source": {
-                    "id": "Q51740",
-                    "name": "Obi-Wan Kenobi",
-                    "__indexColor": "#bc011d",
-                    "index": 284,
-                    "x": -471.10397188718514,
-                    "y": 7.082558053850892,
-                    "vx": -1.8517333449994453e-18,
-                    "vy": -4.555152451460619e-19
-                },
-                "target": {
-                    "id": "Q1093766",
-                    "name": "The Force",
-                    "__indexColor": "#480016",
-                    "index": 21,
-                    "x": -433.85453846653866,
-                    "y": -28.228211252431624,
-                    "vx": -1.9445049284918083e-18,
-                    "vy": -2.5630616736448337e-20
-                },
-                "__indexColor": "#f402a7",
-                "__controlPoints": null,
-                "index": 296
+                "source": "Q51740",
+                "target": "Q1093766"
             },
             {
                 "label": "part_of_the_series",
-                "source": {
-                    "id": "Q385494",
-                    "name": "The Return",
-                    "__indexColor": "#f400e7",
-                    "index": 230,
-                    "x": -546.7618526863822,
-                    "y": -283.8606425644446,
-                    "vx": -1.4905459466154498e-18,
-                    "vy": -2.3432605066529333e-18
-                },
-                "target": {
-                    "id": "Q97365172",
-                    "name": "Star Wars: The Bad Batch",
-                    "__indexColor": "#28017e",
-                    "index": 381,
-                    "x": -513.2023346258911,
-                    "y": -261.9637830202415,
-                    "vx": -1.739993206308918e-18,
-                    "vy": -1.938512455589376e-18
-                },
-                "__indexColor": "#e002a8",
-                "__controlPoints": null,
-                "index": 297
+                "source": "Q385494",
+                "target": "Q97365172"
             },
             {
                 "label": "child",
-                "source": {
-                    "id": "Q12206942",
-                    "name": "Darth Vader",
-                    "__indexColor": "#90002c",
-                    "index": 43,
-                    "x": -416.85956525267983,
-                    "y": -93.01492546482316,
-                    "vx": -1.7218461140213561e-18,
-                    "vy": -1.726169767625492e-19
-                },
-                "target": {
-                    "id": "Q51746",
-                    "name": "Luke Skywalker",
-                    "__indexColor": "#a8011e",
-                    "index": 285,
-                    "x": -399.3939971733653,
-                    "y": -38.05291069304807,
-                    "vx": -1.8205904766496245e-18,
-                    "vy": -2.453912732469995e-19
-                },
-                "__indexColor": "#cc02a9",
-                "__controlPoints": null,
-                "index": 298
+                "source": "Q12206942",
+                "target": "Q51746"
             },
             {
                 "label": "part_of_the_series",
-                "source": {
-                    "id": "Q3153652",
-                    "name": "Confined",
-                    "__indexColor": "#7400c7",
-                    "index": 198,
-                    "x": -551.8230103726557,
-                    "y": -271.4205451219818,
-                    "vx": -1.6355654133121378e-18,
-                    "vy": -2.4265749848279543e-18
-                },
-                "target": {
-                    "id": "Q97365172",
-                    "name": "Star Wars: The Bad Batch",
-                    "__indexColor": "#28017e",
-                    "index": 381,
-                    "x": -513.2023346258911,
-                    "y": -261.9637830202415,
-                    "vx": -1.739993206308918e-18,
-                    "vy": -1.938512455589376e-18
-                },
-                "__indexColor": "#b802aa",
-                "__controlPoints": null,
-                "index": 299
+                "source": "Q3153652",
+                "target": "Q97365172"
             },
             {
                 "label": "member_of",
-                "source": {
-                    "id": "Q12206942",
-                    "name": "Darth Vader",
-                    "__indexColor": "#90002c",
-                    "index": 43,
-                    "x": -416.85956525267983,
-                    "y": -93.01492546482316,
-                    "vx": -1.7218461140213561e-18,
-                    "vy": -1.726169767625492e-19
-                },
-                "target": {
-                    "id": "Q51724",
-                    "name": "Jedi",
-                    "__indexColor": "#0c0119",
-                    "index": 280,
-                    "x": -390.85216893635317,
-                    "y": -192.32482309285322,
-                    "vx": -1.6821770275627616e-18,
-                    "vy": 2.689298555724664e-19
-                },
-                "__indexColor": "#a402ab",
-                "__controlPoints": null,
-                "index": 300
+                "source": "Q12206942",
+                "target": "Q51724"
             },
             {
                 "label": "member_of",
-                "source": {
-                    "id": "Q24953533",
-                    "name": "Kanan Jarrus",
-                    "__indexColor": "#8000a0",
-                    "index": 159,
-                    "x": -382.052341642959,
-                    "y": -240.771935061983,
-                    "vx": -1.872189346766403e-18,
-                    "vy": 3.596089439991151e-19
-                },
-                "target": {
-                    "id": "Q51724",
-                    "name": "Jedi",
-                    "__indexColor": "#0c0119",
-                    "index": 280,
-                    "x": -390.85216893635317,
-                    "y": -192.32482309285322,
-                    "vx": -1.6821770275627616e-18,
-                    "vy": 2.689298555724664e-19
-                },
-                "__indexColor": "#9002ac",
-                "__controlPoints": null,
-                "index": 301
+                "source": "Q24953533",
+                "target": "Q51724"
             },
             {
                 "label": "student_of",
-                "source": {
-                    "id": "Q51755",
-                    "name": "Ahsoka Tano",
-                    "__indexColor": "#800120",
-                    "index": 287,
-                    "x": -400.5223623856839,
-                    "y": -223.3162803922654,
-                    "vx": -1.9206705200248796e-18,
-                    "vy": 2.9413348211412435e-19
-                },
-                "target": {
-                    "id": "Q12206942",
-                    "name": "Darth Vader",
-                    "__indexColor": "#90002c",
-                    "index": 43,
-                    "x": -416.85956525267983,
-                    "y": -93.01492546482316,
-                    "vx": -1.7218461140213561e-18,
-                    "vy": -1.726169767625492e-19
-                },
-                "__indexColor": "#7c02ad",
-                "__controlPoints": null,
-                "index": 302
+                "source": "Q51755",
+                "target": "Q12206942"
             },
             {
                 "label": "cast_member",
-                "source": {
-                    "id": "Q25307",
-                    "name": "Magpie",
-                    "__indexColor": "#e000a8",
-                    "index": 167,
-                    "x": -467.11232255064436,
-                    "y": -165.26630374422174,
-                    "vx": -3.063675024549634e-18,
-                    "vy": 1.3517997425155952e-18
-                },
-                "target": {
-                    "id": "Q16738674",
-                    "name": "Daisy Ridley",
-                    "__indexColor": "#0c0059",
-                    "index": 88,
-                    "x": -463.8056622383151,
-                    "y": -127.243403830087,
-                    "vx": -2.9378248756870927e-18,
-                    "vy": 1.3399665128950732e-18
-                },
-                "__indexColor": "#6802ae",
-                "__controlPoints": null,
-                "index": 303
+                "source": "Q25307",
+                "target": "Q16738674"
             },
             {
                 "label": "father",
-                "source": {
-                    "id": "Q51746",
-                    "name": "Luke Skywalker",
-                    "__indexColor": "#a8011e",
-                    "index": 285,
-                    "x": -399.3939971733653,
-                    "y": -38.05291069304807,
-                    "vx": -1.8205904766496245e-18,
-                    "vy": -2.453912732469995e-19
-                },
-                "target": {
-                    "id": "Q12206942",
-                    "name": "Darth Vader",
-                    "__indexColor": "#90002c",
-                    "index": 43,
-                    "x": -416.85956525267983,
-                    "y": -93.01492546482316,
-                    "vx": -1.7218461140213561e-18,
-                    "vy": -1.726169767625492e-19
-                },
-                "__indexColor": "#5402af",
-                "__controlPoints": null,
-                "index": 304
+                "source": "Q51746",
+                "target": "Q12206942"
             },
             {
                 "label": "uses",
-                "source": {
-                    "id": "Q24953533",
-                    "name": "Kanan Jarrus",
-                    "__indexColor": "#8000a0",
-                    "index": 159,
-                    "x": -382.052341642959,
-                    "y": -240.771935061983,
-                    "vx": -1.872189346766403e-18,
-                    "vy": 3.596089439991151e-19
-                },
-                "target": {
-                    "id": "Q19873",
-                    "name": "Lightsaber",
-                    "__indexColor": "#c80076",
-                    "index": 117,
-                    "x": -398.1491959608278,
-                    "y": -272.31963799965416,
-                    "vx": -1.7503722942333935e-18,
-                    "vy": 3.301826313504889e-19
-                },
-                "__indexColor": "#4002b0",
-                "__controlPoints": null,
-                "index": 305
+                "source": "Q24953533",
+                "target": "Q19873"
             },
             {
                 "label": "student",
-                "source": {
-                    "id": "Q12206942",
-                    "name": "Darth Vader",
-                    "__indexColor": "#90002c",
-                    "index": 43,
-                    "x": -416.85956525267983,
-                    "y": -93.01492546482316,
-                    "vx": -1.7218461140213561e-18,
-                    "vy": -1.726169767625492e-19
-                },
-                "target": {
-                    "id": "Q51755",
-                    "name": "Ahsoka Tano",
-                    "__indexColor": "#800120",
-                    "index": 287,
-                    "x": -400.5223623856839,
-                    "y": -223.3162803922654,
-                    "vx": -1.9206705200248796e-18,
-                    "vy": 2.9413348211412435e-19
-                },
-                "__indexColor": "#2c02b1",
-                "__controlPoints": null,
-                "index": 306
+                "source": "Q12206942",
+                "target": "Q51755"
             },
             {
                 "label": "part_of_the_series",
-                "source": {
-                    "id": "Q4656436",
-                    "name": "A Different Approach",
-                    "__indexColor": "#b00104",
-                    "index": 259,
-                    "x": -535.6061442290636,
-                    "y": -294.1262357898147,
-                    "vx": -1.3463190750718087e-18,
-                    "vy": -2.187904546206919e-18
-                },
-                "target": {
-                    "id": "Q97365172",
-                    "name": "Star Wars: The Bad Batch",
-                    "__indexColor": "#28017e",
-                    "index": 381,
-                    "x": -513.2023346258911,
-                    "y": -261.9637830202415,
-                    "vx": -1.739993206308918e-18,
-                    "vy": -1.938512455589376e-18
-                },
-                "__indexColor": "#1802b2",
-                "__controlPoints": null,
-                "index": 307
+                "source": "Q4656436",
+                "target": "Q97365172"
             },
             {
                 "label": "member_of",
-                "source": {
-                    "id": "Q51755",
-                    "name": "Ahsoka Tano",
-                    "__indexColor": "#800120",
-                    "index": 287,
-                    "x": -400.5223623856839,
-                    "y": -223.3162803922654,
-                    "vx": -1.9206705200248796e-18,
-                    "vy": 2.9413348211412435e-19
-                },
-                "target": {
-                    "id": "Q3224307",
-                    "name": "The Courtship of Princess Leia",
-                    "__indexColor": "#4c00c9",
-                    "index": 200,
-                    "x": -433.67453700403206,
-                    "y": -241.81837937528465,
-                    "vx": -2.054112310393882e-18,
-                    "vy": 2.0693051726175377e-19
-                },
-                "__indexColor": "#0402b3",
-                "__controlPoints": null,
-                "index": 308
+                "source": "Q51755",
+                "target": "Q3224307"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q56297455",
-                    "name": "self doubt",
-                    "__indexColor": "#54012f",
-                    "index": 302,
-                    "x": -494.49341620899287,
-                    "y": 720.4614006004422,
-                    "vx": -2.4608510871620123e-18,
-                    "vy": 3.1829122647486487e-18
-                },
-                "target": {
-                    "id": "Q26689564",
-                    "name": "Insecure",
-                    "__indexColor": "#dc00b5",
-                    "index": 180,
-                    "x": -525.3742000942837,
-                    "y": 711.5556240675658,
-                    "vx": -2.4866827817598948e-18,
-                    "vy": 3.218492296361657e-18
-                },
-                "__indexColor": "#f002b4",
-                "__controlPoints": null,
-                "index": 309
+                "source": "Q56297455",
+                "target": "Q26689564"
             },
             {
                 "label": "sibling",
-                "source": {
-                    "id": "Q51755",
-                    "name": "Ahsoka Tano",
-                    "__indexColor": "#800120",
-                    "index": 287,
-                    "x": -400.5223623856839,
-                    "y": -223.3162803922654,
-                    "vx": -1.9206705200248796e-18,
-                    "vy": 2.9413348211412435e-19
-                },
-                "target": {
-                    "id": "Q86010165",
-                    "name": "List of The Mandalorian characters",
-                    "__indexColor": "#f40167",
-                    "index": 358,
-                    "x": -363.0833906992715,
-                    "y": -271.64859125992604,
-                    "vx": -2.495833079594332e-18,
-                    "vy": -5.605147002415284e-19
-                },
-                "__indexColor": "#dc02b5",
-                "__controlPoints": null,
-                "index": 310
+                "source": "Q51755",
+                "target": "Q86010165"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q56297455",
-                    "name": "self doubt",
-                    "__indexColor": "#54012f",
-                    "index": 302,
-                    "x": -494.49341620899287,
-                    "y": 720.4614006004422,
-                    "vx": -2.4608510871620123e-18,
-                    "vy": 3.1829122647486487e-18
-                },
-                "target": {
-                    "id": "Q3152967",
-                    "name": "emotional insecurity",
-                    "__indexColor": "#8800c6",
-                    "index": 197,
-                    "x": -465.35237095057516,
-                    "y": 734.8332691925186,
-                    "vx": -2.404929106631318e-18,
-                    "vy": 3.042235668707759e-18
-                },
-                "__indexColor": "#c802b6",
-                "__controlPoints": null,
-                "index": 311
+                "source": "Q56297455",
+                "target": "Q3152967"
             },
             {
                 "label": "sibling",
-                "source": {
-                    "id": "Q86010165",
-                    "name": "List of The Mandalorian characters",
-                    "__indexColor": "#f40167",
-                    "index": 358,
-                    "x": -363.0833906992715,
-                    "y": -271.64859125992604,
-                    "vx": -2.495833079594332e-18,
-                    "vy": -5.605147002415284e-19
-                },
-                "target": {
-                    "id": "Q51755",
-                    "name": "Ahsoka Tano",
-                    "__indexColor": "#800120",
-                    "index": 287,
-                    "x": -400.5223623856839,
-                    "y": -223.3162803922654,
-                    "vx": -1.9206705200248796e-18,
-                    "vy": 2.9413348211412435e-19
-                },
-                "__indexColor": "#b402b7",
-                "__controlPoints": null,
-                "index": 312
+                "source": "Q86010165",
+                "target": "Q51755"
             },
             {
                 "label": "instance_of",
-                "source": {
-                    "id": "Q56297455",
-                    "name": "self doubt",
-                    "__indexColor": "#54012f",
-                    "index": 302,
-                    "x": -494.49341620899287,
-                    "y": 720.4614006004422,
-                    "vx": -2.4608510871620123e-18,
-                    "vy": 3.1829122647486487e-18
-                },
-                "target": {
-                    "id": "Q26689564",
-                    "name": "Insecure",
-                    "__indexColor": "#dc00b5",
-                    "index": 180,
-                    "x": -525.3742000942837,
-                    "y": 711.5556240675658,
-                    "vx": -2.4866827817598948e-18,
-                    "vy": 3.218492296361657e-18
-                },
-                "__indexColor": "#a002b8",
-                "__controlPoints": null,
-                "index": 313
+                "source": "Q56297455",
+                "target": "Q26689564"
             },
             {
                 "label": "main_subject",
-                "source": {
-                    "id": "Q65090123",
-                    "name": "List of Star Wars television series",
-                    "__indexColor": "#000140",
-                    "index": 319,
-                    "x": -396.4574905255115,
-                    "y": 10.277023460479418,
-                    "vx": -1.6015631319792367e-18,
-                    "vy": 2.5442672021430877e-22
-                },
-                "target": {
-                    "id": "Q462",
-                    "name": "Star Wars",
-                    "__indexColor": "#c40103",
-                    "index": 258,
-                    "x": -389.548299230225,
-                    "y": 41.24127662272012,
-                    "vx": -2.2303275162774696e-18,
-                    "vy": 1.759954535559518e-19
-                },
-                "__indexColor": "#8c02b9",
-                "__controlPoints": null,
-                "index": 314
+                "source": "Q65090123",
+                "target": "Q462"
             },
             {
                 "label": "has_part",
-                "source": {
-                    "id": "Q3224307",
-                    "name": "The Courtship of Princess Leia",
-                    "__indexColor": "#4c00c9",
-                    "index": 200,
-                    "x": -433.67453700403206,
-                    "y": -241.81837937528465,
-                    "vx": -2.054112310393882e-18,
-                    "vy": 2.0693051726175377e-19
-                },
-                "target": {
-                    "id": "Q51755",
-                    "name": "Ahsoka Tano",
-                    "__indexColor": "#800120",
-                    "index": 287,
-                    "x": -400.5223623856839,
-                    "y": -223.3162803922654,
-                    "vx": -1.9206705200248796e-18,
-                    "vy": 2.9413348211412435e-19
-                },
-                "__indexColor": "#7802ba",
-                "__controlPoints": null,
-                "index": 315
+                "source": "Q3224307",
+                "target": "Q51755"
             },
             {
                 "label": "main_subject",
-                "source": {
-                    "id": "Q65090123",
-                    "name": "List of Star Wars television series",
-                    "__indexColor": "#000140",
-                    "index": 319,
-                    "x": -396.4574905255115,
-                    "y": 10.277023460479418,
-                    "vx": -1.6015631319792367e-18,
-                    "vy": 2.5442672021430877e-22
-                },
-                "target": {
-                    "id": "Q5193368",
-                    "name": "Cultural impact of Star Wars",
-                    "__indexColor": "#080126",
-                    "index": 293,
-                    "x": -430.1349528760799,
-                    "y": 9.339003807693922,
-                    "vx": -1.6004130568221558e-18,
-                    "vy": -5.155665877780492e-19
-                },
-                "__indexColor": "#6402bb",
-                "__controlPoints": null,
-                "index": 316
+                "source": "Q65090123",
+                "target": "Q5193368"
             },
             {
                 "label": "subsidiary",
-                "source": {
-                    "id": "Q7414",
-                    "name": "The Walt Disney Company",
-                    "__indexColor": "#c00150",
-                    "index": 335,
-                    "x": -441.3902274756757,
-                    "y": 179.88805350887668,
-                    "vx": -2.2676562408008727e-18,
-                    "vy": 6.481562690494274e-20
-                },
-                "target": {
-                    "id": "Q242446",
-                    "name": "Lucasfilm",
-                    "__indexColor": "#340097",
-                    "index": 150,
-                    "x": -448.18562170015144,
-                    "y": 142.96016226223725,
-                    "vx": -2.1908131226885974e-18,
-                    "vy": 4.3935271220782024e-20
-                },
-                "__indexColor": "#5002bc",
-                "__controlPoints": null,
-                "index": 317
+                "source": "Q7414",
+                "target": "Q242446"
             },
             {
                 "label": "based_on",
-                "source": {
-                    "id": "Q65090123",
-                    "name": "List of Star Wars television series",
-                    "__indexColor": "#000140",
-                    "index": 319,
-                    "x": -396.4574905255115,
-                    "y": 10.277023460479418,
-                    "vx": -1.6015631319792367e-18,
-                    "vy": 2.5442672021430877e-22
-                },
-                "target": {
-                    "id": "Q462",
-                    "name": "Star Wars",
-                    "__indexColor": "#c40103",
-                    "index": 258,
-                    "x": -389.548299230225,
-                    "y": 41.24127662272012,
-                    "vx": -2.2303275162774696e-18,
-                    "vy": 1.759954535559518e-19
-                },
-                "__indexColor": "#3c02bd",
-                "__controlPoints": null,
-                "index": 318
+                "source": "Q65090123",
+                "target": "Q462"
             },
             {
                 "label": "uses",
-                "source": {
-                    "id": "Q51755",
-                    "name": "Ahsoka Tano",
-                    "__indexColor": "#800120",
-                    "index": 287,
-                    "x": -400.5223623856839,
-                    "y": -223.3162803922654,
-                    "vx": -1.9206705200248796e-18,
-                    "vy": 2.9413348211412435e-19
-                },
-                "target": {
-                    "id": "Q19873",
-                    "name": "Lightsaber",
-                    "__indexColor": "#c80076",
-                    "index": 117,
-                    "x": -398.1491959608278,
-                    "y": -272.31963799965416,
-                    "vx": -1.7503722942333935e-18,
-                    "vy": 3.301826313504889e-19
-                },
-                "__indexColor": "#2802be",
-                "__controlPoints": null,
-                "index": 319
+                "source": "Q51755",
+                "target": "Q19873"
             },
             {
                 "label": "parent_organization",
-                "source": {
-                    "id": "Q242446",
-                    "name": "Lucasfilm",
-                    "__indexColor": "#340097",
-                    "index": 150,
-                    "x": -448.18562170015144,
-                    "y": 142.96016226223725,
-                    "vx": -2.1908131226885974e-18,
-                    "vy": 4.3935271220782024e-20
-                },
-                "target": {
-                    "id": "Q7414",
-                    "name": "The Walt Disney Company",
-                    "__indexColor": "#c00150",
-                    "index": 335,
-                    "x": -441.3902274756757,
-                    "y": 179.88805350887668,
-                    "vx": -2.2676562408008727e-18,
-                    "vy": 6.481562690494274e-20
-                },
-                "__indexColor": "#1402bf",
-                "__controlPoints": null,
-                "index": 320
+                "source": "Q242446",
+                "target": "Q7414"
             },
             {
                 "label": "used_by",
-                "source": {
-                    "id": "Q19873",
-                    "name": "Lightsaber",
-                    "__indexColor": "#c80076",
-                    "index": 117,
-                    "x": -398.1491959608278,
-                    "y": -272.31963799965416,
-                    "vx": -1.7503722942333935e-18,
-                    "vy": 3.301826313504889e-19
-                },
-                "target": {
-                    "id": "Q51755",
-                    "name": "Ahsoka Tano",
-                    "__indexColor": "#800120",
-                    "index": 287,
-                    "x": -400.5223623856839,
-                    "y": -223.3162803922654,
-                    "vx": -1.9206705200248796e-18,
-                    "vy": 2.9413348211412435e-19
-                },
-                "__indexColor": "#0002c0",
-                "__controlPoints": null,
-                "index": 321
+                "source": "Q19873",
+                "target": "Q51755"
             },
             {
                 "label": "creator",
-                "source": {
-                    "id": "Q14944179",
-                    "name": "Peaky Blinders",
-                    "__indexColor": "#d4004f",
-                    "index": 78,
-                    "x": 127.32235912112671,
-                    "y": -126.33678885290438,
-                    "vx": 1.814364552103585e-18,
-                    "vy": -3.1799422774962276e-19
-                },
-                "target": {
-                    "id": "Q1337354",
-                    "name": "Steven Knight",
-                    "__indexColor": "#8c0039",
-                    "index": 56,
-                    "x": 131.45556421011597,
-                    "y": -94.67412830758714,
-                    "vx": 1.7725411939313563e-18,
-                    "vy": -3.090370373693316e-19
-                },
-                "__indexColor": "#ec02c1",
-                "__controlPoints": null,
-                "index": 322
+                "source": "Q14944179",
+                "target": "Q1337354"
             },
             {
                 "label": "director",
-                "source": {
-                    "id": "Q84712813",
-                    "name": "Ms. Marvel",
-                    "__indexColor": "#1c0165",
-                    "index": 356,
-                    "x": 854.8219589157019,
-                    "y": -820.7221025410165,
-                    "vx": 3.4600449678631742e-18,
-                    "vy": -3.2047137331673267e-18
-                },
-                "target": {
-                    "id": "Q3563826",
-                    "name": "Sharmeen Obaid-Chinoy",
-                    "__indexColor": "#3400d7",
-                    "index": 214,
-                    "x": 833.7979879296009,
-                    "y": -844.6660786825499,
-                    "vx": 3.470399351265997e-18,
-                    "vy": -3.213800422945519e-18
-                },
-                "__indexColor": "#d802c2",
-                "__controlPoints": null,
-                "index": 323
+                "source": "Q84712813",
+                "target": "Q3563826"
             },
             {
                 "label": "member_of",
-                "source": {
-                    "id": "Q25455117",
-                    "name": "Sabine Wren",
-                    "__indexColor": "#a400ab",
-                    "index": 170,
-                    "x": -392.4930798974843,
-                    "y": -253.47676354050427,
-                    "vx": -1.6821208948761148e-18,
-                    "vy": 2.344436024277941e-19
-                },
-                "target": {
-                    "id": "Q51724",
-                    "name": "Jedi",
-                    "__indexColor": "#0c0119",
-                    "index": 280,
-                    "x": -390.85216893635317,
-                    "y": -192.32482309285322,
-                    "vx": -1.6821770275627616e-18,
-                    "vy": 2.689298555724664e-19
-                },
-                "__indexColor": "#c402c3",
-                "__controlPoints": null,
-                "index": 324
+                "source": "Q25455117",
+                "target": "Q51724"
             },
             {
                 "label": "ethnic_group",
-                "source": {
-                    "id": "Q51780",
-                    "name": "Grand Admiral Thrawn",
-                    "__indexColor": "#440123",
-                    "index": 290,
-                    "x": -197.69240025190516,
-                    "y": -476.6805568218649,
-                    "vx": -2.4732384803472028e-18,
-                    "vy": 3.883356573078013e-19
-                },
-                "target": {
-                    "id": "Q56876444",
-                    "name": "The Mandalorian",
-                    "__indexColor": "#040133",
-                    "index": 306,
-                    "x": -230.50558878191197,
-                    "y": -352.21658501677,
-                    "vx": -1.9294342406358672e-18,
-                    "vy": 2.0624642999609032e-19
-                },
-                "__indexColor": "#b002c4",
-                "__controlPoints": null,
-                "index": 325
+                "source": "Q51780",
+                "target": "Q56876444"
             },
             {
                 "label": "mother",
-                "source": {
-                    "id": "Q24953547",
-                    "name": "Ezra Bridger",
-                    "__indexColor": "#6c00a1",
-                    "index": 160,
-                    "x": -258.9634393945803,
-                    "y": -331.74501365520644,
-                    "vx": -3.649052394336511e-18,
-                    "vy": -2.6638648424274977e-18
-                },
-                "target": {
-                    "id": "Q33133727",
-                    "name": "Hera Syndulla",
-                    "__indexColor": "#2400cb",
-                    "index": 202,
-                    "x": -297.1549420979196,
-                    "y": -326.5131253093799,
-                    "vx": -3.557685515046045e-18,
-                    "vy": -1.8346042394734764e-18
-                },
-                "__indexColor": "#9c02c5",
-                "__controlPoints": null,
-                "index": 326
+                "source": "Q24953547",
+                "target": "Q33133727"
             },
             {
                 "label": "ethnic_group",
-                "source": {
-                    "id": "Q33133727",
-                    "name": "Hera Syndulla",
-                    "__indexColor": "#2400cb",
-                    "index": 202,
-                    "x": -297.1549420979196,
-                    "y": -326.5131253093799,
-                    "vx": -3.557685515046045e-18,
-                    "vy": -1.8346042394734764e-18
-                },
-                "target": {
-                    "id": "Q54289",
-                    "name": "Mandalorians",
-                    "__indexColor": "#e00128",
-                    "index": 295,
-                    "x": -267.86224323649844,
-                    "y": -351.89114050946955,
-                    "vx": -4.005640345503266e-18,
-                    "vy": -2.6720625720083813e-18
-                },
-                "__indexColor": "#8802c6",
-                "__controlPoints": null,
-                "index": 327
+                "source": "Q33133727",
+                "target": "Q54289"
             },
             {
                 "label": "uses",
-                "source": {
-                    "id": "Q12206942",
-                    "name": "Darth Vader",
-                    "__indexColor": "#90002c",
-                    "index": 43,
-                    "x": -416.85956525267983,
-                    "y": -93.01492546482316,
-                    "vx": -1.7218461140213561e-18,
-                    "vy": -1.726169767625492e-19
-                },
-                "target": {
-                    "id": "Q1093766",
-                    "name": "The Force",
-                    "__indexColor": "#480016",
-                    "index": 21,
-                    "x": -433.85453846653866,
-                    "y": -28.228211252431624,
-                    "vx": -1.9445049284918083e-18,
-                    "vy": -2.5630616736448337e-20
-                },
-                "__indexColor": "#7402c7",
-                "__controlPoints": null,
-                "index": 328
+                "source": "Q12206942",
+                "target": "Q1093766"
             },
             {
                 "label": "instance_of",
-                "source": {
-                    "id": "Q12206942",
-                    "name": "Darth Vader",
-                    "__indexColor": "#90002c",
-                    "index": 43,
-                    "x": -416.85956525267983,
-                    "y": -93.01492546482316,
-                    "vx": -1.7218461140213561e-18,
-                    "vy": -1.726169767625492e-19
-                },
-                "target": {
-                    "id": "Q1093766",
-                    "name": "The Force",
-                    "__indexColor": "#480016",
-                    "index": 21,
-                    "x": -433.85453846653866,
-                    "y": -28.228211252431624,
-                    "vx": -1.9445049284918083e-18,
-                    "vy": -2.5630616736448337e-20
-                },
-                "__indexColor": "#6002c8",
-                "__controlPoints": null,
-                "index": 329
+                "source": "Q12206942",
+                "target": "Q1093766"
             },
             {
                 "label": "uses",
-                "source": {
-                    "id": "Q12206942",
-                    "name": "Darth Vader",
-                    "__indexColor": "#90002c",
-                    "index": 43,
-                    "x": -416.85956525267983,
-                    "y": -93.01492546482316,
-                    "vx": -1.7218461140213561e-18,
-                    "vy": -1.726169767625492e-19
-                },
-                "target": {
-                    "id": "Q11402",
-                    "name": "Force",
-                    "__indexColor": "#6c0021",
-                    "index": 32,
-                    "x": -449.5873989787246,
-                    "y": -103.32424026605617,
-                    "vx": -1.673166737713285e-18,
-                    "vy": -3.4345000993527294e-19
-                },
-                "__indexColor": "#4c02c9",
-                "__controlPoints": null,
-                "index": 330
+                "source": "Q12206942",
+                "target": "Q11402"
             },
             {
                 "label": "present_in_work",
-                "source": {
-                    "id": "Q104996560",
-                    "name": "Dark Side",
-                    "__indexColor": "#600008",
-                    "index": 7,
-                    "x": -382.6010542558409,
-                    "y": 78.04516171738864,
-                    "vx": -1.880069951075313e-18,
-                    "vy": 1.6601364980351475e-19
-                },
-                "target": {
-                    "id": "Q462",
-                    "name": "Star Wars",
-                    "__indexColor": "#c40103",
-                    "index": 258,
-                    "x": -389.548299230225,
-                    "y": 41.24127662272012,
-                    "vx": -2.2303275162774696e-18,
-                    "vy": 1.759954535559518e-19
-                },
-                "__indexColor": "#3802ca",
-                "__controlPoints": null,
-                "index": 331
+                "source": "Q104996560",
+                "target": "Q462"
             },
             {
                 "label": "field_of_work",
-                "source": {
-                    "id": "Q240648",
-                    "name": "501st Legion",
-                    "__indexColor": "#5c0095",
-                    "index": 148,
-                    "x": -369.7153013008069,
-                    "y": 74.21977123082901,
-                    "vx": -2.057100659540385e-18,
-                    "vy": 3.8671752732583974e-20
-                },
-                "target": {
-                    "id": "Q462",
-                    "name": "Star Wars",
-                    "__indexColor": "#c40103",
-                    "index": 258,
-                    "x": -389.548299230225,
-                    "y": 41.24127662272012,
-                    "vx": -2.2303275162774696e-18,
-                    "vy": 1.759954535559518e-19
-                },
-                "__indexColor": "#2402cb",
-                "__controlPoints": null,
-                "index": 332
+                "source": "Q240648",
+                "target": "Q462"
             },
             {
                 "label": "creator",
-                "source": {
-                    "id": "Q104161310",
-                    "name": "The Acolyte",
-                    "__indexColor": "#9c0005",
-                    "index": 4,
-                    "x": -281.9569073229922,
-                    "y": -199.33569504740524,
-                    "vx": -1.4247647977505346e-18,
-                    "vy": -4.8797767107984575e-19
-                },
-                "target": {
-                    "id": "Q13563071",
-                    "name": "Leslye Headland",
-                    "__indexColor": "#3c003d",
-                    "index": 60,
-                    "x": -235.48381904273106,
-                    "y": -208.26299655442384,
-                    "vx": -1.0891370399639882e-18,
-                    "vy": -7.837381249491701e-19
-                },
-                "__indexColor": "#1002cc",
-                "__controlPoints": null,
-                "index": 333
+                "source": "Q104161310",
+                "target": "Q13563071"
             },
             {
                 "label": "present_in_work",
-                "source": {
-                    "id": "Q240648",
-                    "name": "501st Legion",
-                    "__indexColor": "#5c0095",
-                    "index": 148,
-                    "x": -369.7153013008069,
-                    "y": 74.21977123082901,
-                    "vx": -2.057100659540385e-18,
-                    "vy": 3.8671752732583974e-20
-                },
-                "target": {
-                    "id": "Q462",
-                    "name": "Star Wars",
-                    "__indexColor": "#c40103",
-                    "index": 258,
-                    "x": -389.548299230225,
-                    "y": 41.24127662272012,
-                    "vx": -2.2303275162774696e-18,
-                    "vy": 1.759954535559518e-19
-                },
-                "__indexColor": "#fc02cd",
-                "__controlPoints": null,
-                "index": 334
+                "source": "Q240648",
+                "target": "Q462"
             },
             {
                 "label": "occupation",
-                "source": {
-                    "id": "Q13563071",
-                    "name": "Leslye Headland",
-                    "__indexColor": "#3c003d",
-                    "index": 60,
-                    "x": -235.48381904273106,
-                    "y": -208.26299655442384,
-                    "vx": -1.0891370399639882e-18,
-                    "vy": -7.837381249491701e-19
-                },
-                "target": {
-                    "id": "Q105674",
-                    "name": "Running",
-                    "__indexColor": "#10000c",
-                    "index": 11,
-                    "x": -198.85469900233494,
-                    "y": -212.82634730895504,
-                    "vx": -9.937957686914513e-19,
-                    "vy": -1.7523007410014174e-18
-                },
-                "__indexColor": "#e802ce",
-                "__controlPoints": null,
-                "index": 335
+                "source": "Q13563071",
+                "target": "Q105674"
             },
             {
                 "label": "location",
-                "source": {
-                    "id": "Q7601119",
-                    "name": "Star Wars Celebration",
-                    "__indexColor": "#840153",
-                    "index": 338,
-                    "x": -10.903338337626472,
-                    "y": 1098.2320431116516,
-                    "vx": 2.0029793376101379e-19,
-                    "vy": 4.792399316936452e-18
-                },
-                "target": {
-                    "id": "Q84",
-                    "name": "London",
-                    "__indexColor": "#6c0161",
-                    "index": 352,
-                    "x": -42.72030636056553,
-                    "y": 1096.4806346548735,
-                    "vx": 2.11156437021827e-19,
-                    "vy": 4.7788058455573055e-18
-                },
-                "__indexColor": "#d402cf",
-                "__controlPoints": null,
-                "index": 336
+                "source": "Q7601119",
+                "target": "Q84"
             },
             {
                 "label": "present_in_work",
-                "source": {
-                    "id": "Q96381012",
-                    "name": "High Republic",
-                    "__indexColor": "#50017c",
-                    "index": 379,
-                    "x": -190.14753821573368,
-                    "y": -121.36536155736958,
-                    "vx": -1.3747818836554987e-18,
-                    "vy": -3.288623615810342e-19
-                },
-                "target": {
-                    "id": "Q104161310",
-                    "name": "The Acolyte",
-                    "__indexColor": "#9c0005",
-                    "index": 4,
-                    "x": -281.9569073229922,
-                    "y": -199.33569504740524,
-                    "vx": -1.4247647977505346e-18,
-                    "vy": -4.8797767107984575e-19
-                },
-                "__indexColor": "#c002d0",
-                "__controlPoints": null,
-                "index": 337
+                "source": "Q96381012",
+                "target": "Q104161310"
             },
             {
                 "label": "located_in_the_administrative_territorial_entity",
-                "source": {
-                    "id": "Q7601119",
-                    "name": "Star Wars Celebration",
-                    "__indexColor": "#840153",
-                    "index": 338,
-                    "x": -10.903338337626472,
-                    "y": 1098.2320431116516,
-                    "vx": 2.0029793376101379e-19,
-                    "vy": 4.792399316936452e-18
-                },
-                "target": {
-                    "id": "Q84",
-                    "name": "London",
-                    "__indexColor": "#6c0161",
-                    "index": 352,
-                    "x": -42.72030636056553,
-                    "y": 1096.4806346548735,
-                    "vx": 2.11156437021827e-19,
-                    "vy": 4.7788058455573055e-18
-                },
-                "__indexColor": "#ac02d1",
-                "__controlPoints": null,
-                "index": 338
+                "source": "Q7601119",
+                "target": "Q84"
             },
             {
                 "label": "country",
-                "source": {
-                    "id": "Q862452",
-                    "name": "Makuhari Messe",
-                    "__indexColor": "#cc0169",
-                    "index": 360,
-                    "x": -1131.20124217261,
-                    "y": 356.1894560899075,
-                    "vx": -4.6135689249125925e-18,
-                    "vy": 1.6415290128031926e-18
-                },
-                "target": {
-                    "id": "Q17",
-                    "name": "Japan",
-                    "__indexColor": "#e4005b",
-                    "index": 90,
-                    "x": -1099.167753966347,
-                    "y": 352.948014252128,
-                    "vx": -4.635567373500825e-18,
-                    "vy": 1.4269790011522521e-18
-                },
-                "__indexColor": "#9802d2",
-                "__controlPoints": null,
-                "index": 339
+                "source": "Q862452",
+                "target": "Q17"
             },
             {
                 "label": "performer",
-                "source": {
-                    "id": "Q51755",
-                    "name": "Ahsoka Tano",
-                    "__indexColor": "#800120",
-                    "index": 287,
-                    "x": -400.5223623856839,
-                    "y": -223.3162803922654,
-                    "vx": -1.9206705200248796e-18,
-                    "vy": 2.9413348211412435e-19
-                },
-                "target": {
-                    "id": "Q372947",
-                    "name": "Ray Stevenson",
-                    "__indexColor": "#6c00e1",
-                    "index": 224,
-                    "x": -411.6248135587681,
-                    "y": -260.74949580886476,
-                    "vx": -2.0003479692055262e-18,
-                    "vy": 1.6401173551176735e-19
-                },
-                "__indexColor": "#8402d3",
-                "__controlPoints": null,
-                "index": 340
+                "source": "Q51755",
+                "target": "Q372947"
             },
             {
                 "label": "position_held",
-                "source": {
-                    "id": "Q51770",
-                    "name": "Palpatine",
-                    "__indexColor": "#6c0121",
-                    "index": 288,
-                    "x": 976.1292769113521,
-                    "y": -654.7809612546147,
-                    "vx": 3.669547850562488e-18,
-                    "vy": -2.7863045793894932e-18
-                },
-                "target": {
-                    "id": "Q39018",
-                    "name": "Emperor",
-                    "__indexColor": "#9000ec",
-                    "index": 235,
-                    "x": 956.576540271741,
-                    "y": -680.0286047788427,
-                    "vx": 3.6882039168783386e-18,
-                    "vy": -2.7954008270277936e-18
-                },
-                "__indexColor": "#7002d4",
-                "__controlPoints": null,
-                "index": 341
+                "source": "Q51770",
+                "target": "Q39018"
             },
             {
                 "label": "start_time",
-                "source": {
-                    "id": "Q104161310",
-                    "name": "The Acolyte",
-                    "__indexColor": "#9c0005",
-                    "index": 4,
-                    "x": -281.9569073229922,
-                    "y": -199.33569504740524,
-                    "vx": -1.4247647977505346e-18,
-                    "vy": -4.8797767107984575e-19
-                },
-                "target": {
-                    "id": "Q69307189",
-                    "name": "June 4, 2024",
-                    "__indexColor": "#b00144",
-                    "index": 323,
-                    "x": -256.6869860569424,
-                    "y": -225.16072098439886,
-                    "vx": -1.3331612659192895e-18,
-                    "vy": -3.8642740195251625e-19
-                },
-                "__indexColor": "#5c02d5",
-                "__controlPoints": null,
-                "index": 342
+                "source": "Q104161310",
+                "target": "Q69307189"
             },
             {
                 "label": "present_in_work",
-                "source": {
-                    "id": "Q51755",
-                    "name": "Ahsoka Tano",
-                    "__indexColor": "#800120",
-                    "index": 287,
-                    "x": -400.5223623856839,
-                    "y": -223.3162803922654,
-                    "vx": -1.9206705200248796e-18,
-                    "vy": 2.9413348211412435e-19
-                },
-                "target": {
-                    "id": "Q349375",
-                    "name": "Fortnite",
-                    "__indexColor": "#7000d4",
-                    "index": 211,
-                    "x": -426.1076224235031,
-                    "y": -286.274031126854,
-                    "vx": -1.6048035489528892e-18,
-                    "vy": 1.2617478466034096e-19
-                },
-                "__indexColor": "#4802d6",
-                "__controlPoints": null,
-                "index": 343
+                "source": "Q51755",
+                "target": "Q349375"
             },
             {
                 "label": "part_of",
-                "source": {
-                    "id": "Q193294",
-                    "name": "sunrise",
-                    "__indexColor": "#f00074",
-                    "index": 115,
-                    "x": 608.0032345212177,
-                    "y": 835.3756884429049,
-                    "vx": 2.4824867797853713e-18,
-                    "vy": 3.6049387446912565e-18
-                },
-                "target": {
-                    "id": "Q43175",
-                    "name": "flag of Japan",
-                    "__indexColor": "#3c00fd",
-                    "index": 252,
-                    "x": 603.9760902215186,
-                    "y": 867.121447471183,
-                    "vx": 2.4466596755036946e-18,
-                    "vy": 3.5817771452720985e-18
-                },
-                "__indexColor": "#3402d7",
-                "__controlPoints": null,
-                "index": 344
+                "source": "Q193294",
+                "target": "Q43175"
             },
             {
                 "label": "employer",
-                "source": {
-                    "id": "Q360501",
-                    "name": "Paul Young",
-                    "__indexColor": "#bc00dd",
-                    "index": 220,
-                    "x": 1229.095765230979,
-                    "y": -28.659278004363877,
-                    "vx": 4.831485878740777e-18,
-                    "vy": 6.859730897030815e-20
-                },
-                "target": {
-                    "id": "Q2940649",
-                    "name": "Cartoon Saloon",
-                    "__indexColor": "#0000c0",
-                    "index": 191,
-                    "x": 1239.712930936,
-                    "y": -58.80205175146014,
-                    "vx": 4.849195616035308e-18,
-                    "vy": 7.236383843846025e-20
-                },
-                "__indexColor": "#2002d8",
-                "__controlPoints": null,
-                "index": 345
+                "source": "Q360501",
+                "target": "Q2940649"
             },
             {
                 "label": "student",
-                "source": {
-                    "id": "Q51736",
-                    "name": "Qui-Gon Jinn",
-                    "__indexColor": "#d0011c",
-                    "index": 283,
-                    "x": -509.60154252710015,
-                    "y": -6.402049961664847,
-                    "vx": -1.9787193422731583e-18,
-                    "vy": -9.358761552329982e-19
-                },
-                "target": {
-                    "id": "Q51740",
-                    "name": "Obi-Wan Kenobi",
-                    "__indexColor": "#bc011d",
-                    "index": 284,
-                    "x": -471.10397188718514,
-                    "y": 7.082558053850892,
-                    "vx": -1.8517333449994453e-18,
-                    "vy": -4.555152451460619e-19
-                },
-                "__indexColor": "#0c02d9",
-                "__controlPoints": null,
-                "index": 346
+                "source": "Q51736",
+                "target": "Q51740"
             },
             {
                 "label": "genre",
-                "source": {
-                    "id": "Q900956",
-                    "name": "Visions",
-                    "__indexColor": "#040173",
-                    "index": 370,
-                    "x": -600.3832521595168,
-                    "y": 1069.001175105558,
-                    "vx": -2.3602466014739354e-18,
-                    "vy": 4.335071346806703e-18
-                },
-                "target": {
-                    "id": "Q23653",
-                    "name": "anthology series",
-                    "__indexColor": "#980092",
-                    "index": 145,
-                    "x": -627.8939737653175,
-                    "y": 1052.7168207666457,
-                    "vx": -2.3618453576485815e-18,
-                    "vy": 4.328424994504886e-18
-                },
-                "__indexColor": "#f802da",
-                "__controlPoints": null,
-                "index": 347
+                "source": "Q900956",
+                "target": "Q23653"
             },
             {
                 "label": "depicts",
-                "source": {
-                    "id": "Q43175",
-                    "name": "flag of Japan",
-                    "__indexColor": "#3c00fd",
-                    "index": 252,
-                    "x": 603.9760902215186,
-                    "y": 867.121447471183,
-                    "vx": 2.4466596755036946e-18,
-                    "vy": 3.5817771452720985e-18
-                },
-                "target": {
-                    "id": "Q193294",
-                    "name": "sunrise",
-                    "__indexColor": "#f00074",
-                    "index": 115,
-                    "x": 608.0032345212177,
-                    "y": 835.3756884429049,
-                    "vx": 2.4824867797853713e-18,
-                    "vy": 3.6049387446912565e-18
-                },
-                "__indexColor": "#e402db",
-                "__controlPoints": null,
-                "index": 348
+                "source": "Q43175",
+                "target": "Q193294"
             },
             {
                 "label": "student_of",
-                "source": {
-                    "id": "Q51740",
-                    "name": "Obi-Wan Kenobi",
-                    "__indexColor": "#bc011d",
-                    "index": 284,
-                    "x": -471.10397188718514,
-                    "y": 7.082558053850892,
-                    "vx": -1.8517333449994453e-18,
-                    "vy": -4.555152451460619e-19
-                },
-                "target": {
-                    "id": "Q51736",
-                    "name": "Qui-Gon Jinn",
-                    "__indexColor": "#d0011c",
-                    "index": 283,
-                    "x": -509.60154252710015,
-                    "y": -6.402049961664847,
-                    "vx": -1.9787193422731583e-18,
-                    "vy": -9.358761552329982e-19
-                },
-                "__indexColor": "#d002dc",
-                "__controlPoints": null,
-                "index": 349
+                "source": "Q51740",
+                "target": "Q51736"
             },
             {
                 "label": "present_in_work",
-                "source": {
-                    "id": "Q28787",
-                    "name": "Star Wars Rebels",
-                    "__indexColor": "#1400bf",
-                    "index": 190,
-                    "x": -346.75259607068017,
-                    "y": -89.81261278681568,
-                    "vx": -2.2351817520305194e-18,
-                    "vy": 2.506209010273065e-19
-                },
-                "target": {
-                    "id": "Q462",
-                    "name": "Star Wars",
-                    "__indexColor": "#c40103",
-                    "index": 258,
-                    "x": -389.548299230225,
-                    "y": 41.24127662272012,
-                    "vx": -2.2303275162774696e-18,
-                    "vy": 1.759954535559518e-19
-                },
-                "__indexColor": "#bc02dd",
-                "__controlPoints": null,
-                "index": 350
+                "source": "Q28787",
+                "target": "Q462"
             },
             {
                 "label": "instance_of",
-                "source": {
-                    "id": "Q900956",
-                    "name": "Visions",
-                    "__indexColor": "#040173",
-                    "index": 370,
-                    "x": -600.3832521595168,
-                    "y": 1069.001175105558,
-                    "vx": -2.3602466014739354e-18,
-                    "vy": 4.335071346806703e-18
-                },
-                "target": {
-                    "id": "Q23653",
-                    "name": "anthology series",
-                    "__indexColor": "#980092",
-                    "index": 145,
-                    "x": -627.8939737653175,
-                    "y": 1052.7168207666457,
-                    "vx": -2.3618453576485815e-18,
-                    "vy": 4.328424994504886e-18
-                },
-                "__indexColor": "#a802de",
-                "__controlPoints": null,
-                "index": 351
+                "source": "Q900956",
+                "target": "Q23653"
             },
             {
                 "label": "present_in_work",
-                "source": {
-                    "id": "Q12206942",
-                    "name": "Darth Vader",
-                    "__indexColor": "#90002c",
-                    "index": 43,
-                    "x": -416.85956525267983,
-                    "y": -93.01492546482316,
-                    "vx": -1.7218461140213561e-18,
-                    "vy": -1.726169767625492e-19
-                },
-                "target": {
-                    "id": "Q462",
-                    "name": "Star Wars",
-                    "__indexColor": "#c40103",
-                    "index": 258,
-                    "x": -389.548299230225,
-                    "y": 41.24127662272012,
-                    "vx": -2.2303275162774696e-18,
-                    "vy": 1.759954535559518e-19
-                },
-                "__indexColor": "#9402df",
-                "__controlPoints": null,
-                "index": 352
+                "source": "Q12206942",
+                "target": "Q462"
             },
             {
                 "label": "student_of",
-                "source": {
-                    "id": "Q51736",
-                    "name": "Qui-Gon Jinn",
-                    "__indexColor": "#d0011c",
-                    "index": 283,
-                    "x": -509.60154252710015,
-                    "y": -6.402049961664847,
-                    "vx": -1.9787193422731583e-18,
-                    "vy": -9.358761552329982e-19
-                },
-                "target": {
-                    "id": "Q183816",
-                    "name": "master's degree",
-                    "__indexColor": "#a4006b",
-                    "index": 106,
-                    "x": -473.2715845599199,
-                    "y": -45.79262931652979,
-                    "vx": -1.8149902224113576e-18,
-                    "vy": -4.776290463981354e-19
-                },
-                "__indexColor": "#8002e0",
-                "__controlPoints": null,
-                "index": 353
+                "source": "Q51736",
+                "target": "Q183816"
             },
             {
                 "label": "depicts",
-                "source": {
-                    "id": "Q43175",
-                    "name": "flag of Japan",
-                    "__indexColor": "#3c00fd",
-                    "index": 252,
-                    "x": 603.9760902215186,
-                    "y": 867.121447471183,
-                    "vx": 2.4466596755036946e-18,
-                    "vy": 3.5817771452720985e-18
-                },
-                "target": {
-                    "id": "Q39231",
-                    "name": "Mount Fuji",
-                    "__indexColor": "#7c00ed",
-                    "index": 236,
-                    "x": 613.7507773596764,
-                    "y": 897.7537233968741,
-                    "vx": 2.4404004031948992e-18,
-                    "vy": 3.5801379974386856e-18
-                },
-                "__indexColor": "#6c02e1",
-                "__controlPoints": null,
-                "index": 354
+                "source": "Q43175",
+                "target": "Q39231"
             },
             {
                 "label": "developer",
-                "source": {
-                    "id": "Q349375",
-                    "name": "Fortnite",
-                    "__indexColor": "#7000d4",
-                    "index": 211,
-                    "x": -426.1076224235031,
-                    "y": -286.274031126854,
-                    "vx": -1.6048035489528892e-18,
-                    "vy": 1.2617478466034096e-19
-                },
-                "target": {
-                    "id": "Q739711",
-                    "name": "Epic Games",
-                    "__indexColor": "#d4014f",
-                    "index": 334,
-                    "x": -443.61826059391046,
-                    "y": -328.9961022792519,
-                    "vx": -1.3037723098328745e-18,
-                    "vy": -1.8699084850652372e-19
-                },
-                "__indexColor": "#5802e2",
-                "__controlPoints": null,
-                "index": 355
+                "source": "Q349375",
+                "target": "Q739711"
             },
             {
                 "label": "production_company",
-                "source": {
-                    "id": "Q51771",
-                    "name": "Sith",
-                    "__indexColor": "#580122",
-                    "index": 289,
-                    "x": -435.97501415509385,
-                    "y": 29.61473796302526,
-                    "vx": -2.061681877254107e-18,
-                    "vy": -3.990939646870264e-19
-                },
-                "target": {
-                    "id": "Q242446",
-                    "name": "Lucasfilm",
-                    "__indexColor": "#340097",
-                    "index": 150,
-                    "x": -448.18562170015144,
-                    "y": 142.96016226223725,
-                    "vx": -2.1908131226885974e-18,
-                    "vy": 4.3935271220782024e-20
-                },
-                "__indexColor": "#4402e3",
-                "__controlPoints": null,
-                "index": 356
+                "source": "Q51771",
+                "target": "Q242446"
             },
             {
                 "label": "present_in_work",
-                "source": {
-                    "id": "Q51746",
-                    "name": "Luke Skywalker",
-                    "__indexColor": "#a8011e",
-                    "index": 285,
-                    "x": -399.3939971733653,
-                    "y": -38.05291069304807,
-                    "vx": -1.8205904766496245e-18,
-                    "vy": -2.453912732469995e-19
-                },
-                "target": {
-                    "id": "Q462",
-                    "name": "Star Wars",
-                    "__indexColor": "#c40103",
-                    "index": 258,
-                    "x": -389.548299230225,
-                    "y": 41.24127662272012,
-                    "vx": -2.2303275162774696e-18,
-                    "vy": 1.759954535559518e-19
-                },
-                "__indexColor": "#3002e4",
-                "__controlPoints": null,
-                "index": 357
+                "source": "Q51746",
+                "target": "Q462"
             },
             {
                 "label": "student_of",
-                "source": {
-                    "id": "Q51740",
-                    "name": "Obi-Wan Kenobi",
-                    "__indexColor": "#bc011d",
-                    "index": 284,
-                    "x": -471.10397188718514,
-                    "y": 7.082558053850892,
-                    "vx": -1.8517333449994453e-18,
-                    "vy": -4.555152451460619e-19
-                },
-                "target": {
-                    "id": "Q183816",
-                    "name": "master's degree",
-                    "__indexColor": "#a4006b",
-                    "index": 106,
-                    "x": -473.2715845599199,
-                    "y": -45.79262931652979,
-                    "vx": -1.8149902224113576e-18,
-                    "vy": -4.776290463981354e-19
-                },
-                "__indexColor": "#1c02e5",
-                "__controlPoints": null,
-                "index": 358
+                "source": "Q51740",
+                "target": "Q183816"
             },
             {
                 "label": "creator",
-                "source": {
-                    "id": "Q28787",
-                    "name": "Star Wars Rebels",
-                    "__indexColor": "#1400bf",
-                    "index": 190,
-                    "x": -346.75259607068017,
-                    "y": -89.81261278681568,
-                    "vx": -2.2351817520305194e-18,
-                    "vy": 2.506209010273065e-19
-                },
-                "target": {
-                    "id": "Q2559261",
-                    "name": "Dave Filoni",
-                    "__indexColor": "#5400af",
-                    "index": 174,
-                    "x": -306.08571582897525,
-                    "y": -255.27768444185173,
-                    "vx": -2.0074634590846283e-18,
-                    "vy": 7.880629314652083e-20
-                },
-                "__indexColor": "#0802e6",
-                "__controlPoints": null,
-                "index": 359
+                "source": "Q28787",
+                "target": "Q2559261"
             },
             {
                 "label": "creator",
-                "source": {
-                    "id": "Q56876444",
-                    "name": "The Mandalorian",
-                    "__indexColor": "#040133",
-                    "index": 306,
-                    "x": -230.50558878191197,
-                    "y": -352.21658501677,
-                    "vx": -1.9294342406358672e-18,
-                    "vy": 2.0624642999609032e-19
-                },
-                "target": {
-                    "id": "Q2559261",
-                    "name": "Dave Filoni",
-                    "__indexColor": "#5400af",
-                    "index": 174,
-                    "x": -306.08571582897525,
-                    "y": -255.27768444185173,
-                    "vx": -2.0074634590846283e-18,
-                    "vy": 7.880629314652083e-20
-                },
-                "__indexColor": "#f402e7",
-                "__controlPoints": null,
-                "index": 360
+                "source": "Q56876444",
+                "target": "Q2559261"
             },
             {
                 "label": "military_rank",
-                "source": {
-                    "id": "Q51780",
-                    "name": "Grand Admiral Thrawn",
-                    "__indexColor": "#440123",
-                    "index": 290,
-                    "x": -197.69240025190516,
-                    "y": -476.6805568218649,
-                    "vx": -2.4732384803472028e-18,
-                    "vy": 3.883356573078013e-19
-                },
-                "target": {
-                    "id": "Q842486",
-                    "name": "admiral of the fleet",
-                    "__indexColor": "#440163",
-                    "index": 354,
-                    "x": -186.17507208346402,
-                    "y": -517.5521714387125,
-                    "vx": -2.6381778398205724e-18,
-                    "vy": 2.578716130328339e-19
-                },
-                "__indexColor": "#e002e8",
-                "__controlPoints": null,
-                "index": 361
+                "source": "Q51780",
+                "target": "Q842486"
             },
             {
                 "label": "creator",
-                "source": {
-                    "id": "Q77001957",
-                    "name": "Grogu",
-                    "__indexColor": "#5c0155",
-                    "index": 340,
-                    "x": -172.4749611388597,
-                    "y": -428.8364468617177,
-                    "vx": -2.2318779518712526e-18,
-                    "vy": -5.886644620680587e-19
-                },
-                "target": {
-                    "id": "Q295964",
-                    "name": "Jon Favreau",
-                    "__indexColor": "#ec00c1",
-                    "index": 192,
-                    "x": -199.10871497340494,
-                    "y": -399.6454273844849,
-                    "vx": -2.023728668013186e-18,
-                    "vy": -1.8734602432904322e-19
-                },
-                "__indexColor": "#cc02e9",
-                "__controlPoints": null,
-                "index": 362
+                "source": "Q77001957",
+                "target": "Q295964"
             },
             {
                 "label": "production_company",
-                "source": {
-                    "id": "Q110059874",
-                    "name": "I Am Your Mother",
-                    "__indexColor": "#200018",
-                    "index": 23,
-                    "x": -426.5508575750042,
-                    "y": 173.8868846481025,
-                    "vx": -2.2552601140367323e-18,
-                    "vy": 1.1055496184945863e-19
-                },
-                "target": {
-                    "id": "Q242446",
-                    "name": "Lucasfilm",
-                    "__indexColor": "#340097",
-                    "index": 150,
-                    "x": -448.18562170015144,
-                    "y": 142.96016226223725,
-                    "vx": -2.1908131226885974e-18,
-                    "vy": 4.3935271220782024e-20
-                },
-                "__indexColor": "#b802ea",
-                "__controlPoints": null,
-                "index": 363
+                "source": "Q110059874",
+                "target": "Q242446"
             },
             {
                 "label": "notable_work",
-                "source": {
-                    "id": "Q5054855",
-                    "name": "Cavan Scott",
-                    "__indexColor": "#980112",
-                    "index": 273,
-                    "x": -245.71172116772868,
-                    "y": 32.90325549927566,
-                    "vx": -1.89976979904413e-18,
-                    "vy": -2.9402616050043136e-19
-                },
-                "target": {
-                    "id": "Q462",
-                    "name": "Star Wars",
-                    "__indexColor": "#c40103",
-                    "index": 258,
-                    "x": -389.548299230225,
-                    "y": 41.24127662272012,
-                    "vx": -2.2303275162774696e-18,
-                    "vy": 1.759954535559518e-19
-                },
-                "__indexColor": "#a402eb",
-                "__controlPoints": null,
-                "index": 364
+                "source": "Q5054855",
+                "target": "Q462"
             },
             {
                 "label": "author",
-                "source": {
-                    "id": "Q25208763",
-                    "name": "Bounty Hunters",
-                    "__indexColor": "#3000a4",
-                    "index": 163,
-                    "x": 24.340167421305672,
-                    "y": 314.4713389225743,
-                    "vx": 1.0262048298982171e-18,
-                    "vy": 2.001231150164311e-18
-                },
-                "target": {
-                    "id": "Q24259397",
-                    "name": "Ethan Sacks",
-                    "__indexColor": "#200098",
-                    "index": 151,
-                    "x": 14.25728452008216,
-                    "y": 284.29493901427963,
-                    "vx": 1.1473904134310935e-18,
-                    "vy": 1.960118398190783e-18
-                },
-                "__indexColor": "#9002ec",
-                "__controlPoints": null,
-                "index": 365
+                "source": "Q25208763",
+                "target": "Q24259397"
             },
             {
                 "label": "author",
-                "source": {
-                    "id": "Q96381012",
-                    "name": "High Republic",
-                    "__indexColor": "#50017c",
-                    "index": 379,
-                    "x": -190.14753821573368,
-                    "y": -121.36536155736958,
-                    "vx": -1.3747818836554987e-18,
-                    "vy": -3.288623615810342e-19
-                },
-                "target": {
-                    "id": "Q5129181",
-                    "name": "Claudia Gray",
-                    "__indexColor": "#340117",
-                    "index": 278,
-                    "x": -151.4385412134905,
-                    "y": -115.08087698358139,
-                    "vx": -1.4411775259455494e-18,
-                    "vy": -3.11184165513098e-20
-                },
-                "__indexColor": "#7c02ed",
-                "__controlPoints": null,
-                "index": 366
+                "source": "Q96381012",
+                "target": "Q5129181"
             },
             {
                 "label": "author",
-                "source": {
-                    "id": "Q105438405",
-                    "name": "Thrawn: Alliances",
-                    "__indexColor": "#38000a",
-                    "index": 9,
-                    "x": 242.79510676745412,
-                    "y": 1064.877091426502,
-                    "vx": 1.3170066443964405e-18,
-                    "vy": 4.506815482078991e-18
-                },
-                "target": {
-                    "id": "Q55760188",
-                    "name": "Marc Bernardin",
-                    "__indexColor": "#90012c",
-                    "index": 299,
-                    "x": 224.65763667251207,
-                    "y": 1091.242944827544,
-                    "vx": 1.2662300810001586e-18,
-                    "vy": 4.4703486266396285e-18
-                },
-                "__indexColor": "#6802ee",
-                "__controlPoints": null,
-                "index": 367
+                "source": "Q105438405",
+                "target": "Q55760188"
             },
             {
                 "label": "creator",
-                "source": {
-                    "id": "Q51755",
-                    "name": "Ahsoka Tano",
-                    "__indexColor": "#800120",
-                    "index": 287,
-                    "x": -400.5223623856839,
-                    "y": -223.3162803922654,
-                    "vx": -1.9206705200248796e-18,
-                    "vy": 2.9413348211412435e-19
-                },
-                "target": {
-                    "id": "Q2559261",
-                    "name": "Dave Filoni",
-                    "__indexColor": "#5400af",
-                    "index": 174,
-                    "x": -306.08571582897525,
-                    "y": -255.27768444185173,
-                    "vx": -2.0074634590846283e-18,
-                    "vy": 7.880629314652083e-20
-                },
-                "__indexColor": "#5402ef",
-                "__controlPoints": null,
-                "index": 368
+                "source": "Q51755",
+                "target": "Q2559261"
             },
             {
                 "label": "creator",
-                "source": {
-                    "id": "Q2635753",
-                    "name": "The Nameless",
-                    "__indexColor": "#0400b3",
-                    "index": 178,
-                    "x": 1070.767096989361,
-                    "y": -81.42362755274333,
-                    "vx": 4.204909341930205e-18,
-                    "vy": -7.677073598364484e-20
-                },
-                "target": {
-                    "id": "Q120597088",
-                    "name": "Michael Siglain",
-                    "__indexColor": "#e00028",
-                    "index": 39,
-                    "x": 1046.8544540572598,
-                    "y": -102.58747344074801,
-                    "vx": 4.19322771544553e-18,
-                    "vy": -4.678540187572749e-20
-                },
-                "__indexColor": "#4002f0",
-                "__controlPoints": null,
-                "index": 369
+                "source": "Q2635753",
+                "target": "Q120597088"
             },
             {
                 "label": "creator",
-                "source": {
-                    "id": "Q51780",
-                    "name": "Grand Admiral Thrawn",
-                    "__indexColor": "#440123",
-                    "index": 290,
-                    "x": -197.69240025190516,
-                    "y": -476.6805568218649,
-                    "vx": -2.4732384803472028e-18,
-                    "vy": 3.883356573078013e-19
-                },
-                "target": {
-                    "id": "Q434029",
-                    "name": "Timothy Zahn",
-                    "__indexColor": "#2800fe",
-                    "index": 253,
-                    "x": -200.87438437572456,
-                    "y": -518.5637330829123,
-                    "vx": -2.7353526784740145e-18,
-                    "vy": 3.9741162916589987e-19
-                },
-                "__indexColor": "#2c02f1",
-                "__controlPoints": null,
-                "index": 370
+                "source": "Q51780",
+                "target": "Q434029"
             },
             {
                 "label": "creator",
-                "source": {
-                    "id": "Q51780",
-                    "name": "Grand Admiral Thrawn",
-                    "__indexColor": "#440123",
-                    "index": 290,
-                    "x": -197.69240025190516,
-                    "y": -476.6805568218649,
-                    "vx": -2.4732384803472028e-18,
-                    "vy": 3.883356573078013e-19
-                },
-                "target": {
-                    "id": "Q110876442",
-                    "name": "Jody Houser",
-                    "__indexColor": "#0c0019",
-                    "index": 24,
-                    "x": -173.3544353005871,
-                    "y": -509.88162653117655,
-                    "vx": -2.55076033864474e-18,
-                    "vy": 3.1628075408177193e-19
-                },
-                "__indexColor": "#1802f2",
-                "__controlPoints": null,
-                "index": 371
+                "source": "Q51780",
+                "target": "Q110876442"
             },
             {
                 "label": "author",
-                "source": {
-                    "id": "Q86450949",
-                    "name": "Star Wars: The High Republic",
-                    "__indexColor": "#a4016b",
-                    "index": 362,
-                    "x": -200.86261851738092,
-                    "y": 81.17241822824094,
-                    "vx": -1.5035110491663475e-18,
-                    "vy": -7.831028193518376e-19
-                },
-                "target": {
-                    "id": "Q5054855",
-                    "name": "Cavan Scott",
-                    "__indexColor": "#980112",
-                    "index": 273,
-                    "x": -245.71172116772868,
-                    "y": 32.90325549927566,
-                    "vx": -1.89976979904413e-18,
-                    "vy": -2.9402616050043136e-19
-                },
-                "__indexColor": "#0402f3",
-                "__controlPoints": null,
-                "index": 372
+                "source": "Q86450949",
+                "target": "Q5054855"
             },
             {
                 "label": "notable_work",
-                "source": {
-                    "id": "Q5054855",
-                    "name": "Cavan Scott",
-                    "__indexColor": "#980112",
-                    "index": 273,
-                    "x": -245.71172116772868,
-                    "y": 32.90325549927566,
-                    "vx": -1.89976979904413e-18,
-                    "vy": -2.9402616050043136e-19
-                },
-                "target": {
-                    "id": "Q86450949",
-                    "name": "Star Wars: The High Republic",
-                    "__indexColor": "#a4016b",
-                    "index": 362,
-                    "x": -200.86261851738092,
-                    "y": 81.17241822824094,
-                    "vx": -1.5035110491663475e-18,
-                    "vy": -7.831028193518376e-19
-                },
-                "__indexColor": "#f002f4",
-                "__controlPoints": null,
-                "index": 373
+                "source": "Q5054855",
+                "target": "Q86450949"
             },
             {
                 "label": "author",
-                "source": {
-                    "id": "Q96381012",
-                    "name": "High Republic",
-                    "__indexColor": "#50017c",
-                    "index": 379,
-                    "x": -190.14753821573368,
-                    "y": -121.36536155736958,
-                    "vx": -1.3747818836554987e-18,
-                    "vy": -3.288623615810342e-19
-                },
-                "target": {
-                    "id": "Q5054855",
-                    "name": "Cavan Scott",
-                    "__indexColor": "#980112",
-                    "index": 273,
-                    "x": -245.71172116772868,
-                    "y": 32.90325549927566,
-                    "vx": -1.89976979904413e-18,
-                    "vy": -2.9402616050043136e-19
-                },
-                "__indexColor": "#dc02f5",
-                "__controlPoints": null,
-                "index": 374
+                "source": "Q96381012",
+                "target": "Q5054855"
             },
             {
                 "label": "award_received",
-                "source": {
-                    "id": "Q105888035",
-                    "name": "Richie Cody",
-                    "__indexColor": "#fc000d",
-                    "index": 12,
-                    "x": 701.4130801996212,
-                    "y": 310.5681881654952,
-                    "vx": 2.8468257098717103e-18,
-                    "vy": 1.4663907110255083e-18
-                },
-                "target": {
-                    "id": "Q724351",
-                    "name": "asexuality",
-                    "__indexColor": "#24014b",
-                    "index": 330,
-                    "x": 733.296035040872,
-                    "y": 308.20247905534546,
-                    "vx": 2.839292365537621e-18,
-                    "vy": 1.392886311389365e-18
-                },
-                "__indexColor": "#c802f6",
-                "__controlPoints": null,
-                "index": 375
+                "source": "Q105888035",
+                "target": "Q724351"
             },
             {
                 "label": "publisher",
-                "source": {
-                    "id": "Q104781875",
-                    "name": "Light of the Jedi",
-                    "__indexColor": "#740007",
-                    "index": 6,
-                    "x": -138.47387060806784,
-                    "y": 230.20446367629424,
-                    "vx": -4.79882446244572e-19,
-                    "vy": -1.3989693457722302e-18
-                },
-                "target": {
-                    "id": "Q14927695",
-                    "name": "Dark Horse",
-                    "__indexColor": "#e8004e",
-                    "index": 77,
-                    "x": -128.3402397177562,
-                    "y": 271.43487976910586,
-                    "vx": -2.8431940984038e-19,
-                    "vy": -1.5022728355999878e-18
-                },
-                "__indexColor": "#b402f7",
-                "__controlPoints": null,
-                "index": 376
+                "source": "Q104781875",
+                "target": "Q14927695"
             },
             {
                 "label": "member_of",
-                "source": {
-                    "id": "Q105888035",
-                    "name": "Richie Cody",
-                    "__indexColor": "#fc000d",
-                    "index": 12,
-                    "x": 701.4130801996212,
-                    "y": 310.5681881654952,
-                    "vx": 2.8468257098717103e-18,
-                    "vy": 1.4663907110255083e-18
-                },
-                "target": {
-                    "id": "Q724351",
-                    "name": "asexuality",
-                    "__indexColor": "#24014b",
-                    "index": 330,
-                    "x": 733.296035040872,
-                    "y": 308.20247905534546,
-                    "vx": 2.839292365537621e-18,
-                    "vy": 1.392886311389365e-18
-                },
-                "__indexColor": "#a002f8",
-                "__controlPoints": null,
-                "index": 377
+                "source": "Q105888035",
+                "target": "Q724351"
             },
             {
                 "label": "creator",
-                "source": {
-                    "id": "Q86450949",
-                    "name": "Star Wars: The High Republic",
-                    "__indexColor": "#a4016b",
-                    "index": 362,
-                    "x": -200.86261851738092,
-                    "y": 81.17241822824094,
-                    "vx": -1.5035110491663475e-18,
-                    "vy": -7.831028193518376e-19
-                },
-                "target": {
-                    "id": "Q5054855",
-                    "name": "Cavan Scott",
-                    "__indexColor": "#980112",
-                    "index": 273,
-                    "x": -245.71172116772868,
-                    "y": 32.90325549927566,
-                    "vx": -1.89976979904413e-18,
-                    "vy": -2.9402616050043136e-19
-                },
-                "__indexColor": "#8c02f9",
-                "__controlPoints": null,
-                "index": 378
+                "source": "Q86450949",
+                "target": "Q5054855"
             },
             {
                 "label": "present_in_work",
-                "source": {
-                    "id": "Q19907",
-                    "name": "Death Star",
-                    "__indexColor": "#b40077",
-                    "index": 118,
-                    "x": -335.1360878678678,
-                    "y": 48.0926803576542,
-                    "vx": -2.2364092078797114e-18,
-                    "vy": 2.400465790737522e-19
-                },
-                "target": {
-                    "id": "Q462",
-                    "name": "Star Wars",
-                    "__indexColor": "#c40103",
-                    "index": 258,
-                    "x": -389.548299230225,
-                    "y": 41.24127662272012,
-                    "vx": -2.2303275162774696e-18,
-                    "vy": 1.759954535559518e-19
-                },
-                "__indexColor": "#7802fa",
-                "__controlPoints": null,
-                "index": 379
+                "source": "Q19907",
+                "target": "Q462"
             },
             {
                 "label": "publisher",
-                "source": {
-                    "id": "Q86450949",
-                    "name": "Star Wars: The High Republic",
-                    "__indexColor": "#a4016b",
-                    "index": 362,
-                    "x": -200.86261851738092,
-                    "y": 81.17241822824094,
-                    "vx": -1.5035110491663475e-18,
-                    "vy": -7.831028193518376e-19
-                },
-                "target": {
-                    "id": "Q173496",
-                    "name": "Marvel Comics",
-                    "__indexColor": "#800060",
-                    "index": 95,
-                    "x": -162.64985998208417,
-                    "y": 158.94901669979674,
-                    "vx": -9.217469793382975e-19,
-                    "vy": -1.1886083344627154e-18
-                },
-                "__indexColor": "#6402fb",
-                "__controlPoints": null,
-                "index": 380
+                "source": "Q86450949",
+                "target": "Q173496"
             },
             {
                 "label": "facet_of",
-                "source": {
-                    "id": "Q24199571",
-                    "name": "Annie Awards",
-                    "__indexColor": "#480096",
-                    "index": 149,
-                    "x": 1063.6718389281946,
-                    "y": -674.4758485472041,
-                    "vx": 4.259960916431057e-18,
-                    "vy": -2.6802711278328102e-18
-                },
-                "target": {
-                    "id": "Q24199571",
-                    "name": "Annie Awards",
-                    "__indexColor": "#480096",
-                    "index": 149,
-                    "x": 1063.6718389281946,
-                    "y": -674.4758485472041,
-                    "vx": 4.259960916431057e-18,
-                    "vy": -2.6802711278328102e-18
-                },
-                "__indexColor": "#5002fc",
-                "__controlPoints": null,
-                "index": 381
+                "source": "Q24199571",
+                "target": "Q24199571"
             },
             {
                 "label": "movement",
-                "source": {
-                    "id": "Q7542",
-                    "name": "Christopher",
-                    "__indexColor": "#ac0151",
-                    "index": 336,
-                    "x": 132.20711038074492,
-                    "y": 950.9076541454635,
-                    "vx": 1.0744552896969135e-18,
-                    "vy": 3.626564035087394e-18
-                },
-                "target": {
-                    "id": "Q1433745",
-                    "name": "Hammer Film Productions",
-                    "__indexColor": "#9c0045",
-                    "index": 68,
-                    "x": 160.4193836359238,
-                    "y": 936.307191391829,
-                    "vx": 1.1847082358459864e-18,
-                    "vy": 3.791966000000181e-18
-                },
-                "__indexColor": "#3c02fd",
-                "__controlPoints": null,
-                "index": 382
+                "source": "Q7542",
+                "target": "Q1433745"
             },
             {
                 "label": "author",
-                "source": {
-                    "id": "Q7093850",
-                    "name": "Ongoing series",
-                    "__indexColor": "#880146",
-                    "index": 325,
-                    "x": 121.86133008579868,
-                    "y": 1004.3996581610147,
-                    "vx": 4.855319088634203e-19,
-                    "vy": 4.568220581692973e-18
-                },
-                "target": {
-                    "id": "Q21932315",
-                    "name": "Daniel José Older",
-                    "__indexColor": "#fc008d",
-                    "index": 140,
-                    "x": 92.67320344429167,
-                    "y": 990.6806573857119,
-                    "vx": 5.122743834246157e-19,
-                    "vy": 4.534519093597301e-18
-                },
-                "__indexColor": "#2802fe",
-                "__controlPoints": null,
-                "index": 383
+                "source": "Q7093850",
+                "target": "Q21932315"
             },
             {
                 "label": "present_in_work",
-                "source": {
-                    "id": "Q51800",
-                    "name": "Grand Moff Tarkin",
-                    "__indexColor": "#300124",
-                    "index": 291,
-                    "x": -298.1177250247964,
-                    "y": 66.06160680188103,
-                    "vx": -2.0903530197531925e-18,
-                    "vy": -2.2322462977417394e-20
-                },
-                "target": {
-                    "id": "Q462",
-                    "name": "Star Wars",
-                    "__indexColor": "#c40103",
-                    "index": 258,
-                    "x": -389.548299230225,
-                    "y": 41.24127662272012,
-                    "vx": -2.2303275162774696e-18,
-                    "vy": 1.759954535559518e-19
-                },
-                "__indexColor": "#1402ff",
-                "__controlPoints": null,
-                "index": 384
+                "source": "Q51800",
+                "target": "Q462"
             },
             {
                 "label": "owned_by",
-                "source": {
-                    "id": "Q96381012",
-                    "name": "High Republic",
-                    "__indexColor": "#50017c",
-                    "index": 379,
-                    "x": -190.14753821573368,
-                    "y": -121.36536155736958,
-                    "vx": -1.3747818836554987e-18,
-                    "vy": -3.288623615810342e-19
-                },
-                "target": {
-                    "id": "Q1047009",
-                    "name": "Disney Store",
-                    "__indexColor": "#880006",
-                    "index": 5,
-                    "x": -158.2029155125559,
-                    "y": -100.83418322103442,
-                    "vx": -1.5741867554884805e-18,
-                    "vy": -1.3090716604297008e-19
-                },
-                "__indexColor": "#000300",
-                "__controlPoints": null,
-                "index": 385
+                "source": "Q96381012",
+                "target": "Q1047009"
             },
             {
                 "label": "present_in_work",
-                "source": {
-                    "id": "Q51727",
-                    "name": "Count Dooku",
-                    "__indexColor": "#f8011a",
-                    "index": 281,
-                    "x": -354.83820060313644,
-                    "y": 48.10487010817671,
-                    "vx": -2.1932411986157988e-18,
-                    "vy": 8.597651659107484e-20
-                },
-                "target": {
-                    "id": "Q462",
-                    "name": "Star Wars",
-                    "__indexColor": "#c40103",
-                    "index": 258,
-                    "x": -389.548299230225,
-                    "y": 41.24127662272012,
-                    "vx": -2.2303275162774696e-18,
-                    "vy": 1.759954535559518e-19
-                },
-                "__indexColor": "#ec0301",
-                "__controlPoints": null,
-                "index": 386
+                "source": "Q51727",
+                "target": "Q462"
             },
             {
                 "label": "creator",
-                "source": {
-                    "id": "Q26214577",
-                    "name": "Igor",
-                    "__indexColor": "#1800b2",
-                    "index": 177,
-                    "x": -1109.9120719047714,
-                    "y": -139.73831506871156,
-                    "vx": -4.987607000145125e-18,
-                    "vy": -5.660769287360273e-19
-                },
-                "target": {
-                    "id": "Q65030437",
-                    "name": "Frankenstein",
-                    "__indexColor": "#14013f",
-                    "index": 318,
-                    "x": -1125.2658239584262,
-                    "y": -111.33043025514962,
-                    "vx": -4.971539225657129e-18,
-                    "vy": -5.628441000507993e-19
-                },
-                "__indexColor": "#d80302",
-                "__controlPoints": null,
-                "index": 387
+                "source": "Q26214577",
+                "target": "Q65030437"
             },
             {
                 "label": "follows",
-                "source": {
-                    "id": "Q28151379",
-                    "name": "Rogue One",
-                    "__indexColor": "#3c00bd",
-                    "index": 188,
-                    "x": 721.2816455318164,
-                    "y": 149.04086416528233,
-                    "vx": 2.8986701364479587e-18,
-                    "vy": 7.8326061376318e-19
-                },
-                "target": {
-                    "id": "Q6074",
-                    "name": "Star Wars: The Force Awakens",
-                    "__indexColor": "#8c0139",
-                    "index": 312,
-                    "x": 727.3213518001639,
-                    "y": 180.3476415000751,
-                    "vx": 2.941689612149004e-18,
-                    "vy": 7.680574785487461e-19
-                },
-                "__indexColor": "#c40303",
-                "__controlPoints": null,
-                "index": 388
+                "source": "Q28151379",
+                "target": "Q6074"
             },
             {
                 "label": "creator",
-                "source": {
-                    "id": "Q26214577",
-                    "name": "Igor",
-                    "__indexColor": "#1800b2",
-                    "index": 177,
-                    "x": -1109.9120719047714,
-                    "y": -139.73831506871156,
-                    "vx": -4.987607000145125e-18,
-                    "vy": -5.660769287360273e-19
-                },
-                "target": {
-                    "id": "Q246693",
-                    "name": "Ząbkowice Śląskie",
-                    "__indexColor": "#d0009c",
-                    "index": 155,
-                    "x": -1077.8038868928272,
-                    "y": -142.81074414430063,
-                    "vx": -5.004196712639778e-18,
-                    "vy": -7.991477849122117e-19
-                },
-                "__indexColor": "#b00304",
-                "__controlPoints": null,
-                "index": 389
+                "source": "Q26214577",
+                "target": "Q246693"
             },
             {
                 "label": "followed_by",
-                "source": {
-                    "id": "Q6074",
-                    "name": "Star Wars: The Force Awakens",
-                    "__indexColor": "#8c0139",
-                    "index": 312,
-                    "x": 727.3213518001639,
-                    "y": 180.3476415000751,
-                    "vx": 2.941689612149004e-18,
-                    "vy": 7.680574785487461e-19
-                },
-                "target": {
-                    "id": "Q28151379",
-                    "name": "Rogue One",
-                    "__indexColor": "#3c00bd",
-                    "index": 188,
-                    "x": 721.2816455318164,
-                    "y": 149.04086416528233,
-                    "vx": 2.8986701364479587e-18,
-                    "vy": 7.8326061376318e-19
-                },
-                "__indexColor": "#9c0305",
-                "__controlPoints": null,
-                "index": 390
+                "source": "Q6074",
+                "target": "Q28151379"
             },
             {
                 "label": "notable_work",
-                "source": {
-                    "id": "Q65030437",
-                    "name": "Frankenstein",
-                    "__indexColor": "#14013f",
-                    "index": 318,
-                    "x": -1125.2658239584262,
-                    "y": -111.33043025514962,
-                    "vx": -4.971539225657129e-18,
-                    "vy": -5.628441000507993e-19
-                },
-                "target": {
-                    "id": "Q26214577",
-                    "name": "Igor",
-                    "__indexColor": "#1800b2",
-                    "index": 177,
-                    "x": -1109.9120719047714,
-                    "y": -139.73831506871156,
-                    "vx": -4.987607000145125e-18,
-                    "vy": -5.660769287360273e-19
-                },
-                "__indexColor": "#880306",
-                "__controlPoints": null,
-                "index": 391
+                "source": "Q65030437",
+                "target": "Q26214577"
             },
             {
                 "label": "publisher",
-                "source": {
-                    "id": "Q104781875",
-                    "name": "Light of the Jedi",
-                    "__indexColor": "#740007",
-                    "index": 6,
-                    "x": -138.47387060806784,
-                    "y": 230.20446367629424,
-                    "vx": -4.79882446244572e-19,
-                    "vy": -1.3989693457722302e-18
-                },
-                "target": {
-                    "id": "Q173496",
-                    "name": "Marvel Comics",
-                    "__indexColor": "#800060",
-                    "index": 95,
-                    "x": -162.64985998208417,
-                    "y": 158.94901669979674,
-                    "vx": -9.217469793382975e-19,
-                    "vy": -1.1886083344627154e-18
-                },
-                "__indexColor": "#740307",
-                "__controlPoints": null,
-                "index": 392
+                "source": "Q104781875",
+                "target": "Q173496"
             },
             {
                 "label": "part_of_the_series",
-                "source": {
-                    "id": "Q20977110",
-                    "name": "Star Wars: The Rise of Skywalker",
-                    "__indexColor": "#d80082",
-                    "index": 129,
-                    "x": -416.96648604636164,
-                    "y": -41.64584458862325,
-                    "vx": -2.512277409942551e-18,
-                    "vy": 6.397829761345476e-19
-                },
-                "target": {
-                    "id": "Q462",
-                    "name": "Star Wars",
-                    "__indexColor": "#c40103",
-                    "index": 258,
-                    "x": -389.548299230225,
-                    "y": 41.24127662272012,
-                    "vx": -2.2303275162774696e-18,
-                    "vy": 1.759954535559518e-19
-                },
-                "__indexColor": "#600308",
-                "__controlPoints": null,
-                "index": 393
+                "source": "Q20977110",
+                "target": "Q462"
             },
             {
                 "label": "present_in_work",
-                "source": {
-                    "id": "Q35684",
-                    "name": "TARDIS",
-                    "__indexColor": "#0c00d9",
-                    "index": 216,
-                    "x": -942.0728566778387,
-                    "y": 711.5309868244635,
-                    "vx": -3.972797098120265e-18,
-                    "vy": 2.9256838462490126e-18
-                },
-                "target": {
-                    "id": "Q34316",
-                    "name": "Doctor Who",
-                    "__indexColor": "#e800ce",
-                    "index": 205,
-                    "x": -923.0013977180022,
-                    "y": 737.1322747079472,
-                    "vx": -3.9616220203541704e-18,
-                    "vy": 2.918559248565005e-18
-                },
-                "__indexColor": "#4c0309",
-                "__controlPoints": null,
-                "index": 394
+                "source": "Q35684",
+                "target": "Q34316"
             },
             {
                 "label": "uses",
-                "source": {
-                    "id": "Q34316",
-                    "name": "Doctor Who",
-                    "__indexColor": "#e800ce",
-                    "index": 205,
-                    "x": -923.0013977180022,
-                    "y": 737.1322747079472,
-                    "vx": -3.9616220203541704e-18,
-                    "vy": 2.918559248565005e-18
-                },
-                "target": {
-                    "id": "Q35684",
-                    "name": "TARDIS",
-                    "__indexColor": "#0c00d9",
-                    "index": 216,
-                    "x": -942.0728566778387,
-                    "y": 711.5309868244635,
-                    "vx": -3.972797098120265e-18,
-                    "vy": 2.9256838462490126e-18
-                },
-                "__indexColor": "#38030a",
-                "__controlPoints": null,
-                "index": 395
+                "source": "Q34316",
+                "target": "Q35684"
             },
             {
                 "label": "used_by",
-                "source": {
-                    "id": "Q35684",
-                    "name": "TARDIS",
-                    "__indexColor": "#0c00d9",
-                    "index": 216,
-                    "x": -942.0728566778387,
-                    "y": 711.5309868244635,
-                    "vx": -3.972797098120265e-18,
-                    "vy": 2.9256838462490126e-18
-                },
-                "target": {
-                    "id": "Q34316",
-                    "name": "Doctor Who",
-                    "__indexColor": "#e800ce",
-                    "index": 205,
-                    "x": -923.0013977180022,
-                    "y": 737.1322747079472,
-                    "vx": -3.9616220203541704e-18,
-                    "vy": 2.918559248565005e-18
-                },
-                "__indexColor": "#24030b",
-                "__controlPoints": null,
-                "index": 396
+                "source": "Q35684",
+                "target": "Q34316"
             },
             {
                 "label": "inception",
-                "source": {
-                    "id": "Q4746137",
-                    "name": "Amicus",
-                    "__indexColor": "#880106",
-                    "index": 261,
-                    "x": 604.0240653747184,
-                    "y": -980.6181934424908,
-                    "vx": 2.700034082021061e-18,
-                    "vy": -4.066829515437367e-18
-                },
-                "target": {
-                    "id": "Q2474",
-                    "name": "1970",
-                    "__indexColor": "#a8009e",
-                    "index": 157,
-                    "x": 618.6930439258676,
-                    "y": -952.1048147641172,
-                    "vx": 2.708705135173424e-18,
-                    "vy": -4.084297055813191e-18
-                },
-                "__indexColor": "#10030c",
-                "__controlPoints": null,
-                "index": 397
+                "source": "Q4746137",
+                "target": "Q2474"
             },
             {
                 "label": "creator",
-                "source": {
-                    "id": "Q19907",
-                    "name": "Death Star",
-                    "__indexColor": "#b40077",
-                    "index": 118,
-                    "x": -335.1360878678678,
-                    "y": 48.0926803576542,
-                    "vx": -2.2364092078797114e-18,
-                    "vy": 2.400465790737522e-19
-                },
-                "target": {
-                    "id": "Q80702",
-                    "name": "Empire",
-                    "__indexColor": "#bc015d",
-                    "index": 348,
-                    "x": -294.2028755997039,
-                    "y": 49.790310897817164,
-                    "vx": -2.018974002936568e-18,
-                    "vy": 8.490401672162359e-20
-                },
-                "__indexColor": "#fc030d",
-                "__controlPoints": null,
-                "index": 398
+                "source": "Q19907",
+                "target": "Q80702"
             },
             {
                 "label": "author",
-                "source": {
-                    "id": "Q96381012",
-                    "name": "High Republic",
-                    "__indexColor": "#50017c",
-                    "index": 379,
-                    "x": -190.14753821573368,
-                    "y": -121.36536155736958,
-                    "vx": -1.3747818836554987e-18,
-                    "vy": -3.288623615810342e-19
-                },
-                "target": {
-                    "id": "Q67301619",
-                    "name": "George E. Mann",
-                    "__indexColor": "#d80142",
-                    "index": 321,
-                    "x": -158.61329572959337,
-                    "y": -143.25308305444844,
-                    "vx": -1.2340725849243019e-18,
-                    "vy": -1.3646877993241765e-19
-                },
-                "__indexColor": "#e8030e",
-                "__controlPoints": null,
-                "index": 399
+                "source": "Q96381012",
+                "target": "Q67301619"
             },
             {
                 "label": "creator",
-                "source": {
-                    "id": "Q96381012",
-                    "name": "High Republic",
-                    "__indexColor": "#50017c",
-                    "index": 379,
-                    "x": -190.14753821573368,
-                    "y": -121.36536155736958,
-                    "vx": -1.3747818836554987e-18,
-                    "vy": -3.288623615810342e-19
-                },
-                "target": {
-                    "id": "Q67301619",
-                    "name": "George E. Mann",
-                    "__indexColor": "#d80142",
-                    "index": 321,
-                    "x": -158.61329572959337,
-                    "y": -143.25308305444844,
-                    "vx": -1.2340725849243019e-18,
-                    "vy": -1.3646877993241765e-19
-                },
-                "__indexColor": "#d4030f",
-                "__controlPoints": null,
-                "index": 400
+                "source": "Q96381012",
+                "target": "Q67301619"
             },
             {
                 "label": "notable_work",
-                "source": {
-                    "id": "Q112562149",
-                    "name": "Fico Ossio",
-                    "__indexColor": "#e4001b",
-                    "index": 26,
-                    "x": 181.47814307155238,
-                    "y": 335.14527956971875,
-                    "vx": 1.5747848314846627e-18,
-                    "vy": 1.8289021685304328e-18
-                },
-                "target": {
-                    "id": "Q1409501",
-                    "name": "Ewok",
-                    "__indexColor": "#ec0041",
-                    "index": 64,
-                    "x": 150.7649593779175,
-                    "y": 327.0364862455229,
-                    "vx": 1.564883079365501e-18,
-                    "vy": 1.8430074069573367e-18
-                },
-                "__indexColor": "#c00310",
-                "__controlPoints": null,
-                "index": 401
+                "source": "Q112562149",
+                "target": "Q1409501"
             },
             {
                 "label": "publisher",
-                "source": {
-                    "id": "Q2359610",
-                    "name": "Hawkman",
-                    "__indexColor": "#ac0091",
-                    "index": 144,
-                    "x": -575.8348697418363,
-                    "y": -919.6718181724319,
-                    "vx": -3.0349781370484218e-18,
-                    "vy": -4.474295881753335e-18
-                },
-                "target": {
-                    "id": "Q61",
-                    "name": "Washington, D.C.",
-                    "__indexColor": "#78013a",
-                    "index": 313,
-                    "x": -581.8387458421757,
-                    "y": -951.1625000750549,
-                    "vx": -2.7276862361472504e-18,
-                    "vy": -4.5379194366546096e-18
-                },
-                "__indexColor": "#ac0311",
-                "__controlPoints": null,
-                "index": 402
+                "source": "Q2359610",
+                "target": "Q61"
             },
             {
                 "label": "publisher",
-                "source": {
-                    "id": "Q2210354",
-                    "name": "Hawkgirl",
-                    "__indexColor": "#e8008e",
-                    "index": 141,
-                    "x": -554.8166410071339,
-                    "y": -969.2688881873178,
-                    "vx": -2.7329382248059325e-18,
-                    "vy": -4.542391206693739e-18
-                },
-                "target": {
-                    "id": "Q61",
-                    "name": "Washington, D.C.",
-                    "__indexColor": "#78013a",
-                    "index": 313,
-                    "x": -581.8387458421757,
-                    "y": -951.1625000750549,
-                    "vx": -2.7276862361472504e-18,
-                    "vy": -4.5379194366546096e-18
-                },
-                "__indexColor": "#980312",
-                "__controlPoints": null,
-                "index": 403
+                "source": "Q2210354",
+                "target": "Q61"
             },
             {
                 "label": "performer",
-                "source": {
-                    "id": "Q51800",
-                    "name": "Grand Moff Tarkin",
-                    "__indexColor": "#300124",
-                    "index": 291,
-                    "x": -298.1177250247964,
-                    "y": 66.06160680188103,
-                    "vx": -2.0903530197531925e-18,
-                    "vy": -2.2322462977417394e-20
-                },
-                "target": {
-                    "id": "Q309589",
-                    "name": "Peter Cushing",
-                    "__indexColor": "#9c00c5",
-                    "index": 196,
-                    "x": -241.55603962680016,
-                    "y": 101.63771381468332,
-                    "vx": -2.087796248187962e-18,
-                    "vy": 7.939765998903098e-20
-                },
-                "__indexColor": "#840313",
-                "__controlPoints": null,
-                "index": 404
+                "source": "Q51800",
+                "target": "Q309589"
             },
             {
                 "label": "performer",
-                "source": {
-                    "id": "Q1425095",
-                    "name": "Ogg Tarkin",
-                    "__indexColor": "#c40043",
-                    "index": 66,
-                    "x": -205.10778419703553,
-                    "y": 122.54717973607231,
-                    "vx": -2.1384292483547833e-18,
-                    "vy": 3.064523915036898e-19
-                },
-                "target": {
-                    "id": "Q309589",
-                    "name": "Peter Cushing",
-                    "__indexColor": "#9c00c5",
-                    "index": 196,
-                    "x": -241.55603962680016,
-                    "y": 101.63771381468332,
-                    "vx": -2.087796248187962e-18,
-                    "vy": 7.939765998903098e-20
-                },
-                "__indexColor": "#700314",
-                "__controlPoints": null,
-                "index": 405
+                "source": "Q1425095",
+                "target": "Q309589"
             },
             {
                 "label": "creator",
-                "source": {
-                    "id": "Q51800",
-                    "name": "Grand Moff Tarkin",
-                    "__indexColor": "#300124",
-                    "index": 291,
-                    "x": -298.1177250247964,
-                    "y": 66.06160680188103,
-                    "vx": -2.0903530197531925e-18,
-                    "vy": -2.2322462977417394e-20
-                },
-                "target": {
-                    "id": "Q5054855",
-                    "name": "Cavan Scott",
-                    "__indexColor": "#980112",
-                    "index": 273,
-                    "x": -245.71172116772868,
-                    "y": 32.90325549927566,
-                    "vx": -1.89976979904413e-18,
-                    "vy": -2.9402616050043136e-19
-                },
-                "__indexColor": "#5c0315",
-                "__controlPoints": null,
-                "index": 406
+                "source": "Q51800",
+                "target": "Q5054855"
             },
             {
                 "label": "maintained_by",
-                "source": {
-                    "id": "Q9259",
-                    "name": "World Heritage Site",
-                    "__indexColor": "#a00178",
-                    "index": 375,
-                    "x": -448.86953954891897,
-                    "y": 622.1140958705014,
-                    "vx": -1.974912009615629e-18,
-                    "vy": 2.8420938550375803e-18
-                },
-                "target": {
-                    "id": "Q7809",
-                    "name": "UNESCO",
-                    "__indexColor": "#340157",
-                    "index": 342,
-                    "x": -461.5827461421397,
-                    "y": 592.9929022502779,
-                    "vx": -2.0848221189891184e-18,
-                    "vy": 2.923681740653202e-18
-                },
-                "__indexColor": "#480316",
-                "__controlPoints": null,
-                "index": 407
+                "source": "Q9259",
+                "target": "Q7809"
             },
             {
                 "label": "part_of",
-                "source": {
-                    "id": "Q49127",
-                    "name": "Harvard Kennedy School",
-                    "__indexColor": "#38010a",
-                    "index": 265,
-                    "x": 738.5110998397126,
-                    "y": 824.3427027376314,
-                    "vx": 3.193116818934634e-18,
-                    "vy": 3.460896764199818e-18
-                },
-                "target": {
-                    "id": "Q13371",
-                    "name": "Harvard University",
-                    "__indexColor": "#a00038",
-                    "index": 55,
-                    "x": 730.0440400543326,
-                    "y": 793.5106660070059,
-                    "vx": 3.1424529950161392e-18,
-                    "vy": 3.4757262300084364e-18
-                },
-                "__indexColor": "#340317",
-                "__controlPoints": null,
-                "index": 408
+                "source": "Q49127",
+                "target": "Q13371"
             },
             {
                 "label": "has_effect",
-                "source": {
-                    "id": "Q362",
-                    "name": "World War II",
-                    "__indexColor": "#a800de",
-                    "index": 221,
-                    "x": 257.3025019813056,
-                    "y": 748.7378029896615,
-                    "vx": 1.3048953432130322e-18,
-                    "vy": 3.631384858370173e-18
-                },
-                "target": {
-                    "id": "Q2763",
-                    "name": "The Holocaust",
-                    "__indexColor": "#6400bb",
-                    "index": 186,
-                    "x": 285.2928563412685,
-                    "y": 733.2056575321658,
-                    "vx": 1.2670117900554067e-18,
-                    "vy": 3.5440818005296944e-18
-                },
-                "__indexColor": "#200318",
-                "__controlPoints": null,
-                "index": 409
+                "source": "Q362",
+                "target": "Q2763"
             },
             {
                 "label": "instance_of",
-                "source": {
-                    "id": "Q573880",
-                    "name": "Nature Communications",
-                    "__indexColor": "#f00134",
-                    "index": 307,
-                    "x": -422.9634091065472,
-                    "y": 862.8488569741974,
-                    "vx": -1.779497007423846e-18,
-                    "vy": 4.015537562054903e-18
-                },
-                "target": {
-                    "id": "Q41298",
-                    "name": "magazine",
-                    "__indexColor": "#0400f3",
-                    "index": 242,
-                    "x": -458.798600671365,
-                    "y": 860.1202689327786,
-                    "vx": -1.7852518542448437e-18,
-                    "vy": 4.06010391568946e-18
-                },
-                "__indexColor": "#0c0319",
-                "__controlPoints": null,
-                "index": 410
+                "source": "Q573880",
+                "target": "Q41298"
             },
             {
                 "label": "has_part",
-                "source": {
-                    "id": "Q25306",
-                    "name": "Carnivore",
-                    "__indexColor": "#f400a7",
-                    "index": 166,
-                    "x": -147.9113964906844,
-                    "y": 1002.5944232790602,
-                    "vx": -2.9818889064759957e-19,
-                    "vy": 4.434570871074381e-18
-                },
-                "target": {
-                    "id": "Q170430",
-                    "name": "Predation",
-                    "__indexColor": "#bc005d",
-                    "index": 92,
-                    "x": -116.60823472626302,
-                    "y": 995.9570253081148,
-                    "vx": -3.072948577697271e-19,
-                    "vy": 4.419752895564445e-18
-                },
-                "__indexColor": "#f8031a",
-                "__controlPoints": null,
-                "index": 411
+                "source": "Q25306",
+                "target": "Q170430"
             },
             {
                 "label": "opposite_of",
-                "source": {
-                    "id": "Q25306",
-                    "name": "Carnivore",
-                    "__indexColor": "#f400a7",
-                    "index": 166,
-                    "x": -147.9113964906844,
-                    "y": 1002.5944232790602,
-                    "vx": -2.9818889064759957e-19,
-                    "vy": 4.434570871074381e-18
-                },
-                "target": {
-                    "id": "Q170430",
-                    "name": "Predation",
-                    "__indexColor": "#bc005d",
-                    "index": 92,
-                    "x": -116.60823472626302,
-                    "y": 995.9570253081148,
-                    "vx": -3.072948577697271e-19,
-                    "vy": 4.419752895564445e-18
-                },
-                "__indexColor": "#e4031b",
-                "__controlPoints": null,
-                "index": 412
+                "source": "Q25306",
+                "target": "Q170430"
             },
             {
                 "label": "spouse",
-                "source": {
-                    "id": "Q10514602",
-                    "name": "Terry",
-                    "__indexColor": "#4c0009",
-                    "index": 8,
-                    "x": 786.5555635342083,
-                    "y": 673.4668770286654,
-                    "vx": 3.232592621732397e-18,
-                    "vy": 2.8167117032119562e-18
-                },
-                "target": {
-                    "id": "Q4978319",
-                    "name": "Bruce Sterling Jenkins",
-                    "__indexColor": "#d4010f",
-                    "index": 270,
-                    "x": 799.2690646446517,
-                    "y": 702.8392127396984,
-                    "vx": 3.256592655251846e-18,
-                    "vy": 2.808344954614656e-18
-                },
-                "__indexColor": "#d0031c",
-                "__controlPoints": null,
-                "index": 413
+                "source": "Q10514602",
+                "target": "Q4978319"
             },
             {
                 "label": "spouse",
-                "source": {
-                    "id": "Q4978319",
-                    "name": "Bruce Sterling Jenkins",
-                    "__indexColor": "#d4010f",
-                    "index": 270,
-                    "x": 799.2690646446517,
-                    "y": 702.8392127396984,
-                    "vx": 3.256592655251846e-18,
-                    "vy": 2.808344954614656e-18
-                },
-                "target": {
-                    "id": "Q10514602",
-                    "name": "Terry",
-                    "__indexColor": "#4c0009",
-                    "index": 8,
-                    "x": 786.5555635342083,
-                    "y": 673.4668770286654,
-                    "vx": 3.232592621732397e-18,
-                    "vy": 2.8167117032119562e-18
-                },
-                "__indexColor": "#bc031d",
-                "__controlPoints": null,
-                "index": 414
+                "source": "Q4978319",
+                "target": "Q10514602"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q2739176",
-                    "name": "Feral",
-                    "__indexColor": "#8c00b9",
-                    "index": 184,
-                    "x": 328.4618878057355,
-                    "y": -492.98285160356704,
-                    "vx": 1.2349508489010509e-18,
-                    "vy": -2.171815400749866e-18
-                },
-                "target": {
-                    "id": "Q4167836",
-                    "name": "Cat",
-                    "__indexColor": "#f000f4",
-                    "index": 243,
-                    "x": 312.0985965657434,
-                    "y": -522.0634480286678,
-                    "vx": 1.2480489964290684e-18,
-                    "vy": -2.2132120772051583e-18
-                },
-                "__indexColor": "#a8031e",
-                "__controlPoints": null,
-                "index": 415
+                "source": "Q2739176",
+                "target": "Q4167836"
             },
             {
                 "label": "located_in_the_administrative_territorial_entity",
-                "source": {
-                    "id": "Q20709649",
-                    "name": "Teal Lake",
-                    "__indexColor": "#28007e",
-                    "index": 125,
-                    "x": 96.97839445263878,
-                    "y": 506.81327455568857,
-                    "vx": 9.558326812933033e-19,
-                    "vy": 2.3152532157211083e-18
-                },
-                "target": {
-                    "id": "Q2273202",
-                    "name": "Holly Springs",
-                    "__indexColor": "#d4008f",
-                    "index": 142,
-                    "x": 67.80417777503041,
-                    "y": 520.2130164653179,
-                    "vx": 9.760688115783058e-19,
-                    "vy": 2.3344216781612287e-18
-                },
-                "__indexColor": "#94031f",
-                "__controlPoints": null,
-                "index": 416
+                "source": "Q20709649",
+                "target": "Q2273202"
             },
             {
                 "label": "instance_of",
-                "source": {
-                    "id": "Q2273202",
-                    "name": "Holly Springs",
-                    "__indexColor": "#d4008f",
-                    "index": 142,
-                    "x": 67.80417777503041,
-                    "y": 520.2130164653179,
-                    "vx": 9.760688115783058e-19,
-                    "vy": 2.3344216781612287e-18
-                },
-                "target": {
-                    "id": "Q3957",
-                    "name": "town",
-                    "__indexColor": "#6800ee",
-                    "index": 237,
-                    "x": 39.93376453893694,
-                    "y": 536.0047538690626,
-                    "vx": 9.778046787814648e-19,
-                    "vy": 2.340350479962902e-18
-                },
-                "__indexColor": "#800320",
-                "__controlPoints": null,
-                "index": 417
+                "source": "Q2273202",
+                "target": "Q3957"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q273131",
-                    "name": "Incense",
-                    "__indexColor": "#a000b8",
-                    "index": 183,
-                    "x": 1025.0858630629816,
-                    "y": -221.21668153660542,
-                    "vx": 4.1938085268548194e-18,
-                    "vy": -8.310628375039452e-19
-                },
-                "target": {
-                    "id": "Q2151963",
-                    "name": "Aroma compound",
-                    "__indexColor": "#740087",
-                    "index": 134,
-                    "x": 1003.2586920236461,
-                    "y": -197.19958042902616,
-                    "vx": 4.189561947580083e-18,
-                    "vy": -8.353589500234534e-19
-                },
-                "__indexColor": "#6c0321",
-                "__controlPoints": null,
-                "index": 418
+                "source": "Q273131",
+                "target": "Q2151963"
             },
             {
                 "label": "subclass_of",
-                "source": {
-                    "id": "Q273131",
-                    "name": "Incense",
-                    "__indexColor": "#a000b8",
-                    "index": 183,
-                    "x": 1025.0858630629816,
-                    "y": -221.21668153660542,
-                    "vx": 4.1938085268548194e-18,
-                    "vy": -8.310628375039452e-19
-                },
-                "target": {
-                    "id": "Q170885",
-                    "name": "Essential oil",
-                    "__indexColor": "#94005f",
-                    "index": 94,
-                    "x": 1041.2937114540473,
-                    "y": -249.25248859942292,
-                    "vx": 4.223530852629689e-18,
-                    "vy": -8.127738540688009e-19
-                },
-                "__indexColor": "#580322",
-                "__controlPoints": null,
-                "index": 419
+                "source": "Q273131",
+                "target": "Q170885"
             },
             {
                 "label": "used_by",
-                "source": {
-                    "id": "Q1758839",
-                    "name": "Litter box",
-                    "__indexColor": "#1c0065",
-                    "index": 100,
-                    "x": 344.1392325515877,
-                    "y": -510.71970169190445,
-                    "vx": 1.3072897771996376e-18,
-                    "vy": -2.0997660024193457e-18
-                },
-                "target": {
-                    "id": "Q4167836",
-                    "name": "Cat",
-                    "__indexColor": "#f000f4",
-                    "index": 243,
-                    "x": 312.0985965657434,
-                    "y": -522.0634480286678,
-                    "vx": 1.2480489964290684e-18,
-                    "vy": -2.2132120772051583e-18
-                },
-                "__indexColor": "#440323",
-                "__controlPoints": null,
-                "index": 420
+                "source": "Q1758839",
+                "target": "Q4167836"
             },
             {
                 "label": "employer",
-                "source": {
-                    "id": "Q782662",
-                    "name": "Michael Gross",
-                    "__indexColor": "#200158",
-                    "index": 343,
-                    "x": 1203.8263203125953,
-                    "y": 409.1281194836516,
-                    "vx": 4.682348123729461e-18,
-                    "vy": 1.9997516265989793e-18
-                },
-                "target": {
-                    "id": "Q34433",
-                    "name": "University of Oxford",
-                    "__indexColor": "#c000d0",
-                    "index": 207,
-                    "x": 1191.5944353306634,
-                    "y": 438.9271801916902,
-                    "vx": 4.669499111993114e-18,
-                    "vy": 1.979808722444623e-18
-                },
-                "__indexColor": "#300324",
-                "__controlPoints": null,
-                "index": 421
+                "source": "Q782662",
+                "target": "Q34433"
             },
             {
                 "label": "work_location",
-                "source": {
-                    "id": "Q782662",
-                    "name": "Michael Gross",
-                    "__indexColor": "#200158",
-                    "index": 343,
-                    "x": 1203.8263203125953,
-                    "y": 409.1281194836516,
-                    "vx": 4.682348123729461e-18,
-                    "vy": 1.9997516265989793e-18
-                },
-                "target": {
-                    "id": "Q34433",
-                    "name": "University of Oxford",
-                    "__indexColor": "#c000d0",
-                    "index": 207,
-                    "x": 1191.5944353306634,
-                    "y": 438.9271801916902,
-                    "vx": 4.669499111993114e-18,
-                    "vy": 1.979808722444623e-18
-                },
-                "__indexColor": "#1c0325",
-                "__controlPoints": null,
-                "index": 422
+                "source": "Q782662",
+                "target": "Q34433"
             },
             {
                 "label": "instance_of",
-                "source": {
-                    "id": "Q42005",
-                    "name": "Black Death",
-                    "__indexColor": "#dc00f5",
-                    "index": 244,
-                    "x": 578.1648929318634,
-                    "y": 624.4476143693913,
-                    "vx": 2.6111192147949926e-18,
-                    "vy": 2.6265746239925285e-18
-                },
-                "target": {
-                    "id": "Q133780",
-                    "name": "plague",
-                    "__indexColor": "#78003a",
-                    "index": 57,
-                    "x": 560.9471177722502,
-                    "y": 596.8335417597688,
-                    "vx": 2.5557372745336864e-18,
-                    "vy": 2.6653434096876675e-18
-                },
-                "__indexColor": "#080326",
-                "__controlPoints": null,
-                "index": 423
+                "source": "Q42005",
+                "target": "Q133780"
             },
             {
                 "label": "instance_of",
-                "source": {
-                    "id": "Q42005",
-                    "name": "Black Death",
-                    "__indexColor": "#dc00f5",
-                    "index": 244,
-                    "x": 578.1648929318634,
-                    "y": 624.4476143693913,
-                    "vx": 2.6111192147949926e-18,
-                    "vy": 2.6265746239925285e-18
-                },
-                "target": {
-                    "id": "Q2612834",
-                    "name": "Plagues",
-                    "__indexColor": "#2c00b1",
-                    "index": 176,
-                    "x": 570.8182560312719,
-                    "y": 656.0117998932689,
-                    "vx": 2.609835354191015e-18,
-                    "vy": 2.629596927362203e-18
-                },
-                "__indexColor": "#f40327",
-                "__controlPoints": null,
-                "index": 424
+                "source": "Q42005",
+                "target": "Q2612834"
             },
             {
                 "label": "location",
-                "source": {
-                    "id": "Q42005",
-                    "name": "Black Death",
-                    "__indexColor": "#dc00f5",
-                    "index": 244,
-                    "x": 578.1648929318634,
-                    "y": 624.4476143693913,
-                    "vx": 2.6111192147949926e-18,
-                    "vy": 2.6265746239925285e-18
-                },
-                "target": {
-                    "id": "Q46",
-                    "name": "Europe",
-                    "__indexColor": "#ec0101",
-                    "index": 256,
-                    "x": 606.5419066910658,
-                    "y": 608.5669993198479,
-                    "vx": 2.6450452590826344e-18,
-                    "vy": 2.686195329474503e-18
-                },
-                "__indexColor": "#e00328",
-                "__controlPoints": null,
-                "index": 425
+                "source": "Q42005",
+                "target": "Q46"
             },
             {
                 "label": "applies_to_jurisdiction",
-                "source": {
-                    "id": "Q7188",
-                    "name": "Government",
-                    "__indexColor": "#4c0149",
-                    "index": 328,
-                    "x": -863.5632783031872,
-                    "y": 290.3333318577135,
-                    "vx": -4.279807099571344e-18,
-                    "vy": 1.421649030807846e-18
-                },
-                "target": {
-                    "id": "Q408",
-                    "name": "Australia",
-                    "__indexColor": "#2c00f1",
-                    "index": 240,
-                    "x": -864.401679855992,
-                    "y": 258.20306714374493,
-                    "vx": -4.361055885555687e-18,
-                    "vy": 1.4320228726693927e-18
-                },
-                "__indexColor": "#cc0329",
-                "__controlPoints": null,
-                "index": 426
+                "source": "Q7188",
+                "target": "Q408"
             },
             {
                 "label": "country",
-                "source": {
-                    "id": "Q4822770",
-                    "name": "List of earthquakes in Turkey",
-                    "__indexColor": "#740107",
-                    "index": 262,
-                    "x": 1180.0455005530678,
-                    "y": -156.4617715241438,
-                    "vx": 4.783926167860867e-18,
-                    "vy": -7.125894299734177e-19
-                },
-                "target": {
-                    "id": "Q43",
-                    "name": "Turkey",
-                    "__indexColor": "#5000fc",
-                    "index": 251,
-                    "x": 1186.289368737303,
-                    "y": -187.808356348843,
-                    "vx": 4.782832505662001e-18,
-                    "vy": -7.103566547622722e-19
-                },
-                "__indexColor": "#b8032a",
-                "__controlPoints": null,
-                "index": 427
+                "source": "Q4822770",
+                "target": "Q43"
             },
             {
                 "label": "located_in_the_administrative_territorial_entity",
-                "source": {
-                    "id": "Q24672271",
-                    "name": "Kedi",
-                    "__indexColor": "#bc009d",
-                    "index": 156,
-                    "x": -907.5595279814596,
-                    "y": 520.449406964715,
-                    "vx": -3.885283626744088e-18,
-                    "vy": 2.2100279561059546e-18
-                },
-                "target": {
-                    "id": "Q406",
-                    "name": "Istanbul",
-                    "__indexColor": "#4000f0",
-                    "index": 239,
-                    "x": -883.8651805456499,
-                    "y": 541.8602264138887,
-                    "vx": -3.883308729927536e-18,
-                    "vy": 2.2079869946062798e-18
-                },
-                "__indexColor": "#a4032b",
-                "__controlPoints": null,
-                "index": 428
+                "source": "Q24672271",
+                "target": "Q406"
             },
             {
                 "label": "employer",
-                "source": {
-                    "id": "Q91747985",
-                    "name": "Christopher A. Lepczyk",
-                    "__indexColor": "#c80176",
-                    "index": 373,
-                    "x": -905.0546367178725,
-                    "y": 863.4356993073416,
-                    "vx": -3.55785522672843e-18,
-                    "vy": 3.604411592608842e-18
-                },
-                "target": {
-                    "id": "Q540672",
-                    "name": "Auburn University",
-                    "__indexColor": "#f40127",
-                    "index": 294,
-                    "x": -881.4457054151226,
-                    "y": 885.0312120295956,
-                    "vx": -3.57536997424709e-18,
-                    "vy": 3.608740445052339e-18
-                },
-                "__indexColor": "#90032c",
-                "__controlPoints": null,
-                "index": 429
+                "source": "Q91747985",
+                "target": "Q540672"
             },
             {
                 "label": "educated_at",
-                "source": {
-                    "id": "Q91747985",
-                    "name": "Christopher A. Lepczyk",
-                    "__indexColor": "#c80176",
-                    "index": 373,
-                    "x": -905.0546367178725,
-                    "y": 863.4356993073416,
-                    "vx": -3.55785522672843e-18,
-                    "vy": 3.604411592608842e-18
-                },
-                "target": {
-                    "id": "Q540672",
-                    "name": "Auburn University",
-                    "__indexColor": "#f40127",
-                    "index": 294,
-                    "x": -881.4457054151226,
-                    "y": 885.0312120295956,
-                    "vx": -3.57536997424709e-18,
-                    "vy": 3.608740445052339e-18
-                },
-                "__indexColor": "#7c032d",
-                "__controlPoints": null,
-                "index": 430
+                "source": "Q91747985",
+                "target": "Q540672"
             }
-        ];
+        ]
         this.graph = ForceGraph();
         this.selected_nodes = new Set();
         this.selected_edges = new Set();
@@ -14529,7 +5473,7 @@ function get_all_graph()
     $('#Info').removeAttr('style');
     $('#View').empty();
     graph = new Graph();
-    graph.draw_graph('View', graph.nodes, graph.edges, $('#container').width());
+    graph.draw_graph('View', Graph.init_data_nodes(graph.nodes), graph.edges, $('#container').width());
 }
 
 function import_graph() 
