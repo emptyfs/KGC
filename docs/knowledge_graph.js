@@ -3,7 +3,7 @@ let graph;
 
 class Graph
 {
-    constructor(graph) 
+    constructor() 
     {
         this.nodes = {
             "Q100": {
@@ -14528,16 +14528,8 @@ function get_all_graph()
     $('#Info').empty();
     $('#Info').removeAttr('style');
     $('#View').empty();
-    $.ajax(
-        {
-            url: '/get_all_graph',
-            type: 'GET',
-        }
-    ).then(res=>
-    {
-        graph = new Graph(res);
-        graph.draw_graph('View', Graph.init_data_nodes(graph.nodes), graph.edges, $('#container').width());
-    });
+    graph = new Graph();
+    graph.draw_graph('View', Graph.init_data_nodes(graph.nodes), graph.edges, $('#container').width());
 }
 
 function import_graph() 
@@ -14582,56 +14574,8 @@ $(document).ready(() =>
     let save_button = $('#btn-save');
     let delete_button = $('#btn-delete-all');
 
-    delete_button.click(() =>
-    {
-        $.ajax(
-            {
-                url: '/delete_all_graph',
-                type: 'DELETE',
-            }
-        ).then(res => 
-            {
-            alert("the data has been deleted from the database");
-            get_all_graph();
-            });
-    });
-
-    $('#btn-main-page').click(() => 
-    {
-        window.location = '/';
-    });
-
-    $('#btn-import').click(() =>
-    {
-        import_graph();
-    });
-
-    $('#btn-export').click(() =>
-    {
-        window.location.href = "/export";
-    });
-
     $('#btn-All-graph').click(() =>
     {
         get_all_graph();
-    });
-
-    save_button.click(() =>
-    {if (graph.Nodes !== undefined)
-        {
-            $.ajax(
-                {
-                    url: '/save_graph',
-                    type: 'POST',
-                    data: JSON.stringify({"nodes": graph.Nodes, "edges": graph.Edges}),
-                    contentType: "application/json; charset=utf-8",
-                    dataType: "json",
-                }
-            ).then(res=>
-            {
-                alert("the graph has been successfully saved to the database");
-                get_all_graph();
-            });
-        }
     });
 });
