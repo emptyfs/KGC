@@ -4,3 +4,6 @@ The demo and detailed description will be posted later in the README and WIKI se
 
 The installation can currently be done through the git clone repository + the installation algorithm described in the Dockerfile (python version must be 3.7).
 there is also an assembly for docker. For it, you need to make a git clone + docker-compose up. I warn you that building for Docker requires a lot of RAM (more than 8), otherwise the program's running time increases greatly. Detailed installation instructions will be posted later.
+
+Here you can look at the visualization of an already constructed graph:
+https://emptyfs.github.io/automatic-knowledge-graph-construction-with-visualization/
