@@ -3065,6 +3065,111 @@ class Graph
         };
         this.edges = [
             {
+                "label": "location",
+                "source": "Q2503794",
+                "target": "Q1425428"
+            },
+            {
+                "label": "located_in_the_administrative_territorial_entity",
+                "source": "Q2503794",
+                "target": "Q1425428"
+            },
+            {
+                "label": "used_by",
+                "source": "Q83360",
+                "target": "Q4167836"
+            },
+            {
+                "label": "subclass_of",
+                "source": "Q9217",
+                "target": "Q1320143"
+            },
+            {
+                "label": "country",
+                "source": "Q27261089",
+                "target": "Q17"
+            },
+            {
+                "label": "instance_of",
+                "source": "Q9217",
+                "target": "Q1320143"
+            },
+            {
+                "label": "owned_by",
+                "source": "Q97002749",
+                "target": "Q3482689"
+            },
+            {
+                "label": "has_effect",
+                "source": "Q144",
+                "target": "Q83030"
+            },
+            {
+                "label": "facet_of",
+                "source": "Q205835",
+                "target": "Q35831"
+            },
+            {
+                "label": "parent_organization",
+                "source": "Q1446181",
+                "target": "Q762266"
+            },
+            {
+                "label": "subclass_of",
+                "source": "Q205835",
+                "target": "Q35831"
+            },
+            {
+                "label": "country_of_origin",
+                "source": "Q27261089",
+                "target": "Q17"
+            },
+            {
+                "label": "located_in_the_administrative_territorial_entity",
+                "source": "Q1161297",
+                "target": "Q131491"
+            },
+            {
+                "label": "part_of",
+                "source": "Q205835",
+                "target": "Q35831"
+            },
+            {
+                "label": "facet_of",
+                "source": "Q122367466",
+                "target": "Q83030"
+            },
+            {
+                "label": "has_effect",
+                "source": "Q122367466",
+                "target": "Q83030"
+            },
+            {
+                "label": "subsidiary",
+                "source": "Q762266",
+                "target": "Q1446181"
+            },
+            {
+                "label": "part_of",
+                "source": "Q2558748",
+                "target": "Q35831"
+            },
+            {
+                "label": "subclass_of",
+                "source": "Q190087",
+                "target": "Q133500"
+            },
+            {
+                "label": "use",
+                "source": "Q144",
+                "target": "Q167676"
+            },
+            {
+                "label": "located_in_the_administrative_territorial_entity",
+                "source": "Q54557330",
+                "target": "Q189153"
+            },
+            {
                 "label": "instance_of",
                 "source": "Q573880",
                 "target": "Q5633421"
@@ -3083,16 +3188,6 @@ class Graph
                 "label": "shares_border_with",
                 "source": "Q1842497",
                 "target": "Q1570892"
-            },
-            {
-                "label": "subclass_of",
-                "source": "Q4167836",
-                "target": "Q4167836"
-            },
-            {
-                "label": "different_from",
-                "source": "Q4167836",
-                "target": "Q4167836"
             },
             {
                 "label": "employer",
@@ -3258,116 +3353,6 @@ class Graph
                 "label": "subclass_of",
                 "source": "Q146",
                 "target": "Q512003"
-            },
-            {
-                "label": "location",
-                "source": "Q2503794",
-                "target": "Q1425428"
-            },
-            {
-                "label": "subclass_of",
-                "source": "Q83360",
-                "target": "Q83360"
-            },
-            {
-                "label": "located_in_the_administrative_territorial_entity",
-                "source": "Q2503794",
-                "target": "Q1425428"
-            },
-            {
-                "label": "used_by",
-                "source": "Q83360",
-                "target": "Q4167836"
-            },
-            {
-                "label": "subclass_of",
-                "source": "Q9217",
-                "target": "Q1320143"
-            },
-            {
-                "label": "country",
-                "source": "Q27261089",
-                "target": "Q17"
-            },
-            {
-                "label": "instance_of",
-                "source": "Q9217",
-                "target": "Q1320143"
-            },
-            {
-                "label": "owned_by",
-                "source": "Q97002749",
-                "target": "Q3482689"
-            },
-            {
-                "label": "has_effect",
-                "source": "Q144",
-                "target": "Q83030"
-            },
-            {
-                "label": "facet_of",
-                "source": "Q205835",
-                "target": "Q35831"
-            },
-            {
-                "label": "parent_organization",
-                "source": "Q1446181",
-                "target": "Q762266"
-            },
-            {
-                "label": "subclass_of",
-                "source": "Q205835",
-                "target": "Q35831"
-            },
-            {
-                "label": "country_of_origin",
-                "source": "Q27261089",
-                "target": "Q17"
-            },
-            {
-                "label": "located_in_the_administrative_territorial_entity",
-                "source": "Q1161297",
-                "target": "Q131491"
-            },
-            {
-                "label": "part_of",
-                "source": "Q205835",
-                "target": "Q35831"
-            },
-            {
-                "label": "facet_of",
-                "source": "Q122367466",
-                "target": "Q83030"
-            },
-            {
-                "label": "has_effect",
-                "source": "Q122367466",
-                "target": "Q83030"
-            },
-            {
-                "label": "subsidiary",
-                "source": "Q762266",
-                "target": "Q1446181"
-            },
-            {
-                "label": "part_of",
-                "source": "Q2558748",
-                "target": "Q35831"
-            },
-            {
-                "label": "subclass_of",
-                "source": "Q190087",
-                "target": "Q133500"
-            },
-            {
-                "label": "use",
-                "source": "Q144",
-                "target": "Q167676"
-            },
-            {
-                "label": "located_in_the_administrative_territorial_entity",
-                "source": "Q54557330",
-                "target": "Q189153"
             },
             {
                 "label": "subclass_of",
@@ -3675,11 +3660,6 @@ class Graph
                 "target": "Q144"
             },
             {
-                "label": "located_in_the_administrative_territorial_entity",
-                "source": "Q7567568",
-                "target": "Q7567568"
-            },
-            {
                 "label": "subclass_of",
                 "source": "Q732413",
                 "target": "Q174211"
@@ -3688,11 +3668,6 @@ class Graph
                 "label": "replaced_by",
                 "source": "Q804558",
                 "target": "Q205662"
-            },
-            {
-                "label": "contains_administrative_territorial_entity",
-                "source": "Q7567568",
-                "target": "Q7567568"
             },
             {
                 "label": "inception",
@@ -3845,11 +3820,6 @@ class Graph
                 "target": "Q865422"
             },
             {
-                "label": "different_from",
-                "source": "Q385557",
-                "target": "Q385557"
-            },
-            {
                 "label": "has_part",
                 "source": "Q4167836",
                 "target": "Q484645"
@@ -3885,11 +3855,6 @@ class Graph
                 "target": "Q937228"
             },
             {
-                "label": "diplomatic_relation",
-                "source": "Q881",
-                "target": "Q881"
-            },
-            {
                 "label": "subclass_of",
                 "source": "Q1999796",
                 "target": "Q937228"
@@ -3908,16 +3873,6 @@ class Graph
                 "label": "instance_of",
                 "source": "Q15856",
                 "target": "Q10876"
-            },
-            {
-                "label": "shares_border_with",
-                "source": "Q881",
-                "target": "Q881"
-            },
-            {
-                "label": "present_in_work",
-                "source": "Q460679",
-                "target": "Q460679"
             },
             {
                 "label": "instance_of",
@@ -3943,11 +3898,6 @@ class Graph
                 "label": "facet_of",
                 "source": "Q474191",
                 "target": "Q32566"
-            },
-            {
-                "label": "different_from",
-                "source": "Q3482590",
-                "target": "Q3482590"
             },
             {
                 "label": "shares_border_with",
@@ -4005,19 +3955,9 @@ class Graph
                 "target": "Q881"
             },
             {
-                "label": "has_effect",
-                "source": "Q43987",
-                "target": "Q43987"
-            },
-            {
                 "label": "subclass_of",
                 "source": "Q144",
                 "target": "Q208376"
-            },
-            {
-                "label": "has_cause",
-                "source": "Q43987",
-                "target": "Q43987"
             },
             {
                 "label": "member_of",
@@ -4368,11 +4308,6 @@ class Graph
                 "label": "performer",
                 "source": "Q20021710",
                 "target": "Q237194"
-            },
-            {
-                "label": "present_in_work",
-                "source": "Q51755",
-                "target": "Q51755"
             },
             {
                 "label": "producer",
@@ -4970,11 +4905,6 @@ class Graph
                 "target": "Q173496"
             },
             {
-                "label": "facet_of",
-                "source": "Q24199571",
-                "target": "Q24199571"
-            },
-            {
                 "label": "movement",
                 "source": "Q7542",
                 "target": "Q1433745"
@@ -5219,7 +5149,7 @@ class Graph
                 "source": "Q91747985",
                 "target": "Q540672"
             }
-        ]
+        ];
         this.graph = ForceGraph();
         this.selected_nodes = new Set();
         this.selected_edges = new Set();
