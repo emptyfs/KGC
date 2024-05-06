@@ -124,6 +124,8 @@ class Neo4jConnection:
             subject = triplet["subject"][1]
             relation = triplet["relation"].replace(" ", "_")
             relation = relation.replace(",", "_or")
+            relation = relation.replace("(", "_")
+            relation = relation.replace(")", "_")
             object = triplet["object"][1]
 
             #if not query_one_entity('MATCH', subject, 'RETURN n'):
