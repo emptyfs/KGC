@@ -9,4 +9,19 @@ Here you can look at the visualization of an already constructed graph:
 https://emptyfs.github.io/automatic-knowledge-graph-construction-with-visualization/
 
 ![image](https://github.com/emptyfs/automatic-knowledge-graph-construction-with-visualization/assets/54939750/63cac5b0-8123-44b0-9d2f-ae8452bfd6b9)
+the approach scheme
+
+![image](https://github.com/emptyfs/automatic-knowledge-graph-construction-with-visualization/assets/54939750/57b6d2be-5761-4639-a519-e357939606b6)
+the main page
+
+![image](https://github.com/emptyfs/automatic-knowledge-graph-construction-with-visualization/assets/54939750/3e46aed9-423a-4d30-969e-9c487e4a5f20)
+the page with the visualization of the KG
+
+![image](https://github.com/emptyfs/automatic-knowledge-graph-construction-with-visualization/assets/54939750/32b960c7-2508-472d-9e66-73b72a21e2e0)
+selecting a vertex on the KG visualization page
+
+
+
+
+
 
