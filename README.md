@@ -7,3 +7,6 @@ there is also an assembly for docker. For it, you need to make a git clone + doc
 
 Here you can look at the visualization of an already constructed graph:
 https://emptyfs.github.io/automatic-knowledge-graph-construction-with-visualization/
+
+![image](https://github.com/emptyfs/automatic-knowledge-graph-construction-with-visualization/assets/54939750/63cac5b0-8123-44b0-9d2f-ae8452bfd6b9)
+
