@@ -18,7 +18,7 @@ the main page
 the page with the visualization of the KG
 
 ![image](https://github.com/emptyfs/automatic-knowledge-graph-construction-with-visualization/assets/54939750/32b960c7-2508-472d-9e66-73b72a21e2e0)
-selecting a vertex on the KG visualization page
+selecting a node on the KG visualization page
 
 
 
